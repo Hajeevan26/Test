@@ -45,23 +45,23 @@
             <tr>
                 <td>Paddy in Maha season 2020/21</td>
                 <td><div><input type="number" name="2_9c"  id="2_9c" class="form-control" /></td>
-<td><div><input type="number" name="2_10c" id="2_10c" class="form-control" /></td>
-<td><div><input type="number" name="2_11c" id="2_11c" class="form-control" /></td>
-<td><div><input type="number" name="2_12c" id="2_12c" class="form-control" /></td>
-<td><div><input type="number" name="2_13c" id="2_13c" class="form-control" /></td>
-<td><div><input type="number" name="2_14c" id="2_14c" class="form-control" /></td>
-<td><div><input type="number" name="2_15c" id="2_15c" class="form-control" /></td>
-<td><div><input type="number" name="2_16c" id="2_16c" class="form-control" /></td>
+                <td><div><input type="number" name="2_10c" id="2_10c" class="form-control" /></td>
+                <td><div><input type="number" name="2_11c" id="2_11c" class="form-control" /></td>
+                <td><div><input type="number" name="2_12c" id="2_12c" class="form-control" /></td>
+                <td><div><input type="number" name="2_13c" id="2_13c" class="form-control" /></td>
+                <td><div><input type="number" name="2_14c" id="2_14c" class="form-control" /></td>
+                <td><div><input type="number" name="2_15c" id="2_15c" class="form-control" /></td>
+                <td><div><input type="number" name="2_16c" id="2_16c" class="form-control" /></td>
             </tr>
             <tr>
                 <td>Other crops in Maha season 2020/21</td>
                 <td><div><input type="number" name="2_9d"  id="2_9d" class="form-control" /></td>
-<td><div><input type="number" name="2_10d" id="2_10d" class="form-control" /></td>
-<td><div><input type="number" name="2_11d" id="2_11d" class="form-control" /></td>
-<td><div><input type="number" name="2_12d" id="2_12d" class="form-control" /></td>
-<td><div><input type="number" name="2_13d" id="2_13d" class="form-control" /></td>
-<td><div><input type="number" name="2_14d" id="2_14d" class="form-control" /></td>
-<td><div><input type="number" name="2_15d" id="2_15d" class="form-control" /></td>
-<td><div><input type="number" name="2_16d" id="2_16d" class="form-control" /></td>
+                <td><div><input type="number" name="2_10d" id="2_10d" class="form-control" /></td>
+                <td><div><input type="number" name="2_11d" id="2_11d" class="form-control" /></td>
+                <td><div><input type="number" name="2_12d" id="2_12d" class="form-control" /></td>
+                <td><div><input type="number" name="2_13d" id="2_13d" class="form-control" /></td>
+                <td><div><input type="number" name="2_14d" id="2_14d" class="form-control" /></td>
+                <td><div><input type="number" name="2_15d" id="2_15d" class="form-control" /></td>
+                <td><div><input type="number" name="2_16d" id="2_16d" class="form-control" /></td>
             </tr>
 </table>

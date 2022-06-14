@@ -93,13 +93,13 @@ if(isset($_POST['btnsubmit']) ) {
                                     </tr>
                                     <tr>
                                         <td>1</td>
-                                        <td><div class="input-group"><select class="form-control" name="6_1" id="6_1"><option value="1">Yes</option><option value="2">No</option></select></div></td>
-                                        <td><div class="input-group"><input type="text" required name="7_2_oth" id="7_2_oth" class="form-control" /></div></td>
-                                        <td><div class="input-group"><input type="text" required name="7_2_oth" id="7_2_oth" class="form-control" /></div></td>
-                                        <td><div class="input-group"><input type="text" required name="7_2_oth" id="7_2_oth" class="form-control" /></div></td>
-                                        <td><div class="input-group"><input type="text" required name="7_2_oth" id="7_2_oth" class="form-control" /></div></td>
-                                        <td><div class="input-group"><input type="text" required name="7_2_oth" id="7_2_oth" class="form-control" /></div></td>
-                                        <td><div class="input-group"><input type="text" required name="7_2_oth" id="7_2_oth" class="form-control" /></div></td>
+                                        <td><div class="input-group"><select class="form-control" name="2_1_7_1" id="2_1_7_1"><option value="1">Yes</option><option value="2">No</option></select></div></td>
+                                        <td><div class="input-group"><input type="text" required name="2_1_8_1" id="2_1_8_1" class="form-control" /></div></td>
+                                        <td><div class="input-group"><input type="text" required name="2_1_9_1" id="2_1_9_1" class="form-control" /></div></td>
+                                        <td><div class="input-group"><input type="text" required name="2_1_10_1" id="2_1_10_1" class="form-control" /></div></td>
+                                        <td><div class="input-group"><input type="text" required name="2_1_11_1" id="2_1_11_1" class="form-control" /></div></td>
+                                        <td><div class="input-group"><input type="text" required name="2_1_12_1" id="2_1_12_1" class="form-control" /></div></td>
+                                        <td><div class="input-group"><input type="text" required name="2_1_13_1" id="2_1_13_1" class="form-control" /></div></td>
                                     </tr>
                                     <tr>
                                         <td>2</td>
@@ -195,13 +195,9 @@ if(isset($_POST['btnsubmit']) ) {
 
                             </div>
                         </div>
-
-
-
                     </div>
                 </div>
                 <div class="card-footer">
-
                     <button type="reset" class="btn btn-default">Reset Button</button>
                     <button type="submit" name="btnsave" id="btnsave" class="btn btn-primary float-right">Submit
                         Button</button>

@@ -217,9 +217,9 @@ include($_GET['pg']); }
                 $(this).closest('tr').find(":input:not(:first)").attr('disabled', !this.checked);
             });
             // for 
-            $("#1_2_1_e").click(function () {
-              
-           // $("#1_2_1_e").change(function() {
+            $("#1_2_1_e").click(function() {
+
+                // $("#1_2_1_e").change(function() {
                 if (this.checked) {
                     console.log("checked");
                     $("#1_2_1_e_oth").show();
@@ -230,6 +230,46 @@ include($_GET['pg']); }
             });
         });
         </script>
+        <script>
+        function updatef2d() {
+
+
+            var f2_19 = document.getElementById("2_19").value;
+
+            var household_id = document.getElementById("household_id").value;
+            //alert(b6);
+            if (f2_19 == 1) {
+                var xmlhttp = new XMLHttpRequest();
+                xmlhttp.onreadystatechange = function() {
+                    if (xmlhttp.readyState == 4 & xmlhttp.status == 200) {
+                        document.getElementById("divid2_20").innerHTML = xmlhttp.responseText;
+                    }
+                }
+                xmlhttp.open("GET", "ajaxpage.php?option=update2_19&f2_19=" + f2_19 + "&household_id=" + household_id,
+                    true);
+                xmlhttp.send();
+            } else {
+
+                document.getElementById("loadf0").innerHTML = "";
+                //window.location.href = "http://www.google.com";
+            }
+        }
+        //end select vehicle no
+        </script>
+
+<script>
+		function funb3_1_1() {
+
+			var x = document.getElementById("3_1_1").value;
+			if (x == 5) {
+				var data = "<input type='text'  required  name='3_1_1oth' id='3_1_1oth' placeholder='If other Specify' class='form-control'>";
+				document.getElementById("divid3_1_1").innerHTML = data;
+			} else {
+				document.getElementById("divid3_1_1").innerHTML = "";
+			}
+
+		}
+	</script>
 </body>
 
 </html>

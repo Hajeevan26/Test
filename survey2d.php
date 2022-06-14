@@ -75,7 +75,7 @@ if(isset($_POST['btnsubmit']) ) {
                             <label>2.19 Did you hire labours for the field work? </label>
                             <div class="input-group">
 
-                                <select class="form-control" name="2_19" id="2_19">
+                                <select class="form-control" name="2_19" id="2_19" onchange="updatef2d()">
                                     <option value="1">Yes </option>
                                     <option value="2">No</option>
 
@@ -83,165 +83,18 @@ if(isset($_POST['btnsubmit']) ) {
                             </div>
                         </div>
                     </div>
-                    <div class="row">
-                        <table class="table table-bordered table-hover">
-                            <tr>
-                                <th>If Yes</th>
-                                <th colspan="6">2.20. How many people did you hire for
-                                    paddy farming?</th>
-                            </tr>
-                            <tr>
-                                <td> </td>
-                                <td>norganic Fertilizer application</td>
-                                <td>Organic fertilizer application</td>
-                                <td>Organic fertilizer application
-                                    Land Preparation</td>
-                                <td>Chemical application</td>
-                                <td>Harvest</td>
-                                <td>Post-harvest handling (carry
-                                    harvest from the field/
-                                    marketing etc.)</td>
-                            </tr>
-                            <tr>
-                                <td>Adult Male</td>
-                                <td>
-                                    <div>1.1.12.1 <input type="text" name="1_1_12_1" id="1_1_12_1"
-                                            class="form-control" />
-                                </td>
-                                <td>
-                                    <div>1.1.12.1 <input type="text" name="1_1_12_1" id="1_1_12_1"
-                                            class="form-control" />
-                                </td>
-                                <td>
-                                    <div>1.1.12.1 <input type="text" name="1_1_12_1" id="1_1_12_1"
-                                            class="form-control" />
-                                </td>
-                                <td>
-                                    <div>1.1.12.1 <input type="text" name="1_1_12_1" id="1_1_12_1"
-                                            class="form-control" />
-                                </td>
-                                <td>
-                                    <div>1.1.12.1 <input type="text" name="1_1_12_1" id="1_1_12_1"
-                                            class="form-control" />
-                                </td>
-                                <td>
-                                    <div>1.1.12.1 <input type="text" name="1_1_12_1" id="1_1_12_1"
-                                            class="form-control" />
-                                </td>
-                            </tr>
-                            <tr>
-                                <td>Adult Female</td>
-                                <td>
-                                    <div>1.1.12.1 <input type="text" name="1_1_12_1" id="1_1_12_1"
-                                            class="form-control" />
-                                </td>
-                                <td>
-                                    <div>1.1.12.1 <input type="text" name="1_1_12_1" id="1_1_12_1"
-                                            class="form-control" />
-                                </td>
-                                <td>
-                                    <div>1.1.12.1 <input type="text" name="1_1_12_1" id="1_1_12_1"
-                                            class="form-control" />
-                                </td>
-                                <td>
-                                    <div>1.1.12.1 <input type="text" name="1_1_12_1" id="1_1_12_1"
-                                            class="form-control" />
-                                </td>
-                                <td>
-                                    <div>1.1.12.1 <input type="text" name="1_1_12_1" id="1_1_12_1"
-                                            class="form-control" />
-                                </td>
-                                <td>
-                                    <div>1.1.12.1 <input type="text" name="1_1_12_1" id="1_1_12_1"
-                                            class="form-control" />
-                                </td>
-                            </tr>
-                        </table>
+
+                    <div id="divid2_20">
+
+
                     </div>
-
-                    <div class="row">
-                        <table class="table table-bordered table-hover">
-                            <tr>
-                                <th colspan="6">2.20. How many people did you hire for paddy farming?</th>
-                                <th></th>
-                            </tr>
-                            <tr>
-                                <td>inorganic Fertilizer application </td>
-                              
-                                <td>Organic fertilizer application</td>
-                                <td>Land Preparation</td>
-                                <td>Chemical application</td>
-                                <td>Harvest</td>
-                                <td>Post-harvest handling (carry harvest from the field/ marketing etc.)</td>
-                                <td>2.22. Daily wage (Rupees per day)</td>
-                               
-                            </tr>
-                            <tr>
-                                <td>Adult Male</td>
-                                <td>
-                                    <div>1.1.12.1 <input type="text" name="1_1_12_1" id="1_1_12_1"
-                                            class="form-control" />
-                                </td>
-                                <td>
-                                    <div>1.1.12.1 <input type="text" name="1_1_12_1" id="1_1_12_1"
-                                            class="form-control" />
-                                </td>
-                                <td>
-                                    <div>1.1.12.1 <input type="text" name="1_1_12_1" id="1_1_12_1"
-                                            class="form-control" />
-                                </td>
-                                <td>
-                                    <div>1.1.12.1 <input type="text" name="1_1_12_1" id="1_1_12_1"
-                                            class="form-control" />
-                                </td>
-                                <td>
-                                    <div>1.1.12.1 <input type="text" name="1_1_12_1" id="1_1_12_1"
-                                            class="form-control" />
-                                </td>
-                                <td>
-                                    <div>1.1.12.1 <input type="text" name="1_1_12_1" id="1_1_12_1"
-                                            class="form-control" />
-                                </td>
-                            </tr>
-                            <tr>
-                                <td>Adult Female</td>
-                                <td>
-                                    <div>1.1.12.1 <input type="text" name="1_1_12_1" id="1_1_12_1"
-                                            class="form-control" />
-                                </td>
-                                <td>
-                                    <div>1.1.12.1 <input type="text" name="1_1_12_1" id="1_1_12_1"
-                                            class="form-control" />
-                                </td>
-                                <td>
-                                    <div>1.1.12.1 <input type="text" name="1_1_12_1" id="1_1_12_1"
-                                            class="form-control" />
-                                </td>
-                                <td>
-                                    <div>1.1.12.1 <input type="text" name="1_1_12_1" id="1_1_12_1"
-                                            class="form-control" />
-                                </td>
-                                <td>
-                                    <div>1.1.12.1 <input type="text" name="1_1_12_1" id="1_1_12_1"
-                                            class="form-control" />
-                                </td>
-                                <td>
-                                    <div>1.1.12.1 <input type="text" name="1_1_12_1" id="1_1_12_1"
-                                            class="form-control" />
-                                </td>
-                            </tr>
-                        </table>
-                    </div>
-
-
                 </div>
-            </div>
-            <div class="card-footer">
+                <div class="card-footer">
 
-                <button type="reset" class="btn btn-default">Reset Button</button>
-                <button type="submit" name="btnsave" id="btnsave" class="btn btn-primary float-right">Submit
-                    Button</button>
-            </div>
+                    <button type="reset" class="btn btn-default">Reset Button</button>
+                    <button type="submit" name="btnsave" id="btnsave" class="btn btn-primary float-right">Submit
+                        Button</button>
+                </div>
         </form>
     </div>
 </div>

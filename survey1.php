@@ -18,7 +18,7 @@ date_default_timezone_set("Asia/Colombo");
 $resultitem = mysqli_query($con, $sqlitem) or die("error in select survey:" . mysqli_error($con));
 $row = mysqli_fetch_assoc($resultitem);
 //$a1 = $row['a1'];
-//$household_id = $row['household_id'];
+$household_id = $row['household_id'];
 //$type_of_migrant = $row['type_of_migrant'];
 //echo $a1;
 
