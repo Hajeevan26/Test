@@ -50,7 +50,7 @@
                     <div class="form-group">
                         <label>2.4 What was the duration of the paddy variety?</label>
                         <div class="row">
-                            <div class="col-md-15"><input type="text" name="2_4" id="2_4" placeholder="Duration"
+                            <div class="col-md-15"><input type="number" name="2_4" id="2_4" placeholder="Duration"
                                     class="form-control" />
                             </div>
                         </div>
@@ -91,7 +91,7 @@
                             </label></div>
 
                     </div>
-                    <div class="input-group" id="2_6_ot"><input type="text" required name="2_6_oth" id="2_6_oth" class="form-control" /></div>
+                    <div class="input-group" id="2_6_f_ot"><input type="text" required name="2_6_f_oth" id="2_6_f_oth" class="form-control" /></div>
                 </div>
                 <div class="col-md-4">
                     <div class="input-group">

@@ -104,6 +104,8 @@ if(isset($_POST['btnsubmit']) ) {
                                     </label></div>
 
                             </div>
+                            <div class="input-group" id="2_16f_ot"><input type="text" placeholder="other" required name="2_16f_oth" id="2_16f_oth" class="form-control" /></div>
+
                         </div>
                         
                

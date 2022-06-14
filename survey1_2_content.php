@@ -30,7 +30,7 @@
                         <div class="checkbox"> <label><input type="checkbox" name="1_2_2_d" id="1_2_2_d" value="4">Other</label> </div>
 
                     </div>
-                    <div class="input-group" id="1_2_2_d_ot"><input type="text" required name="1_2_2_d_oth" id="1_2_2_d_oth" class="form-control" /></div>
+                    <div class="input-group" id="1_2_2_d_ot"><input type="text" placeholder="other" required name="1_2_2_d_oth" id="1_2_2_d_oth" class="form-control" /></div>
                 </div>
                 <div class="col-md-4">
                     <div class="form-group">
@@ -86,6 +86,8 @@
                                     value="4">Other</label></div>
 
                     </div>
+                    <div class="input-group" id="1_2_5_d_ot"><input type="text" placeholder="other" required name="1_2_5_d_oth" id="1_2_5_d_oth" class="form-control" /></div>
+
                 </div>
                 <div class="col-md-4">
                     <div class="form-group">
@@ -104,6 +106,8 @@
                                     value="6">Other</label></div>
 
                     </div>
+                    <div class="input-group" id="1_2_6_f_ot"><input type="text" placeholder="other" required name="1_2_6_f_oth" id="1_2_6_f_oth" class="form-control" /></div>
+
                 </div>
 
             </div>
@@ -159,6 +163,8 @@
                                     value="7">Other</label></div>
 
                     </div>
+                    <div class="input-group" id="1_2_6_g_ot"><input type="text" placeholder="other" required name="1_2_6_g_oth" id="1_2_9_g_oth" class="form-control" /></div>
+
                 </div>
             </div>
             <hr>
@@ -210,9 +216,9 @@
                                     value="21">Fixed Air conditioner</label></div>
                         <div class="checkbox"><label><input type="checkbox" name="1_2_10_u" id="1_2_10_u"
                                     value="22">Other</label></div>
-                        <div class="checkbox"><label><input type="checkbox" name="1_2_10_v" id="1_2_10_v"
-                                    value="23">Table fan</label></div>
+                     
                     </div>
+                    <div class="input-group" id="1_2_10_u_ot"><input type="text" placeholder="other" required name="1_2_10_u_oth" id="1_2_10_u_oth" class="form-control" /></div>
 
 
                 </div>
