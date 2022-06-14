@@ -73,10 +73,10 @@ if(isset($_POST['btnsubmit']) ) {
                     <div class="row">
                         <div class="col-md-12">
                             <label>3.2.1 Did you use agro-chemicals for your paddy cultivation?</label>
-                            <div class="input-group"> 
+                            <div class="input-group">
                                 <select class="form-control" name="3_2_1" id="3_2_1">
                                     <option value="1">Yes</option>
-                                    <option value="2">No</option> 
+                                    <option value="2">No</option>
                                 </select>
                             </div>
                         </div>
@@ -84,7 +84,7 @@ if(isset($_POST['btnsubmit']) ) {
                     <br>
                     <div class="row">
                         <div class="col-md-12">
-                            <label>3.2.8 f yes, what type of Agro-chemicals you used in last 2021/22 Maha season?
+                            <label>3.2.2 f yes, what type of Agro-chemicals you used in last 2021/22 Maha season?
                             </label>
                             <div class="form-group">
 
@@ -112,7 +112,7 @@ if(isset($_POST['btnsubmit']) ) {
                                         <th>3.2.4.Area applied (Acres)</th>
                                         <th>3.2.5.Price per unit (Rs/Kg)</th>
                                         <th>3.2.6.Total Cost (Rs)</th>
-                                        <th>3.2.7.Source (Please use below codes)</th>
+                                        <th colspan="2">3.2.7.Source (Please use below codes)</th>
 
                                     </tr>
                                     <tr>
@@ -128,20 +128,48 @@ if(isset($_POST['btnsubmit']) ) {
                                                                 class="form-control" />
                                         </td>
                                         <td>
+                                            <div>KG</div>
                                             <div>1.1.12.1 <input type="text" name="1_1_12_1" id="1_1_12_1"
                                                     class="form-control" />
+                                                <div>1.1.12.1 <input type="text" name="1_1_12_1" id="1_1_12_1"
+                                                        class="form-control" />
+                                                    <div>1.1.12.1 <input type="text" name="1_1_12_1" id="1_1_12_1"
+                                                            class="form-control" />
+                                                        <div>1.1.12.1 <input type="text" name="1_1_12_1" id="1_1_12_1"
+                                                                class="form-control" />
                                         </td>
                                         <td>
+                                            <div>Acres</div>
                                             <div>1.1.12.1 <input type="text" name="1_1_12_1" id="1_1_12_1"
                                                     class="form-control" />
+                                                <div>1.1.12.1 <input type="text" name="1_1_12_1" id="1_1_12_1"
+                                                        class="form-control" />
+                                                    <div>1.1.12.1 <input type="text" name="1_1_12_1" id="1_1_12_1"
+                                                            class="form-control" />
+                                                        <div>1.1.12.1 <input type="text" name="1_1_12_1" id="1_1_12_1"
+                                                                class="form-control" />
                                         </td>
                                         <td>
+                                            <div>Rs/Kg</div>
                                             <div>1.1.12.1 <input type="text" name="1_1_12_1" id="1_1_12_1"
                                                     class="form-control" />
+                                                <div>1.1.12.1 <input type="text" name="1_1_12_1" id="1_1_12_1"
+                                                        class="form-control" />
+                                                    <div>1.1.12.1 <input type="text" name="1_1_12_1" id="1_1_12_1"
+                                                            class="form-control" />
+                                                        <div>1.1.12.1 <input type="text" name="1_1_12_1" id="1_1_12_1"
+                                                                class="form-control" />
                                         </td>
                                         <td>
+                                            <div>Rs/Kg</div>
                                             <div>1.1.12.1 <input type="text" name="1_1_12_1" id="1_1_12_1"
                                                     class="form-control" />
+                                                <div>1.1.12.1 <input type="text" name="1_1_12_1" id="1_1_12_1"
+                                                        class="form-control" />
+                                                    <div>1.1.12.1 <input type="text" name="1_1_12_1" id="1_1_12_1"
+                                                            class="form-control" />
+                                                        <div>1.1.12.1 <input type="text" name="1_1_12_1" id="1_1_12_1"
+                                                                class="form-control" />
                                         </td>
                                         <td>
                                             <div class="form-group">
@@ -159,11 +187,73 @@ if(isset($_POST['btnsubmit']) ) {
                                                 <div class="checkbox"> <label><input type="checkbox" name="1_2_1_e"
                                                             id="1_2_1_e" value="5">Neighbour</label> </div>
                                                 <div class="checkbox"> <label><input type="checkbox" name="1_2_1_e"
-                                                            id="1_2_1_e" value="5">Other</label> </div>
+                                                            id="1_2_1_e" value="6">Other</label> </div>
                                                 <div>1.1.12.1 <input type="text" name="1_1_12_1" id="1_1_12_1"
                                                         class="form-control" />
                                                 </div>
-
+                                                <hr>
+                                                <div class="form-group">
+                                                    <div class="checkbox"><label><input type="checkbox" name="1_2_1_a"
+                                                                id="1_2_1_a" value="1">Retail Shop/ wholesaler</label>
+                                                    </div>
+                                                    <div class="checkbox"><label><input type="checkbox" name="1_2_1_b"
+                                                                id="1_2_1_b" value="2">Agrarian Devlopment
+                                                            Centre</label>
+                                                    </div>
+                                                    <div class="checkbox"><label><input type="checkbox" name="1_2_1_c"
+                                                                id="1_2_1_c" value="3">Fellow farmer</label> </div>
+                                                    <div class="checkbox"><label><input type="checkbox" name="1_2_1_d"
+                                                                id="1_2_1_d" value="4">Farmer association or
+                                                            cooperative</label></div>
+                                                    <div class="checkbox"> <label><input type="checkbox" name="1_2_1_e"
+                                                                id="1_2_1_e" value="5">Neighbour</label> </div>
+                                                    <div class="checkbox"> <label><input type="checkbox" name="1_2_1_e"
+                                                                id="1_2_1_e" value="6">Other</label> </div>
+                                                    <div>1.1.12.1 <input type="text" name="1_1_12_1" id="1_1_12_1"
+                                                            class="form-control" />
+                                                    </div>
+                                        </td>
+                                        <td>
+                                            <div class="form-group">
+                                                <div class="checkbox"><label><input type="checkbox" name="1_2_1_a"
+                                                            id="1_2_1_a" value="1">Retail Shop/ wholesaler</label>
+                                                </div>
+                                                <div class="checkbox"><label><input type="checkbox" name="1_2_1_b"
+                                                            id="1_2_1_b" value="2">Agrarian Devlopment Centre</label>
+                                                </div>
+                                                <div class="checkbox"><label><input type="checkbox" name="1_2_1_c"
+                                                            id="1_2_1_c" value="3">Fellow farmer</label> </div>
+                                                <div class="checkbox"><label><input type="checkbox" name="1_2_1_d"
+                                                            id="1_2_1_d" value="4">Farmer association or
+                                                        cooperative</label></div>
+                                                <div class="checkbox"> <label><input type="checkbox" name="1_2_1_e"
+                                                            id="1_2_1_e" value="5">Neighbour</label> </div>
+                                                <div class="checkbox"> <label><input type="checkbox" name="1_2_1_e"
+                                                            id="1_2_1_e" value="6">Other</label> </div>
+                                                <div>1.1.12.1 <input type="text" name="1_1_12_1" id="1_1_12_1"
+                                                        class="form-control" />
+                                                </div>
+                                                <hr>
+                                                <div class="form-group">
+                                                    <div class="checkbox"><label><input type="checkbox" name="1_2_1_a"
+                                                                id="1_2_1_a" value="1">Retail Shop/ wholesaler</label>
+                                                    </div>
+                                                    <div class="checkbox"><label><input type="checkbox" name="1_2_1_b"
+                                                                id="1_2_1_b" value="2">Agrarian Devlopment
+                                                            Centre</label>
+                                                    </div>
+                                                    <div class="checkbox"><label><input type="checkbox" name="1_2_1_c"
+                                                                id="1_2_1_c" value="3">Fellow farmer</label> </div>
+                                                    <div class="checkbox"><label><input type="checkbox" name="1_2_1_d"
+                                                                id="1_2_1_d" value="4">Farmer association or
+                                                            cooperative</label></div>
+                                                    <div class="checkbox"> <label><input type="checkbox" name="1_2_1_e"
+                                                                id="1_2_1_e" value="5">Neighbour</label> </div>
+                                                    <div class="checkbox"> <label><input type="checkbox" name="1_2_1_e"
+                                                                id="1_2_1_e" value="6">Other</label> </div>
+                                                    <div>1.1.12.1 <input type="text" name="1_1_12_1" id="1_1_12_1"
+                                                            class="form-control" />
+                                                    </div>
                                         </td>
 
                                     </tr>
@@ -180,20 +270,44 @@ if(isset($_POST['btnsubmit']) ) {
                                                                 class="form-control" />
                                         </td>
                                         <td>
-                                            <div>1.1.12.1 <input type="text" name="1_1_12_1" id="1_1_12_1"
+                                        <div>1.1.12.1 <input type="text" name="1_1_12_1" id="1_1_12_1"
                                                     class="form-control" />
+                                                <div>1.1.12.1 <input type="text" name="1_1_12_1" id="1_1_12_1"
+                                                        class="form-control" />
+                                                    <div>1.1.12.1 <input type="text" name="1_1_12_1" id="1_1_12_1"
+                                                            class="form-control" />
+                                                        <div>1.1.12.1 <input type="text" name="1_1_12_1" id="1_1_12_1"
+                                                                class="form-control" />
                                         </td>
                                         <td>
-                                            <div>1.1.12.1 <input type="text" name="1_1_12_1" id="1_1_12_1"
+                                        <div>1.1.12.1 <input type="text" name="1_1_12_1" id="1_1_12_1"
                                                     class="form-control" />
+                                                <div>1.1.12.1 <input type="text" name="1_1_12_1" id="1_1_12_1"
+                                                        class="form-control" />
+                                                    <div>1.1.12.1 <input type="text" name="1_1_12_1" id="1_1_12_1"
+                                                            class="form-control" />
+                                                        <div>1.1.12.1 <input type="text" name="1_1_12_1" id="1_1_12_1"
+                                                                class="form-control" />
                                         </td>
                                         <td>
-                                            <div>1.1.12.1 <input type="text" name="1_1_12_1" id="1_1_12_1"
+                                        <div>1.1.12.1 <input type="text" name="1_1_12_1" id="1_1_12_1"
                                                     class="form-control" />
+                                                <div>1.1.12.1 <input type="text" name="1_1_12_1" id="1_1_12_1"
+                                                        class="form-control" />
+                                                    <div>1.1.12.1 <input type="text" name="1_1_12_1" id="1_1_12_1"
+                                                            class="form-control" />
+                                                        <div>1.1.12.1 <input type="text" name="1_1_12_1" id="1_1_12_1"
+                                                                class="form-control" />
                                         </td>
                                         <td>
-                                            <div>1.1.12.1 <input type="text" name="1_1_12_1" id="1_1_12_1"
+                                        <div>1.1.12.1 <input type="text" name="1_1_12_1" id="1_1_12_1"
                                                     class="form-control" />
+                                                <div>1.1.12.1 <input type="text" name="1_1_12_1" id="1_1_12_1"
+                                                        class="form-control" />
+                                                    <div>1.1.12.1 <input type="text" name="1_1_12_1" id="1_1_12_1"
+                                                            class="form-control" />
+                                                        <div>1.1.12.1 <input type="text" name="1_1_12_1" id="1_1_12_1"
+                                                                class="form-control" />
                                         </td>
                                         <td>
                                             <div class="form-group">
@@ -211,13 +325,74 @@ if(isset($_POST['btnsubmit']) ) {
                                                 <div class="checkbox"> <label><input type="checkbox" name="1_2_1_e"
                                                             id="1_2_1_e" value="5">Neighbour</label> </div>
                                                 <div class="checkbox"> <label><input type="checkbox" name="1_2_1_e"
-                                                            id="1_2_1_e" value="5">Other</label> </div>
+                                                            id="1_2_1_e" value="6">Other</label> </div>
                                                 <div>1.1.12.1 <input type="text" name="1_1_12_1" id="1_1_12_1"
                                                         class="form-control" />
                                                 </div>
-
+                                                <hr>
+                                                <div class="form-group">
+                                                    <div class="checkbox"><label><input type="checkbox" name="1_2_1_a"
+                                                                id="1_2_1_a" value="1">Retail Shop/ wholesaler</label>
+                                                    </div>
+                                                    <div class="checkbox"><label><input type="checkbox" name="1_2_1_b"
+                                                                id="1_2_1_b" value="2">Agrarian Devlopment
+                                                            Centre</label>
+                                                    </div>
+                                                    <div class="checkbox"><label><input type="checkbox" name="1_2_1_c"
+                                                                id="1_2_1_c" value="3">Fellow farmer</label> </div>
+                                                    <div class="checkbox"><label><input type="checkbox" name="1_2_1_d"
+                                                                id="1_2_1_d" value="4">Farmer association or
+                                                            cooperative</label></div>
+                                                    <div class="checkbox"> <label><input type="checkbox" name="1_2_1_e"
+                                                                id="1_2_1_e" value="5">Neighbour</label> </div>
+                                                    <div class="checkbox"> <label><input type="checkbox" name="1_2_1_e"
+                                                                id="1_2_1_e" value="6">Other</label> </div>
+                                                    <div>1.1.12.1 <input type="text" name="1_1_12_1" id="1_1_12_1"
+                                                            class="form-control" />
+                                                    </div>
                                         </td>
-
+                                        <td>
+                                            <div class="form-group">
+                                                <div class="checkbox"><label><input type="checkbox" name="1_2_1_a"
+                                                            id="1_2_1_a" value="1">Retail Shop/ wholesaler</label>
+                                                </div>
+                                                <div class="checkbox"><label><input type="checkbox" name="1_2_1_b"
+                                                            id="1_2_1_b" value="2">Agrarian Devlopment Centre</label>
+                                                </div>
+                                                <div class="checkbox"><label><input type="checkbox" name="1_2_1_c"
+                                                            id="1_2_1_c" value="3">Fellow farmer</label> </div>
+                                                <div class="checkbox"><label><input type="checkbox" name="1_2_1_d"
+                                                            id="1_2_1_d" value="4">Farmer association or
+                                                        cooperative</label></div>
+                                                <div class="checkbox"> <label><input type="checkbox" name="1_2_1_e"
+                                                            id="1_2_1_e" value="5">Neighbour</label> </div>
+                                                <div class="checkbox"> <label><input type="checkbox" name="1_2_1_e"
+                                                            id="1_2_1_e" value="6">Other</label> </div>
+                                                <div>1.1.12.1 <input type="text" name="1_1_12_1" id="1_1_12_1"
+                                                        class="form-control" />
+                                                </div>
+                                                <hr>
+                                                <div class="form-group">
+                                                    <div class="checkbox"><label><input type="checkbox" name="1_2_1_a"
+                                                                id="1_2_1_a" value="1">Retail Shop/ wholesaler</label>
+                                                    </div>
+                                                    <div class="checkbox"><label><input type="checkbox" name="1_2_1_b"
+                                                                id="1_2_1_b" value="2">Agrarian Devlopment
+                                                            Centre</label>
+                                                    </div>
+                                                    <div class="checkbox"><label><input type="checkbox" name="1_2_1_c"
+                                                                id="1_2_1_c" value="3">Fellow farmer</label> </div>
+                                                    <div class="checkbox"><label><input type="checkbox" name="1_2_1_d"
+                                                                id="1_2_1_d" value="4">Farmer association or
+                                                            cooperative</label></div>
+                                                    <div class="checkbox"> <label><input type="checkbox" name="1_2_1_e"
+                                                                id="1_2_1_e" value="5">Neighbour</label> </div>
+                                                    <div class="checkbox"> <label><input type="checkbox" name="1_2_1_e"
+                                                                id="1_2_1_e" value="6">Other</label> </div>
+                                                    <div>1.1.12.1 <input type="text" name="1_1_12_1" id="1_1_12_1"
+                                                            class="form-control" />
+                                                    </div>
+                                        </td>
                                     </tr>
 
                                     <tr>
@@ -233,20 +408,44 @@ if(isset($_POST['btnsubmit']) ) {
                                                                 class="form-control" />
                                         </td>
                                         <td>
-                                            <div>1.1.12.1 <input type="text" name="1_1_12_1" id="1_1_12_1"
+                                        <div>1.1.12.1 <input type="text" name="1_1_12_1" id="1_1_12_1"
                                                     class="form-control" />
+                                                <div>1.1.12.1 <input type="text" name="1_1_12_1" id="1_1_12_1"
+                                                        class="form-control" />
+                                                    <div>1.1.12.1 <input type="text" name="1_1_12_1" id="1_1_12_1"
+                                                            class="form-control" />
+                                                        <div>1.1.12.1 <input type="text" name="1_1_12_1" id="1_1_12_1"
+                                                                class="form-control" />
                                         </td>
                                         <td>
-                                            <div>1.1.12.1 <input type="text" name="1_1_12_1" id="1_1_12_1"
+                                        <div>1.1.12.1 <input type="text" name="1_1_12_1" id="1_1_12_1"
                                                     class="form-control" />
+                                                <div>1.1.12.1 <input type="text" name="1_1_12_1" id="1_1_12_1"
+                                                        class="form-control" />
+                                                    <div>1.1.12.1 <input type="text" name="1_1_12_1" id="1_1_12_1"
+                                                            class="form-control" />
+                                                        <div>1.1.12.1 <input type="text" name="1_1_12_1" id="1_1_12_1"
+                                                                class="form-control" />
                                         </td>
                                         <td>
-                                            <div>1.1.12.1 <input type="text" name="1_1_12_1" id="1_1_12_1"
+                                        <div>1.1.12.1 <input type="text" name="1_1_12_1" id="1_1_12_1"
                                                     class="form-control" />
+                                                <div>1.1.12.1 <input type="text" name="1_1_12_1" id="1_1_12_1"
+                                                        class="form-control" />
+                                                    <div>1.1.12.1 <input type="text" name="1_1_12_1" id="1_1_12_1"
+                                                            class="form-control" />
+                                                        <div>1.1.12.1 <input type="text" name="1_1_12_1" id="1_1_12_1"
+                                                                class="form-control" />
                                         </td>
                                         <td>
-                                            <div>1.1.12.1 <input type="text" name="1_1_12_1" id="1_1_12_1"
+                                        <div>1.1.12.1 <input type="text" name="1_1_12_1" id="1_1_12_1"
                                                     class="form-control" />
+                                                <div>1.1.12.1 <input type="text" name="1_1_12_1" id="1_1_12_1"
+                                                        class="form-control" />
+                                                    <div>1.1.12.1 <input type="text" name="1_1_12_1" id="1_1_12_1"
+                                                            class="form-control" />
+                                                        <div>1.1.12.1 <input type="text" name="1_1_12_1" id="1_1_12_1"
+                                                                class="form-control" />
                                         </td>
                                         <td>
                                             <div class="form-group">
@@ -264,13 +463,74 @@ if(isset($_POST['btnsubmit']) ) {
                                                 <div class="checkbox"> <label><input type="checkbox" name="1_2_1_e"
                                                             id="1_2_1_e" value="5">Neighbour</label> </div>
                                                 <div class="checkbox"> <label><input type="checkbox" name="1_2_1_e"
-                                                            id="1_2_1_e" value="5">Other</label> </div>
+                                                            id="1_2_1_e" value="6">Other</label> </div>
                                                 <div>1.1.12.1 <input type="text" name="1_1_12_1" id="1_1_12_1"
                                                         class="form-control" />
                                                 </div>
-
+                                                <hr>
+                                                <div class="form-group">
+                                                    <div class="checkbox"><label><input type="checkbox" name="1_2_1_a"
+                                                                id="1_2_1_a" value="1">Retail Shop/ wholesaler</label>
+                                                    </div>
+                                                    <div class="checkbox"><label><input type="checkbox" name="1_2_1_b"
+                                                                id="1_2_1_b" value="2">Agrarian Devlopment
+                                                            Centre</label>
+                                                    </div>
+                                                    <div class="checkbox"><label><input type="checkbox" name="1_2_1_c"
+                                                                id="1_2_1_c" value="3">Fellow farmer</label> </div>
+                                                    <div class="checkbox"><label><input type="checkbox" name="1_2_1_d"
+                                                                id="1_2_1_d" value="4">Farmer association or
+                                                            cooperative</label></div>
+                                                    <div class="checkbox"> <label><input type="checkbox" name="1_2_1_e"
+                                                                id="1_2_1_e" value="5">Neighbour</label> </div>
+                                                    <div class="checkbox"> <label><input type="checkbox" name="1_2_1_e"
+                                                                id="1_2_1_e" value="6">Other</label> </div>
+                                                    <div>1.1.12.1 <input type="text" name="1_1_12_1" id="1_1_12_1"
+                                                            class="form-control" />
+                                                    </div>
                                         </td>
-
+                                        <td>
+                                            <div class="form-group">
+                                                <div class="checkbox"><label><input type="checkbox" name="1_2_1_a"
+                                                            id="1_2_1_a" value="1">Retail Shop/ wholesaler</label>
+                                                </div>
+                                                <div class="checkbox"><label><input type="checkbox" name="1_2_1_b"
+                                                            id="1_2_1_b" value="2">Agrarian Devlopment Centre</label>
+                                                </div>
+                                                <div class="checkbox"><label><input type="checkbox" name="1_2_1_c"
+                                                            id="1_2_1_c" value="3">Fellow farmer</label> </div>
+                                                <div class="checkbox"><label><input type="checkbox" name="1_2_1_d"
+                                                            id="1_2_1_d" value="4">Farmer association or
+                                                        cooperative</label></div>
+                                                <div class="checkbox"> <label><input type="checkbox" name="1_2_1_e"
+                                                            id="1_2_1_e" value="5">Neighbour</label> </div>
+                                                <div class="checkbox"> <label><input type="checkbox" name="1_2_1_e"
+                                                            id="1_2_1_e" value="6">Other</label> </div>
+                                                <div>1.1.12.1 <input type="text" name="1_1_12_1" id="1_1_12_1"
+                                                        class="form-control" />
+                                                </div>
+                                                <hr>
+                                                <div class="form-group">
+                                                    <div class="checkbox"><label><input type="checkbox" name="1_2_1_a"
+                                                                id="1_2_1_a" value="1">Retail Shop/ wholesaler</label>
+                                                    </div>
+                                                    <div class="checkbox"><label><input type="checkbox" name="1_2_1_b"
+                                                                id="1_2_1_b" value="2">Agrarian Devlopment
+                                                            Centre</label>
+                                                    </div>
+                                                    <div class="checkbox"><label><input type="checkbox" name="1_2_1_c"
+                                                                id="1_2_1_c" value="3">Fellow farmer</label> </div>
+                                                    <div class="checkbox"><label><input type="checkbox" name="1_2_1_d"
+                                                                id="1_2_1_d" value="4">Farmer association or
+                                                            cooperative</label></div>
+                                                    <div class="checkbox"> <label><input type="checkbox" name="1_2_1_e"
+                                                                id="1_2_1_e" value="5">Neighbour</label> </div>
+                                                    <div class="checkbox"> <label><input type="checkbox" name="1_2_1_e"
+                                                                id="1_2_1_e" value="6">Other</label> </div>
+                                                    <div>1.1.12.1 <input type="text" name="1_1_12_1" id="1_1_12_1"
+                                                            class="form-control" />
+                                                    </div>
+                                        </td>
                                     </tr>
                                     <tr>
                                         <td>
@@ -285,20 +545,44 @@ if(isset($_POST['btnsubmit']) ) {
                                                                 class="form-control" />
                                         </td>
                                         <td>
-                                            <div>1.1.12.1 <input type="text" name="1_1_12_1" id="1_1_12_1"
+                                        <div>1.1.12.1 <input type="text" name="1_1_12_1" id="1_1_12_1"
                                                     class="form-control" />
+                                                <div>1.1.12.1 <input type="text" name="1_1_12_1" id="1_1_12_1"
+                                                        class="form-control" />
+                                                    <div>1.1.12.1 <input type="text" name="1_1_12_1" id="1_1_12_1"
+                                                            class="form-control" />
+                                                        <div>1.1.12.1 <input type="text" name="1_1_12_1" id="1_1_12_1"
+                                                                class="form-control" />
                                         </td>
                                         <td>
-                                            <div>1.1.12.1 <input type="text" name="1_1_12_1" id="1_1_12_1"
+                                        <div>1.1.12.1 <input type="text" name="1_1_12_1" id="1_1_12_1"
                                                     class="form-control" />
+                                                <div>1.1.12.1 <input type="text" name="1_1_12_1" id="1_1_12_1"
+                                                        class="form-control" />
+                                                    <div>1.1.12.1 <input type="text" name="1_1_12_1" id="1_1_12_1"
+                                                            class="form-control" />
+                                                        <div>1.1.12.1 <input type="text" name="1_1_12_1" id="1_1_12_1"
+                                                                class="form-control" />
                                         </td>
                                         <td>
-                                            <div>1.1.12.1 <input type="text" name="1_1_12_1" id="1_1_12_1"
+                                        <div>1.1.12.1 <input type="text" name="1_1_12_1" id="1_1_12_1"
                                                     class="form-control" />
+                                                <div>1.1.12.1 <input type="text" name="1_1_12_1" id="1_1_12_1"
+                                                        class="form-control" />
+                                                    <div>1.1.12.1 <input type="text" name="1_1_12_1" id="1_1_12_1"
+                                                            class="form-control" />
+                                                        <div>1.1.12.1 <input type="text" name="1_1_12_1" id="1_1_12_1"
+                                                                class="form-control" />
                                         </td>
                                         <td>
-                                            <div>1.1.12.1 <input type="text" name="1_1_12_1" id="1_1_12_1"
+                                        <div>1.1.12.1 <input type="text" name="1_1_12_1" id="1_1_12_1"
                                                     class="form-control" />
+                                                <div>1.1.12.1 <input type="text" name="1_1_12_1" id="1_1_12_1"
+                                                        class="form-control" />
+                                                    <div>1.1.12.1 <input type="text" name="1_1_12_1" id="1_1_12_1"
+                                                            class="form-control" />
+                                                        <div>1.1.12.1 <input type="text" name="1_1_12_1" id="1_1_12_1"
+                                                                class="form-control" />
                                         </td>
                                         <td>
                                             <div class="form-group">
@@ -316,31 +600,116 @@ if(isset($_POST['btnsubmit']) ) {
                                                 <div class="checkbox"> <label><input type="checkbox" name="1_2_1_e"
                                                             id="1_2_1_e" value="5">Neighbour</label> </div>
                                                 <div class="checkbox"> <label><input type="checkbox" name="1_2_1_e"
-                                                            id="1_2_1_e" value="5">Other</label> </div>
+                                                            id="1_2_1_e" value="6">Other</label> </div>
                                                 <div>1.1.12.1 <input type="text" name="1_1_12_1" id="1_1_12_1"
                                                         class="form-control" />
                                                 </div>
-
+                                                <hr>
+                                                <div class="form-group">
+                                                    <div class="checkbox"><label><input type="checkbox" name="1_2_1_a"
+                                                                id="1_2_1_a" value="1">Retail Shop/ wholesaler</label>
+                                                    </div>
+                                                    <div class="checkbox"><label><input type="checkbox" name="1_2_1_b"
+                                                                id="1_2_1_b" value="2">Agrarian Devlopment
+                                                            Centre</label>
+                                                    </div>
+                                                    <div class="checkbox"><label><input type="checkbox" name="1_2_1_c"
+                                                                id="1_2_1_c" value="3">Fellow farmer</label> </div>
+                                                    <div class="checkbox"><label><input type="checkbox" name="1_2_1_d"
+                                                                id="1_2_1_d" value="4">Farmer association or
+                                                            cooperative</label></div>
+                                                    <div class="checkbox"> <label><input type="checkbox" name="1_2_1_e"
+                                                                id="1_2_1_e" value="5">Neighbour</label> </div>
+                                                    <div class="checkbox"> <label><input type="checkbox" name="1_2_1_e"
+                                                                id="1_2_1_e" value="6">Other</label> </div>
+                                                    <div>1.1.12.1 <input type="text" name="1_1_12_1" id="1_1_12_1"
+                                                            class="form-control" />
+                                                    </div>
                                         </td>
-
+                                        <td>
+                                            <div class="form-group">
+                                                <div class="checkbox"><label><input type="checkbox" name="1_2_1_a"
+                                                            id="1_2_1_a" value="1">Retail Shop/ wholesaler</label>
+                                                </div>
+                                                <div class="checkbox"><label><input type="checkbox" name="1_2_1_b"
+                                                            id="1_2_1_b" value="2">Agrarian Devlopment Centre</label>
+                                                </div>
+                                                <div class="checkbox"><label><input type="checkbox" name="1_2_1_c"
+                                                            id="1_2_1_c" value="3">Fellow farmer</label> </div>
+                                                <div class="checkbox"><label><input type="checkbox" name="1_2_1_d"
+                                                            id="1_2_1_d" value="4">Farmer association or
+                                                        cooperative</label></div>
+                                                <div class="checkbox"> <label><input type="checkbox" name="1_2_1_e"
+                                                            id="1_2_1_e" value="5">Neighbour</label> </div>
+                                                <div class="checkbox"> <label><input type="checkbox" name="1_2_1_e"
+                                                            id="1_2_1_e" value="6">Other</label> </div>
+                                                <div>1.1.12.1 <input type="text" name="1_1_12_1" id="1_1_12_1"
+                                                        class="form-control" />
+                                                </div>
+                                                <hr>
+                                                <div class="form-group">
+                                                    <div class="checkbox"><label><input type="checkbox" name="1_2_1_a"
+                                                                id="1_2_1_a" value="1">Retail Shop/ wholesaler</label>
+                                                    </div>
+                                                    <div class="checkbox"><label><input type="checkbox" name="1_2_1_b"
+                                                                id="1_2_1_b" value="2">Agrarian Devlopment
+                                                            Centre</label>
+                                                    </div>
+                                                    <div class="checkbox"><label><input type="checkbox" name="1_2_1_c"
+                                                                id="1_2_1_c" value="3">Fellow farmer</label> </div>
+                                                    <div class="checkbox"><label><input type="checkbox" name="1_2_1_d"
+                                                                id="1_2_1_d" value="4">Farmer association or
+                                                            cooperative</label></div>
+                                                    <div class="checkbox"> <label><input type="checkbox" name="1_2_1_e"
+                                                                id="1_2_1_e" value="5">Neighbour</label> </div>
+                                                    <div class="checkbox"> <label><input type="checkbox" name="1_2_1_e"
+                                                                id="1_2_1_e" value="6">Other</label> </div>
+                                                    <div>1.1.12.1 <input type="text" name="1_1_12_1" id="1_1_12_1"
+                                                            class="form-control" />
+                                                    </div>
+                                        </td>
                                     </tr>
                                     <tr>
                                         <td>Manure</td>
                                         <td>
-                                            <div>1.1.12.1 <input type="text" name="1_1_12_1" id="1_1_12_1"
+                                        <div>1.1.12.1 <input type="text" name="1_1_12_1" id="1_1_12_1"
                                                     class="form-control" />
+                                                <div>1.1.12.1 <input type="text" name="1_1_12_1" id="1_1_12_1"
+                                                        class="form-control" />
+                                                    <div>1.1.12.1 <input type="text" name="1_1_12_1" id="1_1_12_1"
+                                                            class="form-control" />
+                                                        <div>1.1.12.1 <input type="text" name="1_1_12_1" id="1_1_12_1"
+                                                                class="form-control" />
                                         </td>
                                         <td>
-                                            <div>1.1.12.1 <input type="text" name="1_1_12_1" id="1_1_12_1"
+                                        <div>1.1.12.1 <input type="text" name="1_1_12_1" id="1_1_12_1"
                                                     class="form-control" />
+                                                <div>1.1.12.1 <input type="text" name="1_1_12_1" id="1_1_12_1"
+                                                        class="form-control" />
+                                                    <div>1.1.12.1 <input type="text" name="1_1_12_1" id="1_1_12_1"
+                                                            class="form-control" />
+                                                        <div>1.1.12.1 <input type="text" name="1_1_12_1" id="1_1_12_1"
+                                                                class="form-control" />
                                         </td>
                                         <td>
-                                            <div>1.1.12.1 <input type="text" name="1_1_12_1" id="1_1_12_1"
+                                        <div>1.1.12.1 <input type="text" name="1_1_12_1" id="1_1_12_1"
                                                     class="form-control" />
+                                                <div>1.1.12.1 <input type="text" name="1_1_12_1" id="1_1_12_1"
+                                                        class="form-control" />
+                                                    <div>1.1.12.1 <input type="text" name="1_1_12_1" id="1_1_12_1"
+                                                            class="form-control" />
+                                                        <div>1.1.12.1 <input type="text" name="1_1_12_1" id="1_1_12_1"
+                                                                class="form-control" />
                                         </td>
                                         <td>
-                                            <div>1.1.12.1 <input type="text" name="1_1_12_1" id="1_1_12_1"
+                                        <div>1.1.12.1 <input type="text" name="1_1_12_1" id="1_1_12_1"
                                                     class="form-control" />
+                                                <div>1.1.12.1 <input type="text" name="1_1_12_1" id="1_1_12_1"
+                                                        class="form-control" />
+                                                    <div>1.1.12.1 <input type="text" name="1_1_12_1" id="1_1_12_1"
+                                                            class="form-control" />
+                                                        <div>1.1.12.1 <input type="text" name="1_1_12_1" id="1_1_12_1"
+                                                                class="form-control" />
                                         </td>
                                         <td>
                                             <div class="form-group">
@@ -358,32 +727,118 @@ if(isset($_POST['btnsubmit']) ) {
                                                 <div class="checkbox"> <label><input type="checkbox" name="1_2_1_e"
                                                             id="1_2_1_e" value="5">Neighbour</label> </div>
                                                 <div class="checkbox"> <label><input type="checkbox" name="1_2_1_e"
-                                                            id="1_2_1_e" value="5">Other</label> </div>
+                                                            id="1_2_1_e" value="6">Other</label> </div>
                                                 <div>1.1.12.1 <input type="text" name="1_1_12_1" id="1_1_12_1"
                                                         class="form-control" />
                                                 </div>
+                                                <hr>
+                                                <div class="form-group">
+                                                    <div class="checkbox"><label><input type="checkbox" name="1_2_1_a"
+                                                                id="1_2_1_a" value="1">Retail Shop/ wholesaler</label>
+                                                    </div>
+                                                    <div class="checkbox"><label><input type="checkbox" name="1_2_1_b"
+                                                                id="1_2_1_b" value="2">Agrarian Devlopment
+                                                            Centre</label>
+                                                    </div>
+                                                    <div class="checkbox"><label><input type="checkbox" name="1_2_1_c"
+                                                                id="1_2_1_c" value="3">Fellow farmer</label> </div>
+                                                    <div class="checkbox"><label><input type="checkbox" name="1_2_1_d"
+                                                                id="1_2_1_d" value="4">Farmer association or
+                                                            cooperative</label></div>
+                                                    <div class="checkbox"> <label><input type="checkbox" name="1_2_1_e"
+                                                                id="1_2_1_e" value="5">Neighbour</label> </div>
+                                                    <div class="checkbox"> <label><input type="checkbox" name="1_2_1_e"
+                                                                id="1_2_1_e" value="6">Other</label> </div>
+                                                    <div>1.1.12.1 <input type="text" name="1_1_12_1" id="1_1_12_1"
+                                                            class="form-control" />
+                                                    </div>
                                         </td>
-
+                                        <td>
+                                            <div class="form-group">
+                                                <div class="checkbox"><label><input type="checkbox" name="1_2_1_a"
+                                                            id="1_2_1_a" value="1">Retail Shop/ wholesaler</label>
+                                                </div>
+                                                <div class="checkbox"><label><input type="checkbox" name="1_2_1_b"
+                                                            id="1_2_1_b" value="2">Agrarian Devlopment Centre</label>
+                                                </div>
+                                                <div class="checkbox"><label><input type="checkbox" name="1_2_1_c"
+                                                            id="1_2_1_c" value="3">Fellow farmer</label> </div>
+                                                <div class="checkbox"><label><input type="checkbox" name="1_2_1_d"
+                                                            id="1_2_1_d" value="4">Farmer association or
+                                                        cooperative</label></div>
+                                                <div class="checkbox"> <label><input type="checkbox" name="1_2_1_e"
+                                                            id="1_2_1_e" value="5">Neighbour</label> </div>
+                                                <div class="checkbox"> <label><input type="checkbox" name="1_2_1_e"
+                                                            id="1_2_1_e" value="6">Other</label> </div>
+                                                <div>1.1.12.1 <input type="text" name="1_1_12_1" id="1_1_12_1"
+                                                        class="form-control" />
+                                                </div>
+                                                <hr>
+                                                <div class="form-group">
+                                                    <div class="checkbox"><label><input type="checkbox" name="1_2_1_a"
+                                                                id="1_2_1_a" value="1">Retail Shop/ wholesaler</label>
+                                                    </div>
+                                                    <div class="checkbox"><label><input type="checkbox" name="1_2_1_b"
+                                                                id="1_2_1_b" value="2">Agrarian Devlopment
+                                                            Centre</label>
+                                                    </div>
+                                                    <div class="checkbox"><label><input type="checkbox" name="1_2_1_c"
+                                                                id="1_2_1_c" value="3">Fellow farmer</label> </div>
+                                                    <div class="checkbox"><label><input type="checkbox" name="1_2_1_d"
+                                                                id="1_2_1_d" value="4">Farmer association or
+                                                            cooperative</label></div>
+                                                    <div class="checkbox"> <label><input type="checkbox" name="1_2_1_e"
+                                                                id="1_2_1_e" value="5">Neighbour</label> </div>
+                                                    <div class="checkbox"> <label><input type="checkbox" name="1_2_1_e"
+                                                                id="1_2_1_e" value="6">Other</label> </div>
+                                                    <div>1.1.12.1 <input type="text" name="1_1_12_1" id="1_1_12_1"
+                                                            class="form-control" />
+                                                    </div>
+                                        </td>
                                     </tr>
 
 
                                     <tr>
                                         <td> Liquid fertilizers</td>
                                         <td>
-                                            <div>1.1.12.1 <input type="text" name="1_1_12_1" id="1_1_12_1"
+                                        <div>1.1.12.1 <input type="text" name="1_1_12_1" id="1_1_12_1"
                                                     class="form-control" />
+                                                <div>1.1.12.1 <input type="text" name="1_1_12_1" id="1_1_12_1"
+                                                        class="form-control" />
+                                                    <div>1.1.12.1 <input type="text" name="1_1_12_1" id="1_1_12_1"
+                                                            class="form-control" />
+                                                        <div>1.1.12.1 <input type="text" name="1_1_12_1" id="1_1_12_1"
+                                                                class="form-control" />
                                         </td>
                                         <td>
-                                            <div>1.1.12.1 <input type="text" name="1_1_12_1" id="1_1_12_1"
+                                        <div>1.1.12.1 <input type="text" name="1_1_12_1" id="1_1_12_1"
                                                     class="form-control" />
+                                                <div>1.1.12.1 <input type="text" name="1_1_12_1" id="1_1_12_1"
+                                                        class="form-control" />
+                                                    <div>1.1.12.1 <input type="text" name="1_1_12_1" id="1_1_12_1"
+                                                            class="form-control" />
+                                                        <div>1.1.12.1 <input type="text" name="1_1_12_1" id="1_1_12_1"
+                                                                class="form-control" />
                                         </td>
                                         <td>
-                                            <div>1.1.12.1 <input type="text" name="1_1_12_1" id="1_1_12_1"
+                                        <div>1.1.12.1 <input type="text" name="1_1_12_1" id="1_1_12_1"
                                                     class="form-control" />
+                                                <div>1.1.12.1 <input type="text" name="1_1_12_1" id="1_1_12_1"
+                                                        class="form-control" />
+                                                    <div>1.1.12.1 <input type="text" name="1_1_12_1" id="1_1_12_1"
+                                                            class="form-control" />
+                                                        <div>1.1.12.1 <input type="text" name="1_1_12_1" id="1_1_12_1"
+                                                                class="form-control" />
                                         </td>
                                         <td>
-                                            <div>1.1.12.1 <input type="text" name="1_1_12_1" id="1_1_12_1"
+                                        <div>1.1.12.1 <input type="text" name="1_1_12_1" id="1_1_12_1"
                                                     class="form-control" />
+                                                <div>1.1.12.1 <input type="text" name="1_1_12_1" id="1_1_12_1"
+                                                        class="form-control" />
+                                                    <div>1.1.12.1 <input type="text" name="1_1_12_1" id="1_1_12_1"
+                                                            class="form-control" />
+                                                        <div>1.1.12.1 <input type="text" name="1_1_12_1" id="1_1_12_1"
+                                                                class="form-control" />
                                         </td>
                                         <td>
                                             <div class="form-group">
@@ -401,32 +856,117 @@ if(isset($_POST['btnsubmit']) ) {
                                                 <div class="checkbox"> <label><input type="checkbox" name="1_2_1_e"
                                                             id="1_2_1_e" value="5">Neighbour</label> </div>
                                                 <div class="checkbox"> <label><input type="checkbox" name="1_2_1_e"
-                                                            id="1_2_1_e" value="5">Other</label> </div>
+                                                            id="1_2_1_e" value="6">Other</label> </div>
                                                 <div>1.1.12.1 <input type="text" name="1_1_12_1" id="1_1_12_1"
                                                         class="form-control" />
                                                 </div>
-
+                                                <hr>
+                                                <div class="form-group">
+                                                    <div class="checkbox"><label><input type="checkbox" name="1_2_1_a"
+                                                                id="1_2_1_a" value="1">Retail Shop/ wholesaler</label>
+                                                    </div>
+                                                    <div class="checkbox"><label><input type="checkbox" name="1_2_1_b"
+                                                                id="1_2_1_b" value="2">Agrarian Devlopment
+                                                            Centre</label>
+                                                    </div>
+                                                    <div class="checkbox"><label><input type="checkbox" name="1_2_1_c"
+                                                                id="1_2_1_c" value="3">Fellow farmer</label> </div>
+                                                    <div class="checkbox"><label><input type="checkbox" name="1_2_1_d"
+                                                                id="1_2_1_d" value="4">Farmer association or
+                                                            cooperative</label></div>
+                                                    <div class="checkbox"> <label><input type="checkbox" name="1_2_1_e"
+                                                                id="1_2_1_e" value="5">Neighbour</label> </div>
+                                                    <div class="checkbox"> <label><input type="checkbox" name="1_2_1_e"
+                                                                id="1_2_1_e" value="6">Other</label> </div>
+                                                    <div>1.1.12.1 <input type="text" name="1_1_12_1" id="1_1_12_1"
+                                                            class="form-control" />
+                                                    </div>
                                         </td>
-
+                                        <td>
+                                            <div class="form-group">
+                                                <div class="checkbox"><label><input type="checkbox" name="1_2_1_a"
+                                                            id="1_2_1_a" value="1">Retail Shop/ wholesaler</label>
+                                                </div>
+                                                <div class="checkbox"><label><input type="checkbox" name="1_2_1_b"
+                                                            id="1_2_1_b" value="2">Agrarian Devlopment Centre</label>
+                                                </div>
+                                                <div class="checkbox"><label><input type="checkbox" name="1_2_1_c"
+                                                            id="1_2_1_c" value="3">Fellow farmer</label> </div>
+                                                <div class="checkbox"><label><input type="checkbox" name="1_2_1_d"
+                                                            id="1_2_1_d" value="4">Farmer association or
+                                                        cooperative</label></div>
+                                                <div class="checkbox"> <label><input type="checkbox" name="1_2_1_e"
+                                                            id="1_2_1_e" value="5">Neighbour</label> </div>
+                                                <div class="checkbox"> <label><input type="checkbox" name="1_2_1_e"
+                                                            id="1_2_1_e" value="6">Other</label> </div>
+                                                <div>1.1.12.1 <input type="text" name="1_1_12_1" id="1_1_12_1"
+                                                        class="form-control" />
+                                                </div>
+                                                <hr>
+                                                <div class="form-group">
+                                                    <div class="checkbox"><label><input type="checkbox" name="1_2_1_a"
+                                                                id="1_2_1_a" value="1">Retail Shop/ wholesaler</label>
+                                                    </div>
+                                                    <div class="checkbox"><label><input type="checkbox" name="1_2_1_b"
+                                                                id="1_2_1_b" value="2">Agrarian Devlopment
+                                                            Centre</label>
+                                                    </div>
+                                                    <div class="checkbox"><label><input type="checkbox" name="1_2_1_c"
+                                                                id="1_2_1_c" value="3">Fellow farmer</label> </div>
+                                                    <div class="checkbox"><label><input type="checkbox" name="1_2_1_d"
+                                                                id="1_2_1_d" value="4">Farmer association or
+                                                            cooperative</label></div>
+                                                    <div class="checkbox"> <label><input type="checkbox" name="1_2_1_e"
+                                                                id="1_2_1_e" value="5">Neighbour</label> </div>
+                                                    <div class="checkbox"> <label><input type="checkbox" name="1_2_1_e"
+                                                                id="1_2_1_e" value="6">Other</label> </div>
+                                                    <div>1.1.12.1 <input type="text" name="1_1_12_1" id="1_1_12_1"
+                                                            class="form-control" />
+                                                    </div>
+                                        </td>
                                     </tr>
                                     <tr>
                                         <td> Other organic
                                             fertilizers</td>
                                         <td>
-                                            <div>1.1.12.1 <input type="text" name="1_1_12_1" id="1_1_12_1"
+                                        <div>1.1.12.1 <input type="text" name="1_1_12_1" id="1_1_12_1"
                                                     class="form-control" />
+                                                <div>1.1.12.1 <input type="text" name="1_1_12_1" id="1_1_12_1"
+                                                        class="form-control" />
+                                                    <div>1.1.12.1 <input type="text" name="1_1_12_1" id="1_1_12_1"
+                                                            class="form-control" />
+                                                        <div>1.1.12.1 <input type="text" name="1_1_12_1" id="1_1_12_1"
+                                                                class="form-control" />
                                         </td>
                                         <td>
-                                            <div>1.1.12.1 <input type="text" name="1_1_12_1" id="1_1_12_1"
+                                        <div>1.1.12.1 <input type="text" name="1_1_12_1" id="1_1_12_1"
                                                     class="form-control" />
+                                                <div>1.1.12.1 <input type="text" name="1_1_12_1" id="1_1_12_1"
+                                                        class="form-control" />
+                                                    <div>1.1.12.1 <input type="text" name="1_1_12_1" id="1_1_12_1"
+                                                            class="form-control" />
+                                                        <div>1.1.12.1 <input type="text" name="1_1_12_1" id="1_1_12_1"
+                                                                class="form-control" />
                                         </td>
                                         <td>
-                                            <div>1.1.12.1 <input type="text" name="1_1_12_1" id="1_1_12_1"
+                                        <div>1.1.12.1 <input type="text" name="1_1_12_1" id="1_1_12_1"
                                                     class="form-control" />
+                                                <div>1.1.12.1 <input type="text" name="1_1_12_1" id="1_1_12_1"
+                                                        class="form-control" />
+                                                    <div>1.1.12.1 <input type="text" name="1_1_12_1" id="1_1_12_1"
+                                                            class="form-control" />
+                                                        <div>1.1.12.1 <input type="text" name="1_1_12_1" id="1_1_12_1"
+                                                                class="form-control" />
                                         </td>
                                         <td>
-                                            <div>1.1.12.1 <input type="text" name="1_1_12_1" id="1_1_12_1"
+                                        <div>1.1.12.1 <input type="text" name="1_1_12_1" id="1_1_12_1"
                                                     class="form-control" />
+                                                <div>1.1.12.1 <input type="text" name="1_1_12_1" id="1_1_12_1"
+                                                        class="form-control" />
+                                                    <div>1.1.12.1 <input type="text" name="1_1_12_1" id="1_1_12_1"
+                                                            class="form-control" />
+                                                        <div>1.1.12.1 <input type="text" name="1_1_12_1" id="1_1_12_1"
+                                                                class="form-control" />
                                         </td>
                                         <td>
                                             <div class="form-group">
@@ -444,31 +984,116 @@ if(isset($_POST['btnsubmit']) ) {
                                                 <div class="checkbox"> <label><input type="checkbox" name="1_2_1_e"
                                                             id="1_2_1_e" value="5">Neighbour</label> </div>
                                                 <div class="checkbox"> <label><input type="checkbox" name="1_2_1_e"
-                                                            id="1_2_1_e" value="5">Other</label> </div>
+                                                            id="1_2_1_e" value="6">Other</label> </div>
                                                 <div>1.1.12.1 <input type="text" name="1_1_12_1" id="1_1_12_1"
                                                         class="form-control" />
                                                 </div>
-
+                                                <hr>
+                                                <div class="form-group">
+                                                    <div class="checkbox"><label><input type="checkbox" name="1_2_1_a"
+                                                                id="1_2_1_a" value="1">Retail Shop/ wholesaler</label>
+                                                    </div>
+                                                    <div class="checkbox"><label><input type="checkbox" name="1_2_1_b"
+                                                                id="1_2_1_b" value="2">Agrarian Devlopment
+                                                            Centre</label>
+                                                    </div>
+                                                    <div class="checkbox"><label><input type="checkbox" name="1_2_1_c"
+                                                                id="1_2_1_c" value="3">Fellow farmer</label> </div>
+                                                    <div class="checkbox"><label><input type="checkbox" name="1_2_1_d"
+                                                                id="1_2_1_d" value="4">Farmer association or
+                                                            cooperative</label></div>
+                                                    <div class="checkbox"> <label><input type="checkbox" name="1_2_1_e"
+                                                                id="1_2_1_e" value="5">Neighbour</label> </div>
+                                                    <div class="checkbox"> <label><input type="checkbox" name="1_2_1_e"
+                                                                id="1_2_1_e" value="6">Other</label> </div>
+                                                    <div>1.1.12.1 <input type="text" name="1_1_12_1" id="1_1_12_1"
+                                                            class="form-control" />
+                                                    </div>
                                         </td>
-
+                                        <td>
+                                            <div class="form-group">
+                                                <div class="checkbox"><label><input type="checkbox" name="1_2_1_a"
+                                                            id="1_2_1_a" value="1">Retail Shop/ wholesaler</label>
+                                                </div>
+                                                <div class="checkbox"><label><input type="checkbox" name="1_2_1_b"
+                                                            id="1_2_1_b" value="2">Agrarian Devlopment Centre</label>
+                                                </div>
+                                                <div class="checkbox"><label><input type="checkbox" name="1_2_1_c"
+                                                            id="1_2_1_c" value="3">Fellow farmer</label> </div>
+                                                <div class="checkbox"><label><input type="checkbox" name="1_2_1_d"
+                                                            id="1_2_1_d" value="4">Farmer association or
+                                                        cooperative</label></div>
+                                                <div class="checkbox"> <label><input type="checkbox" name="1_2_1_e"
+                                                            id="1_2_1_e" value="5">Neighbour</label> </div>
+                                                <div class="checkbox"> <label><input type="checkbox" name="1_2_1_e"
+                                                            id="1_2_1_e" value="6">Other</label> </div>
+                                                <div>1.1.12.1 <input type="text" name="1_1_12_1" id="1_1_12_1"
+                                                        class="form-control" />
+                                                </div>
+                                                <hr>
+                                                <div class="form-group">
+                                                    <div class="checkbox"><label><input type="checkbox" name="1_2_1_a"
+                                                                id="1_2_1_a" value="1">Retail Shop/ wholesaler</label>
+                                                    </div>
+                                                    <div class="checkbox"><label><input type="checkbox" name="1_2_1_b"
+                                                                id="1_2_1_b" value="2">Agrarian Devlopment
+                                                            Centre</label>
+                                                    </div>
+                                                    <div class="checkbox"><label><input type="checkbox" name="1_2_1_c"
+                                                                id="1_2_1_c" value="3">Fellow farmer</label> </div>
+                                                    <div class="checkbox"><label><input type="checkbox" name="1_2_1_d"
+                                                                id="1_2_1_d" value="4">Farmer association or
+                                                            cooperative</label></div>
+                                                    <div class="checkbox"> <label><input type="checkbox" name="1_2_1_e"
+                                                                id="1_2_1_e" value="5">Neighbour</label> </div>
+                                                    <div class="checkbox"> <label><input type="checkbox" name="1_2_1_e"
+                                                                id="1_2_1_e" value="6">Other</label> </div>
+                                                    <div>1.1.12.1 <input type="text" name="1_1_12_1" id="1_1_12_1"
+                                                            class="form-control" />
+                                                    </div>
+                                        </td>
                                     </tr>
                                     <tr>
                                         <td> Other</td>
                                         <td>
-                                            <div>1.1.12.1 <input type="text" name="1_1_12_1" id="1_1_12_1"
+                                        <div>1.1.12.1 <input type="text" name="1_1_12_1" id="1_1_12_1"
                                                     class="form-control" />
+                                                <div>1.1.12.1 <input type="text" name="1_1_12_1" id="1_1_12_1"
+                                                        class="form-control" />
+                                                    <div>1.1.12.1 <input type="text" name="1_1_12_1" id="1_1_12_1"
+                                                            class="form-control" />
+                                                        <div>1.1.12.1 <input type="text" name="1_1_12_1" id="1_1_12_1"
+                                                                class="form-control" />
                                         </td>
                                         <td>
-                                            <div>1.1.12.1 <input type="text" name="1_1_12_1" id="1_1_12_1"
+                                        <div>1.1.12.1 <input type="text" name="1_1_12_1" id="1_1_12_1"
                                                     class="form-control" />
+                                                <div>1.1.12.1 <input type="text" name="1_1_12_1" id="1_1_12_1"
+                                                        class="form-control" />
+                                                    <div>1.1.12.1 <input type="text" name="1_1_12_1" id="1_1_12_1"
+                                                            class="form-control" />
+                                                        <div>1.1.12.1 <input type="text" name="1_1_12_1" id="1_1_12_1"
+                                                                class="form-control" />
                                         </td>
                                         <td>
-                                            <div>1.1.12.1 <input type="text" name="1_1_12_1" id="1_1_12_1"
+                                        <div>1.1.12.1 <input type="text" name="1_1_12_1" id="1_1_12_1"
                                                     class="form-control" />
+                                                <div>1.1.12.1 <input type="text" name="1_1_12_1" id="1_1_12_1"
+                                                        class="form-control" />
+                                                    <div>1.1.12.1 <input type="text" name="1_1_12_1" id="1_1_12_1"
+                                                            class="form-control" />
+                                                        <div>1.1.12.1 <input type="text" name="1_1_12_1" id="1_1_12_1"
+                                                                class="form-control" />
                                         </td>
                                         <td>
-                                            <div>1.1.12.1 <input type="text" name="1_1_12_1" id="1_1_12_1"
+                                        <div>1.1.12.1 <input type="text" name="1_1_12_1" id="1_1_12_1"
                                                     class="form-control" />
+                                                <div>1.1.12.1 <input type="text" name="1_1_12_1" id="1_1_12_1"
+                                                        class="form-control" />
+                                                    <div>1.1.12.1 <input type="text" name="1_1_12_1" id="1_1_12_1"
+                                                            class="form-control" />
+                                                        <div>1.1.12.1 <input type="text" name="1_1_12_1" id="1_1_12_1"
+                                                                class="form-control" />
                                         </td>
                                         <td>
                                             <div class="form-group">
@@ -486,11 +1111,73 @@ if(isset($_POST['btnsubmit']) ) {
                                                 <div class="checkbox"> <label><input type="checkbox" name="1_2_1_e"
                                                             id="1_2_1_e" value="5">Neighbour</label> </div>
                                                 <div class="checkbox"> <label><input type="checkbox" name="1_2_1_e"
-                                                            id="1_2_1_e" value="5">Other</label> </div>
+                                                            id="1_2_1_e" value="6">Other</label> </div>
                                                 <div>1.1.12.1 <input type="text" name="1_1_12_1" id="1_1_12_1"
                                                         class="form-control" />
                                                 </div>
-
+                                                <hr>
+                                                <div class="form-group">
+                                                    <div class="checkbox"><label><input type="checkbox" name="1_2_1_a"
+                                                                id="1_2_1_a" value="1">Retail Shop/ wholesaler</label>
+                                                    </div>
+                                                    <div class="checkbox"><label><input type="checkbox" name="1_2_1_b"
+                                                                id="1_2_1_b" value="2">Agrarian Devlopment
+                                                            Centre</label>
+                                                    </div>
+                                                    <div class="checkbox"><label><input type="checkbox" name="1_2_1_c"
+                                                                id="1_2_1_c" value="3">Fellow farmer</label> </div>
+                                                    <div class="checkbox"><label><input type="checkbox" name="1_2_1_d"
+                                                                id="1_2_1_d" value="4">Farmer association or
+                                                            cooperative</label></div>
+                                                    <div class="checkbox"> <label><input type="checkbox" name="1_2_1_e"
+                                                                id="1_2_1_e" value="5">Neighbour</label> </div>
+                                                    <div class="checkbox"> <label><input type="checkbox" name="1_2_1_e"
+                                                                id="1_2_1_e" value="6">Other</label> </div>
+                                                    <div>1.1.12.1 <input type="text" name="1_1_12_1" id="1_1_12_1"
+                                                            class="form-control" />
+                                                    </div>
+                                        </td>
+                                        <td>
+                                            <div class="form-group">
+                                                <div class="checkbox"><label><input type="checkbox" name="1_2_1_a"
+                                                            id="1_2_1_a" value="1">Retail Shop/ wholesaler</label>
+                                                </div>
+                                                <div class="checkbox"><label><input type="checkbox" name="1_2_1_b"
+                                                            id="1_2_1_b" value="2">Agrarian Devlopment Centre</label>
+                                                </div>
+                                                <div class="checkbox"><label><input type="checkbox" name="1_2_1_c"
+                                                            id="1_2_1_c" value="3">Fellow farmer</label> </div>
+                                                <div class="checkbox"><label><input type="checkbox" name="1_2_1_d"
+                                                            id="1_2_1_d" value="4">Farmer association or
+                                                        cooperative</label></div>
+                                                <div class="checkbox"> <label><input type="checkbox" name="1_2_1_e"
+                                                            id="1_2_1_e" value="5">Neighbour</label> </div>
+                                                <div class="checkbox"> <label><input type="checkbox" name="1_2_1_e"
+                                                            id="1_2_1_e" value="6">Other</label> </div>
+                                                <div>1.1.12.1 <input type="text" name="1_1_12_1" id="1_1_12_1"
+                                                        class="form-control" />
+                                                </div>
+                                                <hr>
+                                                <div class="form-group">
+                                                    <div class="checkbox"><label><input type="checkbox" name="1_2_1_a"
+                                                                id="1_2_1_a" value="1">Retail Shop/ wholesaler</label>
+                                                    </div>
+                                                    <div class="checkbox"><label><input type="checkbox" name="1_2_1_b"
+                                                                id="1_2_1_b" value="2">Agrarian Devlopment
+                                                            Centre</label>
+                                                    </div>
+                                                    <div class="checkbox"><label><input type="checkbox" name="1_2_1_c"
+                                                                id="1_2_1_c" value="3">Fellow farmer</label> </div>
+                                                    <div class="checkbox"><label><input type="checkbox" name="1_2_1_d"
+                                                                id="1_2_1_d" value="4">Farmer association or
+                                                            cooperative</label></div>
+                                                    <div class="checkbox"> <label><input type="checkbox" name="1_2_1_e"
+                                                                id="1_2_1_e" value="5">Neighbour</label> </div>
+                                                    <div class="checkbox"> <label><input type="checkbox" name="1_2_1_e"
+                                                                id="1_2_1_e" value="6">Other</label> </div>
+                                                    <div>1.1.12.1 <input type="text" name="1_1_12_1" id="1_1_12_1"
+                                                            class="form-control" />
+                                                    </div>
                                         </td>
 
                                     </tr>
@@ -538,7 +1225,7 @@ if(isset($_POST['btnsubmit']) ) {
                                         <th>3.2.10.Area applied (Acres)</th>
                                         <th>3.2.11.Price per unit (Rs/Kg)</th>
                                         <th>3.2.12.Total Cost (Rs)</th>
-                                        <th>3.2.13.Source (Please use below codes)</th>
+                                        <th colspan="2">3.2.13.Source (Please use below codes)</th>
                                     </tr>
                                     <tr>
                                         <td>
@@ -553,20 +1240,44 @@ if(isset($_POST['btnsubmit']) ) {
                                                                 class="form-control" />
                                         </td>
                                         <td>
-                                            <div>1.1.12.1 <input type="text" name="1_1_12_1" id="1_1_12_1"
+                                        <div>1.1.12.1 <input type="text" name="1_1_12_1" id="1_1_12_1"
                                                     class="form-control" />
+                                                <div>1.1.12.1 <input type="text" name="1_1_12_1" id="1_1_12_1"
+                                                        class="form-control" />
+                                                    <div>1.1.12.1 <input type="text" name="1_1_12_1" id="1_1_12_1"
+                                                            class="form-control" />
+                                                        <div>1.1.12.1 <input type="text" name="1_1_12_1" id="1_1_12_1"
+                                                                class="form-control" />
                                         </td>
                                         <td>
-                                            <div>1.1.12.1 <input type="text" name="1_1_12_1" id="1_1_12_1"
+                                        <div>1.1.12.1 <input type="text" name="1_1_12_1" id="1_1_12_1"
                                                     class="form-control" />
+                                                <div>1.1.12.1 <input type="text" name="1_1_12_1" id="1_1_12_1"
+                                                        class="form-control" />
+                                                    <div>1.1.12.1 <input type="text" name="1_1_12_1" id="1_1_12_1"
+                                                            class="form-control" />
+                                                        <div>1.1.12.1 <input type="text" name="1_1_12_1" id="1_1_12_1"
+                                                                class="form-control" />
                                         </td>
                                         <td>
-                                            <div>1.1.12.1 <input type="text" name="1_1_12_1" id="1_1_12_1"
+                                        <div>1.1.12.1 <input type="text" name="1_1_12_1" id="1_1_12_1"
                                                     class="form-control" />
+                                                <div>1.1.12.1 <input type="text" name="1_1_12_1" id="1_1_12_1"
+                                                        class="form-control" />
+                                                    <div>1.1.12.1 <input type="text" name="1_1_12_1" id="1_1_12_1"
+                                                            class="form-control" />
+                                                        <div>1.1.12.1 <input type="text" name="1_1_12_1" id="1_1_12_1"
+                                                                class="form-control" />
                                         </td>
                                         <td>
-                                            <div>1.1.12.1 <input type="text" name="1_1_12_1" id="1_1_12_1"
+                                        <div>1.1.12.1 <input type="text" name="1_1_12_1" id="1_1_12_1"
                                                     class="form-control" />
+                                                <div>1.1.12.1 <input type="text" name="1_1_12_1" id="1_1_12_1"
+                                                        class="form-control" />
+                                                    <div>1.1.12.1 <input type="text" name="1_1_12_1" id="1_1_12_1"
+                                                            class="form-control" />
+                                                        <div>1.1.12.1 <input type="text" name="1_1_12_1" id="1_1_12_1"
+                                                                class="form-control" />
                                         </td>
                                         <td>
                                             <div class="form-group">
@@ -584,13 +1295,74 @@ if(isset($_POST['btnsubmit']) ) {
                                                 <div class="checkbox"> <label><input type="checkbox" name="1_2_1_e"
                                                             id="1_2_1_e" value="5">Neighbour</label> </div>
                                                 <div class="checkbox"> <label><input type="checkbox" name="1_2_1_e"
-                                                            id="1_2_1_e" value="5">Other</label> </div>
+                                                            id="1_2_1_e" value="6">Other</label> </div>
                                                 <div>1.1.12.1 <input type="text" name="1_1_12_1" id="1_1_12_1"
                                                         class="form-control" />
                                                 </div>
-
+                                                <hr>
+                                                <div class="form-group">
+                                                    <div class="checkbox"><label><input type="checkbox" name="1_2_1_a"
+                                                                id="1_2_1_a" value="1">Retail Shop/ wholesaler</label>
+                                                    </div>
+                                                    <div class="checkbox"><label><input type="checkbox" name="1_2_1_b"
+                                                                id="1_2_1_b" value="2">Agrarian Devlopment
+                                                            Centre</label>
+                                                    </div>
+                                                    <div class="checkbox"><label><input type="checkbox" name="1_2_1_c"
+                                                                id="1_2_1_c" value="3">Fellow farmer</label> </div>
+                                                    <div class="checkbox"><label><input type="checkbox" name="1_2_1_d"
+                                                                id="1_2_1_d" value="4">Farmer association or
+                                                            cooperative</label></div>
+                                                    <div class="checkbox"> <label><input type="checkbox" name="1_2_1_e"
+                                                                id="1_2_1_e" value="5">Neighbour</label> </div>
+                                                    <div class="checkbox"> <label><input type="checkbox" name="1_2_1_e"
+                                                                id="1_2_1_e" value="6">Other</label> </div>
+                                                    <div>1.1.12.1 <input type="text" name="1_1_12_1" id="1_1_12_1"
+                                                            class="form-control" />
+                                                    </div>
                                         </td>
-
+                                        <td>
+                                            <div class="form-group">
+                                                <div class="checkbox"><label><input type="checkbox" name="1_2_1_a"
+                                                            id="1_2_1_a" value="1">Retail Shop/ wholesaler</label>
+                                                </div>
+                                                <div class="checkbox"><label><input type="checkbox" name="1_2_1_b"
+                                                            id="1_2_1_b" value="2">Agrarian Devlopment Centre</label>
+                                                </div>
+                                                <div class="checkbox"><label><input type="checkbox" name="1_2_1_c"
+                                                            id="1_2_1_c" value="3">Fellow farmer</label> </div>
+                                                <div class="checkbox"><label><input type="checkbox" name="1_2_1_d"
+                                                            id="1_2_1_d" value="4">Farmer association or
+                                                        cooperative</label></div>
+                                                <div class="checkbox"> <label><input type="checkbox" name="1_2_1_e"
+                                                            id="1_2_1_e" value="5">Neighbour</label> </div>
+                                                <div class="checkbox"> <label><input type="checkbox" name="1_2_1_e"
+                                                            id="1_2_1_e" value="6">Other</label> </div>
+                                                <div>1.1.12.1 <input type="text" name="1_1_12_1" id="1_1_12_1"
+                                                        class="form-control" />
+                                                </div>
+                                                <hr>
+                                                <div class="form-group">
+                                                    <div class="checkbox"><label><input type="checkbox" name="1_2_1_a"
+                                                                id="1_2_1_a" value="1">Retail Shop/ wholesaler</label>
+                                                    </div>
+                                                    <div class="checkbox"><label><input type="checkbox" name="1_2_1_b"
+                                                                id="1_2_1_b" value="2">Agrarian Devlopment
+                                                            Centre</label>
+                                                    </div>
+                                                    <div class="checkbox"><label><input type="checkbox" name="1_2_1_c"
+                                                                id="1_2_1_c" value="3">Fellow farmer</label> </div>
+                                                    <div class="checkbox"><label><input type="checkbox" name="1_2_1_d"
+                                                                id="1_2_1_d" value="4">Farmer association or
+                                                            cooperative</label></div>
+                                                    <div class="checkbox"> <label><input type="checkbox" name="1_2_1_e"
+                                                                id="1_2_1_e" value="5">Neighbour</label> </div>
+                                                    <div class="checkbox"> <label><input type="checkbox" name="1_2_1_e"
+                                                                id="1_2_1_e" value="6">Other</label> </div>
+                                                    <div>1.1.12.1 <input type="text" name="1_1_12_1" id="1_1_12_1"
+                                                            class="form-control" />
+                                                    </div>
+                                        </td>
                                     </tr>
                                     <tr>
                                         <td>
@@ -605,20 +1377,44 @@ if(isset($_POST['btnsubmit']) ) {
                                                                 class="form-control" />
                                         </td>
                                         <td>
-                                            <div>1.1.12.1 <input type="text" name="1_1_12_1" id="1_1_12_1"
+                                        <div>1.1.12.1 <input type="text" name="1_1_12_1" id="1_1_12_1"
                                                     class="form-control" />
+                                                <div>1.1.12.1 <input type="text" name="1_1_12_1" id="1_1_12_1"
+                                                        class="form-control" />
+                                                    <div>1.1.12.1 <input type="text" name="1_1_12_1" id="1_1_12_1"
+                                                            class="form-control" />
+                                                        <div>1.1.12.1 <input type="text" name="1_1_12_1" id="1_1_12_1"
+                                                                class="form-control" />
+                                        </td>
+                                        <td>
+                                        <div>1.1.12.1 <input type="text" name="1_1_12_1" id="1_1_12_1"
+                                                    class="form-control" />
+                                                <div>1.1.12.1 <input type="text" name="1_1_12_1" id="1_1_12_1"
+                                                        class="form-control" />
+                                                    <div>1.1.12.1 <input type="text" name="1_1_12_1" id="1_1_12_1"
+                                                            class="form-control" />
+                                                        <div>1.1.12.1 <input type="text" name="1_1_12_1" id="1_1_12_1"
+                                                                class="form-control" />
+                                        </td>
+                                        <td>
+                                        <div>1.1.12.1 <input type="text" name="1_1_12_1" id="1_1_12_1"
+                                                    class="form-control" />
+                                                <div>1.1.12.1 <input type="text" name="1_1_12_1" id="1_1_12_1"
+                                                        class="form-control" />
+                                                    <div>1.1.12.1 <input type="text" name="1_1_12_1" id="1_1_12_1"
+                                                            class="form-control" />
+                                                        <div>1.1.12.1 <input type="text" name="1_1_12_1" id="1_1_12_1"
+                                                                class="form-control" />
                                         </td>
                                         <td>
                                             <div>1.1.12.1 <input type="text" name="1_1_12_1" id="1_1_12_1"
                                                     class="form-control" />
-                                        </td>
-                                        <td>
-                                            <div>1.1.12.1 <input type="text" name="1_1_12_1" id="1_1_12_1"
-                                                    class="form-control" />
-                                        </td>
-                                        <td>
-                                            <div>1.1.12.1 <input type="text" name="1_1_12_1" id="1_1_12_1"
-                                                    class="form-control" />
+                                                <div>1.1.12.1 <input type="text" name="1_1_12_1" id="1_1_12_1"
+                                                        class="form-control" />
+                                                    <div>1.1.12.1 <input type="text" name="1_1_12_1" id="1_1_12_1"
+                                                            class="form-control" />
+                                                        <div>1.1.12.1 <input type="text" name="1_1_12_1" id="1_1_12_1"
+                                                                class="form-control" />
                                         </td>
                                         <td>
                                             <div class="form-group">
@@ -636,13 +1432,74 @@ if(isset($_POST['btnsubmit']) ) {
                                                 <div class="checkbox"> <label><input type="checkbox" name="1_2_1_e"
                                                             id="1_2_1_e" value="5">Neighbour</label> </div>
                                                 <div class="checkbox"> <label><input type="checkbox" name="1_2_1_e"
-                                                            id="1_2_1_e" value="5">Other</label> </div>
+                                                            id="1_2_1_e" value="6">Other</label> </div>
                                                 <div>1.1.12.1 <input type="text" name="1_1_12_1" id="1_1_12_1"
                                                         class="form-control" />
                                                 </div>
-
+                                                <hr>
+                                                <div class="form-group">
+                                                    <div class="checkbox"><label><input type="checkbox" name="1_2_1_a"
+                                                                id="1_2_1_a" value="1">Retail Shop/ wholesaler</label>
+                                                    </div>
+                                                    <div class="checkbox"><label><input type="checkbox" name="1_2_1_b"
+                                                                id="1_2_1_b" value="2">Agrarian Devlopment
+                                                            Centre</label>
+                                                    </div>
+                                                    <div class="checkbox"><label><input type="checkbox" name="1_2_1_c"
+                                                                id="1_2_1_c" value="3">Fellow farmer</label> </div>
+                                                    <div class="checkbox"><label><input type="checkbox" name="1_2_1_d"
+                                                                id="1_2_1_d" value="4">Farmer association or
+                                                            cooperative</label></div>
+                                                    <div class="checkbox"> <label><input type="checkbox" name="1_2_1_e"
+                                                                id="1_2_1_e" value="5">Neighbour</label> </div>
+                                                    <div class="checkbox"> <label><input type="checkbox" name="1_2_1_e"
+                                                                id="1_2_1_e" value="6">Other</label> </div>
+                                                    <div>1.1.12.1 <input type="text" name="1_1_12_1" id="1_1_12_1"
+                                                            class="form-control" />
+                                                    </div>
                                         </td>
-
+                                        <td>
+                                            <div class="form-group">
+                                                <div class="checkbox"><label><input type="checkbox" name="1_2_1_a"
+                                                            id="1_2_1_a" value="1">Retail Shop/ wholesaler</label>
+                                                </div>
+                                                <div class="checkbox"><label><input type="checkbox" name="1_2_1_b"
+                                                            id="1_2_1_b" value="2">Agrarian Devlopment Centre</label>
+                                                </div>
+                                                <div class="checkbox"><label><input type="checkbox" name="1_2_1_c"
+                                                            id="1_2_1_c" value="3">Fellow farmer</label> </div>
+                                                <div class="checkbox"><label><input type="checkbox" name="1_2_1_d"
+                                                            id="1_2_1_d" value="4">Farmer association or
+                                                        cooperative</label></div>
+                                                <div class="checkbox"> <label><input type="checkbox" name="1_2_1_e"
+                                                            id="1_2_1_e" value="5">Neighbour</label> </div>
+                                                <div class="checkbox"> <label><input type="checkbox" name="1_2_1_e"
+                                                            id="1_2_1_e" value="6">Other</label> </div>
+                                                <div>1.1.12.1 <input type="text" name="1_1_12_1" id="1_1_12_1"
+                                                        class="form-control" />
+                                                </div>
+                                                <hr>
+                                                <div class="form-group">
+                                                    <div class="checkbox"><label><input type="checkbox" name="1_2_1_a"
+                                                                id="1_2_1_a" value="1">Retail Shop/ wholesaler</label>
+                                                    </div>
+                                                    <div class="checkbox"><label><input type="checkbox" name="1_2_1_b"
+                                                                id="1_2_1_b" value="2">Agrarian Devlopment
+                                                            Centre</label>
+                                                    </div>
+                                                    <div class="checkbox"><label><input type="checkbox" name="1_2_1_c"
+                                                                id="1_2_1_c" value="3">Fellow farmer</label> </div>
+                                                    <div class="checkbox"><label><input type="checkbox" name="1_2_1_d"
+                                                                id="1_2_1_d" value="4">Farmer association or
+                                                            cooperative</label></div>
+                                                    <div class="checkbox"> <label><input type="checkbox" name="1_2_1_e"
+                                                                id="1_2_1_e" value="5">Neighbour</label> </div>
+                                                    <div class="checkbox"> <label><input type="checkbox" name="1_2_1_e"
+                                                                id="1_2_1_e" value="6">Other</label> </div>
+                                                    <div>1.1.12.1 <input type="text" name="1_1_12_1" id="1_1_12_1"
+                                                            class="form-control" />
+                                                    </div>
+                                        </td>
                                     </tr>
 
                                     <tr>
@@ -658,20 +1515,44 @@ if(isset($_POST['btnsubmit']) ) {
                                                                 class="form-control" />
                                         </td>
                                         <td>
-                                            <div>1.1.12.1 <input type="text" name="1_1_12_1" id="1_1_12_1"
+                                        <div>1.1.12.1 <input type="text" name="1_1_12_1" id="1_1_12_1"
                                                     class="form-control" />
+                                                <div>1.1.12.1 <input type="text" name="1_1_12_1" id="1_1_12_1"
+                                                        class="form-control" />
+                                                    <div>1.1.12.1 <input type="text" name="1_1_12_1" id="1_1_12_1"
+                                                            class="form-control" />
+                                                        <div>1.1.12.1 <input type="text" name="1_1_12_1" id="1_1_12_1"
+                                                                class="form-control" />
                                         </td>
                                         <td>
-                                            <div>1.1.12.1 <input type="text" name="1_1_12_1" id="1_1_12_1"
+                                        <div>1.1.12.1 <input type="text" name="1_1_12_1" id="1_1_12_1"
                                                     class="form-control" />
+                                                <div>1.1.12.1 <input type="text" name="1_1_12_1" id="1_1_12_1"
+                                                        class="form-control" />
+                                                    <div>1.1.12.1 <input type="text" name="1_1_12_1" id="1_1_12_1"
+                                                            class="form-control" />
+                                                        <div>1.1.12.1 <input type="text" name="1_1_12_1" id="1_1_12_1"
+                                                                class="form-control" />
                                         </td>
                                         <td>
-                                            <div>1.1.12.1 <input type="text" name="1_1_12_1" id="1_1_12_1"
+                                        <div>1.1.12.1 <input type="text" name="1_1_12_1" id="1_1_12_1"
                                                     class="form-control" />
+                                                <div>1.1.12.1 <input type="text" name="1_1_12_1" id="1_1_12_1"
+                                                        class="form-control" />
+                                                    <div>1.1.12.1 <input type="text" name="1_1_12_1" id="1_1_12_1"
+                                                            class="form-control" />
+                                                        <div>1.1.12.1 <input type="text" name="1_1_12_1" id="1_1_12_1"
+                                                                class="form-control" />
                                         </td>
                                         <td>
-                                            <div>1.1.12.1 <input type="text" name="1_1_12_1" id="1_1_12_1"
+                                        <div>1.1.12.1 <input type="text" name="1_1_12_1" id="1_1_12_1"
                                                     class="form-control" />
+                                                <div>1.1.12.1 <input type="text" name="1_1_12_1" id="1_1_12_1"
+                                                        class="form-control" />
+                                                    <div>1.1.12.1 <input type="text" name="1_1_12_1" id="1_1_12_1"
+                                                            class="form-control" />
+                                                        <div>1.1.12.1 <input type="text" name="1_1_12_1" id="1_1_12_1"
+                                                                class="form-control" />
                                         </td>
                                         <td>
                                             <div class="form-group">
@@ -689,13 +1570,74 @@ if(isset($_POST['btnsubmit']) ) {
                                                 <div class="checkbox"> <label><input type="checkbox" name="1_2_1_e"
                                                             id="1_2_1_e" value="5">Neighbour</label> </div>
                                                 <div class="checkbox"> <label><input type="checkbox" name="1_2_1_e"
-                                                            id="1_2_1_e" value="5">Other</label> </div>
+                                                            id="1_2_1_e" value="6">Other</label> </div>
                                                 <div>1.1.12.1 <input type="text" name="1_1_12_1" id="1_1_12_1"
                                                         class="form-control" />
                                                 </div>
-
+                                                <hr>
+                                                <div class="form-group">
+                                                    <div class="checkbox"><label><input type="checkbox" name="1_2_1_a"
+                                                                id="1_2_1_a" value="1">Retail Shop/ wholesaler</label>
+                                                    </div>
+                                                    <div class="checkbox"><label><input type="checkbox" name="1_2_1_b"
+                                                                id="1_2_1_b" value="2">Agrarian Devlopment
+                                                            Centre</label>
+                                                    </div>
+                                                    <div class="checkbox"><label><input type="checkbox" name="1_2_1_c"
+                                                                id="1_2_1_c" value="3">Fellow farmer</label> </div>
+                                                    <div class="checkbox"><label><input type="checkbox" name="1_2_1_d"
+                                                                id="1_2_1_d" value="4">Farmer association or
+                                                            cooperative</label></div>
+                                                    <div class="checkbox"> <label><input type="checkbox" name="1_2_1_e"
+                                                                id="1_2_1_e" value="5">Neighbour</label> </div>
+                                                    <div class="checkbox"> <label><input type="checkbox" name="1_2_1_e"
+                                                                id="1_2_1_e" value="6">Other</label> </div>
+                                                    <div>1.1.12.1 <input type="text" name="1_1_12_1" id="1_1_12_1"
+                                                            class="form-control" />
+                                                    </div>
                                         </td>
-
+                                        <td>
+                                            <div class="form-group">
+                                                <div class="checkbox"><label><input type="checkbox" name="1_2_1_a"
+                                                            id="1_2_1_a" value="1">Retail Shop/ wholesaler</label>
+                                                </div>
+                                                <div class="checkbox"><label><input type="checkbox" name="1_2_1_b"
+                                                            id="1_2_1_b" value="2">Agrarian Devlopment Centre</label>
+                                                </div>
+                                                <div class="checkbox"><label><input type="checkbox" name="1_2_1_c"
+                                                            id="1_2_1_c" value="3">Fellow farmer</label> </div>
+                                                <div class="checkbox"><label><input type="checkbox" name="1_2_1_d"
+                                                            id="1_2_1_d" value="4">Farmer association or
+                                                        cooperative</label></div>
+                                                <div class="checkbox"> <label><input type="checkbox" name="1_2_1_e"
+                                                            id="1_2_1_e" value="5">Neighbour</label> </div>
+                                                <div class="checkbox"> <label><input type="checkbox" name="1_2_1_e"
+                                                            id="1_2_1_e" value="6">Other</label> </div>
+                                                <div>1.1.12.1 <input type="text" name="1_1_12_1" id="1_1_12_1"
+                                                        class="form-control" />
+                                                </div>
+                                                <hr>
+                                                <div class="form-group">
+                                                    <div class="checkbox"><label><input type="checkbox" name="1_2_1_a"
+                                                                id="1_2_1_a" value="1">Retail Shop/ wholesaler</label>
+                                                    </div>
+                                                    <div class="checkbox"><label><input type="checkbox" name="1_2_1_b"
+                                                                id="1_2_1_b" value="2">Agrarian Devlopment
+                                                            Centre</label>
+                                                    </div>
+                                                    <div class="checkbox"><label><input type="checkbox" name="1_2_1_c"
+                                                                id="1_2_1_c" value="3">Fellow farmer</label> </div>
+                                                    <div class="checkbox"><label><input type="checkbox" name="1_2_1_d"
+                                                                id="1_2_1_d" value="4">Farmer association or
+                                                            cooperative</label></div>
+                                                    <div class="checkbox"> <label><input type="checkbox" name="1_2_1_e"
+                                                                id="1_2_1_e" value="5">Neighbour</label> </div>
+                                                    <div class="checkbox"> <label><input type="checkbox" name="1_2_1_e"
+                                                                id="1_2_1_e" value="6">Other</label> </div>
+                                                    <div>1.1.12.1 <input type="text" name="1_1_12_1" id="1_1_12_1"
+                                                            class="form-control" />
+                                                    </div>
+                                        </td>
                                     </tr>
                                     <tr>
                                         <td>
@@ -710,20 +1652,44 @@ if(isset($_POST['btnsubmit']) ) {
                                                                 class="form-control" />
                                         </td>
                                         <td>
-                                            <div>1.1.12.1 <input type="text" name="1_1_12_1" id="1_1_12_1"
+                                        <div>1.1.12.1 <input type="text" name="1_1_12_1" id="1_1_12_1"
                                                     class="form-control" />
+                                                <div>1.1.12.1 <input type="text" name="1_1_12_1" id="1_1_12_1"
+                                                        class="form-control" />
+                                                    <div>1.1.12.1 <input type="text" name="1_1_12_1" id="1_1_12_1"
+                                                            class="form-control" />
+                                                        <div>1.1.12.1 <input type="text" name="1_1_12_1" id="1_1_12_1"
+                                                                class="form-control" />
                                         </td>
                                         <td>
-                                            <div>1.1.12.1 <input type="text" name="1_1_12_1" id="1_1_12_1"
+                                        <div>1.1.12.1 <input type="text" name="1_1_12_1" id="1_1_12_1"
                                                     class="form-control" />
+                                                <div>1.1.12.1 <input type="text" name="1_1_12_1" id="1_1_12_1"
+                                                        class="form-control" />
+                                                    <div>1.1.12.1 <input type="text" name="1_1_12_1" id="1_1_12_1"
+                                                            class="form-control" />
+                                                        <div>1.1.12.1 <input type="text" name="1_1_12_1" id="1_1_12_1"
+                                                                class="form-control" />
                                         </td>
                                         <td>
-                                            <div>1.1.12.1 <input type="text" name="1_1_12_1" id="1_1_12_1"
+                                        <div>1.1.12.1 <input type="text" name="1_1_12_1" id="1_1_12_1"
                                                     class="form-control" />
+                                                <div>1.1.12.1 <input type="text" name="1_1_12_1" id="1_1_12_1"
+                                                        class="form-control" />
+                                                    <div>1.1.12.1 <input type="text" name="1_1_12_1" id="1_1_12_1"
+                                                            class="form-control" />
+                                                        <div>1.1.12.1 <input type="text" name="1_1_12_1" id="1_1_12_1"
+                                                                class="form-control" />
                                         </td>
                                         <td>
-                                            <div>1.1.12.1 <input type="text" name="1_1_12_1" id="1_1_12_1"
+                                        <div>1.1.12.1 <input type="text" name="1_1_12_1" id="1_1_12_1"
                                                     class="form-control" />
+                                                <div>1.1.12.1 <input type="text" name="1_1_12_1" id="1_1_12_1"
+                                                        class="form-control" />
+                                                    <div>1.1.12.1 <input type="text" name="1_1_12_1" id="1_1_12_1"
+                                                            class="form-control" />
+                                                        <div>1.1.12.1 <input type="text" name="1_1_12_1" id="1_1_12_1"
+                                                                class="form-control" />
                                         </td>
                                         <td>
                                             <div class="form-group">
@@ -741,31 +1707,116 @@ if(isset($_POST['btnsubmit']) ) {
                                                 <div class="checkbox"> <label><input type="checkbox" name="1_2_1_e"
                                                             id="1_2_1_e" value="5">Neighbour</label> </div>
                                                 <div class="checkbox"> <label><input type="checkbox" name="1_2_1_e"
-                                                            id="1_2_1_e" value="5">Other</label> </div>
+                                                            id="1_2_1_e" value="6">Other</label> </div>
                                                 <div>1.1.12.1 <input type="text" name="1_1_12_1" id="1_1_12_1"
                                                         class="form-control" />
                                                 </div>
-
+                                                <hr>
+                                                <div class="form-group">
+                                                    <div class="checkbox"><label><input type="checkbox" name="1_2_1_a"
+                                                                id="1_2_1_a" value="1">Retail Shop/ wholesaler</label>
+                                                    </div>
+                                                    <div class="checkbox"><label><input type="checkbox" name="1_2_1_b"
+                                                                id="1_2_1_b" value="2">Agrarian Devlopment
+                                                            Centre</label>
+                                                    </div>
+                                                    <div class="checkbox"><label><input type="checkbox" name="1_2_1_c"
+                                                                id="1_2_1_c" value="3">Fellow farmer</label> </div>
+                                                    <div class="checkbox"><label><input type="checkbox" name="1_2_1_d"
+                                                                id="1_2_1_d" value="4">Farmer association or
+                                                            cooperative</label></div>
+                                                    <div class="checkbox"> <label><input type="checkbox" name="1_2_1_e"
+                                                                id="1_2_1_e" value="5">Neighbour</label> </div>
+                                                    <div class="checkbox"> <label><input type="checkbox" name="1_2_1_e"
+                                                                id="1_2_1_e" value="6">Other</label> </div>
+                                                    <div>1.1.12.1 <input type="text" name="1_1_12_1" id="1_1_12_1"
+                                                            class="form-control" />
+                                                    </div>
                                         </td>
-
+                                        <td>
+                                            <div class="form-group">
+                                                <div class="checkbox"><label><input type="checkbox" name="1_2_1_a"
+                                                            id="1_2_1_a" value="1">Retail Shop/ wholesaler</label>
+                                                </div>
+                                                <div class="checkbox"><label><input type="checkbox" name="1_2_1_b"
+                                                            id="1_2_1_b" value="2">Agrarian Devlopment Centre</label>
+                                                </div>
+                                                <div class="checkbox"><label><input type="checkbox" name="1_2_1_c"
+                                                            id="1_2_1_c" value="3">Fellow farmer</label> </div>
+                                                <div class="checkbox"><label><input type="checkbox" name="1_2_1_d"
+                                                            id="1_2_1_d" value="4">Farmer association or
+                                                        cooperative</label></div>
+                                                <div class="checkbox"> <label><input type="checkbox" name="1_2_1_e"
+                                                            id="1_2_1_e" value="5">Neighbour</label> </div>
+                                                <div class="checkbox"> <label><input type="checkbox" name="1_2_1_e"
+                                                            id="1_2_1_e" value="6">Other</label> </div>
+                                                <div>1.1.12.1 <input type="text" name="1_1_12_1" id="1_1_12_1"
+                                                        class="form-control" />
+                                                </div>
+                                                <hr>
+                                                <div class="form-group">
+                                                    <div class="checkbox"><label><input type="checkbox" name="1_2_1_a"
+                                                                id="1_2_1_a" value="1">Retail Shop/ wholesaler</label>
+                                                    </div>
+                                                    <div class="checkbox"><label><input type="checkbox" name="1_2_1_b"
+                                                                id="1_2_1_b" value="2">Agrarian Devlopment
+                                                            Centre</label>
+                                                    </div>
+                                                    <div class="checkbox"><label><input type="checkbox" name="1_2_1_c"
+                                                                id="1_2_1_c" value="3">Fellow farmer</label> </div>
+                                                    <div class="checkbox"><label><input type="checkbox" name="1_2_1_d"
+                                                                id="1_2_1_d" value="4">Farmer association or
+                                                            cooperative</label></div>
+                                                    <div class="checkbox"> <label><input type="checkbox" name="1_2_1_e"
+                                                                id="1_2_1_e" value="5">Neighbour</label> </div>
+                                                    <div class="checkbox"> <label><input type="checkbox" name="1_2_1_e"
+                                                                id="1_2_1_e" value="6">Other</label> </div>
+                                                    <div>1.1.12.1 <input type="text" name="1_1_12_1" id="1_1_12_1"
+                                                            class="form-control" />
+                                                    </div>
+                                        </td>
                                     </tr>
                                     <tr>
                                         <td>Manure</td>
                                         <td>
-                                            <div>1.1.12.1 <input type="text" name="1_1_12_1" id="1_1_12_1"
+                                        <div>1.1.12.1 <input type="text" name="1_1_12_1" id="1_1_12_1"
                                                     class="form-control" />
+                                                <div>1.1.12.1 <input type="text" name="1_1_12_1" id="1_1_12_1"
+                                                        class="form-control" />
+                                                    <div>1.1.12.1 <input type="text" name="1_1_12_1" id="1_1_12_1"
+                                                            class="form-control" />
+                                                        <div>1.1.12.1 <input type="text" name="1_1_12_1" id="1_1_12_1"
+                                                                class="form-control" />
                                         </td>
                                         <td>
-                                            <div>1.1.12.1 <input type="text" name="1_1_12_1" id="1_1_12_1"
+                                        <div>1.1.12.1 <input type="text" name="1_1_12_1" id="1_1_12_1"
                                                     class="form-control" />
+                                                <div>1.1.12.1 <input type="text" name="1_1_12_1" id="1_1_12_1"
+                                                        class="form-control" />
+                                                    <div>1.1.12.1 <input type="text" name="1_1_12_1" id="1_1_12_1"
+                                                            class="form-control" />
+                                                        <div>1.1.12.1 <input type="text" name="1_1_12_1" id="1_1_12_1"
+                                                                class="form-control" />
                                         </td>
                                         <td>
-                                            <div>1.1.12.1 <input type="text" name="1_1_12_1" id="1_1_12_1"
+                                        <div>1.1.12.1 <input type="text" name="1_1_12_1" id="1_1_12_1"
                                                     class="form-control" />
+                                                <div>1.1.12.1 <input type="text" name="1_1_12_1" id="1_1_12_1"
+                                                        class="form-control" />
+                                                    <div>1.1.12.1 <input type="text" name="1_1_12_1" id="1_1_12_1"
+                                                            class="form-control" />
+                                                        <div>1.1.12.1 <input type="text" name="1_1_12_1" id="1_1_12_1"
+                                                                class="form-control" />
                                         </td>
                                         <td>
-                                            <div>1.1.12.1 <input type="text" name="1_1_12_1" id="1_1_12_1"
+                                        <div>1.1.12.1 <input type="text" name="1_1_12_1" id="1_1_12_1"
                                                     class="form-control" />
+                                                <div>1.1.12.1 <input type="text" name="1_1_12_1" id="1_1_12_1"
+                                                        class="form-control" />
+                                                    <div>1.1.12.1 <input type="text" name="1_1_12_1" id="1_1_12_1"
+                                                            class="form-control" />
+                                                        <div>1.1.12.1 <input type="text" name="1_1_12_1" id="1_1_12_1"
+                                                                class="form-control" />
                                         </td>
                                         <td>
                                             <div class="form-group">
@@ -783,32 +1834,118 @@ if(isset($_POST['btnsubmit']) ) {
                                                 <div class="checkbox"> <label><input type="checkbox" name="1_2_1_e"
                                                             id="1_2_1_e" value="5">Neighbour</label> </div>
                                                 <div class="checkbox"> <label><input type="checkbox" name="1_2_1_e"
-                                                            id="1_2_1_e" value="5">Other</label> </div>
+                                                            id="1_2_1_e" value="6">Other</label> </div>
                                                 <div>1.1.12.1 <input type="text" name="1_1_12_1" id="1_1_12_1"
                                                         class="form-control" />
                                                 </div>
+                                                <hr>
+                                                <div class="form-group">
+                                                    <div class="checkbox"><label><input type="checkbox" name="1_2_1_a"
+                                                                id="1_2_1_a" value="1">Retail Shop/ wholesaler</label>
+                                                    </div>
+                                                    <div class="checkbox"><label><input type="checkbox" name="1_2_1_b"
+                                                                id="1_2_1_b" value="2">Agrarian Devlopment
+                                                            Centre</label>
+                                                    </div>
+                                                    <div class="checkbox"><label><input type="checkbox" name="1_2_1_c"
+                                                                id="1_2_1_c" value="3">Fellow farmer</label> </div>
+                                                    <div class="checkbox"><label><input type="checkbox" name="1_2_1_d"
+                                                                id="1_2_1_d" value="4">Farmer association or
+                                                            cooperative</label></div>
+                                                    <div class="checkbox"> <label><input type="checkbox" name="1_2_1_e"
+                                                                id="1_2_1_e" value="5">Neighbour</label> </div>
+                                                    <div class="checkbox"> <label><input type="checkbox" name="1_2_1_e"
+                                                                id="1_2_1_e" value="6">Other</label> </div>
+                                                    <div>1.1.12.1 <input type="text" name="1_1_12_1" id="1_1_12_1"
+                                                            class="form-control" />
+                                                    </div>
                                         </td>
-
+                                        <td>
+                                            <div class="form-group">
+                                                <div class="checkbox"><label><input type="checkbox" name="1_2_1_a"
+                                                            id="1_2_1_a" value="1">Retail Shop/ wholesaler</label>
+                                                </div>
+                                                <div class="checkbox"><label><input type="checkbox" name="1_2_1_b"
+                                                            id="1_2_1_b" value="2">Agrarian Devlopment Centre</label>
+                                                </div>
+                                                <div class="checkbox"><label><input type="checkbox" name="1_2_1_c"
+                                                            id="1_2_1_c" value="3">Fellow farmer</label> </div>
+                                                <div class="checkbox"><label><input type="checkbox" name="1_2_1_d"
+                                                            id="1_2_1_d" value="4">Farmer association or
+                                                        cooperative</label></div>
+                                                <div class="checkbox"> <label><input type="checkbox" name="1_2_1_e"
+                                                            id="1_2_1_e" value="5">Neighbour</label> </div>
+                                                <div class="checkbox"> <label><input type="checkbox" name="1_2_1_e"
+                                                            id="1_2_1_e" value="6">Other</label> </div>
+                                                <div>1.1.12.1 <input type="text" name="1_1_12_1" id="1_1_12_1"
+                                                        class="form-control" />
+                                                </div>
+                                                <hr>
+                                                <div class="form-group">
+                                                    <div class="checkbox"><label><input type="checkbox" name="1_2_1_a"
+                                                                id="1_2_1_a" value="1">Retail Shop/ wholesaler</label>
+                                                    </div>
+                                                    <div class="checkbox"><label><input type="checkbox" name="1_2_1_b"
+                                                                id="1_2_1_b" value="2">Agrarian Devlopment
+                                                            Centre</label>
+                                                    </div>
+                                                    <div class="checkbox"><label><input type="checkbox" name="1_2_1_c"
+                                                                id="1_2_1_c" value="3">Fellow farmer</label> </div>
+                                                    <div class="checkbox"><label><input type="checkbox" name="1_2_1_d"
+                                                                id="1_2_1_d" value="4">Farmer association or
+                                                            cooperative</label></div>
+                                                    <div class="checkbox"> <label><input type="checkbox" name="1_2_1_e"
+                                                                id="1_2_1_e" value="5">Neighbour</label> </div>
+                                                    <div class="checkbox"> <label><input type="checkbox" name="1_2_1_e"
+                                                                id="1_2_1_e" value="6">Other</label> </div>
+                                                    <div>1.1.12.1 <input type="text" name="1_1_12_1" id="1_1_12_1"
+                                                            class="form-control" />
+                                                    </div>
+                                        </td>
                                     </tr>
 
 
                                     <tr>
                                         <td> Liquid fertilizers</td>
                                         <td>
-                                            <div>1.1.12.1 <input type="text" name="1_1_12_1" id="1_1_12_1"
+                                        <div>1.1.12.1 <input type="text" name="1_1_12_1" id="1_1_12_1"
                                                     class="form-control" />
+                                                <div>1.1.12.1 <input type="text" name="1_1_12_1" id="1_1_12_1"
+                                                        class="form-control" />
+                                                    <div>1.1.12.1 <input type="text" name="1_1_12_1" id="1_1_12_1"
+                                                            class="form-control" />
+                                                        <div>1.1.12.1 <input type="text" name="1_1_12_1" id="1_1_12_1"
+                                                                class="form-control" />
                                         </td>
                                         <td>
-                                            <div>1.1.12.1 <input type="text" name="1_1_12_1" id="1_1_12_1"
+                                        <div>1.1.12.1 <input type="text" name="1_1_12_1" id="1_1_12_1"
                                                     class="form-control" />
+                                                <div>1.1.12.1 <input type="text" name="1_1_12_1" id="1_1_12_1"
+                                                        class="form-control" />
+                                                    <div>1.1.12.1 <input type="text" name="1_1_12_1" id="1_1_12_1"
+                                                            class="form-control" />
+                                                        <div>1.1.12.1 <input type="text" name="1_1_12_1" id="1_1_12_1"
+                                                                class="form-control" />
                                         </td>
                                         <td>
-                                            <div>1.1.12.1 <input type="text" name="1_1_12_1" id="1_1_12_1"
+                                        <div>1.1.12.1 <input type="text" name="1_1_12_1" id="1_1_12_1"
                                                     class="form-control" />
+                                                <div>1.1.12.1 <input type="text" name="1_1_12_1" id="1_1_12_1"
+                                                        class="form-control" />
+                                                    <div>1.1.12.1 <input type="text" name="1_1_12_1" id="1_1_12_1"
+                                                            class="form-control" />
+                                                        <div>1.1.12.1 <input type="text" name="1_1_12_1" id="1_1_12_1"
+                                                                class="form-control" />
                                         </td>
                                         <td>
-                                            <div>1.1.12.1 <input type="text" name="1_1_12_1" id="1_1_12_1"
+                                        <div>1.1.12.1 <input type="text" name="1_1_12_1" id="1_1_12_1"
                                                     class="form-control" />
+                                                <div>1.1.12.1 <input type="text" name="1_1_12_1" id="1_1_12_1"
+                                                        class="form-control" />
+                                                    <div>1.1.12.1 <input type="text" name="1_1_12_1" id="1_1_12_1"
+                                                            class="form-control" />
+                                                        <div>1.1.12.1 <input type="text" name="1_1_12_1" id="1_1_12_1"
+                                                                class="form-control" />
                                         </td>
                                         <td>
                                             <div class="form-group">
@@ -826,32 +1963,117 @@ if(isset($_POST['btnsubmit']) ) {
                                                 <div class="checkbox"> <label><input type="checkbox" name="1_2_1_e"
                                                             id="1_2_1_e" value="5">Neighbour</label> </div>
                                                 <div class="checkbox"> <label><input type="checkbox" name="1_2_1_e"
-                                                            id="1_2_1_e" value="5">Other</label> </div>
+                                                            id="1_2_1_e" value="6">Other</label> </div>
                                                 <div>1.1.12.1 <input type="text" name="1_1_12_1" id="1_1_12_1"
                                                         class="form-control" />
                                                 </div>
-
+                                                <hr>
+                                                <div class="form-group">
+                                                    <div class="checkbox"><label><input type="checkbox" name="1_2_1_a"
+                                                                id="1_2_1_a" value="1">Retail Shop/ wholesaler</label>
+                                                    </div>
+                                                    <div class="checkbox"><label><input type="checkbox" name="1_2_1_b"
+                                                                id="1_2_1_b" value="2">Agrarian Devlopment
+                                                            Centre</label>
+                                                    </div>
+                                                    <div class="checkbox"><label><input type="checkbox" name="1_2_1_c"
+                                                                id="1_2_1_c" value="3">Fellow farmer</label> </div>
+                                                    <div class="checkbox"><label><input type="checkbox" name="1_2_1_d"
+                                                                id="1_2_1_d" value="4">Farmer association or
+                                                            cooperative</label></div>
+                                                    <div class="checkbox"> <label><input type="checkbox" name="1_2_1_e"
+                                                                id="1_2_1_e" value="5">Neighbour</label> </div>
+                                                    <div class="checkbox"> <label><input type="checkbox" name="1_2_1_e"
+                                                                id="1_2_1_e" value="6">Other</label> </div>
+                                                    <div>1.1.12.1 <input type="text" name="1_1_12_1" id="1_1_12_1"
+                                                            class="form-control" />
+                                                    </div>
                                         </td>
-
+                                        <td>
+                                            <div class="form-group">
+                                                <div class="checkbox"><label><input type="checkbox" name="1_2_1_a"
+                                                            id="1_2_1_a" value="1">Retail Shop/ wholesaler</label>
+                                                </div>
+                                                <div class="checkbox"><label><input type="checkbox" name="1_2_1_b"
+                                                            id="1_2_1_b" value="2">Agrarian Devlopment Centre</label>
+                                                </div>
+                                                <div class="checkbox"><label><input type="checkbox" name="1_2_1_c"
+                                                            id="1_2_1_c" value="3">Fellow farmer</label> </div>
+                                                <div class="checkbox"><label><input type="checkbox" name="1_2_1_d"
+                                                            id="1_2_1_d" value="4">Farmer association or
+                                                        cooperative</label></div>
+                                                <div class="checkbox"> <label><input type="checkbox" name="1_2_1_e"
+                                                            id="1_2_1_e" value="5">Neighbour</label> </div>
+                                                <div class="checkbox"> <label><input type="checkbox" name="1_2_1_e"
+                                                            id="1_2_1_e" value="6">Other</label> </div>
+                                                <div>1.1.12.1 <input type="text" name="1_1_12_1" id="1_1_12_1"
+                                                        class="form-control" />
+                                                </div>
+                                                <hr>
+                                                <div class="form-group">
+                                                    <div class="checkbox"><label><input type="checkbox" name="1_2_1_a"
+                                                                id="1_2_1_a" value="1">Retail Shop/ wholesaler</label>
+                                                    </div>
+                                                    <div class="checkbox"><label><input type="checkbox" name="1_2_1_b"
+                                                                id="1_2_1_b" value="2">Agrarian Devlopment
+                                                            Centre</label>
+                                                    </div>
+                                                    <div class="checkbox"><label><input type="checkbox" name="1_2_1_c"
+                                                                id="1_2_1_c" value="3">Fellow farmer</label> </div>
+                                                    <div class="checkbox"><label><input type="checkbox" name="1_2_1_d"
+                                                                id="1_2_1_d" value="4">Farmer association or
+                                                            cooperative</label></div>
+                                                    <div class="checkbox"> <label><input type="checkbox" name="1_2_1_e"
+                                                                id="1_2_1_e" value="5">Neighbour</label> </div>
+                                                    <div class="checkbox"> <label><input type="checkbox" name="1_2_1_e"
+                                                                id="1_2_1_e" value="6">Other</label> </div>
+                                                    <div>1.1.12.1 <input type="text" name="1_1_12_1" id="1_1_12_1"
+                                                            class="form-control" />
+                                                    </div>
+                                        </td>
                                     </tr>
                                     <tr>
                                         <td> Other organic
                                             fertilizers</td>
                                         <td>
-                                            <div>1.1.12.1 <input type="text" name="1_1_12_1" id="1_1_12_1"
+                                        <div>1.1.12.1 <input type="text" name="1_1_12_1" id="1_1_12_1"
                                                     class="form-control" />
+                                                <div>1.1.12.1 <input type="text" name="1_1_12_1" id="1_1_12_1"
+                                                        class="form-control" />
+                                                    <div>1.1.12.1 <input type="text" name="1_1_12_1" id="1_1_12_1"
+                                                            class="form-control" />
+                                                        <div>1.1.12.1 <input type="text" name="1_1_12_1" id="1_1_12_1"
+                                                                class="form-control" />
                                         </td>
                                         <td>
-                                            <div>1.1.12.1 <input type="text" name="1_1_12_1" id="1_1_12_1"
+                                        <div>1.1.12.1 <input type="text" name="1_1_12_1" id="1_1_12_1"
                                                     class="form-control" />
+                                                <div>1.1.12.1 <input type="text" name="1_1_12_1" id="1_1_12_1"
+                                                        class="form-control" />
+                                                    <div>1.1.12.1 <input type="text" name="1_1_12_1" id="1_1_12_1"
+                                                            class="form-control" />
+                                                        <div>1.1.12.1 <input type="text" name="1_1_12_1" id="1_1_12_1"
+                                                                class="form-control" />
                                         </td>
                                         <td>
-                                            <div>1.1.12.1 <input type="text" name="1_1_12_1" id="1_1_12_1"
+                                        <div>1.1.12.1 <input type="text" name="1_1_12_1" id="1_1_12_1"
                                                     class="form-control" />
+                                                <div>1.1.12.1 <input type="text" name="1_1_12_1" id="1_1_12_1"
+                                                        class="form-control" />
+                                                    <div>1.1.12.1 <input type="text" name="1_1_12_1" id="1_1_12_1"
+                                                            class="form-control" />
+                                                        <div>1.1.12.1 <input type="text" name="1_1_12_1" id="1_1_12_1"
+                                                                class="form-control" />
                                         </td>
                                         <td>
-                                            <div>1.1.12.1 <input type="text" name="1_1_12_1" id="1_1_12_1"
+                                        <div>1.1.12.1 <input type="text" name="1_1_12_1" id="1_1_12_1"
                                                     class="form-control" />
+                                                <div>1.1.12.1 <input type="text" name="1_1_12_1" id="1_1_12_1"
+                                                        class="form-control" />
+                                                    <div>1.1.12.1 <input type="text" name="1_1_12_1" id="1_1_12_1"
+                                                            class="form-control" />
+                                                        <div>1.1.12.1 <input type="text" name="1_1_12_1" id="1_1_12_1"
+                                                                class="form-control" />
                                         </td>
                                         <td>
                                             <div class="form-group">
@@ -869,31 +2091,116 @@ if(isset($_POST['btnsubmit']) ) {
                                                 <div class="checkbox"> <label><input type="checkbox" name="1_2_1_e"
                                                             id="1_2_1_e" value="5">Neighbour</label> </div>
                                                 <div class="checkbox"> <label><input type="checkbox" name="1_2_1_e"
-                                                            id="1_2_1_e" value="5">Other</label> </div>
+                                                            id="1_2_1_e" value="6">Other</label> </div>
                                                 <div>1.1.12.1 <input type="text" name="1_1_12_1" id="1_1_12_1"
                                                         class="form-control" />
                                                 </div>
-
+                                                <hr>
+                                                <div class="form-group">
+                                                    <div class="checkbox"><label><input type="checkbox" name="1_2_1_a"
+                                                                id="1_2_1_a" value="1">Retail Shop/ wholesaler</label>
+                                                    </div>
+                                                    <div class="checkbox"><label><input type="checkbox" name="1_2_1_b"
+                                                                id="1_2_1_b" value="2">Agrarian Devlopment
+                                                            Centre</label>
+                                                    </div>
+                                                    <div class="checkbox"><label><input type="checkbox" name="1_2_1_c"
+                                                                id="1_2_1_c" value="3">Fellow farmer</label> </div>
+                                                    <div class="checkbox"><label><input type="checkbox" name="1_2_1_d"
+                                                                id="1_2_1_d" value="4">Farmer association or
+                                                            cooperative</label></div>
+                                                    <div class="checkbox"> <label><input type="checkbox" name="1_2_1_e"
+                                                                id="1_2_1_e" value="5">Neighbour</label> </div>
+                                                    <div class="checkbox"> <label><input type="checkbox" name="1_2_1_e"
+                                                                id="1_2_1_e" value="6">Other</label> </div>
+                                                    <div>1.1.12.1 <input type="text" name="1_1_12_1" id="1_1_12_1"
+                                                            class="form-control" />
+                                                    </div>
                                         </td>
-
+                                        <td>
+                                            <div class="form-group">
+                                                <div class="checkbox"><label><input type="checkbox" name="1_2_1_a"
+                                                            id="1_2_1_a" value="1">Retail Shop/ wholesaler</label>
+                                                </div>
+                                                <div class="checkbox"><label><input type="checkbox" name="1_2_1_b"
+                                                            id="1_2_1_b" value="2">Agrarian Devlopment Centre</label>
+                                                </div>
+                                                <div class="checkbox"><label><input type="checkbox" name="1_2_1_c"
+                                                            id="1_2_1_c" value="3">Fellow farmer</label> </div>
+                                                <div class="checkbox"><label><input type="checkbox" name="1_2_1_d"
+                                                            id="1_2_1_d" value="4">Farmer association or
+                                                        cooperative</label></div>
+                                                <div class="checkbox"> <label><input type="checkbox" name="1_2_1_e"
+                                                            id="1_2_1_e" value="5">Neighbour</label> </div>
+                                                <div class="checkbox"> <label><input type="checkbox" name="1_2_1_e"
+                                                            id="1_2_1_e" value="6">Other</label> </div>
+                                                <div>1.1.12.1 <input type="text" name="1_1_12_1" id="1_1_12_1"
+                                                        class="form-control" />
+                                                </div>
+                                                <hr>
+                                                <div class="form-group">
+                                                    <div class="checkbox"><label><input type="checkbox" name="1_2_1_a"
+                                                                id="1_2_1_a" value="1">Retail Shop/ wholesaler</label>
+                                                    </div>
+                                                    <div class="checkbox"><label><input type="checkbox" name="1_2_1_b"
+                                                                id="1_2_1_b" value="2">Agrarian Devlopment
+                                                            Centre</label>
+                                                    </div>
+                                                    <div class="checkbox"><label><input type="checkbox" name="1_2_1_c"
+                                                                id="1_2_1_c" value="3">Fellow farmer</label> </div>
+                                                    <div class="checkbox"><label><input type="checkbox" name="1_2_1_d"
+                                                                id="1_2_1_d" value="4">Farmer association or
+                                                            cooperative</label></div>
+                                                    <div class="checkbox"> <label><input type="checkbox" name="1_2_1_e"
+                                                                id="1_2_1_e" value="5">Neighbour</label> </div>
+                                                    <div class="checkbox"> <label><input type="checkbox" name="1_2_1_e"
+                                                                id="1_2_1_e" value="6">Other</label> </div>
+                                                    <div>1.1.12.1 <input type="text" name="1_1_12_1" id="1_1_12_1"
+                                                            class="form-control" />
+                                                    </div>
+                                        </td>
                                     </tr>
                                     <tr>
                                         <td> Other</td>
                                         <td>
-                                            <div>1.1.12.1 <input type="text" name="1_1_12_1" id="1_1_12_1"
+                                        <div>1.1.12.1 <input type="text" name="1_1_12_1" id="1_1_12_1"
                                                     class="form-control" />
+                                                <div>1.1.12.1 <input type="text" name="1_1_12_1" id="1_1_12_1"
+                                                        class="form-control" />
+                                                    <div>1.1.12.1 <input type="text" name="1_1_12_1" id="1_1_12_1"
+                                                            class="form-control" />
+                                                        <div>1.1.12.1 <input type="text" name="1_1_12_1" id="1_1_12_1"
+                                                                class="form-control" />
                                         </td>
                                         <td>
-                                            <div>1.1.12.1 <input type="text" name="1_1_12_1" id="1_1_12_1"
+                                        <div>1.1.12.1 <input type="text" name="1_1_12_1" id="1_1_12_1"
                                                     class="form-control" />
+                                                <div>1.1.12.1 <input type="text" name="1_1_12_1" id="1_1_12_1"
+                                                        class="form-control" />
+                                                    <div>1.1.12.1 <input type="text" name="1_1_12_1" id="1_1_12_1"
+                                                            class="form-control" />
+                                                        <div>1.1.12.1 <input type="text" name="1_1_12_1" id="1_1_12_1"
+                                                                class="form-control" />
                                         </td>
                                         <td>
-                                            <div>1.1.12.1 <input type="text" name="1_1_12_1" id="1_1_12_1"
+                                        <div>1.1.12.1 <input type="text" name="1_1_12_1" id="1_1_12_1"
                                                     class="form-control" />
+                                                <div>1.1.12.1 <input type="text" name="1_1_12_1" id="1_1_12_1"
+                                                        class="form-control" />
+                                                    <div>1.1.12.1 <input type="text" name="1_1_12_1" id="1_1_12_1"
+                                                            class="form-control" />
+                                                        <div>1.1.12.1 <input type="text" name="1_1_12_1" id="1_1_12_1"
+                                                                class="form-control" />
                                         </td>
                                         <td>
-                                            <div>1.1.12.1 <input type="text" name="1_1_12_1" id="1_1_12_1"
+                                        <div>1.1.12.1 <input type="text" name="1_1_12_1" id="1_1_12_1"
                                                     class="form-control" />
+                                                <div>1.1.12.1 <input type="text" name="1_1_12_1" id="1_1_12_1"
+                                                        class="form-control" />
+                                                    <div>1.1.12.1 <input type="text" name="1_1_12_1" id="1_1_12_1"
+                                                            class="form-control" />
+                                                        <div>1.1.12.1 <input type="text" name="1_1_12_1" id="1_1_12_1"
+                                                                class="form-control" />
                                         </td>
                                         <td>
                                             <div class="form-group">
@@ -911,13 +2218,74 @@ if(isset($_POST['btnsubmit']) ) {
                                                 <div class="checkbox"> <label><input type="checkbox" name="1_2_1_e"
                                                             id="1_2_1_e" value="5">Neighbour</label> </div>
                                                 <div class="checkbox"> <label><input type="checkbox" name="1_2_1_e"
-                                                            id="1_2_1_e" value="5">Other</label> </div>
+                                                            id="1_2_1_e" value="6">Other</label> </div>
                                                 <div>1.1.12.1 <input type="text" name="1_1_12_1" id="1_1_12_1"
                                                         class="form-control" />
                                                 </div>
-
+                                                <hr>
+                                                <div class="form-group">
+                                                    <div class="checkbox"><label><input type="checkbox" name="1_2_1_a"
+                                                                id="1_2_1_a" value="1">Retail Shop/ wholesaler</label>
+                                                    </div>
+                                                    <div class="checkbox"><label><input type="checkbox" name="1_2_1_b"
+                                                                id="1_2_1_b" value="2">Agrarian Devlopment
+                                                            Centre</label>
+                                                    </div>
+                                                    <div class="checkbox"><label><input type="checkbox" name="1_2_1_c"
+                                                                id="1_2_1_c" value="3">Fellow farmer</label> </div>
+                                                    <div class="checkbox"><label><input type="checkbox" name="1_2_1_d"
+                                                                id="1_2_1_d" value="4">Farmer association or
+                                                            cooperative</label></div>
+                                                    <div class="checkbox"> <label><input type="checkbox" name="1_2_1_e"
+                                                                id="1_2_1_e" value="5">Neighbour</label> </div>
+                                                    <div class="checkbox"> <label><input type="checkbox" name="1_2_1_e"
+                                                                id="1_2_1_e" value="6">Other</label> </div>
+                                                    <div>1.1.12.1 <input type="text" name="1_1_12_1" id="1_1_12_1"
+                                                            class="form-control" />
+                                                    </div>
                                         </td>
-
+                                        <td>
+                                            <div class="form-group">
+                                                <div class="checkbox"><label><input type="checkbox" name="1_2_1_a"
+                                                            id="1_2_1_a" value="1">Retail Shop/ wholesaler</label>
+                                                </div>
+                                                <div class="checkbox"><label><input type="checkbox" name="1_2_1_b"
+                                                            id="1_2_1_b" value="2">Agrarian Devlopment Centre</label>
+                                                </div>
+                                                <div class="checkbox"><label><input type="checkbox" name="1_2_1_c"
+                                                            id="1_2_1_c" value="3">Fellow farmer</label> </div>
+                                                <div class="checkbox"><label><input type="checkbox" name="1_2_1_d"
+                                                            id="1_2_1_d" value="4">Farmer association or
+                                                        cooperative</label></div>
+                                                <div class="checkbox"> <label><input type="checkbox" name="1_2_1_e"
+                                                            id="1_2_1_e" value="5">Neighbour</label> </div>
+                                                <div class="checkbox"> <label><input type="checkbox" name="1_2_1_e"
+                                                            id="1_2_1_e" value="6">Other</label> </div>
+                                                <div>1.1.12.1 <input type="text" name="1_1_12_1" id="1_1_12_1"
+                                                        class="form-control" />
+                                                </div>
+                                                <hr>
+                                                <div class="form-group">
+                                                    <div class="checkbox"><label><input type="checkbox" name="1_2_1_a"
+                                                                id="1_2_1_a" value="1">Retail Shop/ wholesaler</label>
+                                                    </div>
+                                                    <div class="checkbox"><label><input type="checkbox" name="1_2_1_b"
+                                                                id="1_2_1_b" value="2">Agrarian Devlopment
+                                                            Centre</label>
+                                                    </div>
+                                                    <div class="checkbox"><label><input type="checkbox" name="1_2_1_c"
+                                                                id="1_2_1_c" value="3">Fellow farmer</label> </div>
+                                                    <div class="checkbox"><label><input type="checkbox" name="1_2_1_d"
+                                                                id="1_2_1_d" value="4">Farmer association or
+                                                            cooperative</label></div>
+                                                    <div class="checkbox"> <label><input type="checkbox" name="1_2_1_e"
+                                                                id="1_2_1_e" value="5">Neighbour</label> </div>
+                                                    <div class="checkbox"> <label><input type="checkbox" name="1_2_1_e"
+                                                                id="1_2_1_e" value="6">Other</label> </div>
+                                                    <div>1.1.12.1 <input type="text" name="1_1_12_1" id="1_1_12_1"
+                                                            class="form-control" />
+                                                    </div>
+                                        </td>
                                     </tr>
                                 </table>
                             </div>

@@ -38,6 +38,8 @@ $role_id = 1;
     <link rel="stylesheet" href="plugins/daterangepicker/daterangepicker.css">
     <!-- summernote -->
     <link rel="stylesheet" href="plugins/summernote/summernote-bs4.min.css">
+    <link rel="stylesheet" href="dist/css/bootstrap-multiselect.css">
+ 
 </head>
 
 <body class="hold-transition sidebar-mini layout-fixed">
@@ -209,6 +211,10 @@ include($_GET['pg']); }
         <script src="dist/js/demo.js"></script>
         <!-- AdminLTE dashboard demo (This is only for demo purposes) -->
         <script src="dist/js/pages/dashboard.js"></script>
+
+        <script>
+          
+        </script>
         <script>
         $(document).ready(function() {
 
@@ -216,6 +222,8 @@ include($_GET['pg']); }
                 //enable/disable all except checkboxes, based on the row is checked or not
                 $(this).closest('tr').find(":input:not(:first)").attr('disabled', !this.checked);
             });
+
+            
             // for 
             $("#1_2_1_e").click(function() {
 
