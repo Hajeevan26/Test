@@ -133,14 +133,18 @@ else
                                 <label> household_id</label>
                                 <?php
                 //Generate Vehicle id automatically-start
+            
+
+if (!isset($_SESSION)) {
+    session_start();
+}
                 if(isset($_SESSION['household_id'])) {
                     //$sql1 = "select household_id from tblsurvey_question where status=0 order by household_id DESC";
                     $id=$_SESSION['household_id'];
                 }
                else{
-
+                include('connection/config.php');
                 $sql1 = "select household_id from tblsurvey_question order by household_id DESC";
-              
                 $result1 = mysqli_query($con, $sql1) or die("error in insert Vehicle Id:" . mysqli_error($con));
                 $row = mysqli_fetch_assoc($result1);
                 $id = $row['household_id'];
