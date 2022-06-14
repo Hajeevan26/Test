@@ -17,6 +17,8 @@
                         <div class="checkbox"><label><input type="checkbox" name="1_2_1_d" id="1_2_1_d" value="4">Cadjan</label></div>
                         <div class="checkbox"><label><input type="checkbox" name="1_2_1_e" id="1_2_1_e" value="5">Other</label> </div>
 
+<div class="input-group" id="1_2_1_e_ot"><input type="text" required name="1_2_1_e_oth" id="1_2_1_e_oth" class="form-control" /></div>
+
                     </div>
                 </div>
                 <div class="col-md-4">
@@ -28,6 +30,7 @@
                         <div class="checkbox"> <label><input type="checkbox" name="1_2_2_d" id="1_2_2_d" value="4">Other</label> </div>
 
                     </div>
+                    <div class="input-group" id="1_2_2_d_ot"><input type="text" required name="1_2_2_d_oth" id="1_2_2_d_oth" class="form-control" /></div>
                 </div>
                 <div class="col-md-4">
                     <div class="form-group">
@@ -41,6 +44,7 @@
                         <div class="checkbox"> <label><input type="checkbox" name="1_2_3_d" id="1_2_3_d"
                                     value="4">Other</label> </div>
                     </div>
+                    <div class="input-group" id="1_2_3_d_ot"><input type="text" placeholder="other" required name="1_2_3_d_oth" id="1_2_3_d_oth" class="form-control" /></div>
                 </div>
             </div>
             <hr>
@@ -67,6 +71,7 @@
                                     value="8">Other</label></div>
 
                     </div>
+                    <div class="input-group" id="1_2_4_h_ot"><input type="text" placeholder="other" required name="1_2_4_h_oth" id="1_2_4_h_oth" class="form-control" /></div>
                 </div>
                 <div class="col-md-4">
                     <div class="form-group">

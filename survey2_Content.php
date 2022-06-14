@@ -28,8 +28,9 @@
                                 <option value="2">Domestic production </option>
                                 <option value="3">Both</option>
                                 <option value="4">Other</option>
-
                             </select>
+                            <div class="input-group" id="2_2_ot"><input type="text" placeholder="other" required
+                                    name="2_2_oth" id="2_2_oth" class="form-control" /></div>
                         </div>
 
                     </div>
@@ -38,7 +39,7 @@
                     <div class="form-group">
                         <label>2.3 Years of experience in paddy cultivation</label>
                         <div class="row">
-                            <div class="col-md-15"><input type="text" name="2_3" id="2_3" placeholder="Year"
+                            <div class="col-md-15"><input type="number" name="2_3" id="2_3" placeholder="Year"
                                     class="form-control" />
                             </div>
                         </div>
@@ -64,7 +65,7 @@
                     <div class="form-group">
                         <label>2.5 When did you start sowing seeds for the Maha season?</label>
                         <div class="row">
-                            <div class="col-md-15"><input type="text" name="2_5" id="2_5" placeholder="When"
+                            <div class="col-md-15"><input type="number" name="2_5" id="2_5" placeholder="When"
                                     class="form-control" />
                             </div>
                         </div>
@@ -73,30 +74,32 @@
                 </div>
                 <div class="col-md-5">
                     <div class="form-group">
-                        <label>2.6 How did you supply paddy seeds for your cultivation  </label>
-                        <div class="checkbox"><label><input type="checkbox" name="2_6a" id="2_6a" value="1">Paddy seeds were bought from a shop</label></div>
-                        <div class="checkbox"><label><input type="checkbox" name="2_6b" id="2_6b" value="2">Paddy seeds were supplied by the government</label></div>
-                        <div class="checkbox"><label><input type="checkbox" name="2_6c" id="2_6c"
-                                    value="3">Used own seed paddy </label></div>
-                        <div class="checkbox"><label><input type="checkbox" name="2_6d" id="2_6d"
-                                    value="4">Used a neighbors’ seed paddy
-</label></div>
-<div class="checkbox"><label><input type="checkbox" name="2_6e" id="2_6e"
-                                    value="5">Seed paddy was provided by the landowner
-</label></div>
-<div class="checkbox"><label><input type="checkbox" name="2_6f" id="2_6f"
-                                    value="6">Other
-</label></div>
+                        <label>2.6 How did you supply paddy seeds for your cultivation </label>
+                        <div class="checkbox"><label><input type="checkbox" name="2_6a" id="2_6a" value="1">Paddy seeds
+                                were bought from a shop</label></div>
+                        <div class="checkbox"><label><input type="checkbox" name="2_6b" id="2_6b" value="2">Paddy seeds
+                                were supplied by the government</label></div>
+                        <div class="checkbox"><label><input type="checkbox" name="2_6c" id="2_6c" value="3">Used own
+                                seed paddy </label></div>
+                        <div class="checkbox"><label><input type="checkbox" name="2_6d" id="2_6d" value="4">Used a
+                                neighbors’ seed paddy
+                            </label></div>
+                        <div class="checkbox"><label><input type="checkbox" name="2_6e" id="2_6e" value="5">Seed paddy
+                                was provided by the landowner
+                            </label></div>
+                        <div class="checkbox"><label><input type="checkbox" name="2_6f" id="2_6f" value="6">Other
+                            </label></div>
 
                     </div>
+                    <div class="input-group" id="2_6_ot"><input type="text" required name="2_6_oth" id="2_6_oth" class="form-control" /></div>
                 </div>
                 <div class="col-md-4">
-                <div class="input-group">
-                <label>2.7 </label>
+                    <div class="input-group">
+                        <label>2.7 </label>
                         <select class="form-control" name="2_7" id="2_7">
                             <option value="1">Yes </option>
                             <option value="2">No</option>
-                           
+
                         </select>
                     </div>
                 </div>
@@ -105,11 +108,11 @@
             <!-- 3rd -->
             <hr>
             <div class="row">
-            <div class="col-md-6">
+                <div class="col-md-6">
                     <div class="form-group">
                         <label>2.8 How long did you join the farmer organization?</label>
                         <div class="row">
-                            <div class="col-md-15"><input type="text" name="2_8" id="2_8" placeholder="Years"
+                            <div class="col-md-15"><input type="number" name="2_8" id="2_8" placeholder="Years"
                                     class="form-control" />
                             </div>
                         </div>
@@ -117,7 +120,7 @@
                 </div>
             </div>
             <hr>
-           
+
             <div class="card-footer">
 
                 <button type="reset" class="btn btn-default">Reset Button</button>
