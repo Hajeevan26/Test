@@ -60,13 +60,11 @@ if(isset($_POST['btnsubmit']) ) {
 ?>
 <div class="content">
     <div class="container-fluid">
-        <h2>2. Farm information </h2>
+        <h2>Paddy Sales of the last season (Maha 2021/22) </h2>
         Household number is -<?php echo $household_id; ?>
         <form role="form" action="" method="post">
             <div class="widget-header">
-                <h4 class="widget-title">
-                    <center>2. Farm information</center>
-                </h4>
+                
 
             </div>
             <input type="hidden" id="household_id" name="household_id" value="<?php echo $household_id; ?>">

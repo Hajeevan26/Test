@@ -1,7 +1,7 @@
 <form role="form" action="" method="post">
     <div class="card card-primary">
         <div class="card-header">
-            6. Decision on conversion into organic farming
+        6.	Decision on conversion into organic farming
         </div>
 
         <div class="card-body">
@@ -20,7 +20,7 @@
                     <div class="input-group">
                         <label>6.2. What do you think about the policy decision of the government to become fully
                             organic suddenly?</label>
-                        <select class="form-control" name="6_1" id="6_1">
+                        <select class="form-control" name="6_2" id="6_2">
                             <option value="1">It was a good and timely decision
                             </option>
                             <option value="2">It would have become a good decision if it had a long term and
@@ -29,10 +29,10 @@
                             <option value="3">It was not a good decision since becoming fully organic cannot
                                 be achieved
                             </option>
-                            <option value="3">It was not a good decision as the yield might drop drastically
+                            <option value="4">It was not a good decision as the yield might drop drastically
 
                             </option>
-                            <option value="4">Other
+                            <option value="5">Other
 
                             </option>
 
@@ -48,7 +48,7 @@
             </div>
 
             <!-- 2nd row -->
-
+<hr>
 
             <!-- 3rd -->
 
@@ -83,31 +83,41 @@
 
 
                     </div>
-                    <div id="6_3">
+                    <div id="6_3_ot">
                         <div class="input-group">
-                            <input type="text" required name="6_3_ot" id="6_3_ot" class="form-control" />
+                            <input type="text" required name="6_3_oth" id="6_3_oth" class="form-control" />
                         </div>
                     </div>
                 </div>
 
-                <div class="col-md-6">
+                
+            </div>
+            <hr>
+<div class="row">
+<div class="col-md-12">
                     <div class="form-group">
-                        <label><u>1.2.1 Roof </u></label>
-                        <div class="checkbox"><label><input type="checkbox" name="1_2_1_a" id="1_2_1_a"
-                                    value="1">Tile</label> </div>
-                        <div class="checkbox"><label><input type="checkbox" name="1_2_1_b" id="1_2_1_b" value="2">Corru.
-                                Asbestos</label> </div>
-                        <div class="checkbox"><label><input type="checkbox" name="1_2_1_c" id="1_2_1_c"
-                                    value="3">Tin/Alu. sheets</label> </div>
-                        <div class="checkbox"><label><input type="checkbox" name="1_2_1_d" id="1_2_1_d"
-                                    value="4">Cadjan</label></div>
-                        <div class="checkbox"> <label><input type="checkbox" name="1_2_1_e" id="1_2_1_e"
-                                    value="5">Other</label> </div>
+                        <label><u>6.4.Have you received sufficient amounts of fertilizers during last Maha season?</u></label>
+                        <div class="checkbox"><label><input type="checkbox" name="6_4a" id="6_4a"
+                                    value="1">6.4.	Have you received sufficient amounts of fertilizers during last Maha season?</label> </div>
+                        <div class="checkbox"><label><input type="checkbox" name="6_4b" id="6_4b" value="2">I could not find any inorganic fertilizer during this season; however, I could manage with some inorganic fertilizers I had</label> </div>
+                        <div class="checkbox"><label><input type="checkbox" name="6_4c" id="6_4c"
+                                    value="3">I paid a huge amount of money than before to buy inorganic fertilizers from some sellers</label> </div>
+                        <div class="checkbox"><label><input type="checkbox" name="6_4d" id="6_4d"
+                                    value="4">I started my own organic fertilizer production and used them for paddy field</label></div>
+                                    <div class="checkbox"> <label><input type="checkbox" name="6_4f" id="6_4f"
+                                    value="5">I bought sufficient amounts of organic fertilizers from sellers</label> </div>
+                                    <div class="checkbox"> <label><input type="checkbox" name="6_4g" id="6_4g"
+                                    value="6">I received organic fertilizer free of charge sufficiently</label> </div>
+                                    <div class="checkbox"> <label><input type="checkbox" name="6_4h" id="6_4h"
+                                    value="7">I received organic fertilizer free of charge but not sufficient enough</label> </div>
+                                    <div class="checkbox"> <label><input type="checkbox" name="6_4i" id="6_4i"
+                                    value="8">Did not apply any fertilizers</label> </div>           
+                        <div class="checkbox"> <label><input type="checkbox" name="6_4j" id="6_4j"
+                                    value="9">Other</label> </div>
 
                     </div>
                 </div>
-            </div>
-
+</div>
 
             <div class="card-footer">
 

@@ -63,7 +63,7 @@ if(isset($_POST['btnsubmit']) ) {
         <form role="form" action="" method="post">
             <div class="widget-header">
                 <h4 class="widget-title">
-                    <center>2. Farm information</center>
+                    <center>6.Decision on conversion into organic farming</center>
                 </h4>
 
             </div>
