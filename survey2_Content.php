@@ -23,7 +23,7 @@
                     <div class="form-group">
                         <label>2.2 What is your sector of paddy cultivation?</label>
                         <div class="row">
-                            <select class="form-control" name="2_2" id="2_2">
+                            <select class="form-control" name="2_2" id="2_2" onchange="eDoth(this,4,'2_2_oth')" >
                                 <option value="1">Commercial </option>
                                 <option value="2">Domestic production </option>
                                 <option value="3">Both</option>
@@ -87,7 +87,7 @@
                         <div class="checkbox"><label><input type="checkbox" name="2_6e" id="2_6e" value="5">Seed paddy
                                 was provided by the landowner
                             </label></div>
-                        <div class="checkbox"><label><input type="checkbox" name="2_6f" id="2_6f" value="6">Other
+                        <div class="checkbox"><label><input type="checkbox" name="2_6f" id="2_6f" value="6" onclick="eDcheckOT('2_6f','2_6_f_oth')">Other
                             </label></div>
 
                     </div>

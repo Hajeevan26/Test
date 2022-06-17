@@ -90,17 +90,17 @@ if(isset($_POST['btnsubmit']) ) {
                                 <div class="checkbox"><label><input type="checkbox" name="2_16f" id="2_16f"
                                             value="6">Combined harvester
                                     </label></div>
-                                    <div class="checkbox"><label><input type="checkbox" name="2_16f" id="2_16f"
+                                    <div class="checkbox"><label><input type="checkbox" name="2_16g" id="2_16g"
                                             value="7">Sprayers
                                     </label></div>
-                                    <div class="checkbox"><label><input type="checkbox" name="2_16f" id="2_16f"
+                                    <div class="checkbox"><label><input type="checkbox" name="2_16h" id="2_16h"
                                             value="8">Water pump
                                     </label></div>
-                                    <div class="checkbox"><label><input type="checkbox" name="2_16f" id="2_16f"
+                                    <div class="checkbox"><label><input type="checkbox" name="2_16i" id="2_16i"
                                             value="9">Agro-wells
                                     </label></div>
-                                    <div class="checkbox"><label><input type="checkbox" name="2_16f" id="2_16f"
-                                            value="10">Others
+                                    <div class="checkbox"><label><input type="checkbox" name="2_16j" id="2_16j"
+                                            value="10" onclick="eDcheckOT('2_16j','2_16f_oth')">Others
                                     </label></div>
 
                             </div>
