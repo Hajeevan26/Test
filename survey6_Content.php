@@ -97,23 +97,15 @@
 <div class="col-md-12">
                     <div class="form-group">
                         <label><u>6.4.Have you received sufficient amounts of fertilizers during last Maha season?</u></label>
-                        <div class="checkbox"><label><input type="checkbox" name="6_4a" id="6_4a"
-                                    value="1">6.4.	Have you received sufficient amounts of fertilizers during last Maha season?</label> </div>
+                        <div class="checkbox"><label><input type="checkbox" name="6_4a" id="6_4a" value="1">6.4.	Have you received sufficient amounts of fertilizers during last Maha season?</label> </div>
                         <div class="checkbox"><label><input type="checkbox" name="6_4b" id="6_4b" value="2">I could not find any inorganic fertilizer during this season; however, I could manage with some inorganic fertilizers I had</label> </div>
-                        <div class="checkbox"><label><input type="checkbox" name="6_4c" id="6_4c"
-                                    value="3">I paid a huge amount of money than before to buy inorganic fertilizers from some sellers</label> </div>
-                        <div class="checkbox"><label><input type="checkbox" name="6_4d" id="6_4d"
-                                    value="4">I started my own organic fertilizer production and used them for paddy field</label></div>
-                                    <div class="checkbox"> <label><input type="checkbox" name="6_4f" id="6_4f"
-                                    value="5">I bought sufficient amounts of organic fertilizers from sellers</label> </div>
-                                    <div class="checkbox"> <label><input type="checkbox" name="6_4g" id="6_4g"
-                                    value="6">I received organic fertilizer free of charge sufficiently</label> </div>
-                                    <div class="checkbox"> <label><input type="checkbox" name="6_4h" id="6_4h"
-                                    value="7">I received organic fertilizer free of charge but not sufficient enough</label> </div>
-                                    <div class="checkbox"> <label><input type="checkbox" name="6_4i" id="6_4i"
-                                    value="8">Did not apply any fertilizers</label> </div>           
-                        <div class="checkbox"> <label><input type="checkbox" name="6_4j" id="6_4j"
-                                    value="9">Other</label> </div>
+                        <div class="checkbox"><label><input type="checkbox" name="6_4c" id="6_4c" value="3">I paid a huge amount of money than before to buy inorganic fertilizers from some sellers</label> </div>
+                        <div class="checkbox"><label><input type="checkbox" name="6_4d" id="6_4d" value="4">I started my own organic fertilizer production and used them for paddy field</label></div>
+                        <div class="checkbox"><label><input type="checkbox" name="6_4e" id="6_4e"value="5">I bought sufficient amounts of organic fertilizers from sellers</label> </div>
+                        <div class="checkbox"><label><input type="checkbox" name="6_4f" id="6_4f" value="6">I received organic fertilizer free of charge sufficiently</label> </div>
+                        <div class="checkbox"><label><input type="checkbox" name="6_4g" id="6_4g" value="7">I received organic fertilizer free of charge but not sufficient enough</label> </div>
+                        <div class="checkbox"><label><input type="checkbox" name="6_4h" id="6_4h" value="8">Did not apply any fertilizers</label> </div>           
+                        <div class="checkbox"><label><input type="checkbox" name="6_4i" id="6_4i" value="9">Other</label> </div>
 
                     </div>
                 </div>

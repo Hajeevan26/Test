@@ -12,16 +12,16 @@
                     <div class="input-group">
                         <label>7.1.What do you think that a country could become 100%
                             organic status suddenly?</label>
-                        <select class="form-control" name="6_1" id="6_1">
+                        <select class="form-control" name="7_1" id="7_1">
                             <option value="1">Yes, but it needs time
                             </option>
                             <option value="2">Yes, sudden decision might work sometimes positively
                             </option>
                             <option value="3">No idea
                             </option>
-                            <option value="3">A country can never do it
+                            <option value="4">A country can never do it
                             </option>
-                            <option value="4">Other
+                            <option value="5">Other
 
                             </option>
 
@@ -110,18 +110,18 @@
                     <div class="form-group">
                         <label>7.4.Under what conditions would you like to cultivate paddy
                             using organic fertilizer? </label>
-                        <div class="checkbox"><label><input type="checkbox" name="1_2_1_a" id="1_2_1_a" value="1">If I
+                        <div class="checkbox"><label><input type="checkbox" name="7_4_a" id="7_4_a" value="1">If I
                                 received organic fertilizer under a subsidized price, I will
                                 continually be doing it</label> </div>
-                        <div class="checkbox"><label><input type="checkbox" name="1_2_1_b" id="1_2_1_b" value="2">If I
+                        <div class="checkbox"><label><input type="checkbox" name="7_4_b" id="7_4_b" value="2">If I
                                 received credit facilities to produce organic fertilizer, I will
                                 start doing it</label> </div>
-                        <div class="checkbox"><label><input type="checkbox" name="1_2_1_c" id="1_2_1_c" value="3">If I
+                        <div class="checkbox"><label><input type="checkbox" name="7_4_c" id="7_4_c" value="3">If I
                                 received sufficient knowledge sharing on organic farming, I
                                 will start doing it</label> </div>
-                        <div class="checkbox"><label><input type="checkbox" name="1_2_1_d" id="1_2_1_d" value="4">No, I
+                        <div class="checkbox"><label><input type="checkbox" name="7_4_d" id="7_4_d" value="4">No, I
                                 don’t like to do organic farming</label></div>
-                        <div> <label><input type="text" placeholder="if other" name="1_2_1_e" id="1_2_1_e">
+                        <div> <label><input type="text" placeholder="if other" name="7_4_e" id="7_4_e">
                         </div>
 
                     </div>
@@ -132,7 +132,7 @@
                 <div class="col-md-6">
                     <div class="input-group">
                         <label>7.5.Do you like to pay for organic fertilizer? </label>
-                        <select class="form-control" name="6_1" id="6_1">
+                        <select class="form-control" name="7_5" id="7_5">
                             <option value="1">Yes</option>
                             <option value="2">No</option>
                         </select>
@@ -141,7 +141,7 @@
                 <div class="col-md-6">
                     <div class="input-group">
                         <label>7.6.Do you like to produce organic fertilizer by your own?</label>
-                        <select class="form-control" name="6_1" id="6_1">
+                        <select class="form-control" name="7_6" id="7_6">
                             <option value="1">Yes</option>
                             <option value="2">No</option>
                         </select>
@@ -156,7 +156,7 @@
                             capacity of organic fertilizer is
                             enough to fulfil the farmers’
                             demand?</label>
-                        <select class="form-control" name="6_1" id="6_1">
+                        <select class="form-control" name="7_7" id="7_7">
                             <option value="1">Strongly agree </option>
                             <option value="2">Agree</option>
                             <option value="3">Neutral</option>
@@ -172,7 +172,7 @@
                             can influence on crop productivity
                             than inorganic fertilizer?
                         </label>
-                        <select class="form-control" name="6_1" id="6_1">
+                        <select class="form-control" name="7_8" id="7_8">
                         <option value="1">Strongly agree </option>
                             <option value="2">Agree</option>
                             <option value="3">Neutral</option>
@@ -185,7 +185,7 @@
                     <div class="input-group">
                         <label>7.9.Do you believe organic farming will
                             help to improve your health?</label>
-                        <select class="form-control" name="6_1" id="6_1">
+                        <select class="form-control" name="7_9" id="7_9">
                         <option value="1">Strongly agree </option>
                             <option value="2">Agree</option>
                             <option value="3">Neutral</option>
@@ -203,7 +203,7 @@
                             capacity of organic fertilizer is
                             enough to fulfil the farmers’
                             demand?</label>
-                        <select class="form-control" name="6_1" id="6_1">
+                        <select class="form-control" name="7_10" id="7_10">
                         <option value="1">Strongly agree </option>
                             <option value="2">Agree</option>
                             <option value="3">Neutral</option>
@@ -217,7 +217,7 @@
                         <label>7.11.Do you believe that organic fertilizer can influence on crop productivity than
                             inorganic fertilizer?
                         </label>
-                        <select class="form-control" name="6_1" id="6_1">
+                        <select class="form-control" name="7_11" id="7_11">
                         <option value="1">Strongly agree </option>
                             <option value="2">Agree</option>
                             <option value="3">Neutral</option>
