@@ -39,7 +39,7 @@ $role_id = 1;
     <!-- summernote -->
     <link rel="stylesheet" href="plugins/summernote/summernote-bs4.min.css">
     <link rel="stylesheet" href="dist/css/bootstrap-multiselect.css">
- 
+
 </head>
 
 <body class="hold-transition sidebar-mini layout-fixed">
@@ -213,7 +213,7 @@ include($_GET['pg']); }
         <script src="dist/js/pages/dashboard.js"></script>
 
         <script>
-          
+
         </script>
         <script>
         $(document).ready(function() {
@@ -223,7 +223,7 @@ include($_GET['pg']); }
                 $(this).closest('tr').find(":input:not(:first)").attr('disabled', !this.checked);
             });
 
-            
+
             // for 
             $("#1_2_1_e").click(function() {
 
@@ -236,12 +236,13 @@ include($_GET['pg']); }
                     $("#1_2_1_e_oth").hide();
                 }
             });
+            //household start 1st row
+
+
         });
         </script>
         <script>
         function updatef2d() {
-
-
             var f2_19 = document.getElementById("2_19").value;
 
             var household_id = document.getElementById("household_id").value;
@@ -265,19 +266,49 @@ include($_GET['pg']); }
         //end select vehicle no
         </script>
 
-<script>
-		function funb3_1_1() {
+        <script>
+        function funb3_1_1() {
 
-			var x = document.getElementById("3_1_1").value;
-			if (x == 5) {
-				var data = "<input type='text'  required  name='3_1_1oth' id='3_1_1oth' placeholder='If other Specify' class='form-control'>";
-				document.getElementById("divid3_1_1").innerHTML = data;
-			} else {
-				document.getElementById("divid3_1_1").innerHTML = "";
-			}
+            var x = document.getElementById("3_1_1").value;
+            if (x == 5) {
+                var data =
+                    "<input type='text'  required  name='3_1_1oth' id='3_1_1oth' placeholder='If other Specify' class='form-control'>";
+                document.getElementById("divid3_1_1").innerHTML = data;
+            } else {
+                document.getElementById("divid3_1_1").innerHTML = "";
+            }
 
-		}
-	</script>
+        }
+        </script>
+        <script type="text/javascript">
+        function eDoth(ddlModels, bl, tx) {
+
+            var tx = tx;
+            var bl = bl;
+            console.log(tx);
+            var selectedValue = ddlModels.options[ddlModels.selectedIndex].value;
+            var txtOther = document.getElementById(tx);
+            txtOther.disabled = selectedValue == bl ? false : true;
+            if (!txtOther.disabled) {
+                txtOther.focus();
+            }
+        }
+        </script>
+        <script>
+        function eDcheckOT(chk, txtot) {
+          
+            var checkBox = document.getElementById(chk);
+            var text = document.getElementById(txtot);
+            console.log(txtot);
+            if (checkBox.checked == true) {
+                text.style.display = "block";
+            } else {
+                text.style.display = "none";
+            }
+
+        }
+        </script>
+
 </body>
 
 </html>

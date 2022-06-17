@@ -31,7 +31,7 @@
                     </div>
                 </td>
                 <td> 1.1.3.1 <div class="input-group">
-                        <select class="form-control" name="1_1_3_1" id="1_1_3_1" onchange="eDoth(this,9,'1_1_3_1_oth')" >
+                        <select class="form-control" name="1_1_3_1" id="1_1_3_1">
                             <option value="1">Head of the household </option>
                             <option value="2">Wife / Husband </option>
                             <option value="3">Son / Daughter </option>
@@ -41,9 +41,6 @@
                             <option value="7">Parents</option>
                             <option value="9">Other</option>
                         </select>
-                    </div>
-                    <div class="input-group" id="1_1_3_1_ot">
-                        <input type="text" required name="1_1_3_1_oth" id="1_1_3_1_oth" class="form-control" />
                     </div>
                 </td>
 
@@ -61,7 +58,7 @@
                             class="form-control col-md-8" />
                 </td>
                 <td> 1.1.6.1 <div class="input-group">
-                        <select class="form-control " name="1_1_6_1" id="1_1_6_1" onchange="eDoth(this,7,'1_1_6_1_oth')">
+                        <select class="form-control " name="1_1_6_1" id="1_1_6_1">
                             <option value="1">Sinhala</option>
                             <option value="2">Sri Lanka Tami</option>
                             <option value="3">India Tamil </option>
@@ -72,22 +69,16 @@
                             <option value="7">Other</option>
                         </select>
                     </div>
-                    <div class="input-group" id="1_1_6_1_ot">
-                        <input type="text" required name="1_1_6_1_oth" id="1_1_6_1_oth" class="form-control" />
-                    </div>
                 </td>
 
                 <td> 1.1.7.1 <div class="input-group">
-                        <select class="form-control" name="1_1_7_1" id="1_1_7_1"onchange="eDoth(this,5,'1_1_7_1_oth')">
+                        <select class="form-control" name="1_1_7_1" id="1_1_7_1">
                             <option value="1">Buddhist</option>
                             <option value="2">Hindu</option>
                             <option value="3">Islam</option>
                             <option value="4">Roman Catholic / Other Christian</option>
                             <option value="5">Other</option>
                         </select>
-                    </div>
-                    <div class="input-group" id="1_1_7_1_ot">
-                        <input type="text" required name="1_1_7_1_oth" id="1_1_7_1_oth" class="form-control" />
                     </div>
                 </td>
                 <td> 1.1.8.1 <div class="input-group">
@@ -124,7 +115,7 @@
                     </div>
                 </td>
                 <td> 1.1.10.1 <div class="input-group">
-                        <select class="form-control" name="1_1_10_1" id="1_1_10_1" onchange="eDoth(this,6,'1_1_10_1_oth')">
+                        <select class="form-control" name="1_1_10_1" id="1_1_10_1">
                             <option value="1">Employed</option>
                             <option value="2">Looking for a job</option>
                             <option value="3">Student</option>
@@ -133,12 +124,9 @@
                             <option value="6">Other</option>
                         </select>
                     </div>
-                    <div class="input-group" id="1_1_10_1_ot">
-                        <input type="text" required name="1_1_10_1_oth" id="1_1_10_1_oth" class="form-control" />
-                    </div>
                 </td>
                 <td> 1.1.11.1 <div class="input-group">
-                        <select class="form-control" name="1_1_11_1" id="1_1_11_1" onchange="eDoth(this,10,'1_1_11_1_oth')">
+                        <select class="form-control" name="1_1_11_1" id="1_1_11_1">
                             <option value="1">Government Employee</option>
                             <option value="2">Semi-government Employee </option>
                             <option value="3">Private sector employee</option>
@@ -150,9 +138,6 @@
                             <option value="9">Contributing family worker</option>
                             <option value="10">other</option>
                         </select>
-                    </div>
-                    <div class="input-group" id="1_1_11_1_ot">
-                        <input type="text" required name="1_1_11_1_oth" id="1_1_11_1_oth" class="form-control" />
                     </div>
                 </td>
                 <td>
@@ -182,7 +167,7 @@
 
                 </td>
                 <td> 1.1.3.2 <div class="input-group">
-                        <select class="form-control" name="1_1_3_2" id="1_1_3_2" onchange="eDoth(this,9,'1_1_3_2_oth')">
+                        <select class="form-control" name="1_1_3_2" id="1_1_3_2">
                             <option value="1">Head of the household </option>
                             <option value="2">Wife / Husband </option>
                             <option value="3">Son / Daughter </option>
@@ -192,9 +177,6 @@
                             <option value="7">Parents</option>
                             <option value="9">Other</option>
                         </select>
-                    </div>
-                    <div class="input-group" id="1_1_3_2_ot">
-                        <input type="text" required name="1_1_3_2_oth" id="1_1_3_2_oth" class="form-control" />
                     </div>
                 </td>
 
@@ -212,32 +194,27 @@
                             class="form-control" />
                 </td>
                 <td> 1.1.6.2 <div class="input-group">
-                        <select class="form-control" name="1_1_6_2" id="1_1_6_2" onchange="eDoth(this,7,'1_1_6_2_oth')">
+                        <select class="form-control" name="1_1_6_2" id="1_1_6_2">
                             <option value="1">Sinhala</option>
                             <option value="2">Sri Lanka Tami</option>
                             <option value="3">India Tamil </option>
                             <option value="4">Sri Lanka Moor</option>
                             <option value="5">Malay</option>
                             <option value="6">Burgher</option>
+
                             <option value="7">Other</option>
                         </select>
-                    </div>
-                    <div class="input-group" id="1_1_6_2_ot">
-                        <input type="text" required name="1_1_6_2_oth" id="1_1_6_2_oth" class="form-control" />
                     </div>
                 </td>
 
                 <td> 1.1.7.2 <div class="input-group">
-                        <select class="form-control" name="1_1_7_2" id="1_1_7_2" onchange="eDoth(this,5,'1_1_7_2_oth')">
+                        <select class="form-control" name="1_1_7_2" id="1_1_7_2">
                             <option value="1">Buddhist</option>
                             <option value="2">Hindu</option>
                             <option value="3">Islam</option>
                             <option value="4">Roman Catholic / Other Christian</option>
                             <option value="5">Other</option>
                         </select>
-                    </div>
-                    <div class="input-group" id="1_1_7_2_ot">
-                        <input type="text" required name="1_1_7_2_oth" id="1_1_7_2_oth" class="form-control" />
                     </div>
                 </td>
                 <td> 1.1.8.2 <div class="input-group">
@@ -274,7 +251,7 @@
                     </div>
                 </td>
                 <td> 1.1.10.2 <div class="input-group">
-                        <select class="form-control" name="1_1_10_2" id="1_1_10_2" onchange="eDoth(this,6,'1_1_10_2_oth')">
+                        <select class="form-control" name="1_1_10_2" id="1_1_10_2">
                             <option value="1">Employed</option>
                             <option value="2">Looking for a job</option>
                             <option value="3">Student</option>
@@ -283,12 +260,9 @@
                             <option value="6">Other</option>
                         </select>
                     </div>
-                    <div class="input-group" id="1_1_10_2_ot">
-                        <input type="text" required name="1_1_10_2_oth" id="1_1_10_2_oth" class="form-control" />
-                    </div>
                 </td>
                 <td> 1.1.11.2 <div class="input-group">
-                        <select class="form-control" name="1_1_11_2" id="1_1_11_2" onchange="eDoth(this,10,'1_1_11_2_oth')">
+                        <select class="form-control" name="1_1_11_2" id="1_1_11_2">
                             <option value="1">Government Employee</option>
                             <option value="2">Semi-government Employee </option>
                             <option value="3">Private sector employee</option>
@@ -300,9 +274,6 @@
                             <option value="9">Contributing family worker</option>
                             <option value="10">other</option>
                         </select>
-                    </div>
-                    <div class="input-group" id="1_1_11_2_ot">
-                        <input type="text" required name="1_1_11_2_oth" id="1_1_11_2_oth" class="form-control" />
                     </div>
                 </td>
                 <td>
@@ -332,7 +303,7 @@
 
                 </td>
                 <td> 1.1.3.3 <div class="input-group">
-                        <select class="form-control" name="1_1_3_3" id="1_1_3_3" onchange="eDoth(this,9,'1_1_3_3_oth')">
+                        <select class="form-control" name="1_1_3_3" id="1_1_3_3">
                             <option value="1">Head of the household </option>
                             <option value="2">Wife / Husband </option>
                             <option value="3">Son / Daughter </option>
@@ -343,9 +314,6 @@
                             <option value="9">Other</option>
                         </select>
                     </div>
-                    <div class="input-group" id="1_1_3_3_ot">
-                        <input type="text" required name="1_1_3_3_oth" id="1_1_3_3_oth" class="form-control" />
-                    </div>
                 </td>
 
                 <td>1.1.4.3
@@ -353,6 +321,7 @@
                         <select class="form-control" name="1_1_4_3" id="1_1_4_3">
                             <option value="1">Male </option>
                             <option value="2">Female</option>
+
                         </select>
                     </div>
                 </td>
@@ -361,32 +330,27 @@
                             class="form-control" />
                 </td>
                 <td> 1.1.6.3 <div class="input-group">
-                        <select class="form-control" name="1_1_6_3" id="1_1_6_3" onchange="eDoth(this,7,'1_1_6_3_oth')">
+                        <select class="form-control" name="1_1_6_3" id="1_1_6_3">
                             <option value="1">Sinhala</option>
                             <option value="2">Sri Lanka Tami</option>
                             <option value="3">India Tamil </option>
                             <option value="4">Sri Lanka Moor</option>
                             <option value="5">Malay</option>
                             <option value="6">Burgher</option>
+
                             <option value="7">Other</option>
                         </select>
-                    </div>
-                    <div class="input-group" id="1_1_6_3_ot">
-                        <input type="text" required name="1_1_6_3_oth" id="1_1_6_3_oth" class="form-control" />
                     </div>
                 </td>
 
                 <td> 1.1.7.3 <div class="input-group">
-                        <select class="form-control" name="1_1_7_3" id="1_1_7_3" onchange="eDoth(this,5,'1_1_7_3_oth')">
+                        <select class="form-control" name="1_1_7_3" id="1_1_7_3">
                             <option value="1">Buddhist</option>
                             <option value="2">Hindu</option>
                             <option value="3">Islam</option>
                             <option value="4">Roman Catholic / Other Christian</option>
                             <option value="5">Other</option>
                         </select>
-                    </div>
-                    <div class="input-group" id="1_1_7_3_ot">
-                        <input type="text" required name="1_1_7_3_oth" id="1_1_7_3_oth" class="form-control" />
                     </div>
                 </td>
                 <td> 1.1.8.3 <div class="input-group">
@@ -423,7 +387,7 @@
                     </div>
                 </td>
                 <td> 1.1.10.3 <div class="input-group">
-                        <select class="form-control" name="1_1_10_3" id="1_1_10_3"  onchange="eDoth(this,6,'1_1_10_3_oth')">
+                        <select class="form-control" name="1_1_10_3" id="1_1_10_3">
                             <option value="1">Employed</option>
                             <option value="2">Looking for a job</option>
                             <option value="3">Student</option>
@@ -432,12 +396,9 @@
                             <option value="6">Other</option>
                         </select>
                     </div>
-                    <div class="input-group" id="1_1_10_3_ot">
-                        <input type="text" required name="1_1_10_3_oth" id="1_1_10_3_oth" class="form-control" />
-                    </div>
                 </td>
                 <td> 1.1.11.3 <div class="input-group">
-                        <select class="form-control" name="1_1_11_3" id="1_1_11_3" onchange="eDoth(this,10,'1_1_11_3_oth')">
+                        <select class="form-control" name="1_1_11_3" id="1_1_11_3">
                             <option value="1">Government Employee</option>
                             <option value="2">Semi-government Employee </option>
                             <option value="3">Private sector employee</option>
@@ -449,9 +410,6 @@
                             <option value="9">Contributing family worker</option>
                             <option value="10">other</option>
                         </select>
-                    </div>
-                    <div class="input-group" id="1_1_11_3_ot">
-                        <input type="text" required name="1_1_11_3_oth" id="1_1_11_3_oth" class="form-control" />
                     </div>
                 </td>
                 <td>
@@ -482,7 +440,7 @@
 
                 </td>
                 <td> 1.1.3.4 <div class="input-group">
-                        <select class="form-control" name="1_1_3_4" id="1_1_3_4" onchange="eDoth(this,9,'1_1_3_4_oth')">
+                        <select class="form-control" name="1_1_3_4" id="1_1_3_4">
                             <option value="1">Head of the household </option>
                             <option value="2">Wife / Husband </option>
                             <option value="3">Son / Daughter </option>
@@ -492,9 +450,6 @@
                             <option value="7">Parents</option>
                             <option value="9">Other</option>
                         </select>
-                    </div>
-                    <div class="input-group" id="1_1_3_4_ot">
-                        <input type="text" required name="1_1_3_4_oth" id="1_1_3_4_oth" class="form-control" />
                     </div>
                 </td>
 
@@ -512,32 +467,27 @@
                             class="form-control" />
                 </td>
                 <td> 1.1.6.4 <div class="input-group">
-                        <select class="form-control" name="1_1_6_4" id="1_1_6_4" onchange="eDoth(this,7,'1_1_6_4_oth')">
+                        <select class="form-control" name="1_1_6_4" id="1_1_6_4">
                             <option value="1">Sinhala</option>
                             <option value="2">Sri Lanka Tami</option>
                             <option value="3">India Tamil </option>
                             <option value="4">Sri Lanka Moor</option>
                             <option value="5">Malay</option>
                             <option value="6">Burgher</option>
+
                             <option value="7">Other</option>
                         </select>
-                    </div>
-                    <div class="input-group" id="1_1_6_4_ot">
-                        <input type="text" required name="1_1_6_4_oth" id="1_1_6_4_oth" class="form-control" />
                     </div>
                 </td>
 
                 <td> 1.1.7.4 <div class="input-group">
-                        <select class="form-control" name="1_1_7_4" id="1_1_7_4"onchange="eDoth(this,7,'1_1_7_4_oth')">>
+                        <select class="form-control" name="1_1_7_4" id="1_1_7_4">
                             <option value="1">Buddhist</option>
                             <option value="2">Hindu</option>
                             <option value="3">Islam</option>
                             <option value="4">Roman Catholic / Other Christian</option>
                             <option value="5">Other</option>
                         </select>
-                    </div>
-                    <div class="input-group" id="1_1_7_4_ot">
-                        <input type="text" required name="1_1_7_4_oth" id="1_1_7_4_oth" class="form-control" />
                     </div>
                 </td>
                 <td> 1.1.8.4 <div class="input-group">
@@ -574,7 +524,7 @@
                     </div>
                 </td>
                 <td> 1.1.10.4 <div class="input-group">
-                        <select class="form-control" name="1_1_10_4" id="1_1_10_4" onchange="eDoth(this,6,'1_1_10_4_oth')">>
+                        <select class="form-control" name="1_1_10_4" id="1_1_10_4">
                             <option value="1">Employed</option>
                             <option value="2">Looking for a job</option>
                             <option value="3">Student</option>
@@ -583,12 +533,9 @@
                             <option value="6">Other</option>
                         </select>
                     </div>
-                    <div class="input-group" id="1_1_10_4_ot">
-                        <input type="text" required name="1_1_10_4_oth" id="1_1_10_4_oth" class="form-control" />
-                    </div>
                 </td>
                 <td> 1.1.11.4 <div class="input-group">
-                        <select class="form-control" name="1_1_11_4" id="1_1_11_4"onchange="eDoth(this,10,'1_1_11_4_oth')">>
+                        <select class="form-control" name="1_1_11_4" id="1_1_11_4">
                             <option value="1">Government Employee</option>
                             <option value="2">Semi-government Employee </option>
                             <option value="3">Private sector employee</option>
@@ -600,9 +547,6 @@
                             <option value="9">Contributing family worker</option>
                             <option value="10">other</option>
                         </select>
-                    </div>
-                    <div class="input-group" id="1_1_11_4_ot">
-                        <input type="text" required name="1_1_11_4_oth" id="1_1_11_4_oth" class="form-control" />
                     </div>
                 </td>
                 <td>
@@ -632,7 +576,7 @@
 
                 </td>
                 <td> 1.1.3.5 <div class="input-group">
-                        <select class="form-control" name="1_1_3_5" id="1_1_3_5" onchange="eDoth(this,9,'1_1_3_5_oth')">
+                        <select class="form-control" name="1_1_3_5" id="1_1_3_5">
                             <option value="1">Head of the household </option>
                             <option value="2">Wife / Husband </option>
                             <option value="3">Son / Daughter </option>
@@ -643,10 +587,6 @@
                             <option value="9">Other</option>
                         </select>
                     </div>
-                    <div class="input-group" id="1_1_3_5_ot">
-                        <input type="text" required name="1_1_3_5_oth" id="1_1_3_5_oth" class="form-control" />
-                    </div>
-
                 </td>
 
                 <td>1.1.4.3
@@ -663,32 +603,27 @@
                             class="form-control" />
                 </td>
                 <td> 1.1.6.5 <div class="input-group">
-                        <select class="form-control" name="1_1_6_5" id="1_1_6_5" onchange="eDoth(this,7,'1_1_6_5_oth')">
+                        <select class="form-control" name="1_1_6_5" id="1_1_6_5">
                             <option value="1">Sinhala</option>
                             <option value="2">Sri Lanka Tami</option>
                             <option value="3">India Tamil </option>
                             <option value="4">Sri Lanka Moor</option>
                             <option value="5">Malay</option>
                             <option value="6">Burgher</option>
+
                             <option value="7">Other</option>
                         </select>
-                    </div>
-                    <div class="input-group" id="1_1_6_5_ot">
-                        <input type="text" required name="1_1_6_5_oth" id="1_1_6_5_oth" class="form-control" />
                     </div>
                 </td>
 
                 <td> 1.1.7.5 <div class="input-group">
-                        <select class="form-control" name="1_1_7_5" id="1_1_7_5" onchange="eDoth(this,5,'1_1_7_5_oth')">
+                        <select class="form-control" name="1_1_7_5" id="1_1_7_5">
                             <option value="1">Buddhist</option>
                             <option value="2">Hindu</option>
                             <option value="3">Islam</option>
                             <option value="4">Roman Catholic / Other Christian</option>
                             <option value="5">Other</option>
                         </select>
-                    </div>
-                    <div class="input-group" id="1_1_7_5_ot">
-                        <input type="text" required name="1_1_7_5_oth" id="1_1_7_5_oth" class="form-control" />
                     </div>
                 </td>
                 <td> 1.1.8.5 <div class="input-group">
@@ -725,7 +660,7 @@
                     </div>
                 </td>
                 <td> 1.1.10.5 <div class="input-group">
-                        <select class="form-control" name="1_1_10_5" id="1_1_10_5" onchange="eDoth(this,6,'1_1_10_5_oth')">
+                        <select class="form-control" name="1_1_10_5" id="1_1_10_5">
                             <option value="1">Employed</option>
                             <option value="2">Looking for a job</option>
                             <option value="3">Student</option>
@@ -734,12 +669,9 @@
                             <option value="6">Other</option>
                         </select>
                     </div>
-                    <div class="input-group" id="1_1_10_5_ot">
-                        <input type="text" required name="1_1_10_5_oth" id="1_1_10_5_oth" class="form-control" />
-                    </div>
                 </td>
                 <td> 1.1.11.5 <div class="input-group">
-                        <select class="form-control" name="1_1_11_5" id="1_1_11_5" onchange="eDoth(this,10,'1_1_11_5_oth')">
+                        <select class="form-control" name="1_1_11_5" id="1_1_11_5">
                             <option value="1">Government Employee</option>
                             <option value="2">Semi-government Employee </option>
                             <option value="3">Private sector employee</option>
@@ -751,9 +683,6 @@
                             <option value="9">Contributing family worker</option>
                             <option value="10">other</option>
                         </select>
-                    </div>
-                    <div class="input-group" id="1_1_11_5_ot">
-                        <input type="text" required name="1_1_11_5_oth" id="1_1_11_5_oth" class="form-control" />
                     </div>
                 </td>
                 <td>
@@ -783,7 +712,7 @@
 
                 </td>
                 <td> 1.1.3.6 <div class="input-group">
-                        <select class="form-control" name="1_1_3_6" id="1_1_3_6" onchange="eDoth(this,9,'1_1_3_6_oth')">
+                        <select class="form-control" name="1_1_3_6" id="1_1_3_6">
                             <option value="1">Head of the household </option>
                             <option value="2">Wife / Husband </option>
                             <option value="3">Son / Daughter </option>
@@ -793,9 +722,6 @@
                             <option value="7">Parents</option>
                             <option value="9">Other</option>
                         </select>
-                    </div>
-                    <div class="input-group" id="1_1_3_6_ot">
-                        <input type="text" required name="1_1_3_6_oth" id="1_1_3_6_oth" class="form-control" />
                     </div>
                 </td>
 
@@ -813,32 +739,27 @@
                             class="form-control" />
                 </td>
                 <td> 1.1.6.6 <div class="input-group">
-                        <select class="form-control" name="1_1_6_6" id="1_1_6_6" onchange="eDoth(this,7,'1_1_6_6_oth')">
+                        <select class="form-control" name="1_1_6_6" id="1_1_6_6">
                             <option value="1">Sinhala</option>
                             <option value="2">Sri Lanka Tami</option>
                             <option value="3">India Tamil </option>
                             <option value="4">Sri Lanka Moor</option>
                             <option value="5">Malay</option>
                             <option value="6">Burgher</option>
+
                             <option value="7">Other</option>
                         </select>
-                    </div>
-                    <div class="input-group" id="1_1_6_6_ot">
-                        <input type="text" required name="1_1_6_6_oth" id="1_1_6_6_oth" class="form-control" />
                     </div>
                 </td>
 
                 <td> 1.1.7.6 <div class="input-group">
-                        <select class="form-control" name="1_1_7_6" id="1_1_7_6" onchange="eDoth(this,5,'1_1_7_6_oth')">
+                        <select class="form-control" name="1_1_7_6" id="1_1_7_6">
                             <option value="1">Buddhist</option>
                             <option value="2">Hindu</option>
                             <option value="3">Islam</option>
                             <option value="4">Roman Catholic / Other Christian</option>
                             <option value="5">Other</option>
                         </select>
-                    </div>
-                    <div class="input-group" id="1_1_7_6_ot">
-                        <input type="text" required name="1_1_7_6_oth" id="1_1_7_6_oth" class="form-control" />
                     </div>
                 </td>
                 <td> 1.1.8.3 <div class="input-group">
@@ -875,7 +796,7 @@
                     </div>
                 </td>
                 <td> 1.1.10.6 <div class="input-group">
-                        <select class="form-control" name="1_1_10_6" id="1_1_10_6" onchange="eDoth(this,6,'1_1_10_6_oth')">
+                        <select class="form-control" name="1_1_10_6" id="1_1_10_6">
                             <option value="1">Employed</option>
                             <option value="2">Looking for a job</option>
                             <option value="3">Student</option>
@@ -884,12 +805,9 @@
                             <option value="6">Other</option>
                         </select>
                     </div>
-                    <div class="input-group" id="1_1_10_6_ot">
-                        <input type="text" required name="1_1_10_6_oth" id="1_1_10_6_oth" class="form-control" />
-                    </div>
                 </td>
                 <td> 1.1.11.6 <div class="input-group">
-                        <select class="form-control" name="1_1_11_6" id="1_1_11_6" onchange="eDoth(this,10,'1_1_11_6_oth')">
+                        <select class="form-control" name="1_1_11_6" id="1_1_11_6">
                             <option value="1">Government Employee</option>
                             <option value="2">Semi-government Employee </option>
                             <option value="3">Private sector employee</option>
@@ -902,9 +820,6 @@
                             <option value="10">other</option>
                         </select>
                     </div>
-                    <div class="input-group" id="1_1_11_6_ot">
-                        <input type="text" required name="1_1_11_6_oth" id="1_1_11_6_oth" class="form-control" />
-                 </div>
                 </td>
                 <td>
                     <div>1.1.12.6 <input type="text" name="1_1_12_6" id="1_1_12_6" class="form-control" />
@@ -933,7 +848,7 @@
 
                 </td>
                 <td> 1.1.3.7 <div class="input-group">
-                        <select class="form-control" name="1_1_3_7" id="1_1_3_7" onchange="eDoth(this,9,'1_1_3_7_oth')">
+                        <select class="form-control" name="1_1_3_7" id="1_1_3_7">
                             <option value="1">Head of the household </option>
                             <option value="2">Wife / Husband </option>
                             <option value="3">Son / Daughter </option>
@@ -944,9 +859,6 @@
                             <option value="9">Other</option>
                         </select>
                     </div>
-                    <div class="input-group" id="1_1_3_7_ot">
-                        <input type="text" required name="1_1_3_7_oth" id="1_1_3_7_oth" class="form-control" />
-                </div>
                 </td>
 
                 <td>1.1.4.7
@@ -963,7 +875,7 @@
                             class="form-control" />
                 </td>
                 <td> 1.1.6.7 <div class="input-group">
-                        <select class="form-control" name="1_1_6_7" id="1_1_6_7" onchange="eDoth(this,7,'1_1_6_7_oth')">
+                        <select class="form-control" name="1_1_6_7" id="1_1_6_7">
                             <option value="1">Sinhala</option>
                             <option value="2">Sri Lanka Tami</option>
                             <option value="3">India Tamil </option>
@@ -974,13 +886,10 @@
                             <option value="7">Other</option>
                         </select>
                     </div>
-                    <div class="input-group" id="1_1_6_7_ot">
-                        <input type="text" required name="1_1_6_7_oth" id="1_1_6_7_oth" class="form-control" />
-                </div>
                 </td>
 
                 <td> 1.1.7.7 <div class="input-group">
-                        <select class="form-control" name="1_1_7_7" id="1_1_7_7" onchange="eDoth(this,5,'1_1_7_7_oth')">
+                        <select class="form-control" name="1_1_7_7" id="1_1_7_7">
                             <option value="1">Buddhist</option>
                             <option value="2">Hindu</option>
                             <option value="3">Islam</option>
@@ -988,9 +897,6 @@
                             <option value="5">Other</option>
                         </select>
                     </div>
-                    <div class="input-group" id="1_1_7_7_ot">
-                        <input type="text" required name="1_1_7_7_oth" id="1_1_7_7_oth" class="form-control" />
-                </div>
                 </td>
                 <td> 1.1.8.3 <div class="input-group">
                         <select class="form-control" name="1_1_8_7" id="1_1_8_7">
@@ -1026,7 +932,7 @@
                     </div>
                 </td>
                 <td> 1.1.10.7 <div class="input-group">
-                        <select class="form-control" name="1_1_10_7" id="1_1_10_7" onchange="eDoth(this,6,'1_1_10_7_oth')">
+                        <select class="form-control" name="1_1_10_7" id="1_1_10_7">
                             <option value="1">Employed</option>
                             <option value="2">Looking for a job</option>
                             <option value="3">Student</option>
@@ -1035,12 +941,9 @@
                             <option value="6">Other</option>
                         </select>
                     </div>
-                    <div class="input-group" id="1_1_10_7_ot">
-                        <input type="text" required name="1_1_10_7_oth" id="1_1_10_7_oth" class="form-control" />
-                </div>
                 </td>
                 <td> 1.1.11.7 <div class="input-group">
-                        <select class="form-control" name="1_1_11_7" id="1_1_11_7" onchange="eDoth(this,10,'1_1_11_7_oth')">
+                        <select class="form-control" name="1_1_11_7" id="1_1_11_7">
                             <option value="1">Government Employee</option>
                             <option value="2">Semi-government Employee </option>
                             <option value="3">Private sector employee</option>
@@ -1053,9 +956,6 @@
                             <option value="10">other</option>
                         </select>
                     </div>
-                    <div class="input-group" id="1_1_11_7_ot">
-                        <input type="text" required name="1_1_11_7_oth" id="1_1_11_7_oth" class="form-control" />
-                </div>
                 </td>
                 <td>
                     <div>1.1.12.7 <input type="text" name="1_1_12_7" id="1_1_12_7" class="form-control" />
@@ -1084,7 +984,7 @@
 
                 </td>
                 <td> 1.1.3.8 <div class="input-group">
-                        <select class="form-control" name="1_1_3_8" id="1_1_3_8" onchange="eDoth(this,9,'1_1_3_8_oth')">
+                        <select class="form-control" name="1_1_3_8" id="1_1_3_8">
                             <option value="1">Head of the household </option>
                             <option value="2">Wife / Husband </option>
                             <option value="3">Son / Daughter </option>
@@ -1095,9 +995,6 @@
                             <option value="9">Other</option>
                         </select>
                     </div>
-                    <div class="input-group" id="1_1_3_8_ot">
-                        <input type="text" required name="1_1_3_8_oth" id="1_1_3_8_oth" class="form-control" />
-                </div>
                 </td>
 
                 <td>1.1.4.8
@@ -1114,23 +1011,21 @@
                             class="form-control" />
                 </td>
                 <td> 1.1.6.8 <div class="input-group">
-                        <select class="form-control" name="1_1_6_8" id="1_1_6_8" onchange="eDoth(this,7,'1_1_6_8_oth')">
+                        <select class="form-control" name="1_1_6_8" id="1_1_6_8">
                             <option value="1">Sinhala</option>
                             <option value="2">Sri Lanka Tami</option>
                             <option value="3">India Tamil </option>
                             <option value="4">Sri Lanka Moor</option>
                             <option value="5">Malay</option>
                             <option value="6">Burgher</option>
+
                             <option value="7">Other</option>
                         </select>
                     </div>
-                    <div class="input-group" id="1_1_6_8_ot">
-                        <input type="text" required name="1_1_6_8_oth" id="1_1_6_8_oth" class="form-control" />
-                </div>
                 </td>
 
                 <td> 1.1.7.8 <div class="input-group">
-                        <select class="form-control" name="1_1_7_8" id="1_1_7_8" onchange="eDoth(this,5,'1_1_7_8_oth')">
+                        <select class="form-control" name="1_1_7_8" id="1_1_7_8">
                             <option value="1">Buddhist</option>
                             <option value="2">Hindu</option>
                             <option value="3">Islam</option>
@@ -1138,9 +1033,6 @@
                             <option value="5">Other</option>
                         </select>
                     </div>
-                    <div class="input-group" id="1_1_7_8_ot">
-                        <input type="text" required name="1_1_7_8_oth" id="1_1_7_8_oth" class="form-control" />
-                </div>
                 </td>
                 <td> 1.1.8.8 <div class="input-group">
                         <select class="form-control" name="1_1_8_8" id="1_1_8_8">
@@ -1151,8 +1043,6 @@
                             <option value="5">Separated</option>
                         </select>
                     </div>
-                    <div class="input-group" id="1_1_8_8_ot">
-                        <input type="text" required name="1_1_8_8_oth" id="1_1_8_8_oth" class="form-control" />
                 </td>
                 <td> 1.1.9.8 <div class="input-group">
                         <select class="form-control" name="1_1_9_8" id="1_1_9_8">
@@ -1178,7 +1068,7 @@
                     </div>
                 </td>
                 <td> 1.1.10.8 <div class="input-group">
-                        <select class="form-control" name="1_1_10_8" id="1_1_10_8" onchange="eDoth(this,6,'1_1_10_8_oth')">
+                        <select class="form-control" name="1_1_10_8" id="1_1_10_8">
                             <option value="1">Employed</option>
                             <option value="2">Looking for a job</option>
                             <option value="3">Student</option>
@@ -1187,12 +1077,9 @@
                             <option value="6">Other</option>
                         </select>
                     </div>
-                    <div class="input-group" id="1_1_10_8_ot">
-                        <input type="text" required name="1_1_10_8_oth" id="1_1_10_8_oth" class="form-control" />
-                </div>
                 </td>
                 <td> 1.1.11.8 <div class="input-group">
-                        <select class="form-control" name="1_1_11_8" id="1_1_11_8" onchange="eDoth(this,10,'1_1_11_8_oth')">
+                        <select class="form-control" name="1_1_11_8" id="1_1_11_8">
                             <option value="1">Government Employee</option>
                             <option value="2">Semi-government Employee </option>
                             <option value="3">Private sector employee</option>
@@ -1205,9 +1092,6 @@
                             <option value="10">other</option>
                         </select>
                     </div>
-                    <div class="input-group" id="1_1_11_8_ot">
-                        <input type="text" required name="1_1_3_8_oth" id="1_1_11_8_oth" class="form-control" />
-                </div>
                 </td>
                 <td>
                     <div>1.1.12.8 <input type="text" name="1_1_12_8" id="1_1_12_8" class="form-control" />
@@ -1236,7 +1120,7 @@
 
                 </td>
                 <td> 1.1.3.9 <div class="input-group">
-                        <select class="form-control" name="1_1_3_9" id="1_1_3_9" onchange="eDoth(this,9,'1_1_3_9_oth')">
+                        <select class="form-control" name="1_1_3_9" id="1_1_3_9">
                             <option value="1">Head of the household </option>
                             <option value="2">Wife / Husband </option>
                             <option value="3">Son / Daughter </option>
@@ -1247,9 +1131,6 @@
                             <option value="9">Other</option>
                         </select>
                     </div>
-                    <div class="input-group" id="1_1_3_9_ot">
-                        <input type="text" required name="1_1_3_9_oth" id="1_1_3_9_oth" class="form-control" />
-                </div>
                 </td>
 
                 <td>1.1.4.9
@@ -1266,23 +1147,21 @@
                             class="form-control" />
                 </td>
                 <td> 1.1.6.9 <div class="input-group">
-                        <select class="form-control" name="1_1_6_9" id="1_1_6_9" onchange="eDoth(this,7,'1_1_6_9_oth')">
+                        <select class="form-control" name="1_1_6_9" id="1_1_6_9">
                             <option value="1">Sinhala</option>
                             <option value="2">Sri Lanka Tami</option>
                             <option value="3">India Tamil </option>
                             <option value="4">Sri Lanka Moor</option>
                             <option value="5">Malay</option>
                             <option value="6">Burgher</option>
+
                             <option value="7">Other</option>
                         </select>
                     </div>
-                    <div class="input-group" id="1_1_6_9_ot">
-                        <input type="text" required name="1_1_6_9_oth" id="1_1_6_9_oth" class="form-control" />
-                </div>
                 </td>
 
                 <td> 1.1.7.9 <div class="input-group">
-                        <select class="form-control" name="1_1_7_9" id="1_1_7_9" onchange="eDoth(this,5,'1_1_7_9_oth')">
+                        <select class="form-control" name="1_1_7_9" id="1_1_7_9">
                             <option value="1">Buddhist</option>
                             <option value="2">Hindu</option>
                             <option value="3">Islam</option>
@@ -1290,9 +1169,6 @@
                             <option value="5">Other</option>
                         </select>
                     </div>
-                    <div class="input-group" id="1_1_7_9_ot">
-                        <input type="text" required name="1_1_7_9_oth" id="1_1_7_9_oth" class="form-control" />
-                </div>
                 </td>
                 <td> 1.1.8.9 <div class="input-group">
                         <select class="form-control" name="1_1_8_9" id="1_1_8_9">
@@ -1328,7 +1204,7 @@
                     </div>
                 </td>
                 <td> 1.1.10.9 <div class="input-group">
-                        <select class="form-control" name="1_1_10_9" id="1_1_10_9" onchange="eDoth(this,6,'1_1_10_9_oth')">
+                        <select class="form-control" name="1_1_10_9" id="1_1_10_9">
                             <option value="1">Employed</option>
                             <option value="2">Looking for a job</option>
                             <option value="3">Student</option>
@@ -1337,12 +1213,9 @@
                             <option value="6">Other</option>
                         </select>
                     </div>
-                    <div class="input-group" id="1_1_10_9_ot">
-                        <input type="text" required name="1_1_10_9_oth" id="1_1_10_9_oth" class="form-control" />
-                </div>
                 </td>
                 <td> 1.1.11.9 <div class="input-group">
-                        <select class="form-control" name="1_1_11_9" id="1_1_11_9" onchange="eDoth(this,10,'1_1_11_9_oth')">
+                        <select class="form-control" name="1_1_11_9" id="1_1_11_9">
                             <option value="1">Government Employee</option>
                             <option value="2">Semi-government Employee </option>
                             <option value="3">Private sector employee</option>
@@ -1355,9 +1228,6 @@
                             <option value="10">other</option>
                         </select>
                     </div>
-                    <div class="input-group" id="1_1_11_9_ot">
-                        <input type="text" required name="1_1_11_9_oth" id="1_1_11_9_oth" class="form-control" />
-                </div>
                 </td>
                 <td>
                     <div>1.1.12.9 <input type="text" name="1_1_12_9" id="1_1_12_9" class="form-control" />
@@ -1386,7 +1256,7 @@
 
                 </td>
                 <td> 1.1.3.10 <div class="input-group">
-                        <select class="form-control" name="1_1_3_10" id="1_1_3_10" onchange="eDoth(this,9,'1_1_3_10_oth')">
+                        <select class="form-control" name="1_1_3_10" id="1_1_3_10">
                             <option value="1">Head of the household </option>
                             <option value="2">Wife / Husband </option>
                             <option value="3">Son / Daughter </option>
@@ -1397,9 +1267,6 @@
                             <option value="9">Other</option>
                         </select>
                     </div>
-                    <div class="input-group" id="1_1_3_10_ot">
-                        <input type="text" required name="1_1_3_10_oth" id="1_1_3_10_oth" class="form-control" />
-                </div>
                 </td>
 
                 <td>1.1.4.10
@@ -1415,8 +1282,8 @@
                     <div>1.1.5.10 <input type="text" name="1_1_5_10" id="1_1_5_10" placeholder="Age"
                             class="form-control" />
                 </td>
-                <td> 1.1.6.10 <div class="input-group">
-                        <select class="form-control" name="1_1_6_10" id="1_1_6_10" onchange="eDoth(this,7,'1_1_6_10_oth')">
+                <td> 1.1.6.3 <div class="input-group">
+                        <select class="form-control" name="1_1_6_3" id="1_1_6_3">
                             <option value="1">Sinhala</option>
                             <option value="2">Sri Lanka Tami</option>
                             <option value="3">India Tamil </option>
@@ -1427,13 +1294,10 @@
                             <option value="7">Other</option>
                         </select>
                     </div>
-                    <div class="input-group" id="1_1_6_3_ot">
-                        <input type="text" required name="1_1_6_3_oth" id="1_1_6_3_oth" class="form-control" />
-                </div>
                 </td>
 
                 <td> 1.1.7.10 <div class="input-group">
-                        <select class="form-control" name="1_1_7_10" id="1_1_7_10" onchange="eDoth(this,5,'1_1_7_10_oth')">
+                        <select class="form-control" name="1_1_7_10" id="1_1_7_10">
                             <option value="1">Buddhist</option>
                             <option value="2">Hindu</option>
                             <option value="3">Islam</option>
@@ -1441,9 +1305,6 @@
                             <option value="5">Other</option>
                         </select>
                     </div>
-                    <div class="input-group" id="1_1_7_10_ot">
-                        <input type="text" required name="1_1_7_10_oth" id="1_1_7_10_oth" class="form-control" />
-                </div>
                 </td>
                 <td> 1.1.8.10 <div class="input-group">
                         <select class="form-control" name="1_1_8_10" id="1_1_8_10">
@@ -1479,7 +1340,7 @@
                     </div>
                 </td>
                 <td> 1.1.10.10 <div class="input-group">
-                        <select class="form-control" name="1_1_10_10" id="1_1_10_10" onchange="eDoth(this,6,'1_1_10_10_oth')">
+                        <select class="form-control" name="1_1_10_10" id="1_1_10_10">
                             <option value="1">Employed</option>
                             <option value="2">Looking for a job</option>
                             <option value="3">Student</option>
@@ -1488,12 +1349,9 @@
                             <option value="6">Other</option>
                         </select>
                     </div>
-                    <div class="input-group" id="1_1_10_10_ot">
-                        <input type="text" required name="1_1_10_10_oth" id="1_1_10_10_oth" class="form-control" />
-                </div>
                 </td>
                 <td> 1.1.11.10 <div class="input-group">
-                        <select class="form-control" name="1_1_11_10" id="1_1_11_10" onchange="eDoth(this,10,'1_1_11_10_oth')">
+                        <select class="form-control" name="1_1_11_10" id="1_1_11_10">
                             <option value="1">Government Employee</option>
                             <option value="2">Semi-government Employee </option>
                             <option value="3">Private sector employee</option>
@@ -1506,9 +1364,6 @@
                             <option value="10">other</option>
                         </select>
                     </div>
-                    <div class="input-group" id="1_1_11_10_ot">
-                        <input type="text" required name="1_1_11_10_oth" id="1_1_11_10_oth" class="form-control" />
-                </div>
                 </td>
                 <td>
                     <div>1.1.12.10 <input type="text" name="1_1_12_10" id="1_1_12_10" class="form-control" />

@@ -15,7 +15,7 @@
                         <div class="checkbox"><label><input type="checkbox" name="1_2_1_b" id="1_2_1_b" value="2">Corru.Asbestos</label> </div>
                         <div class="checkbox"><label><input type="checkbox" name="1_2_1_c" id="1_2_1_c" value="3">Tin/Alu. sheets</label> </div>
                         <div class="checkbox"><label><input type="checkbox" name="1_2_1_d" id="1_2_1_d" value="4">Cadjan</label></div>
-                        <div class="checkbox"><label><input type="checkbox" name="1_2_1_e" id="1_2_1_e" value="5">Other</label> </div>
+                        <div class="checkbox"><label><input type="checkbox" name="1_2_1_e" id="1_2_1_e" value="5" onclick="eDcheckOT('1_2_1_e','1_2_1_e_oth')">Other</label> </div>
 
 <div class="input-group" id="1_2_1_e_ot"><input type="text" required name="1_2_1_e_oth" id="1_2_1_e_oth" class="form-control" /></div>
 
@@ -27,7 +27,7 @@
                         <div class="checkbox"> <label><input type="checkbox" name="1_2_2_a" id="1_2_2_a" value="1">Tile/terraz</label> </div>
                         <div class="checkbox"> <label><input type="checkbox" name="1_2_2_b" id="1_2_2_b" value="2">Cement</label> </div>
                         <div class="checkbox"> <label><input type="checkbox" name="1_2_2_c" id="1_2_2_c" value="3">Earth/cow dung</label> </div>
-                        <div class="checkbox"> <label><input type="checkbox" name="1_2_2_d" id="1_2_2_d" value="4">Other</label> </div>
+                        <div class="checkbox"> <label><input type="checkbox" name="1_2_2_d" id="1_2_2_d" value="4" onclick="eDcheckOT('1_2_2_d','1_2_2_d_oth')">Other</label> </div>
 
                     </div>
                     <div class="input-group" id="1_2_2_d_ot"><input type="text" placeholder="other" required name="1_2_2_d_oth" id="1_2_2_d_oth" class="form-control" /></div>
@@ -42,7 +42,7 @@
                         <div class="checkbox"> <label><input type="checkbox" name="1_2_3_c" id="1_2_3_c"
                                     value="3">Wood</label> </div>
                         <div class="checkbox"> <label><input type="checkbox" name="1_2_3_d" id="1_2_3_d"
-                                    value="4">Other</label> </div>
+                                    value="4" onclick="eDcheckOT('1_2_3_d','1_2_3_d_oth')">Other</label> </div>
                     </div>
                     <div class="input-group" id="1_2_3_d_ot"><input type="text" placeholder="other" required name="1_2_3_d_oth" id="1_2_3_d_oth" class="form-control" /></div>
                 </div>
@@ -68,7 +68,7 @@
                         <div class="checkbox"><label><input type="checkbox" name="1_2_4_g" id="1_2_4_g" value="7">Rain
                                 water</label></div>
                         <div class="checkbox"><label><input type="checkbox" name="1_2_4_h" id="1_2_4_h"
-                                    value="8">Other</label></div>
+                                    value="8"  onclick="eDcheckOT('1_2_4_h','1_2_4_h_oth')">Other</label></div>
 
                     </div>
                     <div class="input-group" id="1_2_4_h_ot"><input type="text" placeholder="other" required name="1_2_4_h_oth" id="1_2_4_h_oth" class="form-control" /></div>
@@ -83,7 +83,7 @@
                         <div class="checkbox"><label><input type="checkbox" name="1_2_5_c" id="1_2_5_c"
                                     value="3">Pit</label></div>
                         <div class="checkbox"><label><input type="checkbox" name="1_2_5_d" id="1_2_5_d"
-                                    value="4">Other</label></div>
+                                    value="4" onclick="eDcheckOT('1_2_5_d','1_2_5_d_oth')">Other</label></div>
 
                     </div>
                     <div class="input-group" id="1_2_5_d_ot"><input type="text" placeholder="other" required name="1_2_5_d_oth" id="1_2_5_d_oth" class="form-control" /></div>
@@ -103,7 +103,7 @@
                         <div class="checkbox"><label><input type="checkbox" name="1_2_6_e" id="1_2_6_e" value="5">Crop
                                 residue</label></div>
                         <div class="checkbox"><label><input type="checkbox" name="1_2_6_f" id="1_2_6_f"
-                                    value="6">Other</label></div>
+                                    value="6" onclick="eDcheckOT('1_2_6_f','1_2_6_f_oth')">Other</label></div>
 
                     </div>
                     <div class="input-group" id="1_2_6_f_ot"><input type="text" placeholder="other" required name="1_2_6_f_oth" id="1_2_6_f_oth" class="form-control" /></div>
@@ -160,10 +160,10 @@
                         <div class="checkbox"><label><input type="checkbox" name="1_2_9_f" id="1_2_9_f" value="6">Dialog
                                 TV</label></div>
                         <div class="checkbox"><label><input type="checkbox" name="1_2_9_g" id="1_2_9_g"
-                                    value="7">Other</label></div>
+                                    value="7" onclick="eDcheckOT('1_2_9_g','1_2_9_g_oth')">Other</label></div>
 
                     </div>
-                    <div class="input-group" id="1_2_6_g_ot"><input type="text" placeholder="other" required name="1_2_6_g_oth" id="1_2_9_g_oth" class="form-control" /></div>
+                    <div class="input-group" id="1_2_6_g_ot"><input type="text" placeholder="other" required name="1_2_9_g_oth" id="1_2_9_g_oth" class="form-control" /></div>
 
                 </div>
             </div>
@@ -215,7 +215,7 @@
                         <div class="checkbox"><label><input type="checkbox" name="1_2_10_t" id="1_2_10_t"
                                     value="21">Fixed Air conditioner</label></div>
                         <div class="checkbox"><label><input type="checkbox" name="1_2_10_u" id="1_2_10_u"
-                                    value="22">Other</label></div>
+                                    value="22" onclick="eDcheckOT('1_2_10_u','1_2_10_u_oth')">Other</label></div>
                      
                     </div>
                     <div class="input-group" id="1_2_10_u_ot"><input type="text" placeholder="other" required name="1_2_10_u_oth" id="1_2_10_u_oth" class="form-control" /></div>
