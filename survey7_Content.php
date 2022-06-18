@@ -122,7 +122,7 @@
                         <div class="checkbox"><label><input type="checkbox" name="7_4_d" id="7_4_d" value="4">No, I
                                 don’t like to do organic farming</label></div>
                                 <div class="checkbox"><label><input type="checkbox" name="7_4_e" id="7_4_e" value="5" onclick="eDcheckOT('7_4_e','7_4_e_oth')">Other</label></div>
-                        <div> <label><input type="text" placeholder="if other" name="7_4_e_oth" id="7_4_e_oth">
+                        <div> <label><input type="text" placeholder="if other" required name="7_4_e_oth" id="7_4_e_oth">
                         </div>
                        
                     </div>

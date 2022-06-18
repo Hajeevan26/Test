@@ -25,7 +25,7 @@
                         </div>
                     </div>
                     <div class="row">
-                        <div class="col-md-15">1.1.2.1 <input type="text" name="1_1_2_1" id="1_1_2_1" placeholder="Name"
+                        <div class="col-md-15">1.1.2.1 <input type="text" name="1_1_2_1" id="1_1_2_1" placeholder="Name" required
                                 class="form-control" />
                         </div>
                     </div>
@@ -57,7 +57,7 @@
                     </div>
                 </td>
                 <td>
-                    <div>1.1.5.1 <input type="text" name="1_1_5_1" id="1_1_5_1" placeholder="Age"
+                    <div>1.1.5.1 <input type="text" name="1_1_5_1" id="1_1_5_1" placeholder="Age"  required
                             class="form-control col-md-8" />
                 </td>
                 <td> 1.1.6.1 <div class="input-group">
@@ -156,10 +156,10 @@
                     </div>
                 </td>
                 <td>
-                    <div>1.1.12.1 <input type="text" name="1_1_12_1" id="1_1_12_1" class="form-control" />
+                    <div>1.1.12.1 <input type="text" name="1_1_12_1" id="1_1_12_1" required class="form-control" />
                 </td>
                 <td>
-                    <div>1.1.13.1 <input type="text" name="1_1_13_1" id="1_1_13_1" class="form-control" />
+                    <div>1.1.13.1 <input type="text" name="1_1_13_1" id="1_1_13_1" required class="form-control" />
                 </td>
             </tr>
             <!-- 2nd row -->
@@ -175,7 +175,7 @@
                         </div>
                     </div>
                     <div class="row">
-                        <div class="col-md-12">1.1.2.2 <input type="text" name="1_1_2_2" id="1_1_2_2" placeholder="Name"
+                        <div class="col-md-12">1.1.2.2 <input type="text" name="1_1_2_2" id="1_1_2_2" placeholder="Name" required
                                 class="form-control" />
                         </div>
                     </div>
@@ -208,7 +208,7 @@
                     </div>
                 </td>
                 <td>
-                    <div>1.1.5.2 <input type="text" name="1_1_5_2" id="1_1_5_2" placeholder="Age"
+                    <div>1.1.5.2 <input type="text" name="1_1_5_2" id="1_1_5_2" placeholder="Age" required required
                             class="form-control" />
                 </td>
                 <td> 1.1.6.2 <div class="input-group">
@@ -306,10 +306,10 @@
                     </div>
                 </td>
                 <td>
-                    <div>1.1.12.2 <input type="text" name="1_1_12_2" id="1_1_12_2" class="form-control" />
+                    <div>1.1.12.2 <input type="text" name="1_1_12_2" id="1_1_12_2"  required class="form-control" />
                 </td>
                 <td>
-                    <div>1.1.13.2 <input type="text" name="1_1_13_2" id="1_1_13_2" class="form-control" />
+                    <div>1.1.13.2 <input type="text" name="1_1_13_2" id="1_1_13_2"  required class="form-control" />
                 </td>
             </tr>
             <!--  3rd row -->
@@ -325,7 +325,7 @@
                         </div>
                     </div>
                     <div class="row">
-                        <div class="col-md-12">1.1.2.3 <input type="text" name="1_1_2_3" id="1_1_2_3" placeholder="Name"
+                        <div class="col-md-12">1.1.2.3 <input type="text" name="1_1_2_3" id="1_1_2_3" placeholder="Name" required
                                 class="form-control" />
                         </div>
                     </div>
@@ -357,7 +357,7 @@
                     </div>
                 </td>
                 <td>
-                    <div>1.1.5.3 <input type="text" name="1_1_5_3" id="1_1_5_3" placeholder="Age"
+                    <div>1.1.5.3 <input type="text" name="1_1_5_3" id="1_1_5_3" placeholder="Age" required required
                             class="form-control" />
                 </td>
                 <td> 1.1.6.3 <div class="input-group">
@@ -455,10 +455,10 @@
                     </div>
                 </td>
                 <td>
-                    <div>1.1.12.3 <input type="text" name="1_1_12_3" id="1_1_12_3" class="form-control" />
+                    <div>1.1.12.3 <input type="text" name="1_1_12_3" id="1_1_12_3"  required class="form-control" />
                 </td>
                 <td>
-                    <div>1.1.13.3 <input type="text" name="1_1_13_3" id="1_1_13_3" class="form-control" />
+                    <div>1.1.13.3 <input type="text" name="1_1_13_3" id="1_1_13_3"  required class="form-control" />
                 </td>
             </tr>
 
@@ -475,7 +475,7 @@
                         </div>
                     </div>
                     <div class="row">
-                        <div class="col-md-12">1.1.2.4 <input type="text" name="1_1_2_4" id="1_1_2_4" placeholder="Name"
+                        <div class="col-md-12">1.1.2.4 <input type="text" name="1_1_2_4" id="1_1_2_4" placeholder="Name" required
                                 class="form-control" />
                         </div>
                     </div>
@@ -508,7 +508,7 @@
                     </div>
                 </td>
                 <td>
-                    <div>1.1.5.4 <input type="text" name="1_1_5_4" id="1_1_5_4" placeholder="Age"
+                    <div>1.1.5.4 <input type="text" name="1_1_5_4" id="1_1_5_4" placeholder="Age" required required
                             class="form-control" />
                 </td>
                 <td> 1.1.6.4 <div class="input-group">
@@ -606,10 +606,10 @@
                     </div>
                 </td>
                 <td>
-                    <div>1.1.12.4 <input type="text" name="1_1_12_4" id="1_1_12_4" class="form-control" />
+                    <div>1.1.12.4 <input type="text" name="1_1_12_4" id="1_1_12_4"  required class="form-control" />
                 </td>
                 <td>
-                    <div>1.1.13.4 <input type="text" name="1_1_13_4" id="1_1_13_4" class="form-control" />
+                    <div>1.1.13.4 <input type="text" name="1_1_13_4" id="1_1_13_4"  required class="form-control" />
                 </td>
             </tr>
             <!-- 5th -->
@@ -625,7 +625,7 @@
                         </div>
                     </div>
                     <div class="row">
-                        <div class="col-md-12">1.1.2.5 <input type="text" name="1_1_2_5" id="1_1_2_5" placeholder="Name"
+                        <div class="col-md-12">1.1.2.5 <input type="text" name="1_1_2_5" id="1_1_2_5" placeholder="Name" required
                                 class="form-control" />
                         </div>
                     </div>
@@ -659,7 +659,7 @@
                     </div>
                 </td>
                 <td>
-                    <div>1.1.5.5 <input type="text" name="1_1_5_5" id="1_1_5_5" placeholder="Age"
+                    <div>1.1.5.5 <input type="text" name="1_1_5_5" id="1_1_5_5" placeholder="Age" required required
                             class="form-control" />
                 </td>
                 <td> 1.1.6.5 <div class="input-group">
@@ -757,10 +757,10 @@
                     </div>
                 </td>
                 <td>
-                    <div>1.1.12.5 <input type="text" name="1_1_12_5" id="1_1_12_5" class="form-control" />
+                    <div>1.1.12.5 <input type="text" name="1_1_12_5" id="1_1_12_5"  required class="form-control" />
                 </td>
                 <td>
-                    <div>1.1.13.5 <input type="text" name="1_1_13_5" id="1_1_13_5" class="form-control" />
+                    <div>1.1.13.5 <input type="text" name="1_1_13_5" id="1_1_13_5"  required class="form-control" />
                 </td>
             </tr>
             <!-- 6th -->
@@ -776,7 +776,7 @@
                         </div>
                     </div>
                     <div class="row">
-                        <div class="col-md-12">1.1.2.6 <input type="text" name="1_1_2_6" id="1_1_2_6" placeholder="Name"
+                        <div class="col-md-12">1.1.2.6 <input type="text" name="1_1_2_6" id="1_1_2_6" placeholder="Name" required
                                 class="form-control" />
                         </div>
                     </div>
@@ -809,7 +809,7 @@
                     </div>
                 </td>
                 <td>
-                    <div>1.1.5.3 <input type="text" name="1_1_5_6" id="1_1_5_6" placeholder="Age"
+                    <div>1.1.5.3 <input type="text" name="1_1_5_6" id="1_1_5_6" placeholder="Age" required required
                             class="form-control" />
                 </td>
                 <td> 1.1.6.6 <div class="input-group">
@@ -907,10 +907,10 @@
                  </div>
                 </td>
                 <td>
-                    <div>1.1.12.6 <input type="text" name="1_1_12_6" id="1_1_12_6" class="form-control" />
+                    <div>1.1.12.6 <input type="text" name="1_1_12_6" id="1_1_12_6"  required class="form-control" />
                 </td>
                 <td>
-                    <div>1.1.13.6 <input type="text" name="1_1_13_6" id="1_1_13_6" class="form-control" />
+                    <div>1.1.13.6 <input type="text" name="1_1_13_6" id="1_1_13_6"  required class="form-control" />
                 </td>
             </tr>
             <!--7th -->
@@ -926,7 +926,7 @@
                         </div>
                     </div>
                     <div class="row">
-                        <div class="col-md-12">1.1.2.7 <input type="text" name="1_1_2_7" id="1_1_2_7" placeholder="Name"
+                        <div class="col-md-12">1.1.2.7 <input type="text" name="1_1_2_7" id="1_1_2_7" placeholder="Name" required
                                 class="form-control" />
                         </div>
                     </div>
@@ -959,7 +959,7 @@
                     </div>
                 </td>
                 <td>
-                    <div>1.1.5.7 <input type="text" name="1_1_5_7" id="1_1_5_7" placeholder="Age"
+                    <div>1.1.5.7 <input type="text" name="1_1_5_7" id="1_1_5_7" placeholder="Age" required required
                             class="form-control" />
                 </td>
                 <td> 1.1.6.7 <div class="input-group">
@@ -1058,10 +1058,10 @@
                 </div>
                 </td>
                 <td>
-                    <div>1.1.12.7 <input type="text" name="1_1_12_7" id="1_1_12_7" class="form-control" />
+                    <div>1.1.12.7 <input type="text" name="1_1_12_7" id="1_1_12_7"  required class="form-control" />
                 </td>
                 <td>
-                    <div>1.1.13.7 <input type="text" name="1_1_13_7" id="1_1_13_7" class="form-control" />
+                    <div>1.1.13.7 <input type="text" name="1_1_13_7" id="1_1_13_7"  required class="form-control" />
                 </td>
             </tr>
             <!-- 8th -->
@@ -1077,7 +1077,7 @@
                         </div>
                     </div>
                     <div class="row">
-                        <div class="col-md-12">1.1.2.8 <input type="text" name="1_1_2_8" id="1_1_2_8" placeholder="Name"
+                        <div class="col-md-12">1.1.2.8 <input type="text" name="1_1_2_8" id="1_1_2_8" placeholder="Name" required
                                 class="form-control" />
                         </div>
                     </div>
@@ -1110,7 +1110,7 @@
                     </div>
                 </td>
                 <td>
-                    <div>1.1.5.8 <input type="text" name="1_1_5_8" id="1_1_5_8" placeholder="Age"
+                    <div>1.1.5.8 <input type="text" name="1_1_5_8" id="1_1_5_8" placeholder="Age"  required
                             class="form-control" />
                 </td>
                 <td> 1.1.6.8 <div class="input-group">
@@ -1210,10 +1210,10 @@
                 </div>
                 </td>
                 <td>
-                    <div>1.1.12.8 <input type="text" name="1_1_12_8" id="1_1_12_8" class="form-control" />
+                    <div>1.1.12.8 <input type="text" name="1_1_12_8" id="1_1_12_8"  required class="form-control" />
                 </td>
                 <td>
-                    <div>1.1.13.8 <input type="text" name="1_1_13_8" id="1_1_13_8" class="form-control" />
+                    <div>1.1.13.8 <input type="text" name="1_1_13_8" id="1_1_13_8"  required class="form-control" />
                 </td>
             </tr>
             <!-- 9th -->
@@ -1229,7 +1229,7 @@
                         </div>
                     </div>
                     <div class="row">
-                        <div class="col-md-12">1.1.2.9 <input type="text" name="1_1_2_9" id="1_1_2_9" placeholder="Name"
+                        <div class="col-md-12">1.1.2.9 <input type="text" name="1_1_2_9" id="1_1_2_9" placeholder="Name" required
                                 class="form-control" />
                         </div>
                     </div>
@@ -1262,7 +1262,7 @@
                     </div>
                 </td>
                 <td>
-                    <div>1.1.5.9 <input type="text" name="1_1_5_9" id="1_1_5_9" placeholder="Age"
+                    <div>1.1.5.9 <input type="text" name="1_1_5_9" id="1_1_5_9" placeholder="Age"  required
                             class="form-control" />
                 </td>
                 <td> 1.1.6.9 <div class="input-group">
@@ -1304,7 +1304,7 @@
                         </select>
                     </div>
                 </td>
-                <td> 1.1.8.9 <div class="input-group">
+                <td> 1.1.9.9 <div class="input-group">
                         <select class="form-control" name="1_1_9_9" id="1_1_9_9">
                             <option value="1">Studying in Grade 1</option>
                             <option value="2">Passed Grade 1 </option>
@@ -1360,10 +1360,10 @@
                 </div>
                 </td>
                 <td>
-                    <div>1.1.12.9 <input type="text" name="1_1_12_9" id="1_1_12_9" class="form-control" />
+                    <div>1.1.12.9 <input type="text" name="1_1_12_9" id="1_1_12_9"  required class="form-control" />
                 </td>
                 <td>
-                    <div>1.1.13.9 <input type="text" name="1_1_13_9" id="1_1_13_9" class="form-control" />
+                    <div>1.1.13.9 <input type="text" name="1_1_13_9" id="1_1_13_9"  required class="form-control" />
                 </td>
             </tr>
             <!-- 10th  -->
@@ -1379,14 +1379,14 @@
                         </div>
                     </div>
                     <div class="row">
-                        <div class="col-md-12">1.1.2.3 <input type="text" name="1_1_2_3" id="1_1_2_3" placeholder="Name"
+                        <div class="col-md-12">1.1.2.10x <input type="text" name="1_1_2_10x" id="1_1_2_10x" placeholder="Name" required
                                 class="form-control" />
                         </div>
                     </div>
 
                 </td>
-                <td> 1.1.3.10 <div class="input-group">
-                        <select class="form-control" name="1_1_3_10" id="1_1_3_10" onchange="eDoth(this,9,'1_1_3_10_oth')">
+                <td> 1.1.3.10x <div class="input-group">
+                        <select class="form-control" name="1_1_3_10x" id="1_1_3_10x" onchange="eDoth(this,9,'1_1_3_10_oth')">
                             <option value="1">Head of the household </option>
                             <option value="2">Wife / Husband </option>
                             <option value="3">Son / Daughter </option>
@@ -1402,9 +1402,9 @@
                 </div>
                 </td>
 
-                <td>1.1.4.10
+                <td>1.1.4.10x
                     <div class="input-group">
-                        <select class="form-control" name="1_1_4_10" id="1_1_4_10">
+                        <select class="form-control" name="1_1_4_10x" id="1_1_4_10x">
                             <option value="1">Male </option>
                             <option value="2">Female</option>
 
@@ -1412,11 +1412,11 @@
                     </div>
                 </td>
                 <td>
-                    <div>1.1.5.10 <input type="text" name="1_1_5_10" id="1_1_5_10" placeholder="Age"
+                    <div>1.1.5.10x <input type="text" name="1_1_5_10x" id="1_1_5_10x" placeholder="Age"  required
                             class="form-control" />
                 </td>
-                <td> 1.1.6.10 <div class="input-group">
-                        <select class="form-control" name="1_1_6_10" id="1_1_6_10" onchange="eDoth(this,7,'1_1_6_10_oth')">
+                <td> 1.1.6.10x <div class="input-group">
+                        <select class="form-control" name="1_1_6_10x" id="1_1_6_10x" onchange="eDoth(this,7,'1_1_6_10_oth')">
                             <option value="1">Sinhala</option>
                             <option value="2">Sri Lanka Tami</option>
                             <option value="3">India Tamil </option>
@@ -1428,12 +1428,12 @@
                         </select>
                     </div>
                     <div class="input-group" id="1_1_6_3_ot">
-                        <input type="text" required name="1_1_6_3_oth" id="1_1_6_3_oth" class="form-control" />
+                        <input type="text" required name="1_1_6_10_oth" id="1_1_6_10_oth" class="form-control" />
                 </div>
                 </td>
 
                 <td> 1.1.7.10 <div class="input-group">
-                        <select class="form-control" name="1_1_7_10" id="1_1_7_10" onchange="eDoth(this,5,'1_1_7_10_oth')">
+                        <select class="form-control" name="1_1_7_10x" id="1_1_7_10x" onchange="eDoth(this,5,'1_1_7_10_oth')">
                             <option value="1">Buddhist</option>
                             <option value="2">Hindu</option>
                             <option value="3">Islam</option>
@@ -1445,8 +1445,8 @@
                         <input type="text" required name="1_1_7_10_oth" id="1_1_7_10_oth" class="form-control" />
                 </div>
                 </td>
-                <td> 1.1.8.10 <div class="input-group">
-                        <select class="form-control" name="1_1_8_10" id="1_1_8_10">
+                <td> 1.1.8.10x <div class="input-group">
+                        <select class="form-control" name="1_1_8_10x" id="1_1_8_10x">
                             <option value="1">Never married</option>
                             <option value="2">Married</option>
                             <option value="3">Widowed</option>
@@ -1455,8 +1455,8 @@
                         </select>
                     </div>
                 </td>
-                <td> 1.1.8.10 <div class="input-group">
-                        <select class="form-control" name="1_1_9_10" id="1_1_9_10">
+                <td> 1.1.8.10x <div class="input-group">
+                        <select class="form-control" name="1_1_9_10x" id="1_1_9_10x">
                             <option value="1">Studying in Grade 1</option>
                             <option value="2">Passed Grade 1 </option>
                             <option value="3">Passed Grade 2 </option>
@@ -1478,8 +1478,8 @@
                         </select>
                     </div>
                 </td>
-                <td> 1.1.10.10 <div class="input-group">
-                        <select class="form-control" name="1_1_10_10" id="1_1_10_10" onchange="eDoth(this,6,'1_1_10_10_oth')">
+                <td> 1.1.10.10x <div class="input-group">
+                        <select class="form-control" name="1_1_10_10x" id="1_1_10_10x" onchange="eDoth(this,6,'1_1_10_10_oth')">
                             <option value="1">Employed</option>
                             <option value="2">Looking for a job</option>
                             <option value="3">Student</option>
@@ -1493,7 +1493,7 @@
                 </div>
                 </td>
                 <td> 1.1.11.10 <div class="input-group">
-                        <select class="form-control" name="1_1_11_10" id="1_1_11_10" onchange="eDoth(this,10,'1_1_11_10_oth')">
+                        <select class="form-control" name="1_1_11_10x" id="1_1_11_10x" onchange="eDoth(this,10,'1_1_11_10_oth')">
                             <option value="1">Government Employee</option>
                             <option value="2">Semi-government Employee </option>
                             <option value="3">Private sector employee</option>
@@ -1511,10 +1511,10 @@
                 </div>
                 </td>
                 <td>
-                    <div>1.1.12.10 <input type="text" name="1_1_12_10" id="1_1_12_10" class="form-control" />
+                    <div>1.1.12.10x <input type="text" name="1_1_12_10x" id="1_1_12_10x"  required class="form-control" />
                 </td>
                 <td>
-                    <div>1.1.13.10 <input type="text" name="1_1_13_10" id="1_1_13_10" class="form-control" />
+                    <div>1.1.13.10x <input type="text" name="1_1_13_10x" id="1_1_13_10x"  required class="form-control" />
                 </td>
             </tr>
             
@@ -1523,7 +1523,7 @@
         <div class="card-footer">
                    
                     <button type="reset" class="btn btn-default">Reset Button</button>
-                    <button type="submit" name="btnsave" id="btnsave" class="btn btn-primary float-right">Submit Button</button>
+                    <button type="submit" name="btnsubmit" id="btnsubmit" class="btn btn-primary float-right">Submit Button</button>
                 </div>
 
 

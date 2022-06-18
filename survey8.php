@@ -30,21 +30,17 @@ if(isset($_POST['btnsubmit']) ) {
         
    
 
-        if (isset($_POST['1_1_2_1'])) {  $a1_1_2_1 = $_POST['1_1_2_1'];   } else {$a1_1_2_1 = NULL; }
-        if (isset($_POST['1_1_3_1'] )) { $a1_1_3_1 = $_POST['1_1_3_1'];} else {$a1_1_3_1 = NULL; }
-        if (isset($_POST['1_1_4_1'] )) { $a1_1_4_1 = $_POST['1_1_4_1'];} else {$a1_1_4_1 = NULL; }
-        if (isset($_POST['1_1_5_1'] )) { $a1_1_5_1 = $_POST['1_1_5_1'];} else {$a1_1_5_1 = NULL; }
-        if (isset($_POST['1_1_6_1'] )) { $a1_1_6_1 = $_POST['1_1_6_1'];} else {$a1_1_6_1 = NULL; }
-        if (isset($_POST['1_1_7_1'] )) { $a1_1_7_1 = $_POST['1_1_7_1'];} else {$a1_1_7_1 = NULL; }
-        if (isset($_POST['1_1_8_1'] )) { $a1_1_8_1 = $_POST['1_1_8_1'];} else {$a1_1_8_1 = NULL; }
-        if (isset($_POST['1_1_9_1'] )) { $a1_1_9_1 = $_POST['1_1_9_1'];} else {$a1_1_9_1 = NULL; }
-        if (isset($_POST['1_1_10_1'] )) { $a1_1_10_1 = $_POST['1_1_10_1'];} else {$a1_1_10_1 = NULL; }
-        if (isset($_POST['1_1_11_1'] )) { $a1_1_11_1 = $_POST['1_1_11_1'];} else {$a1_1_11_1 = NULL; }
-        if (isset($_POST['1_1_12_1'] )) { $a1_1_12_1 = $_POST['1_1_12_1'];} else {$a1_1_12_1 = NULL; }
-        if (isset($_POST['1_1_13_1'] )) { $a1_1_13_1 = $_POST['1_1_13_1'];} else {$a1_1_13_1 = NULL; }
+        if (isset($_POST['8_1']))  { $a8_1 = $_POST['8_1'];} else {$a8_1 = 0; }
+        if (isset($_POST['8_2'] )) { $a8_2 = $_POST['8_2'];} else {$a8_2 = 0; }
+        if (isset($_POST['8_3'] )) { $a8_3 = $_POST['8_3'];} else {$a8_3 = 0; }
+        if (isset($_POST['8_4'] )) { $a8_4 = $_POST['8_4'];} else {$a8_4 = 0; }
+        if (isset($_POST['8_5'] )) { $a8_5 = $_POST['8_5'];} else {$a8_5 = 0; }
+        if (isset($_POST['8_6'] )) { $a8_6 = $_POST['8_6'];} else {$a8_6 = 0; }
+        if (isset($_POST['8_7'] )) { $a8_7 = $_POST['8_7'];} else {$a8_7 = 0; }
+        
         
     
-        $sqlupdatesq = "UPDATE tblsurvey_question SET 1_1_2_1='$a1_1_2_1',1_1_3_1='$a1_1_3_1' ,1_1_4_1='$a1_1_4_1' ,1_1_5_1='$a1_1_5_1',1_1_6_1='$a1_1_7_1' ,1_1_7_1='$a1_1_7_1',1_1_8_1=' $a1_1_8_1',1_1_9_1=' $a1_1_9_1', 1_1_10_1=' $a1_1_10_1', 1_1_11_1=' $a1_1_11_1' ,1_1_12_1='$a1_1_12_1'  ,1_1_13_1='$a1_1_13_1'  where household_id= '$household_id' ";
+        $sqlupdatesq = "UPDATE tblsurvey_question SET 8_1='$a8_1',8_2='$a8_2' ,8_3='$a8_3' ,8_4='$a8_4',8_5='$a8_5' ,8_6='$a8_6',8_7=' $a8_7'  where household_id= '$household_id' ";
         $resultupdatecustomer = mysqli_query($con, $sqlupdatesq) or die("error in update customer part:" . mysqli_error($con));
 
         if ($resultupdatecustomer == 1) 

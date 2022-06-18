@@ -30,21 +30,23 @@ if(isset($_POST['btnsubmit']) ) {
         
    
 
-        if (isset($_POST['1_1_2_1'])) {  $a1_1_2_1 = $_POST['1_1_2_1'];   } else {$a1_1_2_1 = NULL; }
-        if (isset($_POST['1_1_3_1'] )) { $a1_1_3_1 = $_POST['1_1_3_1'];} else {$a1_1_3_1 = NULL; }
-        if (isset($_POST['1_1_4_1'] )) { $a1_1_4_1 = $_POST['1_1_4_1'];} else {$a1_1_4_1 = NULL; }
-        if (isset($_POST['1_1_5_1'] )) { $a1_1_5_1 = $_POST['1_1_5_1'];} else {$a1_1_5_1 = NULL; }
-        if (isset($_POST['1_1_6_1'] )) { $a1_1_6_1 = $_POST['1_1_6_1'];} else {$a1_1_6_1 = NULL; }
-        if (isset($_POST['1_1_7_1'] )) { $a1_1_7_1 = $_POST['1_1_7_1'];} else {$a1_1_7_1 = NULL; }
-        if (isset($_POST['1_1_8_1'] )) { $a1_1_8_1 = $_POST['1_1_8_1'];} else {$a1_1_8_1 = NULL; }
-        if (isset($_POST['1_1_9_1'] )) { $a1_1_9_1 = $_POST['1_1_9_1'];} else {$a1_1_9_1 = NULL; }
-        if (isset($_POST['1_1_10_1'] )) { $a1_1_10_1 = $_POST['1_1_10_1'];} else {$a1_1_10_1 = NULL; }
-        if (isset($_POST['1_1_11_1'] )) { $a1_1_11_1 = $_POST['1_1_11_1'];} else {$a1_1_11_1 = NULL; }
-        if (isset($_POST['1_1_12_1'] )) { $a1_1_12_1 = $_POST['1_1_12_1'];} else {$a1_1_12_1 = NULL; }
-        if (isset($_POST['1_1_13_1'] )) { $a1_1_13_1 = $_POST['1_1_13_1'];} else {$a1_1_13_1 = NULL; }
-        
+        if (isset($_POST['6_1'])) {  $a6_1 = $_POST['6_1'];   } else {$a6_1 = 0; }
+        if (isset($_POST['6_2'] )) { $a6_2 = $_POST['6_2'];} else {$a6_2 = 0; }
+        if (isset($_POST['6_2_oth'] )) { $a6_2_oth = $_POST['6_2_oth'];} else {$a6_2_oth = NULL; }
+        if (isset($_POST['6_3'] )) { $a6_3 = $_POST['6_3'];} else {$a6_3 = 0; }
+        if (isset($_POST['6_3_oth'] )) { $a6_3_oth = $_POST['6_3_oth'];} else {$a6_3_oth = NULL; }
+        if (isset($_POST['6_4a'] )) { $a6_4a = $_POST['6_4a'];} else {$a6_4a = 0; }
+        if (isset($_POST['6_4b'] )) { $a6_4b = $_POST['6_4b'];} else {$a6_4b = 0; }
+        if (isset($_POST['6_4c'] )) { $a6_4c = $_POST['6_4c'];} else {$a6_4c = 0; }
+        if (isset($_POST['6_4d'] )) { $a6_4d = $_POST['6_4d'];} else {$a6_4d= 0; }
+        if (isset($_POST['6_4e'] )) { $a6_4e = $_POST['6_4e'];} else {$a6_4e = 0; }
+        if (isset($_POST['6_4f'] )) { $a6_4f = $_POST['6_4f'];} else {$a6_4f = 0; }
+        if (isset($_POST['6_4g'] )) { $a6_4g = $_POST['6_4g'];} else {$a6_4g = 0; }
+        if (isset($_POST['6_4h'] )) { $a6_4h = $_POST['6_4h'];} else {$a6_4h = 0; }
+        if (isset($_POST['6_4i'] )) { $a6_4i = $_POST['6_4i'];} else {$a6_4i = 0; }
+        if (isset($_POST['6_4_oth'] )) { $a6_4_oth = $_POST['6_4_oth'];} else {$a6_4_oth = NULL; }
     
-        $sqlupdatesq = "UPDATE tblsurvey_question SET 1_1_2_1='$a1_1_2_1',1_1_3_1='$a1_1_3_1' ,1_1_4_1='$a1_1_4_1' ,1_1_5_1='$a1_1_5_1',1_1_6_1='$a1_1_7_1' ,1_1_7_1='$a1_1_7_1',1_1_8_1=' $a1_1_8_1',1_1_9_1=' $a1_1_9_1', 1_1_10_1=' $a1_1_10_1', 1_1_11_1=' $a1_1_11_1' ,1_1_12_1='$a1_1_12_1'  ,1_1_13_1='$a1_1_13_1'  where household_id= '$household_id' ";
+        $sqlupdatesq = "UPDATE tblsurvey_question SET 6_1='$a6_1',6_2='$a6_2' ,6_3='$a6_3' ,6_4='$a6_4',6_4a='$a6_4a' ,6_4b='$a6_4b',6_4c=' $a6_4c',6_4d=' $a6_4d', 6_4e=' $a6_4e', 6_4f=' $a6_4f' ,6_4g='$a6_4g'  ,6_4h='$a6_4h',a6_4i='$a6_4i' ,6_4_oth='$a6_4_oth' where household_id= '$household_id' ";
         $resultupdatecustomer = mysqli_query($con, $sqlupdatesq) or die("error in update customer part:" . mysqli_error($con));
 
         if ($resultupdatecustomer == 1) 

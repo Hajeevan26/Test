@@ -30,27 +30,34 @@ if(isset($_POST['btnsubmit']) ) {
         
    
 
-        if (isset($_POST['1_1_2_1'])) {  $a1_1_2_1 = $_POST['1_1_2_1'];   } else {$a1_1_2_1 = NULL; }
-        if (isset($_POST['1_1_3_1'] )) { $a1_1_3_1 = $_POST['1_1_3_1'];} else {$a1_1_3_1 = NULL; }
-        if (isset($_POST['1_1_4_1'] )) { $a1_1_4_1 = $_POST['1_1_4_1'];} else {$a1_1_4_1 = NULL; }
-        if (isset($_POST['1_1_5_1'] )) { $a1_1_5_1 = $_POST['1_1_5_1'];} else {$a1_1_5_1 = NULL; }
-        if (isset($_POST['1_1_6_1'] )) { $a1_1_6_1 = $_POST['1_1_6_1'];} else {$a1_1_6_1 = NULL; }
-        if (isset($_POST['1_1_7_1'] )) { $a1_1_7_1 = $_POST['1_1_7_1'];} else {$a1_1_7_1 = NULL; }
-        if (isset($_POST['1_1_8_1'] )) { $a1_1_8_1 = $_POST['1_1_8_1'];} else {$a1_1_8_1 = NULL; }
-        if (isset($_POST['1_1_9_1'] )) { $a1_1_9_1 = $_POST['1_1_9_1'];} else {$a1_1_9_1 = NULL; }
-        if (isset($_POST['1_1_10_1'] )) { $a1_1_10_1 = $_POST['1_1_10_1'];} else {$a1_1_10_1 = NULL; }
-        if (isset($_POST['1_1_11_1'] )) { $a1_1_11_1 = $_POST['1_1_11_1'];} else {$a1_1_11_1 = NULL; }
-        if (isset($_POST['1_1_12_1'] )) { $a1_1_12_1 = $_POST['1_1_12_1'];} else {$a1_1_12_1 = NULL; }
-        if (isset($_POST['1_1_13_1'] )) { $a1_1_13_1 = $_POST['1_1_13_1'];} else {$a1_1_13_1 = NULL; }
+        if (isset($_POST['7_1'])) {  $a7_1 = $_POST['7_1'];   } else {$a7_1 = 0; }
+        if (isset($_POST['7_1_oth'] )) { $a7_1_oth = $_POST['7_1_oth'];} else {$a7_1_oth = NULL; }
+        if (isset($_POST['7_2'] )) { $a7_2 = $_POST['7_2'];} else {$a7_2 = 0; }
+        if (isset($_POST['7_2_oth'] )) { $a7_2_oth = $_POST['7_2_oth'];} else {$a7_2_oth = NULL; }
+        if (isset($_POST['7_3'] )) { $a7_3 = $_POST['7_3'];} else {$a7_3 = 0; }
+        if (isset($_POST['7_4_a'] )) { $a7_4_a = $_POST['7_4_a'];} else {$a7_4_a = 0; }
+        if (isset($_POST['7_4_b'] )) { $a7_4_b = $_POST['7_4_b'];} else {$a7_4_b = 0; }
+        if (isset($_POST['7_4_c'] )) { $a7_4_c = $_POST['7_4_c'];} else {$a7_4_c = 0; }
+        if (isset($_POST['7_4_d'] )) { $a7_4_d = $_POST['7_4_d'];} else {$a7_4_d = 0; }
+        if (isset($_POST['7_4_e'] )) { $a7_4_e = $_POST['7_4_e'];} else {$a7_4_e = 0; }
+        if (isset($_POST['7_4_e_oth'] )) { $a7_4_e_oth = $_POST['7_4_e_oth'];} else {$a7_4_e_oth = NULL; }
+        if (isset($_POST['7_5'] )) { $a7_5 = $_POST['7_5'];} else {$a7_5 = 0; }
+        if (isset($_POST['7_6'] )) { $a7_6 = $_POST['7_6'];} else {$a7_6 = 0; }
+        if (isset($_POST['7_7'] )) { $a7_7 = $_POST['7_7'];} else {$a7_7 = 0; }
+        if (isset($_POST['7_8'] )) { $a7_8 = $_POST['7_8'];} else {$a7_8 = 0; }
+        if (isset($_POST['7_9'] )) { $a7_9 = $_POST['7_9'];} else {$a7_9 = 0; }
+        if (isset($_POST['7_10'] )) { $a7_10 = $_POST['7_10'];} else {$a7_10 = 0; }
+        if (isset($_POST['7_11'] )) { $a7_11 = $_POST['7_11'];} else {$a7_11 = 0; }
+
         
     
-        $sqlupdatesq = "UPDATE tblsurvey_question SET 1_1_2_1='$a1_1_2_1',1_1_3_1='$a1_1_3_1' ,1_1_4_1='$a1_1_4_1' ,1_1_5_1='$a1_1_5_1',1_1_6_1='$a1_1_7_1' ,1_1_7_1='$a1_1_7_1',1_1_8_1=' $a1_1_8_1',1_1_9_1=' $a1_1_9_1', 1_1_10_1=' $a1_1_10_1', 1_1_11_1=' $a1_1_11_1' ,1_1_12_1='$a1_1_12_1'  ,1_1_13_1='$a1_1_13_1'  where household_id= '$household_id' ";
+        $sqlupdatesq = "UPDATE tblsurvey_question SET 7_1='$a7_1',7_2='$a7_2' ,7_3='$a7_3' ,7_4='$a7_4',7_4_a='$a7_4_a',7_4_b='$a7_4_b',7_4_c='$a7_4_c',7_4_d='$a7_4_d',7_4_e='$a7_4_e',  a7_4_e_oth='$a7_4_e_oth', 7_5='$a7_5' , 7_6='$a7_6', 7_7='$a7_7', 7_8='$a7_8', 7_9='$a7_9', 7_10='$a7_10', 7_11='$a7_11' where household_id= '$household_id' ";
         $resultupdatecustomer = mysqli_query($con, $sqlupdatesq) or die("error in update customer part:" . mysqli_error($con));
 
         if ($resultupdatecustomer == 1) 
         {
            
-            echo '<script> alert("your data added successfully");//window.location.href="index1.php?pg=surveyG.php";</script>';
+            echo '<script> alert("your data added successfully");window.location.href="index1.php?pg=surveyG.php";</script>';
            
             // $_SESSION['id'] = $id;
            
