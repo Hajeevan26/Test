@@ -49,10 +49,10 @@
                                     <div class="checkbox"> <label><input type="checkbox" name="5_2_a_6" id="5_2_a_6"
                                                 value="6">NGO</label>
                                     </div>
-                                    <div class="checkbox"> <label><input type="checkbox" name="5_2_a_6_oth"
-                                                id="5_2_a_6_oth" value="7">Other</label>
+                                    <div class="checkbox"> <label><input type="checkbox" name="5_2_a_7"
+                                                id="5_2_a_7" value="7" onclick="eDcheckOT('5_2_a_7','5_2_a_7_oth')">Other</label>
                                     </div>
-                                    <div>1.1.12.1 <input type="text" name="1_1_12_1" id="1_1_12_1"
+                                    <div>5_2_a_7_oth <input type="text" name="5_2_a_7_oth" id="5_2_a_7_oth"
                                             class="form-control" />
                                     </div>
                                 </div>
@@ -105,10 +105,10 @@
                                     <div class="checkbox"> <label><input type="checkbox" name="5_2_b_6" id="5_2_b_6"
                                                 value="6">NGO</label>
                                     </div>
-                                    <div class="checkbox"> <label><input type="checkbox" name="5_2_b_6_oth"
-                                                id="5_2_b_6_oth" value="7">Other</label>
+                                    <div class="checkbox"> <label><input type="checkbox" name="5_2_b_7" onclick="eDcheckOT('5_2_b_7','5_2_b_7_oth')"
+                                                id="5_2_b_7" value="7">Other</label>
                                     </div>
-                                    <div>1.1.12.1 <input type="text" name="1_1_12_1" id="1_1_12_1"
+                                    <div>5_2_b_7_oth<input type="text" name="5_2_b_7_oth" id="5_2_b_7_oth"
                                             class="form-control" />
                                     </div>
                                 </div>
@@ -160,10 +160,10 @@
                                     <div class="checkbox"> <label><input type="checkbox" name="5_2_c_6" id="5_2_c_6"
                                                 value="6">NGO</label>
                                     </div>
-                                    <div class="checkbox"> <label><input type="checkbox" name="5_2_c_6_oth"
-                                                id="5_2_c_6_oth" value="7">Other</label>
+                                    <div class="checkbox"> <label><input type="checkbox" name="5_2_c_7" onclick="eDcheckOT('5_2_c_7','5_2_c_7_oth')"
+                                                id="5_2_c_7" value="7">Other</label>
                                     </div>
-                                    <div>1.1.12.1 <input type="text" name="1_1_12_1" id="1_1_12_1"
+                                    <div>5_2_c_7_oth<input type="text" name="5_2_c_7_oth" id="5_2_c_7_oth"
                                             class="form-control" />
                                     </div>
                                 </div>
@@ -216,10 +216,10 @@
                                     <div class="checkbox"> <label><input type="checkbox" name="5_2_d_6" id="5_2_d_6"
                                                 value="6">NGO</label>
                                     </div>
-                                    <div class="checkbox"> <label><input type="checkbox" name="5_2_d_6_oth"
-                                                id="5_2_d_6_oth" value="7">Other</label>
+                                    <div class="checkbox"> <label><input type="checkbox" name="5_2_d_7" onclick="eDcheckOT('5_2_d_7','5_2_d_7_oth')"
+                                                id="5_2_d_7" value="7">Other</label>
                                     </div>
-                                    <div>1.1.12.1 <input type="text" name="1_1_12_1" id="1_1_12_1"
+                                    <div>5_2_d_7_oth <input type="text" name="5_2_d_7_oth" id="5_2_d_7_oth"
                                             class="form-control" />
                                     </div>
                                 </div>
@@ -273,10 +273,10 @@
                                     <div class="checkbox"> <label><input type="checkbox" name="5_2_e_6" id="5_2_e_6"
                                                 value="6">NGO</label>
                                     </div>
-                                    <div class="checkbox"> <label><input type="checkbox" name="5_2_e_6_oth"
-                                                id="5_2_e_6_oth" value="7">Other</label>
+                                    <div class="checkbox"> <label><input type="checkbox" name="5_2_e_7" onclick="eDcheckOT('5_2_e_7','5_2_e_7_oth')"
+                                                id="5_2_e_7" value="7">Other</label>
                                     </div>
-                                    <div>1.1.12.1 <input type="text" name="1_1_12_1" id="1_1_12_1"
+                                    <div>5_2_e_7_oth<input type="text" name="5_2_e_7_oth" id="5_2_e_7_oth"
                                             class="form-control" />
                                     </div>
                                 </div>
@@ -330,10 +330,10 @@
                                     <div class="checkbox"> <label><input type="checkbox" name="5_2_f_6" id="5_2_f_6"
                                                 value="6">NGO</label>
                                     </div>
-                                    <div class="checkbox"> <label><input type="checkbox" name="5_2_f_6_oth"
-                                                id="5_2_f_6_oth" value="7">Other</label>
+                                    <div class="checkbox"> <label><input type="checkbox" name="5_2_f_7" onclick="eDcheckOT('5_2_f_7','5_2_f_7_oth')"
+                                                id="5_2_f_7" value="7">Other</label>
                                     </div>
-                                    <div>1.1.12.1 <input type="text" name="1_1_12_1" id="1_1_12_1"
+                                    <div>5_2_f_7_oth<input type="text" name="5_2_f_7_oth" id="5_2_f_7_oth"
                                             class="form-control" />
                                     </div>
                                 </div>
@@ -387,10 +387,10 @@
                                     <div class="checkbox"> <label><input type="checkbox" name="5_2_g_6" id="5_2_g_6"
                                                 value="6">NGO</label>
                                     </div>
-                                    <div class="checkbox"> <label><input type="checkbox" name="5_2_g_6_oth"
-                                                id="5_2_g_6_oth" value="7">Other</label>
+                                    <div class="checkbox"> <label><input type="checkbox" name="5_2_g_7" onclick="eDcheckOT('5_2_g_7','5_2_g_7_oth')"
+                                                id="5_2_g_7" value="7">Other</label>
                                     </div>
-                                    <div>1.1.12.1 <input type="text" name="1_1_12_1" id="1_1_12_1"
+                                    <div>5_2_g_7_oth<input type="text" name="5_2_g_7_oth" id="5_2_g_7_oth"
                                             class="form-control" />
                                     </div>
                                 </div>
@@ -443,10 +443,10 @@
                                     <div class="checkbox"> <label><input type="checkbox" name="5_2_h_6" id="5_2_h_6"
                                                 value="6">NGO</label>
                                     </div>
-                                    <div class="checkbox"> <label><input type="checkbox" name="5_2_h_6_oth"
-                                                id="5_2_h_6_oth" value="7">Other</label>
+                                    <div class="checkbox"> <label><input type="checkbox" name="5_2_h_7" onclick="eDcheckOT('5_2_h_7','5_2_h_7_oth')"
+                                                id="5_2_h_7" value="7">Other</label>
                                     </div>
-                                    <div>1.1.12.1 <input type="text" name="1_1_12_1" id="1_1_12_1"
+                                    <div>5_2_h_7_oth<input type="text" name="5_2_h_7_oth" id="5_2_h_7_oth"
                                             class="form-control" />
                                     </div>
                                 </div>
@@ -499,10 +499,10 @@
                                     <div class="checkbox"> <label><input type="checkbox" name="5_2_i_6" id="5_2_i_6"
                                                 value="6">NGO</label>
                                     </div>
-                                    <div class="checkbox"> <label><input type="checkbox" name="5_2_i_6_oth"
-                                                id="5_2_i_6_oth" value="7">Other</label>
+                                    <div class="checkbox"> <label><input type="checkbox" name="5_2_i_7" onclick="eDcheckOT('5_2_i_7','5_2_i_7_oth')"
+                                                id="5_2_i_7" value="7">Other</label>
                                     </div>
-                                    <div>1.1.12.1 <input type="text" name="1_1_12_1" id="1_1_12_1"
+                                    <div>5_2_i_7_oth<input type="text" name="5_2_i_7_oth" id="5_2_i_7_oth"
                                             class="form-control" />
                                     </div>
                                 </div>
@@ -556,10 +556,10 @@
                                     <div class="checkbox"> <label><input type="checkbox" name="5_2_j_6" id="5_2_j_6"
                                                 value="6">NGO</label>
                                     </div>
-                                    <div class="checkbox"> <label><input type="checkbox" name="5_2_j_6_oth"
-                                                id="5_2_j_6_oth" value="7">Other</label>
+                                    <div class="checkbox"> <label><input type="checkbox" name="5_2_j_7" onclick="eDcheckOT('5_2_j_7','5_2_j_7_oth')"
+                                                id="5_2_j_7" value="7">Other</label>
                                     </div>
-                                    <div>1.1.12.1 <input type="text" name="1_1_12_1" id="1_1_12_1"
+                                    <div>5_2_j_7_oth<input type="text" name="5_2_j_7_oth" id="5_2_j_7_oth"
                                             class="form-control" />
                                     </div>
                                 </div>
@@ -612,10 +612,10 @@
                                     <div class="checkbox"> <label><input type="checkbox" name="5_2_k_6" id="5_2_k_6"
                                                 value="6">NGO</label>
                                     </div>
-                                    <div class="checkbox"> <label><input type="checkbox" name="5_2_k_6_oth"
-                                                id="5_2_k_6_oth" value="7">Other</label>
+                                    <div class="checkbox"> <label><input type="checkbox" name="5_2_k_7" onclick="eDcheckOT('5_2_k_7','5_2_k_7_oth')"
+                                                id="5_2_k_7" value="7">Other</label>
                                     </div>
-                                    <div>1.1.12.1 <input type="text" name="1_1_12_1" id="1_1_12_1"
+                                    <div>5_2_k_7_oth<input type="text" name="5_2_k_7_oth" id="5_2_k_7_oth"
                                             class="form-control" />
                                     </div>
                                 </div>
@@ -646,8 +646,8 @@
                             <td>g.Information on smart
                                 agriculture
                                 practices/technologies</td>
-                            <td>5_1_g<div class="input-group">
-                                    <select class="form-control" name="5_1_g" id="5_1_g">
+                            <td>5_1_L<div class="input-group">
+                                    <select class="form-control" name="5_1_l" id="5_1_l">
                                         <option value="1">Yes</option>
                                         <option value="2">No</option>
                                     </select>
@@ -656,55 +656,55 @@
                             <td>
                                 <div class="form-group">
 
-                                    <div class="checkbox"><label><input type="checkbox" name="5_2_g_1" id="5_2_g_1"
+                                    <div class="checkbox"><label><input type="checkbox" name="5_2_l_1" id="5_2_l_1"
                                                 value="1"> Agricultural Instructors</label> </div>
-                                    <div class="checkbox"><label><input type="checkbox" name="5_2_g_2" id="5_2_g_2"
+                                    <div class="checkbox"><label><input type="checkbox" name="5_2_l_2" id="5_2_l_2"
                                                 value="2">Development officers</label> </div>
-                                    <div class="checkbox"><label><input type="checkbox" name="5_2_g_3" id="5_2_g_3"
+                                    <div class="checkbox"><label><input type="checkbox" name="5_2_l_3" id="5_2_l_3"
                                                 value="3">Officials from private firms </label> </div>
-                                    <div class="checkbox"><label><input type="checkbox" name="5_2_g_4" id="5_2_g_4"
+                                    <div class="checkbox"><label><input type="checkbox" name="5_2_l_4" id="5_2_l_4"
                                                 value="4">Farmer's organizations</label></div>
-                                    <div class="checkbox"> <label><input type="checkbox" name="5_2_g_5" id="5_2_g_5"
+                                    <div class="checkbox"> <label><input type="checkbox" name="5_2_l_5" id="5_2_l_5"
                                                 value="5">Universities/Colleges</label> </div>
-                                    <div class="checkbox"> <label><input type="checkbox" name="5_2_g_6" id="5_2_g_6"
+                                    <div class="checkbox"> <label><input type="checkbox" name="5_2_l_6" id="5_2_l_6"
                                                 value="6">NGO</label>
                                     </div>
-                                    <div class="checkbox"> <label><input type="checkbox" name="5_2_g_6_oth"
-                                                id="5_2_g_6_oth" value="7">Other</label>
+                                    <div class="checkbox"> <label><input type="checkbox" name="5_2_l_7" onclick="eDcheckOT('5_2_l_7','5_2_l_7_oth')"
+                                                id="5_2_l_7" value="7">Other</label>
                                     </div>
-                                    <div>1.1.12.1 <input type="text" name="1_1_12_1" id="1_1_12_1"
+                                    <div>5_2_l_7_oth<input type="text" name="5_2_l_7_oth" id="5_2_l_7_oth"
                                             class="form-control" />
                                     </div>
                                 </div>
                             </td>
                             <td>
                                 <div class="form-group">
-                                    <div class="checkbox"><label><input type="checkbox" name="5_3_g_1" id="5_3_g_1"
+                                    <div class="checkbox"><label><input type="checkbox" name="5_3_l_1" id="5_3_l_1"
                                                 value="1"> Prior to the Maha season</label> </div>
-                                    <div class="checkbox"><label><input type="checkbox" name="5_3_g_2" id="5_3_g_2"
+                                    <div class="checkbox"><label><input type="checkbox" name="5_3_l_2" id="5_3_l_2"
                                                 value="2">During the Maha season</label> </div>
-                                    <div class="checkbox"><label><input type="checkbox" name="5_3_g_3" id="5_3_g_3"
+                                    <div class="checkbox"><label><input type="checkbox" name="5_3_l_3" id="5_3_l_3"
                                                 value="3">After the Maha season</label> </div>
 
                                 </div>
                             </td>
                             <td>5_4_g<div class="input-group">
-                                    <select class="form-control" name="5_4_g" id="5_4_g">
+                                    <select class="form-control" name="5_4_l" id="5_4_l">
                                         <option value="1">Yes</option>
                                         <option value="2">No</option>
                                     </select>
                                 </div>
                             </td>
 
-                            <td>5_5_g<input type="text" name="5_5_g" id="5_5_g" class="form-control" /></td>
+                            <td>5_5_l<input type="text" name="5_5_l" id="5_5_l" class="form-control" /></td>
                         </tr>
                         <!-- 13 row -->
                         <tr>
                             <td>
                                 <div>If Other<input type="text" name="5_1_h" id="5_1_h" class="form-control" />
                             </td>
-                            <td>5_2_h<div class="input-group">
-                                    <select class="form-control" name="5_2_h" id="5_2_h">
+                            <td>5_2_m<div class="input-group">
+                                    <select class="form-control" name="5_2_m" id="5_2_m">
                                         <option value="1">Yes</option>
                                         <option value="2">No</option>
                                     </select>
@@ -713,47 +713,47 @@
                             <td>
                                 <div class="form-group">
 
-                                    <div class="checkbox"><label><input type="checkbox" name="5_2_g_1" id="5_2_h_1"
+                                    <div class="checkbox"><label><input type="checkbox" name="5_2_m_1" id="5_2_m_1"
                                                 value="1"> Agricultural Instructors</label> </div>
-                                    <div class="checkbox"><label><input type="checkbox" name="5_2_h_2" id="5_2_h_2"
+                                    <div class="checkbox"><label><input type="checkbox" name="5_2_m_2" id="5_2_m_2"
                                                 value="2">Development officers</label> </div>
-                                    <div class="checkbox"><label><input type="checkbox" name="5_2_h_3" id="5_2_h_3"
+                                    <div class="checkbox"><label><input type="checkbox" name="5_2_m_3" id="5_2_m_3"
                                                 value="3">Officials from private firms </label> </div>
-                                    <div class="checkbox"><label><input type="checkbox" name="5_2_h_4" id="5_2_h_4"
+                                    <div class="checkbox"><label><input type="checkbox" name="5_2_m_4" id="5_2_m_4"
                                                 value="4">Farmer's organizations</label></div>
-                                    <div class="checkbox"> <label><input type="checkbox" name="5_2_h_5" id="5_2_h_5"
+                                    <div class="checkbox"> <label><input type="checkbox" name="5_2_m_5" id="5_2_m_5"
                                                 value="5">Universities/Colleges</label> </div>
-                                    <div class="checkbox"> <label><input type="checkbox" name="5_2_h_6" id="5_2_h_6"
+                                    <div class="checkbox"> <label><input type="checkbox" name="5_2_m_6" id="5_2_m_6"
                                                 value="6">NGO</label>
                                     </div>
-                                    <div class="checkbox"> <label><input type="checkbox" name="5_2_h_6_oth"
-                                                id="5_2_h_6_oth" value="7">Other</label>
+                                    <div class="checkbox"> <label><input type="checkbox" name="5_2_m_7" onclick="eDcheckOT('5_2_m_7','5_2_m_7_oth')"
+                                                id="5_2_m_7" value="7">Other</label>
                                     </div>
-                                    <div>1.1.12.1 <input type="text" name="1_1_12_1" id="1_1_12_1"
+                                    <div>5_2_m_7_oth<input type="text" name="5_2_m_7_oth" id="5_2_m_7_oth"
                                             class="form-control" />
                                     </div>
                                 </div>
                             </td>
                             <td>
                                 <div class="form-group">
-                                    <div class="checkbox"><label><input type="checkbox" name="5_3_h_1" id="5_3_h_1"
+                                    <div class="checkbox"><label><input type="checkbox" name="5_3_m_1" id="5_3_m_1"
                                                 value="1"> Prior to the Maha season</label> </div>
-                                    <div class="checkbox"><label><input type="checkbox" name="5_3_h_2" id="5_3_h_2"
+                                    <div class="checkbox"><label><input type="checkbox" name="5_3_m_2" id="5_3_m_2"
                                                 value="2">During the Maha season</label> </div>
-                                    <div class="checkbox"><label><input type="checkbox" name="5_3_h_3" id="5_3_h_3"
+                                    <div class="checkbox"><label><input type="checkbox" name="5_3_m_3" id="5_3_m_3"
                                                 value="3">After the Maha season</label> </div>
 
                                 </div>
                             </td>
-                            <td>5_4_h<div class="input-group">
-                                    <select class="form-control" name="5_4_h" id="5_4_h">
+                            <td>5_4_m<div class="input-group">
+                                    <select class="form-control" name="5_4_m" id="5_4_m">
                                         <option value="1">Yes</option>
                                         <option value="2">No</option>
                                     </select>
                                 </div>
                             </td>
 
-                            <td>5_5_h<input type="text" name="5_5_h" id="5_5_h" class="form-control" /></td>
+                            <td>5_5_m<input type="text" name="5_5_m" id="5_5_m" class="form-control" /></td>
                         </tr>
                         <!-- 2nd row -->
 

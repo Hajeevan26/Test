@@ -83,7 +83,7 @@
                         <div class="checkbox"><label><input type="checkbox" name="1_2_5_c" id="1_2_5_c"
                                     value="3">Pit</label></div>
                         <div class="checkbox"><label><input type="checkbox" name="1_2_5_d" id="1_2_5_d"
-                                    value="4" onclick="eDcheckOT('1_2_5_d','1_2_5_d_oth')">Other</label></div>
+                                    value="4" onclick="eDcheckOT('1_2_5_d','1_2_5_d_oth')"  onload="eDcheckOT('1_2_5_d','1_2_5_d_oth')">Other</label></div>
 
                     </div>
                     <div class="input-group" id="1_2_5_d_ot"><input type="text" placeholder="other" required name="1_2_5_d_oth" id="1_2_5_d_oth" class="form-control" /></div>

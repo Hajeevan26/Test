@@ -239,6 +239,7 @@ include($_GET['pg']); }
             //household start 1st row
 
 
+
         });
         </script>
         <script>
@@ -296,9 +297,10 @@ include($_GET['pg']); }
         </script>
         <script>
         function eDcheckOT(chk, txtot) {
-          
+
             var checkBox = document.getElementById(chk);
             var text = document.getElementById(txtot);
+
             console.log(txtot);
             if (checkBox.checked == true) {
                 text.style.display = "block";
@@ -309,6 +311,14 @@ include($_GET['pg']); }
         }
         </script>
 
+        <script type="text/javascript">
+        window.onload = function() {
+            //create survey
+           
+            eDcheckOT('2_6f','2_6_f_oth');
+            eDcheckOT('1_2_5_d','1_2_5_d_oth');
+        }
+        </script>
 </body>
 
 </html>

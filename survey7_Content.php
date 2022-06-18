@@ -12,7 +12,7 @@
                     <div class="input-group">
                         <label>7.1.What do you think that a country could become 100%
                             organic status suddenly?</label>
-                        <select class="form-control" name="7_1" id="7_1">
+                        <select class="form-control" name="7_1" id="7_1"  onchange="eDoth(this,5,'7_1_oth')">
                             <option value="1">Yes, but it needs time
                             </option>
                             <option value="2">Yes, sudden decision might work sometimes positively
@@ -40,7 +40,7 @@
                             partially)?
 
                         </label>
-                        <select class="form-control" name="7_2" id="7_2">
+                        <select class="form-control" name="7_2" id="7_2" onchange="eDoth(this,6,'7_2_oth')">
                             <option value="1">I had cultivated paddy using organic fertilizers at least once in
                                 farming life
                             </option>
@@ -121,9 +121,10 @@
                                 will start doing it</label> </div>
                         <div class="checkbox"><label><input type="checkbox" name="7_4_d" id="7_4_d" value="4">No, I
                                 don’t like to do organic farming</label></div>
-                        <div> <label><input type="text" placeholder="if other" name="7_4_e" id="7_4_e">
+                                <div class="checkbox"><label><input type="checkbox" name="7_4_e" id="7_4_e" value="5" onclick="eDcheckOT('7_4_e','7_4_e_oth')">Other</label></div>
+                        <div> <label><input type="text" placeholder="if other" name="7_4_e_oth" id="7_4_e_oth">
                         </div>
-
+                       
                     </div>
                 </div>
             </div>

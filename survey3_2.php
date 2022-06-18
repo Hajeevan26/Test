@@ -930,7 +930,7 @@ id="3_2_d_7_1_6_oth" class="form-control" /> </div>
                 <div class="checkbox"><label><input type="checkbox" name="3_2_c_13_1_4" id="3_2_c_13_1_4" value="4">Farmer association or cooperative</label></div>
                 <div class="checkbox"><label><input type="checkbox" name="3_2_c_13_1_5" id="3_2_c_13_1_5" value="5">Neighbour</label> </div>
                 <div class="checkbox"><label><input type="checkbox" name="3_2_c_13_1_6" id="3_2_c_13_1_6" value="6" onclick="eDcheckOT('3_2_c_13_1_6','3_2_c_13_1_6_oth')">Other</label> </div>
-			<div>3_2_b_13_1_6_oth <input type="text" name="3_2_b_13_1_6_oth" id="3_2_b_13_1_6_oth" class="form-control" /> </div>
+			<div>3_2_b_13_1_6_oth <input type="text" name="3_2_c_13_1_6_oth" id="3_2_c_13_1_6_oth" class="form-control" /> </div>
 			<hr>
 			<div class="form-group">3
             <div class="checkbox"><label><input type="checkbox" name="3_2_c_13_3_1" id="3_2_c_13_3_1" value="1">Retail Shop/ wholesaler</label> </div>
@@ -940,28 +940,28 @@ id="3_2_d_7_1_6_oth" class="form-control" /> </div>
 				<div class="checkbox"><label><input type="checkbox" name="3_2_c_13_3_5" id="3_2_c_13_3_5" value="5">Neighbour</label> </div>
 				<div class="checkbox"><label><input type="checkbox" name="3_2_c_13_3_6" id="3_2_c_13_3_6" value="6" onclick="eDcheckOT('3_2_c_13_3_6','3_2_c_13_3_6_oth')">Other</label> </div>
 
-				<div>3_2_b_13_3_6_oth <input type="text" name="3_2_c_13_3_6_oth" id="3_2_c_13_3_6_oth" class="form-control" /> </div>
+				<div>3_2_c_13_3_6_oth <input type="text" name="3_2_c_13_3_6_oth" id="3_2_c_13_3_6_oth" class="form-control" /> </div>
 
 	</td>
 	<td>
 		<div class="form-group">2
-			<div class="checkbox"><label><input type="checkbox" name="3_2_b_13_2_1" id="3_2_b_13_2_1" value="1">Retail Shop/ wholesaler</label> </div>
-			<div class="checkbox"><label><input type="checkbox" name="3_2_b_13_2_2" id="3_2_b_13_2_2" value="2">Agrarian Devlopment Centre</label> </div>
-			<div class="checkbox"><label><input type="checkbox" name="3_2_b_13_2_3" id="3_2_b_13_2_3" value="3">Fellow farmer</label> </div>
-			<div class="checkbox"><label><input type="checkbox" name="3_2_b_13_2_4" id="3_2_b_13_2_4" value="4">Farmer association or cooperative</label></div>
-			<div class="checkbox"><label><input type="checkbox" name="3_2_b_13_2_5" id="3_2_b_13_2_5" value="5">Neighbour</label> </div>
-			<div class="checkbox"><label><input type="checkbox" name="3_2_b_13_2_6" id="3_2_b_13_2_6" value="6"onclick="eDcheckOT('3_2_c_13_3_6','3_2_c_13_3_6_oth')">Other</label> </div>
+			<div class="checkbox"><label><input type="checkbox" name="3_2_c_13_2_1" id="3_2_c_13_2_1" value="1">Retail Shop/ wholesaler</label> </div>
+			<div class="checkbox"><label><input type="checkbox" name="3_2_c_13_2_2" id="3_2_c_13_2_2" value="2">Agrarian Devlopment Centre</label> </div>
+			<div class="checkbox"><label><input type="checkbox" name="3_2_c_13_2_3" id="3_2_c_13_2_3" value="3">Fellow farmer</label> </div>
+			<div class="checkbox"><label><input type="checkbox" name="3_2_c_13_2_4" id="3_2_c_13_2_4" value="4">Farmer association or cooperative</label></div>
+			<div class="checkbox"><label><input type="checkbox" name="3_2_c_13_2_5" id="3_2_c_13_2_5" value="5">Neighbour</label> </div>
+			<div class="checkbox"><label><input type="checkbox" name="3_2_c_13_2_6" id="3_2_c_13_2_6" value="6" onclick="eDcheckOT('3_2_c_13_2_6','3_2_c_13_2_6_oth')">Other</label> </div>
 
-			<div>3_2_b_13_2_6_oth <input type="text" name="3_2_b_13_2_6_oth" id="3_2_b_13_2_6_oth" class="form-control" /> </div>
+			<div>3_2_c_13_2_6_oth <input type="text" name="3_2_c_13_2_6_oth" id="3_2_c_13_2_6_oth" class="form-control" /> </div>
 			<hr>
 			<div class="form-group">4
-				<div class="checkbox"><label><input type="checkbox" name="3_2_b_13_3_1" id="3_2_b_13_3_1" value="1">Retail Shop/ wholesaler</label> </div>
-				<div class="checkbox"><label><input type="checkbox" name="3_2_b_13_3_2" id="3_2_b_13_3_2" value="2">Agrarian Devlopment Centre</label> </div>
-				<div class="checkbox"><label><input type="checkbox" name="3_2_b_13_3_3" id="3_2_b_13_3_3" value="3">Fellow farmer</label> </div>
-				<div class="checkbox"><label><input type="checkbox" name="3_2_b_13_3_4" id="3_2_b_13_3_4" value="4">Farmer association or cooperative</label></div>
-				<div class="checkbox"><label><input type="checkbox" name="3_2_b_13_3_5" id="3_2_b_13_3_5" value="5">Neighbour</label> </div> 
-				<div class="checkbox"><label><input type="checkbox" name="3_2_b_13_3_6" id="3_2_b_13_3_6" value="6"onclick="eDcheckOT('3_2_c_13_3_6','3_2_c_13_3_6_oth')">Other</label> </div>
-				<div>3_2_b_13_4_6_oth <input type="text" name="3_2_b_13_4_6_oth" id="3_2_b_13_4_6_oth" class="form-control" /> </div>
+				<div class="checkbox"><label><input type="checkbox" name="3_2_c_13_4_1" id="3_2_c_13_4_1" value="1">Retail Shop/ wholesaler</label> </div>
+				<div class="checkbox"><label><input type="checkbox" name="3_2_c_13_4_2" id="3_2_c_13_4_2" value="2">Agrarian Devlopment Centre</label> </div>
+				<div class="checkbox"><label><input type="checkbox" name="3_2_c_13_4_3" id="3_2_c_13_4_3" value="3">Fellow farmer</label> </div>
+				<div class="checkbox"><label><input type="checkbox" name="3_2_c_13_4_4" id="3_2_c_13_4_4" value="4">Farmer association or cooperative</label></div>
+				<div class="checkbox"><label><input type="checkbox" name="3_2_c_13_4_5" id="3_2_c_13_4_5" value="5">Neighbour</label> </div> 
+				<div class="checkbox"><label><input type="checkbox" name="3_2_c_13_4_6" id="3_2_c_13_4_6" value="6" onclick="eDcheckOT('3_2_c_13_4_6','3_2_c_13_4_6_oth')">Other</label> </div>
+				<div>3_2_b_13_4_6_oth <input type="text" name="3_2_c_13_4_6_oth" id="3_2_c_13_4_6_oth" class="form-control" /> </div>
 	</td>
 	</tr>
 	<tr>
@@ -1003,9 +1003,9 @@ id="3_2_d_7_1_6_oth" class="form-control" /> </div>
 			<div class="checkbox"><label><input type="checkbox" name="3_2_d_13_1_3" id="3_2_d_13_1_3" value="3">Fellow farmer</label> </div>
 			<div class="checkbox"><label><input type="checkbox" name="3_2_d_13_1_4" id="3_2_d_13_1_4" value="4">Farmer association or cooperative</label></div>
 			<div class="checkbox"><label><input type="checkbox" name="3_2_d_13_1_5" id="3_2_d_13_1_5" value="5">Neighbour</label> </div>
-			<div class="checkbox"><label><input type="checkbox" name="3_2_d_13_1_6" id="3_2_d_13_1_6" value="6"onclick="eDcheckOT('3_2_c_13_3_6','3_2_c_13_3_6_oth')">Other</label> </div>
+			<div class="checkbox"><label><input type="checkbox" name="3_2_d_13_1_6" id="3_2_d_13_1_6" value="6" onclick="eDcheckOT('3_2_d_13_1_6','3_2_d_13_1_6_oth')">Other</label> </div>
 
-			<div>3_2_d_7_1_6_oth <input type="text" name="3_2_d_7_1_6_oth" id="3_2_d_7_1_6_oth" class="form-control" /> </div>
+			<div>3_2_d_13_1_6_oth <input type="text" name="3_2_d_13_1_6_oth" id="3_2_d_13_1_6_oth" class="form-control" /> </div>
 			<hr>
 			<div class="form-group">3
 				<div class="checkbox"><label><input type="checkbox" name="3_2_d_13_3_1" id="3_2_d_13_3_1" value="1">Retail Shop/ wholesaler</label> </div>
@@ -1013,9 +1013,9 @@ id="3_2_d_7_1_6_oth" class="form-control" /> </div>
 				<div class="checkbox"><label><input type="checkbox" name="3_2_d_13_3_3" id="3_2_d_13_3_3" value="3">Fellow farmer</label> </div>
 				<div class="checkbox"><label><input type="checkbox" name="3_2_d_13_3_4" id="3_2_d_13_3_4" value="4">Farmer association or cooperative</label></div>
 				<div class="checkbox"><label><input type="checkbox" name="3_2_d_13_3_5" id="3_2_d_13_3_5" value="5">Neighbour</label> </div>
-				<div class="checkbox"><label><input type="checkbox" name="3_2_d_13_3_6" id="3_2_d_13_3_6" value="6"onclick="eDcheckOT('3_2_c_13_3_6','3_2_c_13_3_6_oth')">Other</label> </div>
+				<div class="checkbox"><label><input type="checkbox" name="3_2_d_13_3_6" id="3_2_d_13_3_6" value="6" onclick="eDcheckOT('3_2_d_13_3_6','3_2_d_13_3_6_oth')">Other</label> </div>
 
-				<div>3_2_d_13_3_6_oth <input type="text" name="3_2_d_13_1_6_oth" id="3_2_d_13_1_6_oth" class="form-control" /> </div>
+				<div>3_2_d_13_3_6_oth <input type="text" name="3_2_d_13_3_6_oth" id="3_2_d_13_3_6_oth" class="form-control" /> </div>
 
 
 	</td>
@@ -1026,17 +1026,17 @@ id="3_2_d_7_1_6_oth" class="form-control" /> </div>
 			<div class="checkbox"><label><input type="checkbox" name="3_2_d_13_2_3" id="3_2_d_13_2_3" value="3">Fellow farmer</label> </div>
 			<div class="checkbox"><label><input type="checkbox" name="3_2_d_13_2_4" id="3_2_d_13_2_4" value="4">Farmer association or cooperative</label></div>
 			<div class="checkbox"><label><input type="checkbox" name="3_2_d_13_2_5" id="3_2_d_13_2_5" value="5">Neighbour</label> </div>
-			<div class="checkbox"><label><input type="checkbox" name="3_2_d_13_2_6" id="3_2_d_13_2_6" value="6"onclick="eDcheckOT('3_2_c_13_3_6','3_2_c_13_3_6_oth')">Other</label> </div>
+			<div class="checkbox"><label><input type="checkbox" name="3_2_d_13_2_6" id="3_2_d_13_2_6" value="6" onclick="eDcheckOT('3_2_d_13_2_6','3_2_d_13_2_6_oth')">Other</label> </div>
 
 			<div>3_2_d_13_2_6_oth <input type="text" name="3_2_d_13_2_6_oth" id="3_2_d_13_2_6_oth" class="form-control" /> </div>
 			<hr>
 			<div class="form-group">4
-				<div class="checkbox"><label><input type="checkbox" name="3_2_d_13_3_1" id="3_2_d_13_3_1" value="1">Retail Shop/ wholesaler</label> </div>
-				<div class="checkbox"><label><input type="checkbox" name="3_2_d_13_3_2" id="3_2_d_13_3_2" value="2">Agrarian Devlopment Centre</label> </div>
-				<div class="checkbox"><label><input type="checkbox" name="3_2_d_13_3_3" id="3_2_d_13_3_3" value="3">Fellow farmer</label> </div>
-				<div class="checkbox"><label><input type="checkbox" name="3_2_d_13_3_4" id="3_2_d_13_3_4" value="4">Farmer association or cooperative</label></div>
-				<div class="checkbox"><label><input type="checkbox" name="3_2_d_13_3_5" id="3_2_d_13_3_5" value="5">Neighbour</label> </div> 
-				<div class="checkbox"><label><input type="checkbox" name="3_2_d_13_3_6" id="3_2_d_13_3_6" value="6"onclick="eDcheckOT('3_2_c_13_3_6','3_2_c_13_3_6_oth')">Other</label> </div>
+				<div class="checkbox"><label><input type="checkbox" name="3_2_d_13_4_1" id="3_2_d_13_4_1" value="1">Retail Shop/ wholesaler</label> </div>
+				<div class="checkbox"><label><input type="checkbox" name="3_2_d_13_4_2" id="3_2_d_13_4_2" value="2">Agrarian Devlopment Centre</label> </div>
+				<div class="checkbox"><label><input type="checkbox" name="3_2_d_13_4_3" id="3_2_d_13_4_3" value="3">Fellow farmer</label> </div>
+				<div class="checkbox"><label><input type="checkbox" name="3_2_d_13_4_4" id="3_2_d_13_4_4" value="4">Farmer association or cooperative</label></div>
+				<div class="checkbox"><label><input type="checkbox" name="3_2_d_13_4_5" id="3_2_d_13_4_5" value="5">Neighbour</label> </div> 
+				<div class="checkbox"><label><input type="checkbox" name="3_2_d_13_4_6" id="3_2_d_13_4_6" value="6" onclick="eDcheckOT('3_2_d_13_4_6','3_2_d_13_4_6_oth')">Other</label> </div>
 				<div>3_2_d_13_4_6_oth <input type="text" name="3_2_d_13_4_6_oth" id="3_2_d_13_4_6_oth" class="form-control" /> </div>
 	</td>
 	</tr>
@@ -1056,18 +1056,18 @@ id="3_2_d_7_1_6_oth" class="form-control" /> </div>
                                 <div class="checkbox"><label><input type="checkbox" name="3_3_1_a" id="1_2_1_a"
                                             value="1">Water from major irrigation </label>
                                 </div>
-                                <div class="checkbox"><label><input type="checkbox" name="3_3_1_b" id="1_2_1_b"
+                                <div class="checkbox"><label><input type="checkbox" name="3_3_1_b" id="3_3_1_b"
                                             value="2">Rain-fed</label>
                                 </div>
-                                <div class="checkbox"><label><input type="checkbox" name="3_3_1_c" id="1_2_1_c"
+                                <div class="checkbox"><label><input type="checkbox" name="3_3_1_c" id="3_3_1_c"
                                             value="3">Water from minor irrigation</label> </div>
-                                <div class="checkbox"><label><input type="checkbox" name="3_3_1_d" id="1_2_1_d"
+                                <div class="checkbox"><label><input type="checkbox" name="3_3_1_d" id="3_3_1_d"
                                             value="4">Deep-wells</label></div>
-                                <div class="checkbox"> <label><input type="checkbox" name="3_3_1_e" id="1_2_1_e"
+                                <div class="checkbox"> <label><input type="checkbox" name="3_3_1_e" id="3_3_1_e"
                                             value="5">Agro-wells</label> </div>
-                                <div class="checkbox"> <label><input type="checkbox" name="3_3_1_e" id="1_2_1_e"
-                                            value="6"onclick="eDcheckOT('3_2_c_13_3_6','3_2_c_13_3_6_oth')">Other</label> </div>
-                                <div>1.1.12.1 <input type="text" name="3_3_1_e_oth" id="3_3_1_e_oth" class="form-control" />
+                                <div class="checkbox"> <label><input type="checkbox" name="3_3_1_f" id="3_3_1_f"
+                                            value="6" onclick="eDcheckOT('3_3_1_f','3_3_1_e_oth')">Other</label> </div>
+                                <div>3_3_1_e_oth<input type="text" name="3_3_1_e_oth" id="3_3_1_e_oth" class="form-control" />
                                 </div>
                             </div>
                         </div>
@@ -1271,7 +1271,7 @@ id="3_2_d_7_1_6_oth" class="form-control" /> </div>
                                 </label> </div>
 
                             <div class="checkbox"> <label><input type="checkbox" name="3_6_3d" id="3_6_3d"
-                                        value="4"onclick="eDcheckOT('3_2_c_13_3_6','3_2_c_13_3_6_oth')">Other</label> </div>
+                                        value="4" onclick="eDcheckOT('3_6_3d','3_6_3d_oth')">Other</label> </div>
                             <div>3_6_3d_oth<input type="text" name="3_6_3d_oth" id="3_6_3d_oth" class="form-control" />
                             </div>
                         </div>

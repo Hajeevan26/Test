@@ -220,13 +220,33 @@ if(isset($_POST['btnsubmit']) ) {
 
         
     
-        $sqlupdatesq = "UPDATE tblsurvey_question SET 1_1_2_1='$a1_1_2_1',1_1_3_1='$a1_1_3_1' ,1_1_4_1='$a1_1_4_1' ,1_1_5_1='$a1_1_5_1',1_1_6_1='$a1_1_7_1' ,1_1_7_1='$a1_1_7_1',1_1_8_1=' $a1_1_8_1',1_1_9_1=' $a1_1_9_1', 1_1_10_1=' $a1_1_10_1', 1_1_11_1=' $a1_1_11_1' ,1_1_12_1='$a1_1_12_1'  ,1_1_13_1='$a1_1_13_1'  where household_id= '$household_id' ";
-        $resultupdatecustomer = mysqli_query($con, $sqlupdatesq) or die("error in update customer part:" . mysqli_error($con));
+        $sqlupdatesq1 = "UPDATE tblsurvey_question SET 1_1_2_1='$a1_1_2_1',1_1_3_1='$a1_1_3_1',1_1_3_1_oth='$a1_1_3_1_oth',1_1_3_1='$a1_1_3_1' ,1_1_4_1='$a1_1_4_1' ,1_1_5_1='$a1_1_5_1',1_1_6_1='$a1_1_6_1',1_1_6_1_oth='$a1_1_6_1_oth' ,1_1_7_1='$a1_1_7_1',1_1_7_1_oth='$a1_1_7_1_oth',1_1_8_1='$a1_1_8_1',1_1_9_1='$a1_1_9_1', 1_1_10_1='$a1_1_10_1',1_1_10_1_oth='$a1_1_10_1_oth', 1_1_11_1='$a1_1_11_1', 1_1_11_1_oth=' $1_1_11_1_oth' ,1_1_12_1='$a1_1_12_1'  ,1_1_13_1='$a1_1_13_1'  where household_id= '$household_id' ";
+		
+		$sqlupdatesq2 = "UPDATE tblsurvey_question SET 1_1_2_2='$a1_1_2_2',1_1_3_2='$a1_1_3_2',1_1_3_2_oth='$a1_1_3_2_oth',1_1_3_2='$a1_1_3_2',1_1_4_2='$a1_1_4_2' ,1_1_5_2='$a1_1_5_2',1_1_6_2='$a1_1_6_2',1_1_6_2_oth='$a1_1_6_2_oth' ,1_1_7_2='$a1_1_7_2',1_1_7_2_oth='$a1_1_7_2_oth',1_1_8_2='$a1_1_8_2',1_1_9_2='$a1_1_9_2', 1_1_10_2='$a1_1_10_2',1_1_10_2_oth='$a1_1_10_2_oth', 1_1_11_2='$a1_1_11_2', 1_1_11_2_oth='$1_1_11_2_oth' ,1_1_12_2='$a1_1_12_2'  ,1_1_13_2='$a1_1_13_2'  where household_id= '$household_id' ";
+		$sqlupdatesq3 = "UPDATE tblsurvey_question SET 1_1_2_3='$a1_1_2_3',1_1_3_3='$a1_1_3_3',1_1_3_3_oth='$a1_1_3_3_oth',1_1_3_3='$a1_1_3_3',1_1_4_3='$a1_1_4_3' ,1_1_5_3='$a1_1_5_3',1_1_6_3='$a1_1_6_3',1_1_6_3_oth='$a1_1_6_3_oth' ,1_1_7_3='$a1_1_7_3',1_1_7_3_oth='$a1_1_7_3_oth',1_1_8_3='$a1_1_8_3',1_1_9_3='$a1_1_9_3', 1_1_10_3='$a1_1_10_3',1_1_10_3_oth='$a1_1_10_3_oth', 1_1_11_3='$a1_1_11_3', 1_1_11_3_oth='$1_1_11_3_oth' ,1_1_12_3='$a1_1_12_3'  ,1_1_13_3='$a1_1_13_3'  where household_id= '$household_id' ";
+		$sqlupdatesq4 = "UPDATE tblsurvey_question SET 1_1_2_4='$a1_1_2_4',1_1_3_4='$a1_1_3_4',1_1_3_4_oth='$a1_1_3_4_oth',1_1_3_4='$a1_1_3_4',1_1_4_4='$a1_1_4_4' ,1_1_5_4='$a1_1_5_4',1_1_6_4='$a1_1_6_4',1_1_6_4_oth='$a1_1_6_4_oth' ,1_1_7_4='$a1_1_7_4',1_1_7_4_oth='$a1_1_7_4_oth',1_1_8_4='$a1_1_8_4',1_1_9_4='$a1_1_9_4', 1_1_10_4='$a1_1_10_4',1_1_10_4_oth='$a1_1_10_4_oth', 1_1_11_4='$a1_1_11_4', 1_1_11_4_oth='$1_1_11_4_oth' ,1_1_12_4='$a1_1_12_4'  ,1_1_13_4='$a1_1_13_4'  where household_id= '$household_id' ";
+		$sqlupdatesq5 = "UPDATE tblsurvey_question SET 1_1_2_5='$a1_1_2_5',1_1_3_5='$a1_1_3_5',1_1_3_5_oth='$a1_1_3_5_oth',1_1_3_5='$a1_1_3_5',1_1_4_5='$a1_1_4_5' ,1_1_5_5='$a1_1_5_5',1_1_6_5='$a1_1_6_5',1_1_6_5_oth='$a1_1_6_5_oth' ,1_1_7_5='$a1_1_7_5',1_1_7_5_oth='$a1_1_7_5_oth',1_1_8_5='$a1_1_8_5',1_1_9_5='$a1_1_9_5', 1_1_10_5='$a1_1_10_5',1_1_10_5_oth='$a1_1_10_5_oth', 1_1_11_5='$a1_1_11_5', 1_1_11_5_oth='$1_1_11_5_oth' ,1_1_12_5='$a1_1_12_5'  ,1_1_13_5='$a1_1_13_5'  where household_id= '$household_id' ";
+		$sqlupdatesq6 = "UPDATE tblsurvey_question SET 1_1_2_6='$a1_1_2_6',1_1_3_6='$a1_1_3_6',1_1_3_6_oth='$a1_1_3_6_oth',1_1_3_6='$a1_1_3_6',1_1_4_6='$a1_1_4_6' ,1_1_5_6='$a1_1_5_6',1_1_6_6='$a1_1_6_6',1_1_6_6_oth='$a1_1_6_6_oth' ,1_1_7_6='$a1_1_7_6',1_1_7_6_oth='$a1_1_7_6_oth',1_1_8_6='$a1_1_8_6',1_1_9_6='$a1_1_9_6', 1_1_10_6='$a1_1_10_6',1_1_10_6_oth='$a1_1_10_6_oth', 1_1_11_6='$a1_1_11_6', 1_1_11_6_oth='$1_1_11_6_oth' ,1_1_12_6='$a1_1_12_6'  ,1_1_13_6='$a1_1_13_6'  where household_id= '$household_id' ";
+		$sqlupdatesq7 = "UPDATE tblsurvey_question SET 1_1_2_7='$a1_1_2_7',1_1_3_7='$a1_1_3_7',1_1_3_7_oth='$a1_1_3_7_oth',1_1_3_7='$a1_1_3_7',1_1_4_7='$a1_1_4_7' ,1_1_5_7='$a1_1_5_7',1_1_6_7='$a1_1_6_7',1_1_6_7_oth='$a1_1_6_7_oth' ,1_1_7_7='$a1_1_7_7',1_1_7_7_oth='$a1_1_7_7_oth',1_1_8_7='$a1_1_8_7',1_1_9_7='$a1_1_9_7', 1_1_10_7='$a1_1_10_7',1_1_10_7_oth='$a1_1_10_7_oth', 1_1_11_7='$a1_1_11_7', 1_1_11_7_oth='$1_1_11_7_oth' ,1_1_12_7='$a1_1_12_7'  ,1_1_13_7='$a1_1_13_7'  where household_id= '$household_id' ";
+		$sqlupdatesq8 = "UPDATE tblsurvey_question SET 1_1_2_8='$a1_1_2_5',1_1_3_8='$a1_1_3_8',1_1_3_8_oth='$a1_1_3_8_oth',1_1_3_8='$a1_1_3_8',1_1_4_8='$a1_1_4_8' ,1_1_5_8='$a1_1_5_8',1_1_6_8='$a1_1_6_8',1_1_6_8_oth='$a1_1_6_8_oth' ,1_1_7_8='$a1_1_7_8',1_1_7_8_oth='$a1_1_7_8_oth',1_1_8_8='$a1_1_8_8',1_1_9_8='$a1_1_9_8', 1_1_10_8='$a1_1_10_8',1_1_10_8_oth='$a1_1_10_8_oth', 1_1_11_8='$a1_1_11_8', 1_1_11_8_oth='$1_1_11_8_oth' ,1_1_12_8='$a1_1_12_8'  ,1_1_13_8='$a1_1_13_8'  where household_id= '$household_id' ";
+		$sqlupdatesq9 = "UPDATE tblsurvey_question SET 1_1_2_9='$a1_1_2_9',1_1_3_9='$a1_1_3_9',1_1_3_9_oth='$a1_1_3_9_oth',1_1_3_9='$a1_1_3_9',1_1_4_9='$a1_1_4_9' ,1_1_5_9='$a1_1_5_9',1_1_6_9='$a1_1_6_9',1_1_6_9_oth='$a1_1_6_9_oth' ,1_1_7_9='$a1_1_7_9',1_1_7_9_oth='$a1_1_7_9_oth',1_1_8_9='$a1_1_8_9',1_1_9_9='$a1_1_9_9', 1_1_10_9='$a1_1_10_9',1_1_10_9_oth='$a1_1_10_9_oth', 1_1_11_9='$a1_1_11_9', 1_1_11_7_oth='$1_1_11_9_oth' ,1_1_12_9='$a1_1_12_9'  ,1_1_13_9='$a1_1_13_9'  where household_id= '$household_id' ";
+		$sqlupdatesq10 ="UPDATE tblsurvey_question SET 1_1_2_10='$a1_1_2_10',1_1_3_10='$a1_1_3_10',1_1_3_10_oth='$a1_1_3_10_oth',1_1_3_10='$a1_1_3_10',1_1_4_10='$a1_1_4_10' ,1_1_5_10='$a1_1_5_10',1_1_6_10='$a1_1_6_10',1_1_6_10_oth='$a1_1_6_10_oth' ,1_1_7_10='$a1_1_7_10',1_1_7_10_oth='$a1_1_7_10_oth',1_1_8_10='$a1_1_8_10',1_1_9_10='$a1_1_9_10', 1_1_10_10='$a1_1_10_10',1_1_10_10_oth='$a1_1_10_10_oth', 1_1_11_10='$a1_1_11_10', 1_1_11_7_oth='$1_1_11_10_oth' ,1_1_12_10='$a1_1_12_10'  ,1_1_13_10='$a1_1_13_10'  where household_id= '$household_id' ";
+		
+		$rslt1 = mysqli_query($con, $sqlupdatesq1) or die("error in update customer part:" . mysqli_error($con));
+		$rslt2 = mysqli_query($con, $sqlupdatesq2) or die("error in update customer part:" . mysqli_error($con));
+		$rslt3 = mysqli_query($con, $sqlupdatesq3) or die("error in update customer part:" . mysqli_error($con));
+		$rslt4 = mysqli_query($con, $sqlupdatesq4) or die("error in update customer part:" . mysqli_error($con));
+		$rslt5 = mysqli_query($con, $sqlupdatesq5) or die("error in update customer part:" . mysqli_error($con));
+		$rslt6 = mysqli_query($con, $sqlupdatesq6) or die("error in update customer part:" . mysqli_error($con));
+		$rslt7 = mysqli_query($con, $sqlupdatesq7) or die("error in update customer part:" . mysqli_error($con));
+		$rslt8 = mysqli_query($con, $sqlupdatesq8) or die("error in update customer part:" . mysqli_error($con));
+		$rslt9 = mysqli_query($con, $sqlupdatesq9) or die("error in update customer part:" . mysqli_error($con));
+		$rslt10 = mysqli_query($con, $sqlupdatesq10) or die("error in update customer part:" . mysqli_error($con));
 
-        if ($resultupdatecustomer == 1) 
+        if ($rslt1 == 1 && $rslt2 == 1 && $rslt3 == 1 && $rslt4 == 1 && $rslt5 == 1 && $rslt6 == 1 && $rslt7 == 1 && $rslt8 == 1 && $rslt9 == 1 && $rslt10 == 1  ) 
         {
            
-            echo '<script> alert("your data added successfully");//window.location.href="index1.php?pg=surveyG.php";</script>';
+            echo '<script> alert("your data added successfully");//window.location.href="index1.php?pg=survey1_2.php";</script>';
            
             // $_SESSION['id'] = $id;
            

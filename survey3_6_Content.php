@@ -62,10 +62,10 @@
                             <td>3_6_8_f<input type="text" name="3_6_8_f" id="3_6_8_f" class="form-control" /></td>
                         </tr>
                         <tr>
-                            <td>3_6_5_g<input type="text" name="3_6_5_f" id="3_6_5_f" class="form-control" /></td>
-                            <td>3_6_6_g<input type="text" name="3_6_6_f" id="3_6_6_f" class="form-control" /></td>
-                            <td>3_6_7_g<input type="text" name="3_6_7_f" id="3_6_7_f" class="form-control" /></td>
-                            <td>3_6_8_g<input type="text" name="3_6_8_f" id="3_6_8_f" class="form-control" /></td>
+                            <td>3_6_5_g<input type="text" name="3_6_5_g" id="3_6_5_g" class="form-control" /></td>
+                            <td>3_6_6_g<input type="text" name="3_6_6_g" id="3_6_6_g" class="form-control" /></td>
+                            <td>3_6_7_g<input type="text" name="3_6_7_g" id="3_6_7_g" class="form-control" /></td>
+                            <td>3_6_8_g<input type="text" name="3_6_8_g" id="3_6_8_g" class="form-control" /></td>
                         </tr>
                     </table>
                 </div>
@@ -125,10 +125,10 @@
                             <td>3_6_12_f<input type="text" name="3_6_12_f" id="3_6_12_f" class="form-control" /></td>
                         </tr>
                         <tr>
-                            <td>3_6_9_g<input type="text" name="3_6_9_f" id="3_6_9_f" class="form-control" /></td>
-                            <td>3_6_10_g<input type="text" name="3_6_10_f" id="3_6_10_f" class="form-control" /></td>
-                            <td>3_6_11_g<input type="text" name="3_6_11_f" id="3_6_11_f" class="form-control" /></td>
-                            <td>3_6_12_g<input type="text" name="3_6_12_f" id="3_6_12_f" class="form-control" /></td>
+                            <td>3_6_9_g<input type="text" name="3_6_9_g" id="3_6_9_g" class="form-control" /></td>
+                            <td>3_6_10_g<input type="text" name="3_6_10_g" id="3_6_10_g" class="form-control" /></td>
+                            <td>3_6_11_g<input type="text" name="3_6_11_g" id="3_6_11_g" class="form-control" /></td>
+                            <td>3_6_12_g<input type="text" name="3_6_12_g" id="3_6_12_g" class="form-control" /></td>
                         </tr>
                     </table>
                 </div>

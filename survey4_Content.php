@@ -10,7 +10,7 @@
                 <div class="col-md-3">
                     <div class="input-group">
                         <label>4.1 Have you received any loans for last Maha season’s paddy cultivation?</label>
-                        <select class="form-control  col-4" name="control_sample" id="control_sample">
+                        <select class="form-control  col-4" name="4_1" id="4_1" onchange="eDoth(this,2,'tbl4')">
                             <option value="1">Yes</option>
                             <option value="2">No</option>
                         </select>
@@ -21,7 +21,7 @@
             <!-- 2nd row -->
             <div class="row">
                 <div class="col-md-12">
-                    <table class="table table-bordered table-hover">
+                    <table class="table table-bordered table-hover" name="tbl4" id="tbl4">
                         <tr>
                             <th colspan="4">If Yes</th>
                         </tr>

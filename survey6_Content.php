@@ -20,7 +20,7 @@
                     <div class="input-group">
                         <label>6.2. What do you think about the policy decision of the government to become fully
                             organic suddenly?</label>
-                        <select class="form-control" name="6_2" id="6_2">
+                        <select class="form-control" name="6_2" id="6_2"  onchange="eDoth(this,5,'6_2_oth')">
                             <option value="1">It was a good and timely decision
                             </option>
                             <option value="2">It would have become a good decision if it had a long term and
@@ -59,7 +59,7 @@
                         <label>6.3. Was that government decision influenced on your
                             cultivation on last Maha season?
                         </label>
-                        <select class="form-control" name="6_3" id="6_3">
+                        <select class="form-control" name="6_3" id="6_3" onchange="eDoth(this,7,'6_3_oth')">
                             <option value="1">Yes, I totally converted into organic
                             </option>
                             <option value="2">Yes, I converted into organic at a certain level
@@ -77,7 +77,7 @@
                             <option value="6">No, I will never convert
 
                             </option>
-                            <option value="7">Other
+                            <option value="7" >Other
                             </option>
                         </select>
 
@@ -105,8 +105,13 @@
                         <div class="checkbox"><label><input type="checkbox" name="6_4f" id="6_4f" value="6">I received organic fertilizer free of charge sufficiently</label> </div>
                         <div class="checkbox"><label><input type="checkbox" name="6_4g" id="6_4g" value="7">I received organic fertilizer free of charge but not sufficient enough</label> </div>
                         <div class="checkbox"><label><input type="checkbox" name="6_4h" id="6_4h" value="8">Did not apply any fertilizers</label> </div>           
-                        <div class="checkbox"><label><input type="checkbox" name="6_4i" id="6_4i" value="9">Other</label> </div>
+                        <div class="checkbox"><label><input type="checkbox" name="6_4i" id="6_4i" value="9" onclick="eDcheckOT('6_4i','6_4_oth')">Other</label> </div>
 
+                    </div>
+                    <div id="6_4_ot">
+                        <div class="input-group">
+                            <input type="text" required name="6_4_oth" id="6_4_oth" class="form-control" />
+                        </div>
                     </div>
                 </div>
 </div>
