@@ -28,7 +28,7 @@ if(isset($_POST['btnsubmit']) ) {
     $resultitem = mysqli_query($con, $sqlitem) or die("error in select survey:" . mysqli_error($con));
     $row = mysqli_fetch_assoc($resultitem);
         
-    if (isset($_POST['3_1_2_1'])) {  $a3_1_2_1 = $_POST['3_1_2_1'];   } else {$a3_1_2_1 = NULL; }
+        if (isset($_POST['3_1_2_1'])) {  $a3_1_2_1 = $_POST['3_1_2_1'];   } else {$a3_1_2_1 = NULL; }
         if (isset($_POST['3_1_3_1'])) {  $a3_1_3_1 = $_POST['3_1_3_1'];   } else {$a3_1_3_1 = NULL; }
         if (isset($_POST['3_1_4_1'])) {  $a3_1_4_1 = $_POST['3_1_4_1'];   } else {$a3_1_4_1 = NULL; }
         if (isset($_POST['3_1_5_1'])) {  $a3_1_5_1 = $_POST['3_1_5_1'];   } else {$a3_1_5_1 = NULL; }
