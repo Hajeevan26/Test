@@ -28,29 +28,93 @@ if(isset($_POST['btnsubmit']) ) {
     $resultitem = mysqli_query($con, $sqlitem) or die("error in select survey:" . mysqli_error($con));
     $row = mysqli_fetch_assoc($resultitem);
         
-   
-
-        if (isset($_POST['1_1_2_1'])) {  $a1_1_2_1 = $_POST['1_1_2_1'];   } else {$a1_1_2_1 = NULL; }
-        if (isset($_POST['1_1_3_1'] )) { $a1_1_3_1 = $_POST['1_1_3_1'];} else {$a1_1_3_1 = NULL; }
-        if (isset($_POST['1_1_4_1'] )) { $a1_1_4_1 = $_POST['1_1_4_1'];} else {$a1_1_4_1 = NULL; }
-        if (isset($_POST['1_1_5_1'] )) { $a1_1_5_1 = $_POST['1_1_5_1'];} else {$a1_1_5_1 = NULL; }
-        if (isset($_POST['1_1_6_1'] )) { $a1_1_6_1 = $_POST['1_1_6_1'];} else {$a1_1_6_1 = NULL; }
-        if (isset($_POST['1_1_7_1'] )) { $a1_1_7_1 = $_POST['1_1_7_1'];} else {$a1_1_7_1 = NULL; }
-        if (isset($_POST['1_1_8_1'] )) { $a1_1_8_1 = $_POST['1_1_8_1'];} else {$a1_1_8_1 = NULL; }
-        if (isset($_POST['1_1_9_1'] )) { $a1_1_9_1 = $_POST['1_1_9_1'];} else {$a1_1_9_1 = NULL; }
-        if (isset($_POST['1_1_10_1'] )) { $a1_1_10_1 = $_POST['1_1_10_1'];} else {$a1_1_10_1 = NULL; }
-        if (isset($_POST['1_1_11_1'] )) { $a1_1_11_1 = $_POST['1_1_11_1'];} else {$a1_1_11_1 = NULL; }
-        if (isset($_POST['1_1_12_1'] )) { $a1_1_12_1 = $_POST['1_1_12_1'];} else {$a1_1_12_1 = NULL; }
-        if (isset($_POST['1_1_13_1'] )) { $a1_1_13_1 = $_POST['1_1_13_1'];} else {$a1_1_13_1 = NULL; }
-        
+    if (isset($_POST['2_1_7_1']))  { $a2_1_7_1= $_POST['2_1_7_1'];} else {$a2_1_7_1 = 0; }
+    if (isset($_POST['2_1_8_1'] )) { $a2_1_8_1= $_POST['2_1_8_1'];} else {$a2_1_8_1 = 0; }
+    if (isset($_POST['2_1_9_1'] )) { $a2_1_9_1= $_POST['2_1_9_1'];} else {$a2_1_9_1 = 0; }
+    if (isset($_POST['2_1_10_1'] )) { $a2_1_10_1 = $_POST['2_1_10_1'];} else {$a2_1_10_1 = 0; }
+    if (isset($_POST['2_1_11_1'] )) { $a2_1_11_1 = $_POST['2_1_11_1'];} else {$a2_1_11_1 = 0; }
+    if (isset($_POST['2_1_12_1'] )) { $a2_1_12_1 = $_POST['2_1_12_1'];} else {$a2_1_12_1 = 0; }
+    if (isset($_POST['2_1_13_1'] )) { $a2_1_13_1 = $_POST['2_1_13_1'];} else {$a2_1_13_1 = 0; }
     
-        $sqlupdatesq = "UPDATE tblsurvey_question SET 1_1_2_1='$a1_1_2_1',1_1_3_1='$a1_1_3_1' ,1_1_4_1='$a1_1_4_1' ,1_1_5_1='$a1_1_5_1',1_1_6_1='$a1_1_7_1' ,1_1_7_1='$a1_1_7_1',1_1_8_1=' $a1_1_8_1',1_1_9_1=' $a1_1_9_1', 1_1_10_1=' $a1_1_10_1', 1_1_11_1=' $a1_1_11_1' ,1_1_12_1='$a1_1_12_1'  ,1_1_13_1='$a1_1_13_1'  where household_id= '$household_id' ";
+    if  (isset($_POST['2_1_7_2']))  {  $a2_1_7_2=   $_POST['2_1_7_2'];} else  {$a2_1_7_2 = 0; }
+    if  (isset($_POST['2_1_8_2'] )) {  $a2_1_8_2=   $_POST['2_1_8_2'];} else  {$a2_1_8_2 = 0; }
+    if  (isset($_POST['2_1_9_2'] )) {  $a2_1_9_2=   $_POST['2_1_9_2'];} else  {$a2_1_9_2 = 0; }
+    if (isset($_POST['2_1_10_2'] )) { $a2_1_10_2 = $_POST['2_1_10_2'];} else {$a2_1_10_2 = 0; }
+    if (isset($_POST['2_1_11_2'] )) { $a2_1_11_2 = $_POST['2_1_11_2'];} else {$a2_1_11_2 = 0; }
+    if (isset($_POST['2_1_12_2'] )) { $a2_1_12_2 = $_POST['2_1_12_2'];} else {$a2_1_12_2 = 0; }
+    if (isset($_POST['2_1_13_2'] )) { $a2_1_13_2 = $_POST['2_1_13_2'];} else {$a2_1_13_2 = 0; }
+    
+    if  (isset($_POST['2_1_7_3']))  {  $a2_1_7_3=   $_POST['2_1_7_3'];} else  {$a2_1_7_3 = 0; }
+    if  (isset($_POST['2_1_8_3'] )) {  $a2_1_8_3=   $_POST['2_1_8_3'];} else  {$a2_1_8_3 = 0; }
+    if  (isset($_POST['2_1_9_3'] )) {  $a2_1_9_3=   $_POST['2_1_9_3'];} else  {$a2_1_9_3 = 0; }
+    if (isset($_POST['2_1_10_3'] )) { $a2_1_10_3 = $_POST['2_1_10_3'];} else {$a2_1_10_3 = 0; }
+    if (isset($_POST['2_1_11_3'] )) { $a2_1_11_3 = $_POST['2_1_11_3'];} else {$a2_1_11_3 = 0; }
+    if (isset($_POST['2_1_12_3'] )) { $a2_1_12_3 = $_POST['2_1_12_3'];} else {$a2_1_12_3 = 0; }
+    if (isset($_POST['2_1_13_3'] )) { $a2_1_13_3 = $_POST['2_1_13_3'];} else {$a2_1_13_3 = 0; }
+    
+    if  (isset($_POST['2_1_7_4']))  {  $a2_1_7_4=   $_POST['2_1_7_4'];} else  {$a2_1_7_4 = 0; }
+    if  (isset($_POST['2_1_8_4'] )) {  $a2_1_8_4=   $_POST['2_1_8_4'];} else  {$a2_1_8_4 = 0; }
+    if  (isset($_POST['2_1_9_4'] )) {  $a2_1_9_4=   $_POST['2_1_9_4'];} else  {$a2_1_9_4 = 0; }
+    if (isset($_POST['2_1_10_4'] )) { $a2_1_10_4 = $_POST['2_1_10_4'];} else {$a2_1_10_4 = 0; }
+    if (isset($_POST['2_1_11_4'] )) { $a2_1_11_4 = $_POST['2_1_11_4'];} else {$a2_1_11_4 = 0; }
+    if (isset($_POST['2_1_12_4'] )) { $a2_1_12_4 = $_POST['2_1_12_4'];} else {$a2_1_12_4 = 0; }
+    if (isset($_POST['2_1_13_4'] )) { $a2_1_13_4 = $_POST['2_1_13_4'];} else {$a2_1_13_4 = 0; }
+    
+    if  (isset($_POST['2_1_7_5']))  {  $a2_1_7_5=   $_POST['2_1_7_5'];} else  {$a2_1_7_5 = 0; }
+    if  (isset($_POST['2_1_8_5'] )) {  $a2_1_8_5=   $_POST['2_1_8_5'];} else  {$a2_1_8_5 = 0; }
+    if  (isset($_POST['2_1_9_5'] )) {  $a2_1_9_5=   $_POST['2_1_9_5'];} else  {$a2_1_9_5 = 0; }
+    if (isset($_POST['2_1_10_5'] )) { $a2_1_10_5 = $_POST['2_1_10_5'];} else {$a2_1_10_5 = 0; }
+    if (isset($_POST['2_1_11_5'] )) { $a2_1_11_5 = $_POST['2_1_11_5'];} else {$a2_1_11_5 = 0; }
+    if (isset($_POST['2_1_12_5'] )) { $a2_1_12_5 = $_POST['2_1_12_5'];} else {$a2_1_12_5 = 0; }
+    if (isset($_POST['2_1_13_5'] )) { $a2_1_13_5 = $_POST['2_1_13_5'];} else {$a2_1_13_5 = 0; }
+    
+    if  (isset($_POST['2_1_7_6']))  {  $a2_1_7_6=   $_POST['2_1_7_6'];} else  {$a2_1_7_6 = 0; }
+    if  (isset($_POST['2_1_8_6'] )) {  $a2_1_8_6=   $_POST['2_1_8_6'];} else  {$a2_1_8_6 = 0; }
+    if  (isset($_POST['2_1_9_6'] )) {  $a2_1_9_6=   $_POST['2_1_9_6'];} else  {$a2_1_9_6 = 0; }
+    if (isset($_POST['2_1_10_6'] )) { $a2_1_10_6 = $_POST['2_1_10_6'];} else {$a2_1_10_6 = 0; }
+    if (isset($_POST['2_1_11_6'] )) { $a2_1_11_6 = $_POST['2_1_11_6'];} else {$a2_1_11_6 = 0; }
+    if (isset($_POST['2_1_12_6'] )) { $a2_1_12_6 = $_POST['2_1_12_6'];} else {$a2_1_12_6 = 0; }
+    if (isset($_POST['2_1_13_6'] )) { $a2_1_13_6 = $_POST['2_1_13_6'];} else {$a2_1_13_6 = 0; }
+    
+    if  (isset($_POST['2_1_7_7']))  {  $a2_1_7_7=   $_POST['2_1_7_7'];} else  {$a2_1_7_7 = 0; }
+    if  (isset($_POST['2_1_8_7'] )) {  $a2_1_8_7=   $_POST['2_1_8_7'];} else  {$a2_1_8_7 = 0; }
+    if  (isset($_POST['2_1_9_7'] )) {  $a2_1_9_7=   $_POST['2_1_9_7'];} else  {$a2_1_9_7 = 0; }
+    if (isset($_POST['2_1_10_7'] )) { $a2_1_10_7 = $_POST['2_1_10_7'];} else {$a2_1_10_7 = 0; }
+    if (isset($_POST['2_1_11_7'] )) { $a2_1_11_7 = $_POST['2_1_11_7'];} else {$a2_1_11_7 = 0; }
+    if (isset($_POST['2_1_12_7'] )) { $a2_1_12_7 = $_POST['2_1_12_7'];} else {$a2_1_12_7 = 0; }
+    if (isset($_POST['2_1_13_7'] )) { $a2_1_13_7 = $_POST['2_1_13_7'];} else {$a2_1_13_7 = 0; }
+    
+    if  (isset($_POST['2_1_7_8']))  {  $a2_1_7_8=   $_POST['2_1_7_8'];} else  {$a2_1_7_8 = 0; }
+    if  (isset($_POST['2_1_8_8'] )) {  $a2_1_8_8=   $_POST['2_1_8_8'];} else  {$a2_1_8_8 = 0; }
+    if  (isset($_POST['2_1_9_8'] )) {  $a2_1_9_8=   $_POST['2_1_9_8'];} else  {$a2_1_9_8 = 0; }
+    if (isset($_POST['2_1_10_8'] )) { $a2_1_10_8 = $_POST['2_1_10_8'];} else {$a2_1_10_8 = 0; }
+    if (isset($_POST['2_1_11_8'] )) { $a2_1_11_8 = $_POST['2_1_11_8'];} else {$a2_1_11_8 = 0; }
+    if (isset($_POST['2_1_12_8'] )) { $a2_1_12_8 = $_POST['2_1_12_8'];} else {$a2_1_12_8 = 0; }
+    if (isset($_POST['2_1_13_8'] )) { $a2_1_13_8 = $_POST['2_1_13_8'];} else {$a2_1_13_8 = 0; }
+    
+    if  (isset($_POST['2_1_7_9']))  {  $a2_1_7_9=   $_POST['2_1_7_9'];} else  {$a2_1_7_9 = 0; }
+    if  (isset($_POST['2_1_8_9'] )) {  $a2_1_8_9=   $_POST['2_1_8_9'];} else  {$a2_1_8_9 = 0; }
+    if  (isset($_POST['2_1_9_9'] )) {  $a2_1_9_9=   $_POST['2_1_9_9'];} else  {$a2_1_9_9 = 0; }
+    if (isset($_POST['2_1_10_9'] )) { $a2_1_10_9 = $_POST['2_1_10_9'];} else {$a2_1_10_9 = 0; }
+    if (isset($_POST['2_1_11_9'] )) { $a2_1_11_9 = $_POST['2_1_11_9'];} else {$a2_1_11_9 = 0; }
+    if (isset($_POST['2_1_12_9'] )) { $a2_1_12_9 = $_POST['2_1_12_9'];} else {$a2_1_12_9 = 0; }
+    if (isset($_POST['2_1_13_9'] )) { $a2_1_13_9 = $_POST['2_1_13_9'];} else {$a2_1_13_9 = 0; }
+    
+    if  (isset($_POST['2_1_7_10']))  {  $a2_1_7_10=   $_POST['2_1_7_10'];} else  {$a2_1_7_10 = 0; }
+    if  (isset($_POST['2_1_8_10'] )) {  $a2_1_8_10=   $_POST['2_1_8_10'];} else  {$a2_1_8_10 = 0; }
+    if  (isset($_POST['2_1_9_10'] )) {  $a2_1_9_10=   $_POST['2_1_9_10'];} else  {$a2_1_9_10 = 0; }
+    if (isset($_POST['2_1_10_10'] )) { $a2_1_10_10 = $_POST['2_1_10_10'];} else {$a2_1_10_10 = 0; }
+    if (isset($_POST['2_1_11_10'] )) { $a2_1_11_10 = $_POST['2_1_11_10'];} else {$a2_1_11_10 = 0; }
+    if (isset($_POST['2_1_12_10'] )) { $a2_1_12_10 = $_POST['2_1_12_10'];} else {$a2_1_12_10 = 0; }
+    if (isset($_POST['2_1_13_10'] )) { $a2_1_13_10 = $_POST['2_1_13_10'];} else {$a2_1_13_10 = 0; }
+     
+    $sqlupdatesq = "UPDATE tblsurvey_question SET 2_1_7_1='$a2_1_7_1', 2_1_8_1='$a2_1_8_1', 2_1_9_1='$a2_1_9_1', 2_1_10_1='$a2_1_10_1', 2_1_11_1='$a2_1_11_1', 2_1_12_1='$a2_1_12_1', 2_1_13_1='$a2_1_13_1', 		 2_1_7_2='$a2_1_7_2', 2_1_8_2='$a2_1_8_2', 2_1_9_2='$a2_1_9_2', 2_1_10_2='$a2_1_10_2', 2_1_11_2='$a2_1_11_2', 2_1_12_2='$a2_1_12_2', 2_1_13_2='$a2_1_13_2',  2_1_7_3='$a2_1_7_3', 2_1_8_3='$a2_1_8_3', 2_1_9_3='$a2_1_9_3', 2_1_10_3='$a2_1_10_3', 2_1_11_3='$a2_1_11_3', 2_1_12_3='$a2_1_12_3', 2_1_13_3='$a2_1_13_3',  2_1_7_4='$a2_1_7_4', 2_1_8_4='$a2_1_8_4', 2_1_9_4='$a2_1_9_4', 2_1_10_4='$a2_1_10_4', 2_1_11_4='$a2_1_11_4', 2_1_12_4='$a2_1_12_4', 2_1_13_4='$a2_1_13_4',  2_1_7_5='$a2_1_7_5', 2_1_8_5='$a2_1_8_5', 2_1_9_5='$a2_1_9_5', 2_1_10_5='$a2_1_10_5', 2_1_11_5='$a2_1_11_5', 2_1_12_5='$a2_1_12_5', 2_1_13_5='$a2_1_13_5',  2_1_7_6='$a2_1_7_6', 2_1_8_6='$a2_1_8_6', 2_1_9_6='$a2_1_9_6', 2_1_10_6='$a2_1_10_6', 2_1_11_6='$a2_1_11_6', 2_1_12_6='$a2_1_12_6', 2_1_13_6='$a2_1_13_6',  2_1_7_7='$a2_1_7_7', 2_1_8_7='$a2_1_8_7', 2_1_9_7='$a2_1_9_7', 2_1_10_7='$a2_1_10_7', 2_1_11_7='$a2_1_11_7', 2_1_12_7='$a2_1_12_7', 2_1_13_7='$a2_1_13_7',  2_1_7_8='$a2_1_7_8', 2_1_8_8='$a2_1_8_8', 2_1_9_8='$a2_1_9_8', 2_1_10_8='$a2_1_10_8', 2_1_11_8='$a2_1_11_8', 2_1_12_8='$a2_1_12_8', 2_1_13_8='$a2_1_13_8',  2_1_7_9='$a2_1_7_9', 2_1_8_9='$a2_1_8_9', 2_1_9_9='$a2_1_9_9', 2_1_10_9='$a2_1_10_9', 2_1_11_9='$a2_1_11_9', 2_1_12_9='$a2_1_12_9', 2_1_13_9='$a2_1_13_9',  2_1_7_10='$a2_1_7_10', 2_1_8_10='$a2_1_8_10', 2_1_9_10='$a2_1_9_10', 2_1_10_10='$a2_1_10_10', 2_1_11_10='$a2_1_11_10', 2_1_12_10='$a2_1_12_10', 2_1_13_10='$a2_1_13_10' where household_id= '$household_id' "; 				
         $resultupdatecustomer = mysqli_query($con, $sqlupdatesq) or die("error in update customer part:" . mysqli_error($con));
 
         if ($resultupdatecustomer == 1) 
         {
            
-            echo '<script> alert("your data added successfully");//window.location.href="index1.php?pg=surveyG.php";</script>';
+            echo '<script> alert("your data added successfully");window.location.href="index1.php?pg=survey2d.php";</script>';
            
             // $_SESSION['id'] = $id;
            
@@ -103,93 +167,94 @@ if(isset($_POST['btnsubmit']) ) {
                                     </tr>
                                     <tr>
                                         <td>2</td>
-                                        <td><div class="input-group"><select class="form-control" name="6_1" id="6_1"><option value="1">Yes</option><option value="2">No</option></select></div></td>
-                                        <td><div class="input-group"><input type="text" required name="7_2_oth" id="7_2_oth" class="form-control" /></div></td>
-                                        <td><div class="input-group"><input type="text" required name="7_2_oth" id="7_2_oth" class="form-control" /></div></td>
-                                        <td><div class="input-group"><input type="text" required name="7_2_oth" id="7_2_oth" class="form-control" /></div></td>
-                                        <td><div class="input-group"><input type="text" required name="7_2_oth" id="7_2_oth" class="form-control" /></div></td>
-                                        <td><div class="input-group"><input type="text" required name="7_2_oth" id="7_2_oth" class="form-control" /></div></td>
-                                        <td><div class="input-group"><input type="text" required name="7_2_oth" id="7_2_oth" class="form-control" /></div></td>
+                                        
+                                        <td><div class="input-group"><select class="form-control" name="2_1_7_2" id="2_1_7_2"><option value="1">Yes</option><option value="2">No</option></select></div></td>
+                                        <td><div class="input-group"><input type="text" required name="2_1_8_2" id="2_1_8_2" class="form-control" /></div></td>
+                                        <td><div class="input-group"><input type="text" required name="2_1_9_2" id="2_1_9_2" class="form-control" /></div></td>
+                                        <td><div class="input-group"><input type="text" required name="2_1_10_2" id="2_1_10_2" class="form-control" /></div></td>
+                                        <td><div class="input-group"><input type="text" required name="2_1_11_2" id="2_1_11_2" class="form-control" /></div></td>
+                                        <td><div class="input-group"><input type="text" required name="2_1_12_2" id="2_1_12_2" class="form-control" /></div></td>
+                                        <td><div class="input-group"><input type="text" required name="2_1_13_2" id="2_1_13_2" class="form-control" /></div></td>
                                     </tr>
                                     <tr>
                                         <td>3</td>
-                                        <td><div class="input-group"><select class="form-control" name="6_1" id="6_1"><option value="1">Yes</option><option value="2">No</option></select></div></td>
-                                        <td><div class="input-group"><input type="text" required name="7_2_oth" id="7_2_oth" class="form-control" /></div></td>
-                                        <td><div class="input-group"><input type="text" required name="7_2_oth" id="7_2_oth" class="form-control" /></div></td>
-                                        <td><div class="input-group"><input type="text" required name="7_2_oth" id="7_2_oth" class="form-control" /></div></td>
-                                        <td><div class="input-group"><input type="text" required name="7_2_oth" id="7_2_oth" class="form-control" /></div></td>
-                                        <td><div class="input-group"><input type="text" required name="7_2_oth" id="7_2_oth" class="form-control" /></div></td>
-                                        <td><div class="input-group"><input type="text" required name="7_2_oth" id="7_2_oth" class="form-control" /></div></td>
+                                        <td><div class="input-group"><select class="form-control" name="2_1_7_3" id="2_1_7_3"><option value="1">Yes</option><option value="2">No</option></select></div></td>
+                                        <td><div class="input-group"><input type="text" required name="2_1_8_3" id="2_1_8_3" class="form-control" /></div></td>
+                                        <td><div class="input-group"><input type="text" required name="2_1_9_3" id="2_1_9_3" class="form-control" /></div></td>
+                                        <td><div class="input-group"><input type="text" required name="2_1_10_3" id="2_1_10_3" class="form-control" /></div></td>
+                                        <td><div class="input-group"><input type="text" required name="2_1_11_3" id="2_1_11_3" class="form-control" /></div></td>
+                                        <td><div class="input-group"><input type="text" required name="2_1_12_3" id="2_1_12_3" class="form-control" /></div></td>
+                                        <td><div class="input-group"><input type="text" required name="2_1_13_3" id="2_1_13_3" class="form-control" /></div></td>
                                     </tr>
                                     <tr>
                                         <td>4</td>
-                                        <td><div class="input-group"><select class="form-control" name="6_1" id="6_1"><option value="1">Yes</option><option value="2">No</option></select></div></td>
-                                        <td><div class="input-group"><input type="text" required name="7_2_oth" id="7_2_oth" class="form-control" /></div></td>
-                                        <td><div class="input-group"><input type="text" required name="7_2_oth" id="7_2_oth" class="form-control" /></div></td>
-                                        <td><div class="input-group"><input type="text" required name="7_2_oth" id="7_2_oth" class="form-control" /></div></td>
-                                        <td><div class="input-group"><input type="text" required name="7_2_oth" id="7_2_oth" class="form-control" /></div></td>
-                                        <td><div class="input-group"><input type="text" required name="7_2_oth" id="7_2_oth" class="form-control" /></div></td>
-                                        <td><div class="input-group"><input type="text" required name="7_2_oth" id="7_2_oth" class="form-control" /></div></td>
+                                        <td><div class="input-group"><select class="form-control" name="2_1_7_4" id="2_1_7_4"><option value="1">Yes</option><option value="2">No</option></select></div></td>
+                                        <td><div class="input-group"><input type="text" required name="2_1_8_4" id="2_1_8_4" class="form-control" /></div></td>
+                                        <td><div class="input-group"><input type="text" required name="2_1_9_4" id="2_1_9_4" class="form-control" /></div></td>
+                                        <td><div class="input-group"><input type="text" required name="2_1_10_4" id="2_1_10_4" class="form-control" /></div></td>
+                                        <td><div class="input-group"><input type="text" required name="2_1_11_4" id="2_1_11_4" class="form-control" /></div></td>
+                                        <td><div class="input-group"><input type="text" required name="2_1_12_4" id="2_1_12_4" class="form-control" /></div></td>
+                                        <td><div class="input-group"><input type="text" required name="2_1_13_4" id="2_1_13_4" class="form-control" /></div></td>
                                     </tr>
                                     <tr>
                                         <td>5</td>
-                                        <td><div class="input-group"><select class="form-control" name="6_1" id="6_1"><option value="1">Yes</option><option value="2">No</option></select></div></td>
-                                        <td><div class="input-group"><input type="text" required name="7_2_oth" id="7_2_oth" class="form-control" /></div></td>
-                                        <td><div class="input-group"><input type="text" required name="7_2_oth" id="7_2_oth" class="form-control" /></div></td>
-                                        <td><div class="input-group"><input type="text" required name="7_2_oth" id="7_2_oth" class="form-control" /></div></td>
-                                        <td><div class="input-group"><input type="text" required name="7_2_oth" id="7_2_oth" class="form-control" /></div></td>
-                                        <td><div class="input-group"><input type="text" required name="7_2_oth" id="7_2_oth" class="form-control" /></div></td>
-                                        <td><div class="input-group"><input type="text" required name="7_2_oth" id="7_2_oth" class="form-control" /></div></td>
+                                        <td><div class="input-group"><select class="form-control" name="2_1_7_5" id="2_1_7_5"><option value="1">Yes</option><option value="2">No</option></select></div></td>
+                                        <td><div class="input-group"><input type="text" required name="2_1_8_5" id="2_1_8_5" class="form-control" /></div></td>
+                                        <td><div class="input-group"><input type="text" required name="2_1_9_5" id="2_1_9_5" class="form-control" /></div></td>
+                                        <td><div class="input-group"><input type="text" required name="2_1_10_5" id="2_1_10_5" class="form-control" /></div></td>
+                                        <td><div class="input-group"><input type="text" required name="2_1_11_5" id="2_1_11_5" class="form-control" /></div></td>
+                                        <td><div class="input-group"><input type="text" required name="2_1_12_5" id="2_1_12_5" class="form-control" /></div></td>
+                                        <td><div class="input-group"><input type="text" required name="2_1_13_5" id="2_1_13_5" class="form-control" /></div></td>
                                     </tr>
                                     <tr>
                                         <td>6</td>
-                                        <td><div class="input-group"><select class="form-control" name="6_1" id="6_1"><option value="1">Yes</option><option value="2">No</option></select></div></td>
-                                        <td><div class="input-group"><input type="text" required name="7_2_oth" id="7_2_oth" class="form-control" /></div></td>
-                                        <td><div class="input-group"><input type="text" required name="7_2_oth" id="7_2_oth" class="form-control" /></div></td>
-                                        <td><div class="input-group"><input type="text" required name="7_2_oth" id="7_2_oth" class="form-control" /></div></td>
-                                        <td><div class="input-group"><input type="text" required name="7_2_oth" id="7_2_oth" class="form-control" /></div></td>
-                                        <td><div class="input-group"><input type="text" required name="7_2_oth" id="7_2_oth" class="form-control" /></div></td>
-                                        <td><div class="input-group"><input type="text" required name="7_2_oth" id="7_2_oth" class="form-control" /></div></td>
+                                        <td><div class="input-group"><select class="form-control" name="2_1_7_6" id="2_1_7_6"><option value="1">Yes</option><option value="2">No</option></select></div></td>
+                                        <td><div class="input-group"><input type="text" required name="2_1_8_6" id="2_1_8_6" class="form-control" /></div></td>
+                                        <td><div class="input-group"><input type="text" required name="2_1_9_6" id="2_1_9_6" class="form-control" /></div></td>
+                                        <td><div class="input-group"><input type="text" required name="2_1_10_6" id="2_1_10_6" class="form-control" /></div></td>
+                                        <td><div class="input-group"><input type="text" required name="2_1_11_6" id="2_1_11_6" class="form-control" /></div></td>
+                                        <td><div class="input-group"><input type="text" required name="2_1_12_6" id="2_1_12_6" class="form-control" /></div></td>
+                                        <td><div class="input-group"><input type="text" required name="2_1_13_6" id="2_1_13_6" class="form-control" /></div></td>
                                     </tr>
                                     <tr>
                                         <td>7</td>
-                                        <td><div class="input-group"><select class="form-control" name="6_1" id="6_1"><option value="1">Yes</option><option value="2">No</option></select></div></td>
-                                        <td><div class="input-group"><input type="text" required name="7_2_oth" id="7_2_oth" class="form-control" /></div></td>
-                                        <td><div class="input-group"><input type="text" required name="7_2_oth" id="7_2_oth" class="form-control" /></div></td>
-                                        <td><div class="input-group"><input type="text" required name="7_2_oth" id="7_2_oth" class="form-control" /></div></td>
-                                        <td><div class="input-group"><input type="text" required name="7_2_oth" id="7_2_oth" class="form-control" /></div></td>
-                                        <td><div class="input-group"><input type="text" required name="7_2_oth" id="7_2_oth" class="form-control" /></div></td>
-                                        <td><div class="input-group"><input type="text" required name="7_2_oth" id="7_2_oth" class="form-control" /></div></td>
+                                        <td><div class="input-group"><select class="form-control" name="2_1_7_7" id="2_1_7_7"><option value="1">Yes</option><option value="2">No</option></select></div></td>
+                                        <td><div class="input-group"><input type="text" required name="2_1_8_7" id="2_1_8_7" class="form-control" /></div></td>
+                                        <td><div class="input-group"><input type="text" required name="2_1_9_7" id="2_1_9_7" class="form-control" /></div></td>
+                                        <td><div class="input-group"><input type="text" required name="2_1_10_7" id="2_1_10_7" class="form-control" /></div></td>
+                                        <td><div class="input-group"><input type="text" required name="2_1_11_7" id="2_1_11_7" class="form-control" /></div></td>
+                                        <td><div class="input-group"><input type="text" required name="2_1_12_7" id="2_1_12_7" class="form-control" /></div></td>
+                                        <td><div class="input-group"><input type="text" required name="2_1_13_7" id="2_1_13_7" class="form-control" /></div></td>
                                     </tr>
                                     <tr>
                                         <td>8</td>
-                                        <td><div class="input-group"><select class="form-control" name="6_1" id="6_1"><option value="1">Yes</option><option value="2">No</option></select></div></td>
-                                        <td><div class="input-group"><input type="text" required name="7_2_oth" id="7_2_oth" class="form-control" /></div></td>
-                                        <td><div class="input-group"><input type="text" required name="7_2_oth" id="7_2_oth" class="form-control" /></div></td>
-                                        <td><div class="input-group"><input type="text" required name="7_2_oth" id="7_2_oth" class="form-control" /></div></td>
-                                        <td><div class="input-group"><input type="text" required name="7_2_oth" id="7_2_oth" class="form-control" /></div></td>
-                                        <td><div class="input-group"><input type="text" required name="7_2_oth" id="7_2_oth" class="form-control" /></div></td>
-                                        <td><div class="input-group"><input type="text" required name="7_2_oth" id="7_2_oth" class="form-control" /></div></td>
+                                        <td><div class="input-group"><select class="form-control" name="2_1_7_8" id="2_1_7_8"><option value="1">Yes</option><option value="2">No</option></select></div></td>
+                                        <td><div class="input-group"><input type="text" required name="2_1_8_8" id="2_1_8_8" class="form-control" /></div></td>
+                                        <td><div class="input-group"><input type="text" required name="2_1_9_8" id="2_1_9_8" class="form-control" /></div></td>
+                                        <td><div class="input-group"><input type="text" required name="2_1_10_8" id="2_1_10_8" class="form-control" /></div></td>
+                                        <td><div class="input-group"><input type="text" required name="2_1_11_8" id="2_1_11_8" class="form-control" /></div></td>
+                                        <td><div class="input-group"><input type="text" required name="2_1_12_8" id="2_1_12_8" class="form-control" /></div></td>
+                                        <td><div class="input-group"><input type="text" required name="2_1_13_8" id="2_1_13_8" class="form-control" /></div></td>
                                     </tr>
                                     <tr>
                                         <td>9</td>
-                                        <td><div class="input-group"><select class="form-control" name="6_1" id="6_1"><option value="1">Yes</option><option value="2">No</option></select></div></td>
-                                        <td><div class="input-group"><input type="text" required name="7_2_oth" id="7_2_oth" class="form-control" /></div></td>
-                                        <td><div class="input-group"><input type="text" required name="7_2_oth" id="7_2_oth" class="form-control" /></div></td>
-                                        <td><div class="input-group"><input type="text" required name="7_2_oth" id="7_2_oth" class="form-control" /></div></td>
-                                        <td><div class="input-group"><input type="text" required name="7_2_oth" id="7_2_oth" class="form-control" /></div></td>
-                                        <td><div class="input-group"><input type="text" required name="7_2_oth" id="7_2_oth" class="form-control" /></div></td>
-                                        <td><div class="input-group"><input type="text" required name="7_2_oth" id="7_2_oth" class="form-control" /></div></td>
+                                        <td><div class="input-group"><select class="form-control" name="2_1_7_9" id="2_1_7_9"><option value="1">Yes</option><option value="2">No</option></select></div></td>
+                                        <td><div class="input-group"><input type="text" required name="2_1_8_9" id="2_1_8_9" class="form-control" /></div></td>
+                                        <td><div class="input-group"><input type="text" required name="2_1_9_9" id="2_1_9_9" class="form-control" /></div></td>
+                                        <td><div class="input-group"><input type="text" required name="2_1_10_9" id="2_1_10_9" class="form-control" /></div></td>
+                                        <td><div class="input-group"><input type="text" required name="2_1_11_9" id="2_1_11_9" class="form-control" /></div></td>
+                                        <td><div class="input-group"><input type="text" required name="2_1_12_9" id="2_1_12_9" class="form-control" /></div></td>
+                                        <td><div class="input-group"><input type="text" required name="2_1_13_9" id="2_1_13_9" class="form-control" /></div></td>
                                     </tr>
                                     <tr>
                                         <td>10</td>
-                                        <td><div class="input-group"><select class="form-control" name="6_1" id="6_1"><option value="1">Yes</option><option value="2">No</option></select></div></td>
-                                        <td><div class="input-group"><input type="text" required name="7_2_oth" id="7_2_oth" class="form-control" /></div></td>
-                                        <td><div class="input-group"><input type="text" required name="7_2_oth" id="7_2_oth" class="form-control" /></div></td>
-                                        <td><div class="input-group"><input type="text" required name="7_2_oth" id="7_2_oth" class="form-control" /></div></td>
-                                        <td><div class="input-group"><input type="text" required name="7_2_oth" id="7_2_oth" class="form-control" /></div></td>
-                                        <td><div class="input-group"><input type="text" required name="7_2_oth" id="7_2_oth" class="form-control" /></div></td>
-                                        <td><div class="input-group"><input type="text" required name="7_2_oth" id="7_2_oth" class="form-control" /></div></td>
+                                        <td><div class="input-group"><select class="form-control" name="2_1_7_10" id="2_1_7_10"><option value="1">Yes</option><option value="2">No</option></select></div></td>
+                                        <td><div class="input-group"><input type="text" required name="2_1_8_10" id="2_1_8_10" class="form-control" /></div></td>
+                                        <td><div class="input-group"><input type="text" required name="2_1_9_10" id="2_1_9_10" class="form-control" /></div></td>
+                                        <td><div class="input-group"><input type="text" required name="2_1_10_10" id="2_1_10_10" class="form-control" /></div></td>
+                                        <td><div class="input-group"><input type="text" required name="2_1_11_10" id="2_1_11_10" class="form-control" /></div></td>
+                                        <td><div class="input-group"><input type="text" required name="2_1_12_10" id="2_1_12_10" class="form-control" /></div></td>
+                                        <td><div class="input-group"><input type="text" required name="2_1_13_10" id="2_1_13_10" class="form-control" /></div></td>
                                     </tr>
                                 </table>
 
