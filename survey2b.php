@@ -28,23 +28,20 @@ if(isset($_POST['btnsubmit']) ) {
     $resultitem = mysqli_query($con, $sqlitem) or die("error in select survey:" . mysqli_error($con));
     $row = mysqli_fetch_assoc($resultitem);
         
-   
-
-        if (isset($_POST['1_1_2_1'])) {  $a1_1_2_1 = $_POST['1_1_2_1'];   } else {$a1_1_2_1 = NULL; }
-        if (isset($_POST['1_1_3_1'] )) { $a1_1_3_1 = $_POST['1_1_3_1'];} else {$a1_1_3_1 = NULL; }
-        if (isset($_POST['1_1_4_1'] )) { $a1_1_4_1 = $_POST['1_1_4_1'];} else {$a1_1_4_1 = NULL; }
-        if (isset($_POST['1_1_5_1'] )) { $a1_1_5_1 = $_POST['1_1_5_1'];} else {$a1_1_5_1 = NULL; }
-        if (isset($_POST['1_1_6_1'] )) { $a1_1_6_1 = $_POST['1_1_6_1'];} else {$a1_1_6_1 = NULL; }
-        if (isset($_POST['1_1_7_1'] )) { $a1_1_7_1 = $_POST['1_1_7_1'];} else {$a1_1_7_1 = NULL; }
-        if (isset($_POST['1_1_8_1'] )) { $a1_1_8_1 = $_POST['1_1_8_1'];} else {$a1_1_8_1 = NULL; }
-        if (isset($_POST['1_1_9_1'] )) { $a1_1_9_1 = $_POST['1_1_9_1'];} else {$a1_1_9_1 = NULL; }
-        if (isset($_POST['1_1_10_1'] )) { $a1_1_10_1 = $_POST['1_1_10_1'];} else {$a1_1_10_1 = NULL; }
-        if (isset($_POST['1_1_11_1'] )) { $a1_1_11_1 = $_POST['1_1_11_1'];} else {$a1_1_11_1 = NULL; }
-        if (isset($_POST['1_1_12_1'] )) { $a1_1_12_1 = $_POST['1_1_12_1'];} else {$a1_1_12_1 = NULL; }
-        if (isset($_POST['1_1_13_1'] )) { $a1_1_13_1 = $_POST['1_1_13_1'];} else {$a1_1_13_1 = NULL; }
+        if (isset($_POST['2_16a'])) {  $a2_16a = $_POST['2_16a'];   } else {$a2_16a = 0; }
+        if (isset($_POST['2_16b'])) {  $a2_16b = $_POST['2_16b'];   } else {$a2_16b = 0; }
+        if (isset($_POST['2_16c'])) {  $a2_16c = $_POST['2_16c'];   } else {$a2_16c = 0; }
+        if (isset($_POST['2_16d'])) {  $a2_16d = $_POST['2_16d'];   } else {$a2_16d = 0; }
+        if (isset($_POST['2_16e'])) {  $a2_16e = $_POST['2_16e'];   } else {$a2_16e = 0; }
+        if (isset($_POST['2_16f'])) {  $a2_16f = $_POST['2_16f'];   } else {$a2_16f = 0; }
+        if (isset($_POST['2_16g'])) {  $a2_16g = $_POST['2_16g'];   } else {$a2_16g = 0; }
+        if (isset($_POST['2_16h'])) {  $a2_16h = $_POST['2_16h'];   } else {$a2_16h = 0; }
+        if (isset($_POST['2_16i'])) {  $a2_16i = $_POST['2_16i'];   } else {$a2_16i = 0; }
+        if (isset($_POST['2_16j'])) {  $a2_16j = $_POST['2_16j'];   } else {$a2_16j = 0; }
+        if (isset($_POST['2_16_oth'] )) { $a2_16_oth = $_POST['2_16_oth'];} else {$a2__16_oth = NULL; }
         
     
-        $sqlupdatesq = "UPDATE tblsurvey_question SET 1_1_2_1='$a1_1_2_1',1_1_3_1='$a1_1_3_1' ,1_1_4_1='$a1_1_4_1' ,1_1_5_1='$a1_1_5_1',1_1_6_1='$a1_1_7_1' ,1_1_7_1='$a1_1_7_1',1_1_8_1=' $a1_1_8_1',1_1_9_1=' $a1_1_9_1', 1_1_10_1=' $a1_1_10_1', 1_1_11_1=' $a1_1_11_1' ,1_1_12_1='$a1_1_12_1'  ,1_1_13_1='$a1_1_13_1'  where household_id= '$household_id' ";
+        $sqlupdatesq = "UPDATE tblsurvey_question SET 2_16a='$a2_16a',2_16b='$a2_16b' ,2_16c='$a2_16c' ,2_16d='$a2_16d',2_16e='$a2_16e' ,2_16f='$a2_16f',2_16g=' $a2_16g',2_16h=' $a2_16h', 2_16i=' $a2_16i', 2_16j=' $a2_16j' ,2_16_oth='$a2_16_oth'    where household_id= '$household_id' ";
         $resultupdatecustomer = mysqli_query($con, $sqlupdatesq) or die("error in update customer part:" . mysqli_error($con));
 
         if ($resultupdatecustomer == 1) 

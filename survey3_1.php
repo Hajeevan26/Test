@@ -28,20 +28,216 @@ if(isset($_POST['btnsubmit']) ) {
     $resultitem = mysqli_query($con, $sqlitem) or die("error in select survey:" . mysqli_error($con));
     $row = mysqli_fetch_assoc($resultitem);
         
-   
+    if (isset($_POST['3_1_2_1'])) {  $a3_1_2_1 = $_POST['3_1_2_1'];   } else {$a3_1_2_1 = NULL; }
+        if (isset($_POST['3_1_3_1'])) {  $a3_1_3_1 = $_POST['3_1_3_1'];   } else {$a3_1_3_1 = NULL; }
+        if (isset($_POST['3_1_4_1'])) {  $a3_1_4_1 = $_POST['3_1_4_1'];   } else {$a3_1_4_1 = NULL; }
+        if (isset($_POST['3_1_5_1'])) {  $a3_1_5_1 = $_POST['3_1_5_1'];   } else {$a3_1_5_1 = NULL; }
+        if (isset($_POST['3_1_6_1a'] )) { $a3_1_6_1a = $_POST['3_1_6_1a'];} else {$a3_1_6_1a = NULL; }
+        if (isset($_POST['3_1_6_1b'] )) { $a3_1_6_1b = $_POST['3_1_6_1b'];} else {$a3_1_6_1b = NULL; }
+        if (isset($_POST['3_1_6_1c'] )) { $a3_1_6_1c = $_POST['3_1_6_1c'];} else {$a3_1_6_1c = NULL; }
+        if (isset($_POST['3_1_6_1d'] )) { $a3_1_6_1d = $_POST['3_1_6_1d'];} else {$a3_1_6_1d = NULL; }
+        if (isset($_POST['3_1_6_1e'] )) { $a3_1_6_1e = $_POST['3_1_6_1e'];} else {$a3_1_6_1e = NULL; }
+        if (isset($_POST['3_1_6_1f'] )) { $a3_1_6_1f = $_POST['3_1_6_1f'];} else {$a3_1_6_1f = NULL; }
+        if (isset($_POST['3_1_6_1f_oth'] )) { $a3_1_6_1f_oth = $_POST['3_1_6_1f_oth'];} else {$a3_1_6_1f_oth = NULL; }
 
-        if (isset($_POST['1_1_2_1'])) {  $a1_1_2_1 = $_POST['1_1_2_1'];   } else {$a1_1_2_1 = NULL; }
-        if (isset($_POST['1_1_3_1'] )) { $a1_1_3_1 = $_POST['1_1_3_1'];} else {$a1_1_3_1 = NULL; }
-        if (isset($_POST['1_1_4_1'] )) { $a1_1_4_1 = $_POST['1_1_4_1'];} else {$a1_1_4_1 = NULL; }
-        if (isset($_POST['1_1_5_1'] )) { $a1_1_5_1 = $_POST['1_1_5_1'];} else {$a1_1_5_1 = NULL; }
-        if (isset($_POST['1_1_6_1'] )) { $a1_1_6_1 = $_POST['1_1_6_1'];} else {$a1_1_6_1 = NULL; }
-        if (isset($_POST['1_1_7_1'] )) { $a1_1_7_1 = $_POST['1_1_7_1'];} else {$a1_1_7_1 = NULL; }
-        if (isset($_POST['1_1_8_1'] )) { $a1_1_8_1 = $_POST['1_1_8_1'];} else {$a1_1_8_1 = NULL; }
-        if (isset($_POST['1_1_9_1'] )) { $a1_1_9_1 = $_POST['1_1_9_1'];} else {$a1_1_9_1 = NULL; }
-        if (isset($_POST['1_1_10_1'] )) { $a1_1_10_1 = $_POST['1_1_10_1'];} else {$a1_1_10_1 = NULL; }
-        if (isset($_POST['1_1_11_1'] )) { $a1_1_11_1 = $_POST['1_1_11_1'];} else {$a1_1_11_1 = NULL; }
-        if (isset($_POST['1_1_12_1'] )) { $a1_1_12_1 = $_POST['1_1_12_1'];} else {$a1_1_12_1 = NULL; }
-        if (isset($_POST['1_1_13_1'] )) { $a1_1_13_1 = $_POST['1_1_13_1'];} else {$a1_1_13_1 = NULL; }
+        //2
+        if (isset($_POST['3_1_2_2'])) {  $a3_1_2_2 = $_POST['3_1_2_2'];   } else {$a3_1_2_2 = NULL; }
+        if (isset($_POST['3_1_3_2'])) {  $a3_1_3_2 = $_POST['3_1_3_2'];   } else {$a3_1_3_2 = NULL; }
+        if (isset($_POST['3_1_4_2'])) {  $a3_1_4_2 = $_POST['3_1_4_2'];   } else {$a3_1_4_2 = NULL; }
+        if (isset($_POST['3_1_5_2'])) {  $a3_1_5_2 = $_POST['3_1_5_2'];   } else {$a3_1_5_2 = NULL; }
+        if (isset($_POST['3_1_6_2a'] )) { $a3_1_6_2a = $_POST['3_1_6_2a'];} else {$a3_1_6_2a = NULL; }
+        if (isset($_POST['3_1_6_2b'] )) { $a3_1_6_2b = $_POST['3_1_6_2b'];} else {$a3_1_6_2b = NULL; }
+        if (isset($_POST['3_1_6_2c'] )) { $a3_1_6_2c = $_POST['3_1_6_2c'];} else {$a3_1_6_2c = NULL; }
+        if (isset($_POST['3_1_6_2d'] )) { $a3_1_6_2d = $_POST['3_1_6_2d'];} else {$a3_1_6_2d = NULL; }
+        if (isset($_POST['3_1_6_2e'] )) { $a3_1_6_2e = $_POST['3_1_6_2e'];} else {$a3_1_6_2e = NULL; }
+        if (isset($_POST['3_1_6_2f'] )) { $a3_1_6_2f = $_POST['3_1_6_2f'];} else {$a3_1_6_2f = NULL; }
+        if (isset($_POST['3_1_6_2f_oth'] )) { $a3_1_6_2f_oth = $_POST['3_1_6_2f_oth'];} else {$a3_1_6_2f_oth = NULL; }
+
+        //3
+        if (isset($_POST['3_1_2_3'])) {  $a3_1_2_3 = $_POST['3_1_2_3'];   } else {$a3_1_2_3 = NULL; }
+        if (isset($_POST['3_1_3_3'])) {  $a3_1_3_3 = $_POST['3_1_3_3'];   } else {$a3_1_3_3 = NULL; }
+        if (isset($_POST['3_1_4_3'])) {  $a3_1_4_3 = $_POST['3_1_4_3'];   } else {$a3_1_4_3 = NULL; }
+        if (isset($_POST['3_1_5_3'])) {  $a3_1_5_3 = $_POST['3_1_5_3'];   } else {$a3_1_5_3 = NULL; }
+        if (isset($_POST['3_1_6_3a'] )) { $a3_1_6_3a = $_POST['3_1_6_3a'];} else {$a3_1_6_3a = NULL; }
+        if (isset($_POST['3_1_6_3b'] )) { $a3_1_6_3b = $_POST['3_1_6_3b'];} else {$a3_1_6_3b = NULL; }
+        if (isset($_POST['3_1_6_3c'] )) { $a3_1_6_3c = $_POST['3_1_6_3c'];} else {$a3_1_6_3c = NULL; }
+        if (isset($_POST['3_1_6_3d'] )) { $a3_1_6_3d = $_POST['3_1_6_3d'];} else {$a3_1_6_3d = NULL; }
+        if (isset($_POST['3_1_6_3e'] )) { $a3_1_6_3e = $_POST['3_1_6_3e'];} else {$a3_1_6_3e = NULL; }
+        if (isset($_POST['3_1_6_3f'] )) { $a3_1_6_3f = $_POST['3_1_6_3f'];} else {$a3_1_6_3f = NULL; }
+        if (isset($_POST['3_1_6_3f_oth'] )) { $a3_1_6_3f_oth = $_POST['3_1_6_3f_oth'];} else {$a3_1_6_3f_oth = NULL; }
+
+        //4
+        if (isset($_POST['3_1_2_4'])) {  $a3_1_2_4 = $_POST['3_1_2_4'];   } else {$a3_1_2_4 = NULL; }
+        if (isset($_POST['3_1_3_4'])) {  $a3_1_3_4 = $_POST['3_1_3_4'];   } else {$a3_1_3_4 = NULL; }
+        if (isset($_POST['3_1_4_4'])) {  $a3_1_4_4 = $_POST['3_1_4_4'];   } else {$a3_1_4_4 = NULL; }
+        if (isset($_POST['3_1_5_4'])) {  $a3_1_5_4 = $_POST['3_1_5_4'];   } else {$a3_1_5_4 = NULL; }
+        if (isset($_POST['3_1_6_4a'] )) { $a3_1_6_4a = $_POST['3_1_6_4a'];} else {$a3_1_6_4a = NULL; }
+        if (isset($_POST['3_1_6_4b'] )) { $a3_1_6_4b = $_POST['3_1_6_4b'];} else {$a3_1_6_4b = NULL; }
+        if (isset($_POST['3_1_6_4c'] )) { $a3_1_6_4c = $_POST['3_1_6_4c'];} else {$a3_1_6_4c = NULL; }
+        if (isset($_POST['3_1_6_4d'] )) { $a3_1_6_4d = $_POST['3_1_6_4d'];} else {$a3_1_6_4d = NULL; }
+        if (isset($_POST['3_1_6_4e'] )) { $a3_1_6_4e = $_POST['3_1_6_4e'];} else {$a3_1_6_4e = NULL; }
+        if (isset($_POST['3_1_6_4f'] )) { $a3_1_6_4f = $_POST['3_1_6_4f'];} else {$a3_1_6_4f = NULL; }
+        if (isset($_POST['3_1_6_4f_oth'] )) { $a3_1_6_4f_oth = $_POST['3_1_6_4f_oth'];} else {$a3_1_6_4f_oth = NULL; }
+
+        //5
+        if (isset($_POST['3_1_2_5'])) {  $a3_1_2_5 = $_POST['3_1_2_5'];   } else {$a3_1_2_5 = NULL; }
+        if (isset($_POST['3_1_3_5'])) {  $a3_1_3_5 = $_POST['3_1_3_5'];   } else {$a3_1_3_5 = NULL; }
+        if (isset($_POST['3_1_4_5'])) {  $a3_1_4_5 = $_POST['3_1_4_5'];   } else {$a3_1_4_5 = NULL; }
+        if (isset($_POST['3_1_5_5'])) {  $a3_1_5_5 = $_POST['3_1_5_5'];   } else {$a3_1_5_5 = NULL; }
+        if (isset($_POST['3_1_6_5a'] )) { $a3_1_6_5a = $_POST['3_1_6_5a'];} else {$a3_1_6_5a = NULL; }
+        if (isset($_POST['3_1_6_5b'] )) { $a3_1_6_5b = $_POST['3_1_6_5b'];} else {$a3_1_6_5b = NULL; }
+        if (isset($_POST['3_1_6_5c'] )) { $a3_1_6_5c = $_POST['3_1_6_5c'];} else {$a3_1_6_5c = NULL; }
+        if (isset($_POST['3_1_6_5d'] )) { $a3_1_6_5d = $_POST['3_1_6_5d'];} else {$a3_1_6_5d = NULL; }
+        if (isset($_POST['3_1_6_5e'] )) { $a3_1_6_5e = $_POST['3_1_6_5e'];} else {$a3_1_6_5e = NULL; }
+        if (isset($_POST['3_1_6_5f'] )) { $a3_1_6_5f = $_POST['3_1_6_5f'];} else {$a3_1_6_5f = NULL; }
+        if (isset($_POST['3_1_6_5f_oth'] )) { $a3_1_6_5f_oth = $_POST['3_1_6_5f_oth'];} else {$a3_1_6_5f_oth = NULL; }
+
+        //6
+        if (isset($_POST['3_1_2_6'])) {  $a3_1_2_6 = $_POST['3_1_2_6'];   } else {$a3_1_2_6 = NULL; }
+        if (isset($_POST['3_1_3_6'])) {  $a3_1_3_6 = $_POST['3_1_3_6'];   } else {$a3_1_3_6 = NULL; }
+        if (isset($_POST['3_1_4_6'])) {  $a3_1_4_6 = $_POST['3_1_4_6'];   } else {$a3_1_4_6 = NULL; }
+        if (isset($_POST['3_1_5_6'])) {  $a3_1_5_6 = $_POST['3_1_5_6'];   } else {$a3_1_5_6 = NULL; }
+        if (isset($_POST['3_1_6_6a'] )) { $a3_1_6_6a = $_POST['3_1_6_6a'];} else {$a3_1_6_6a = NULL; }
+        if (isset($_POST['3_1_6_6b'] )) { $a3_1_6_6b = $_POST['3_1_6_6b'];} else {$a3_1_6_6b = NULL; }
+        if (isset($_POST['3_1_6_6c'] )) { $a3_1_6_6c = $_POST['3_1_6_6c'];} else {$a3_1_6_6c = NULL; }
+        if (isset($_POST['3_1_6_6d'] )) { $a3_1_6_6d = $_POST['3_1_6_6d'];} else {$a3_1_6_6d = NULL; }
+        if (isset($_POST['3_1_6_6e'] )) { $a3_1_6_6e = $_POST['3_1_6_6e'];} else {$a3_1_6_6e = NULL; }
+        if (isset($_POST['3_1_6_6f'] )) { $a3_1_6_6f = $_POST['3_1_6_6f'];} else {$a3_1_6_6f = NULL; }
+        if (isset($_POST['3_1_6_6f_oth'] )) { $a3_1_6_6f_oth = $_POST['3_1_6_6f_oth'];} else {$a3_1_6_6f_oth = NULL; }
+
+        //7
+        if (isset($_POST['3_1_2_7'])) {  $a3_1_2_7 = $_POST['3_1_2_7'];   } else {$a3_1_2_7 = NULL; }
+        if (isset($_POST['3_1_3_7'])) {  $a3_1_3_7 = $_POST['3_1_3_7'];   } else {$a3_1_3_7 = NULL; }
+        if (isset($_POST['3_1_4_7'])) {  $a3_1_4_7 = $_POST['3_1_4_7'];   } else {$a3_1_4_7 = NULL; }
+        if (isset($_POST['3_1_5_7'])) {  $a3_1_5_7 = $_POST['3_1_5_7'];   } else {$a3_1_5_7 = NULL; }
+        if (isset($_POST['3_1_6_7a'] )) { $a3_1_6_7a = $_POST['3_1_6_7a'];} else {$a3_1_6_7a = NULL; }
+        if (isset($_POST['3_1_6_7b'] )) { $a3_1_6_7b = $_POST['3_1_6_7b'];} else {$a3_1_6_7b = NULL; }
+        if (isset($_POST['3_1_6_7c'] )) { $a3_1_6_7c = $_POST['3_1_6_7c'];} else {$a3_1_6_7c = NULL; }
+        if (isset($_POST['3_1_6_7d'] )) { $a3_1_6_7d = $_POST['3_1_6_7d'];} else {$a3_1_6_7d = NULL; }
+        if (isset($_POST['3_1_6_7e'] )) { $a3_1_6_7e = $_POST['3_1_6_7e'];} else {$a3_1_6_7e = NULL; }
+        if (isset($_POST['3_1_6_7f'] )) { $a3_1_6_7f = $_POST['3_1_6_7f'];} else {$a3_1_6_7f = NULL; }
+        if (isset($_POST['3_1_6_7f_oth'] )) { $a3_1_6_7f_oth = $_POST['3_1_6_7f_oth'];} else {$a3_1_6_7f_oth = NULL; }
+
+        //8
+        
+        if (isset($_POST['3_1_2_8'])) {  $a3_1_2_8 = $_POST['3_1_2_8'];   } else {$a3_1_2_8 = NULL; }
+        if (isset($_POST['3_1_3_8'])) {  $a3_1_3_8 = $_POST['3_1_3_8'];   } else {$a3_1_3_8 = NULL; }
+        if (isset($_POST['3_1_4_8'])) {  $a3_1_4_8 = $_POST['3_1_4_8'];   } else {$a3_1_4_8 = NULL; }
+        if (isset($_POST['3_1_5_8'])) {  $a3_1_5_8 = $_POST['3_1_5_8'];   } else {$a3_1_5_8 = NULL; }
+        if (isset($_POST['3_1_6_8a'] )) { $a3_1_6_8a = $_POST['3_1_6_8a'];} else {$a3_1_6_8a = NULL; }
+        if (isset($_POST['3_1_6_8b'] )) { $a3_1_6_8b = $_POST['3_1_6_8b'];} else {$a3_1_6_8b = NULL; }
+        if (isset($_POST['3_1_6_8c'] )) { $a3_1_6_8c = $_POST['3_1_6_8c'];} else {$a3_1_6_8c = NULL; }
+        if (isset($_POST['3_1_6_8d'] )) { $a3_1_6_8d = $_POST['3_1_6_8d'];} else {$a3_1_6_8d = NULL; }
+        if (isset($_POST['3_1_6_8e'] )) { $a3_1_6_8e = $_POST['3_1_6_8e'];} else {$a3_1_6_8e = NULL; }
+        if (isset($_POST['3_1_6_8f'] )) { $a3_1_6_8f = $_POST['3_1_6_8f'];} else {$a3_1_6_8f = NULL; }
+        if (isset($_POST['3_1_6_8f_oth'] )) { $a3_1_6_7f_oth = $_POST['3_1_6_8f_oth'];} else {$a3_1_6_8f_oth = NULL; }
+
+        if (isset($_POST['3_1_7_1'])) {  $a3_1_7_1 = $_POST['3_1_7_1'];   } else {$a3_1_7_1 = NULL; }
+        if (isset($_POST['3_1_7_2'])) {  $a3_1_7_2 = $_POST['3_1_7_2'];   } else {$a3_1_7_2 = NULL; }
+        if (isset($_POST['3_1_7_3'])) {  $a3_1_7_3 = $_POST['3_1_7_3'];   } else {$a3_1_7_3 = NULL; }
+        
+        if (isset($_POST['3_1_8_1'])) {  $a3_1_8_1 = $_POST['3_1_8_1'];   } else {$a3_1_8_1 = NULL; }
+        if (isset($_POST['3_1_9_1'])) {  $a3_1_9_1 = $_POST['3_1_9_1'];   } else {$a3_1_9_1 = NULL; }
+        if (isset($_POST['3_1_10_1'])) {  $a3_1_10_1 = $_POST['3_1_10_1'];   } else {$a3_1_10_1 = NULL; }
+        if (isset($_POST['3_1_11_1'])) {  $a3_1_11_1 = $_POST['3_1_11_1'];   } else {$a3_1_11_1 = NULL; }
+        if (isset($_POST['3_1_12_1a'] )) { $a3_1_12_1a = $_POST['3_1_12_1a'];} else {$a3_1_12_1a = NULL; }
+        if (isset($_POST['3_1_12_1b'] )) { $a3_1_12_1b = $_POST['3_1_12_1b'];} else {$a3_1_12_1b = NULL; }
+        if (isset($_POST['3_1_12_1c'] )) { $a3_1_12_1c = $_POST['3_1_12_1c'];} else {$a3_1_12_1c = NULL; }
+        if (isset($_POST['3_1_12_1d'] )) { $a3_1_12_1d = $_POST['3_1_12_1d'];} else {$a3_1_12_1d = NULL; }
+        if (isset($_POST['3_1_12_1e'] )) { $a3_1_12_1e = $_POST['3_1_12_1e'];} else {$a3_1_12_1e = NULL; }
+        if (isset($_POST['3_1_12_1f'] )) { $a3_1_12_1f = $_POST['3_1_12_1f'];} else {$a3_1_12_1f = NULL; }
+        if (isset($_POST['3_1_12_1f_oth'] )) { $a3_1_12_1f_oth = $_POST['3_1_12_1f_oth'];} else {$a3_1_12_1f_oth = NULL; }
+
+        if (isset($_POST['3_1_8_2'])) {  $a3_1_8_2 = $_POST['3_1_8_2'];   } else {$a3_1_8_2 = NULL; }
+        if (isset($_POST['3_1_9_2'])) {  $a3_1_9_2 = $_POST['3_1_9_2'];   } else {$a3_1_9_2 = NULL; }
+        if (isset($_POST['3_1_10_2'])) {  $a3_1_10_2 = $_POST['3_1_10_2'];   } else {$a3_1_10_2 = NULL; }
+        if (isset($_POST['3_1_11_2'])) {  $a3_1_11_2 = $_POST['3_1_11_2'];   } else {$a3_1_11_2 = NULL; }
+        if (isset($_POST['3_1_12_2a'] )) { $a3_1_12_2a = $_POST['3_1_12_2a'];} else {$a3_1_12_2a = NULL; }
+        if (isset($_POST['3_1_12_2b'] )) { $a3_1_12_2b = $_POST['3_1_12_2b'];} else {$a3_1_12_2b = NULL; }
+        if (isset($_POST['3_1_12_2c'] )) { $a3_1_12_2c = $_POST['3_1_12_2c'];} else {$a3_1_12_2c = NULL; }
+        if (isset($_POST['3_1_12_2d'] )) { $a3_1_12_2d = $_POST['3_1_12_2d'];} else {$a3_1_12_2d = NULL; }
+        if (isset($_POST['3_1_12_2e'] )) { $a3_1_12_2e = $_POST['3_1_12_2e'];} else {$a3_1_12_2e = NULL; }
+        if (isset($_POST['3_1_12_2f'] )) { $a3_1_12_2f = $_POST['3_1_12_2f'];} else {$a3_1_12_2f = NULL; }
+        if (isset($_POST['3_1_12_2f_oth'] )) { $a3_1_12_2f_oth = $_POST['3_1_12_2f_oth'];} else {$a3_1_12_2f_oth = NULL; }
+
+
+
+        if (isset($_POST['3_1_8_3'])) {  $a3_1_8_3 = $_POST['3_1_8_3'];   } else {$a3_1_8_3 = NULL; }
+        if (isset($_POST['3_1_9_3'])) {  $a3_1_9_3 = $_POST['3_1_9_3'];   } else {$a3_1_9_3 = NULL; }
+        if (isset($_POST['3_1_10_3'])) {  $a3_1_10_3 = $_POST['3_1_10_3'];   } else {$a3_1_10_3 = NULL; }
+        if (isset($_POST['3_1_11_3'])) {  $a3_1_11_3 = $_POST['3_1_11_3'];   } else {$a3_1_11_3 = NULL; }
+        if (isset($_POST['3_1_12_3a'] )) { $a3_1_12_3a = $_POST['3_1_12_3a'];} else {$a3_1_12_3a = NULL; }
+        if (isset($_POST['3_1_12_3b'] )) { $a3_1_12_3b = $_POST['3_1_12_3b'];} else {$a3_1_12_3b = NULL; }
+        if (isset($_POST['3_1_12_3c'] )) { $a3_1_12_3c = $_POST['3_1_12_3c'];} else {$a3_1_12_3c = NULL; }
+        if (isset($_POST['3_1_12_3d'] )) { $a3_1_12_3d = $_POST['3_1_12_3d'];} else {$a3_1_12_3d = NULL; }
+        if (isset($_POST['3_1_12_3e'] )) { $a3_1_12_3e = $_POST['3_1_12_3e'];} else {$a3_1_12_3e = NULL; }
+        if (isset($_POST['3_1_12_3f'] )) { $a3_1_12_3f = $_POST['3_1_12_3f'];} else {$a3_1_12_3f = NULL; }
+        if (isset($_POST['3_1_12_3f_oth'] )) { $a3_1_12_3f_oth = $_POST['3_1_12_3f_oth'];} else {$a3_1_12_3f_oth = NULL; }
+
+
+        if (isset($_POST['3_1_8_4'])) {  $a3_1_8_4 = $_POST['3_1_8_4'];   } else {$a3_1_8_4 = NULL; }
+        if (isset($_POST['3_1_9_4'])) {  $a3_1_9_4 = $_POST['3_1_9_4'];   } else {$a3_1_9_4 = NULL; }
+        if (isset($_POST['3_1_10_4'])) {  $a3_1_10_4 = $_POST['3_1_10_4'];   } else {$a3_1_10_4 = NULL; }
+        if (isset($_POST['3_1_11_4'])) {  $a3_1_11_4 = $_POST['3_1_11_4'];   } else {$a3_1_11_4 = NULL; }
+        if (isset($_POST['3_1_12_4a'] )) { $a3_1_12_4a = $_POST['3_1_12_3a'];} else {$a3_1_12_3a = NULL; }
+        if (isset($_POST['3_1_12_4b'] )) { $a3_1_12_4b = $_POST['3_1_12_4b'];} else {$a3_1_12_4b = NULL; }
+        if (isset($_POST['3_1_12_4c'] )) { $a3_1_12_4c = $_POST['3_1_12_4c'];} else {$a3_1_12_4c = NULL; }
+        if (isset($_POST['3_1_12_4d'] )) { $a3_1_12_4d = $_POST['3_1_12_4d'];} else {$a3_1_12_4d = NULL; }
+        if (isset($_POST['3_1_12_4e'] )) { $a3_1_12_4e = $_POST['3_1_12_4e'];} else {$a3_1_12_4e = NULL; }
+        if (isset($_POST['3_1_12_4f'] )) { $a3_1_12_4f = $_POST['3_1_12_4f'];} else {$a3_1_12_4f = NULL; }
+        if (isset($_POST['3_1_12_4f_oth'] )) { $a3_1_12_4f_oth = $_POST['3_1_12_4f_oth'];} else {$a3_1_12_4f_oth = NULL; }
+
+
+        if (isset($_POST['3_1_8_5'])) {  $a3_1_8_5 = $_POST['3_1_8_5'];   } else {$a3_1_8_5 = NULL; }
+        if (isset($_POST['3_1_9_5'])) {  $a3_1_9_5 = $_POST['3_1_9_5'];   } else {$a3_1_9_5 = NULL; }
+        if (isset($_POST['3_1_10_5'])) {  $a3_1_10_5 = $_POST['3_1_10_5'];   } else {$a3_1_10_5 = NULL; }
+        if (isset($_POST['3_1_11_5'])) {  $a3_1_11_5 = $_POST['3_1_11_5'];   } else {$a3_1_11_5 = NULL; }
+        if (isset($_POST['3_1_12_5a'] )) { $a3_1_12_5a = $_POST['3_1_12_5a'];} else {$a3_1_12_5a = NULL; }
+        if (isset($_POST['3_1_12_5b'] )) { $a3_1_12_5b = $_POST['3_1_12_5b'];} else {$a3_1_12_5b = NULL; }
+        if (isset($_POST['3_1_12_5c'] )) { $a3_1_12_5c = $_POST['3_1_12_5c'];} else {$a3_1_12_5c = NULL; }
+        if (isset($_POST['3_1_12_5d'] )) { $a3_1_12_5d = $_POST['3_1_12_5d'];} else {$a3_1_12_5d = NULL; }
+        if (isset($_POST['3_1_12_5e'] )) { $a3_1_12_5e = $_POST['3_1_12_5e'];} else {$a3_1_12_5e = NULL; }
+        if (isset($_POST['3_1_12_5f'] )) { $a3_1_12_5f = $_POST['3_1_12_5f'];} else {$a3_1_12_5f = NULL; }
+        if (isset($_POST['3_1_12_5f_oth'] )) { $a3_1_12_5f_oth = $_POST['3_1_12_5f_oth'];} else {$a3_1_12_5f_oth = NULL; }
+
+
+        if (isset($_POST['3_1_8_6'])) {  $a3_1_8_6 = $_POST['3_1_8_6'];   } else {$a3_1_8_6 = NULL; }
+        if (isset($_POST['3_1_9_6'])) {  $a3_1_9_6 = $_POST['3_1_9_6'];   } else {$a3_1_9_6 = NULL; }
+        if (isset($_POST['3_1_10_6'])) {  $a3_1_10_6 = $_POST['3_1_10_6'];   } else {$a3_1_10_6 = NULL; }
+        if (isset($_POST['3_1_11_6'])) {  $a3_1_11_6 = $_POST['3_1_11_6'];   } else {$a3_1_11_6 = NULL; }
+        if (isset($_POST['3_1_12_6a'] )) { $a3_1_12_6a = $_POST['3_1_12_6a'];} else {$a3_1_12_6a = NULL; }
+        if (isset($_POST['3_1_12_6b'] )) { $a3_1_12_6b = $_POST['3_1_12_6b'];} else {$a3_1_12_6b = NULL; }
+        if (isset($_POST['3_1_12_6c'] )) { $a3_1_12_6c = $_POST['3_1_12_6c'];} else {$a3_1_12_6c = NULL; }
+        if (isset($_POST['3_1_12_6d'] )) { $a3_1_12_6d = $_POST['3_1_12_6d'];} else {$a3_1_12_6d = NULL; }
+        if (isset($_POST['3_1_12_6e'] )) { $a3_1_12_6e = $_POST['3_1_12_6e'];} else {$a3_1_12_6e = NULL; }
+        if (isset($_POST['3_1_12_6f'] )) { $a3_1_12_6f = $_POST['3_1_12_6f'];} else {$a3_1_12_6f = NULL; }
+        if (isset($_POST['3_1_12_6f_oth'] )) { $a3_1_12_6f_oth = $_POST['3_1_12_6f_oth'];} else {$a3_1_12_6f_oth = NULL; }
+
+        if (isset($_POST['3_1_8_7'])) {  $a3_1_8_7 = $_POST['3_1_8_7'];   } else {$a3_1_8_7 = NULL; }
+        if (isset($_POST['3_1_9_7'])) {  $a3_1_9_7 = $_POST['3_1_9_7'];   } else {$a3_1_9_7 = NULL; }
+        if (isset($_POST['3_1_10_7'])) {  $a3_1_10_7 = $_POST['3_1_10_7'];   } else {$a3_1_10_7 = NULL; }
+        if (isset($_POST['3_1_11_7'])) {  $a3_1_11_7 = $_POST['3_1_11_7'];   } else {$a3_1_11_7 = NULL; }
+        if (isset($_POST['3_1_12_7a'] )) { $a3_1_12_7a = $_POST['3_1_12_7a'];} else {$a3_1_12_7a = NULL; }
+        if (isset($_POST['3_1_12_7b'] )) { $a3_1_12_7b = $_POST['3_1_12_7b'];} else {$a3_1_12_7b = NULL; }
+        if (isset($_POST['3_1_12_7c'] )) { $a3_1_12_7c = $_POST['3_1_12_7c'];} else {$a3_1_12_7c = NULL; }
+        if (isset($_POST['3_1_12_7d'] )) { $a3_1_12_7d = $_POST['3_1_12_7d'];} else {$a3_1_12_7d = NULL; }
+        if (isset($_POST['3_1_12_7e'] )) { $a3_1_12_7e = $_POST['3_1_12_7e'];} else {$a3_1_12_7e = NULL; }
+        if (isset($_POST['3_1_12_7f'] )) { $a3_1_12_7f = $_POST['3_1_12_7f'];} else {$a3_1_12_7f = NULL; }
+        if (isset($_POST['3_1_12_7f_oth'] )) { $a3_1_12_7f_oth = $_POST['3_1_12_7f_oth'];} else {$a3_1_12_7f_oth = NULL; }
+
+        if (isset($_POST['3_1_8_8'])) {  $a3_1_8_8 = $_POST['3_1_8_8'];   } else {$a3_1_8_8 = NULL; }
+        if (isset($_POST['3_1_9_8'])) {  $a3_1_9_8 = $_POST['3_1_9_8'];   } else {$a3_1_9_8 = NULL; }
+        if (isset($_POST['3_1_10_8'])) {  $a3_1_10_8 = $_POST['3_1_10_8'];   } else {$a3_1_10_8 = NULL; }
+        if (isset($_POST['3_1_11_8'])) {  $a3_1_11_8 = $_POST['3_1_11_8'];   } else {$a3_1_11_8 = NULL; }
+        if (isset($_POST['3_1_12_8a'] )) { $a3_1_12_8a = $_POST['3_1_12_8a'];} else {$a3_1_12_8a = NULL; }
+        if (isset($_POST['3_1_12_8b'] )) { $a3_1_12_8b = $_POST['3_1_12_8b'];} else {$a3_1_12_8b = NULL; }
+        if (isset($_POST['3_1_12_8c'] )) { $a3_1_12_8c = $_POST['3_1_12_8c'];} else {$a3_1_12_8c = NULL; }
+        if (isset($_POST['3_1_12_8d'] )) { $a3_1_12_8d = $_POST['3_1_12_8d'];} else {$a3_1_12_8d = NULL; }
+        if (isset($_POST['3_1_12_8e'] )) { $a3_1_12_8e = $_POST['3_1_12_8e'];} else {$a3_1_12_8e = NULL; }
+        if (isset($_POST['3_1_12_8f'] )) { $a3_1_12_8f = $_POST['3_1_12_8f'];} else {$a3_1_12_8f = NULL; }
+        if (isset($_POST['3_1_12_8f_oth'] )) { $a3_1_12_8f_oth = $_POST['3_1_12_8f_oth'];} else {$a3_1_12_8f_oth = NULL; }
+
+
         
     
         $sqlupdatesq = "UPDATE tblsurvey_question SET 1_1_2_1='$a1_1_2_1',1_1_3_1='$a1_1_3_1' ,1_1_4_1='$a1_1_4_1' ,1_1_5_1='$a1_1_5_1',1_1_6_1='$a1_1_7_1' ,1_1_7_1='$a1_1_7_1',1_1_8_1=' $a1_1_8_1',1_1_9_1=' $a1_1_9_1', 1_1_10_1=' $a1_1_10_1', 1_1_11_1=' $a1_1_11_1' ,1_1_12_1='$a1_1_12_1'  ,1_1_13_1='$a1_1_13_1'  where household_id= '$household_id' ";
