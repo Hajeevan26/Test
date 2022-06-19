@@ -76,8 +76,9 @@ if(isset($_POST['btnsubmit']) ) {
                             <div class="input-group">
 
                                 <select class="form-control" name="2_19" id="2_19" onchange="updatef2d()">
-                                    <option value="1">Yes </option>
-                                    <option value="2">No</option>
+                                    
+                                    <option value="1">No</option>
+                                    <option value="2">Yes </option>
 
                                 </select>
                             </div>

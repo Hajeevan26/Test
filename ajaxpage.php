@@ -11,10 +11,12 @@ if (isset($_GET['option'])) {
 	if ($_GET['option'] == "update2_19") {
 		$household_id = $_GET["household_id"];
 		$a2_19 = $_GET["f2_19"];
+      echo $a2_19;
+      
 		$sqlupdateb6 = "UPDATE tblsurvey_question SET 2_19='$a2_19' where household_id= $household_id";
-		$resultupdatecustomer = mysqli_query($con, $sqlupdateb6) or die("error in update customer part:" . mysqli_error($con));
+		//$resultupdatecustomer = mysqli_query($con, $sqlupdateb6) or die("error in update customer part:" . mysqli_error($con));
 
-		if ($resultupdatecustomer) {
+		//if ($resultupdatecustomer) {
 			if ($a2_19 == 2) { ?>
 				<div class="row">
                         <table class="table table-bordered table-hover">
@@ -169,6 +171,6 @@ if (isset($_GET['option'])) {
                 </div>
 			<?php
 			}
-		}
+		//}
 	}
 }

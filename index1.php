@@ -248,7 +248,7 @@ include($_GET['pg']); }
 
             var household_id = document.getElementById("household_id").value;
             //alert(b6);
-            if (f2_19 == 1) {
+            if (f2_19 == 2) {
                 var xmlhttp = new XMLHttpRequest();
                 xmlhttp.onreadystatechange = function() {
                     if (xmlhttp.readyState == 4 & xmlhttp.status == 200) {
