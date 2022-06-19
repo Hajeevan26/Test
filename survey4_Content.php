@@ -61,16 +61,7 @@
                             <td>4_4c<input type="text" name="4_4c" id="4_4c" class="form-control" /></td>
                             <td>4_5c<input type="text" name="4_5c" id="4_5c" class="form-control" /></td>
                         </tr>
-                        <tr>
-                            <td>4_2d<input type="text" name="4_2d" id="4_2d" class="form-control" /></td>
-                            <td>4_3d<div class="input-group"> 
-                                <select class="form-control  col-6" name="4_3d" id="4_3d">
-                                <option value="1">Yes</option>
-                                <option value="2">No</option> </div>
-                            </td>
-                            <td>4_4d<input type="text" name="4_4d" id="4_4d" class="form-control" /></td>
-                            <td>4_5d<input type="text" name="4_5d" id="4_5d" class="form-control" /></td>
-                        </tr>
+                        
                     </table>
                 </div>
             </div>

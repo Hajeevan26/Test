@@ -27,8 +27,8 @@ if(isset($_POST['btnsubmit']) ) {
     $sqlitem = "select * from tblsurvey_question where household_id='$household_id' and interviewer_id='$user_id' and status =0 ORDER BY household_id DESC limit 1";
     $resultitem = mysqli_query($con, $sqlitem) or die("error in select survey:" . mysqli_error($con));
     $row = mysqli_fetch_assoc($resultitem);
-        
-   
+    $status=1;
+   $date_end= date('Y-m-d H:i:s');
 
         if (isset($_POST['8_1']))  { $a8_1 = $_POST['8_1'];} else {$a8_1 = 0; }
         if (isset($_POST['8_2'] )) { $a8_2 = $_POST['8_2'];} else {$a8_2 = 0; }
@@ -37,16 +37,16 @@ if(isset($_POST['btnsubmit']) ) {
         if (isset($_POST['8_5'] )) { $a8_5 = $_POST['8_5'];} else {$a8_5 = 0; }
         if (isset($_POST['8_6'] )) { $a8_6 = $_POST['8_6'];} else {$a8_6 = 0; }
         if (isset($_POST['8_7'] )) { $a8_7 = $_POST['8_7'];} else {$a8_7 = 0; }
-        
+        if (isset($_POST['9'] )) { $a9 = $_POST['9'];} else {$a9 = 0; }
         
     
-        $sqlupdatesq = "UPDATE tblsurvey_question SET 8_1='$a8_1',8_2='$a8_2' ,8_3='$a8_3' ,8_4='$a8_4',8_5='$a8_5' ,8_6='$a8_6',8_7=' $a8_7'  where household_id= '$household_id' ";
+        $sqlupdatesq = "UPDATE tblsurvey_question SET 8_1='$a8_1',8_2='$a8_2' ,8_3='$a8_3' ,8_4='$a8_4',8_5='$a8_5' ,8_6='$a8_6',8_7=' $a8_7', 9_0='$a9' ,status='$status' ,date_end='$date_end' where household_id= '$household_id' ";
         $resultupdatecustomer = mysqli_query($con, $sqlupdatesq) or die("error in update customer part:" . mysqli_error($con));
 
         if ($resultupdatecustomer == 1) 
         {
            
-            echo '<script> alert("your data added successfully");//window.location.href="index1.php?pg=surveyG.php";</script>';
+            echo '<script> alert("your data added successfully");window.location.href="index1.php?pg=createsurvey.php";</script>';
            
             // $_SESSION['id'] = $id;
            

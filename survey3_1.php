@@ -258,6 +258,7 @@ if(isset($_POST['btnsubmit']) ) {
            3_1_8_7='$a3_1_8_7', 3_1_9_7='$a3_1_9_7', 3_1_10_7='$a3_1_10_7', 3_1_11_7='$a3_1_11_7', 3_1_12_7a='$a3_1_12_7a', 3_1_12_7b='$a3_1_12_7b', 3_1_12_7c='$a3_1_12_7c', 3_1_12_7d='$a3_1_12_7d', 3_1_12_7e='$a3_1_12_7e', 3_1_12_7f='$a3_1_12_7f', 
            3_1_12_7f_oth='$a3_1_12_7f_oth',  3_1_8_8 ='$a3_1_8_8', 3_1_9_8 ='$a3_1_9_8', 3_1_10_8='$a3_1_10_8', 3_1_11_8='$a3_1_11_8', 3_1_12_8a='$a3_1_12_8a, 3_1_12_8b='$a3_1_12_8b, 3_1_12_8c='$a3_1_12_8c,
        3_1_12_8d='$a3_1_12_8d, 3_1_12_8e='$a3_1_12_8e, 3_1_12_8f='$a3_1_12_8f, 3_1_12_8f_oth='$a3_1_12_8f_oth' where household_id= '$household_id' ";
+        
         $resultupdatecustomer = mysqli_query($con, $sqlupdatesq) or die("error in update customer part:" . mysqli_error($con));
 
         if ($resultupdatecustomer == 1) 

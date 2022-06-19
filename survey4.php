@@ -43,12 +43,10 @@ if(isset($_POST['btnsubmit']) ) {
     if (isset($_POST['4_3c'] )) { $a4_3c = $_POST['4_3c'];} else {$a4_3c = 0; }
     if (isset($_POST['4_4c'] )) { $a4_4c = $_POST['4_4c'];} else {$a4_4c = 0; }
     if (isset($_POST['4_5c'] )) { $a4_5c = $_POST['4_5c'];} else {$a4_5c = 0; }
-    if (isset($_POST['4_2d'] )) { $a4_2d = $_POST['4_2d'];} else {$a4_2d = NULL; }
-    if (isset($_POST['4_3d'] )) { $a4_3d = $_POST['4_3d'];} else {$a4_3d = 0; }
-    if (isset($_POST['4_4d'] )) { $a4_4d = $_POST['4_4d'];} else {$a4_4d = 0; }
-    if (isset($_POST['4_5d'] )) { $a4_5d = $_POST['4_5d'];} else {$a4_5d = 0; }
     
-    $sqlupdatesq = "UPDATE tblsurvey_question SET 4_1 ='$a4_1 ', 4_2a='$a4_2a', 4_3a='$a4_3a', 4_4a='$a4_4a', 4_5a='$a4_5a', 4_2b='$a4_2b', 4_3b='$a4_3b', 4_4b='$a4_4b', 4_5b='$a4_5b', 4_2c='$a4_2c', 4_3c='$a4_3c', 4_4c='$a4_4c', 4_5c='$a4_5c', 4_2d='$a4_2d', 4_3d='$a4_3d', 4_4d='$a4_4d', 4_5d='$a4_5d' where household_id= '$household_id' ";
+    
+    
+    $sqlupdatesq = "UPDATE tblsurvey_question SET 4_1 ='$a4_1 ', 4_2a='$a4_2a', 4_3a='$a4_3a', 4_4a='$a4_4a', 4_5a='$a4_5a', 4_2b='$a4_2b', 4_3b='$a4_3b', 4_4b='$a4_4b', 4_5b='$a4_5b', 4_2c='$a4_2c', 4_3c='$a4_3c', 4_4c='$a4_4c', 4_5c='$a4_5c' where household_id= '$household_id' ";
         $resultupdatecustomer = mysqli_query($con, $sqlupdatesq) or die("error in update customer part:" . mysqli_error($con));
 
         if ($resultupdatecustomer == 1) 

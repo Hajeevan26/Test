@@ -126,7 +126,7 @@
                     <div class="input-group">
                         <label>9. Was the questionnaire completed successfully?
                         </label>
-                        <select class="form-control" name="6_1" id="6_1">
+                        <select class="form-control" name="9" id="9">
                             <option value="1">Yes</option>
                             <option value="2">No</option>
                         </select>
