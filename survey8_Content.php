@@ -138,7 +138,7 @@
             <div class="card-footer">
 
                 <button type="reset" class="btn btn-default">Reset Button</button>
-                <button type="submit" name="btnsave" id="btnsave" class="btn btn-primary float-right">Finish</button>
+                <button type="submit" name="btnsubmit" id="btnsubmit" class="btn btn-primary float-right">Finish</button>
             </div>
 
 

@@ -250,7 +250,8 @@ include($_GET['pg']); }
             //alert(b6);
             if (f2_19 == 2) {
                 var xmlhttp = new XMLHttpRequest();
-                xmlhttp.onreadystatechange = function() {
+                xmlhttp.onreadystatechange = function() 
+                {
                     if (xmlhttp.readyState == 4 & xmlhttp.status == 200) {
                         document.getElementById("divid2_20").innerHTML = xmlhttp.responseText;
                     }
@@ -258,9 +259,11 @@ include($_GET['pg']); }
                 xmlhttp.open("GET", "ajaxpage.php?option=update2_19&f2_19=" + f2_19 + "&household_id=" + household_id,
                     true);
                 xmlhttp.send();
-            } else {
+            } 
+            else 
+            {
 
-                document.getElementById("loadf0").innerHTML = "";
+                document.getElementById("divid2_20").innerHTML = "";
                 //window.location.href = "http://www.google.com";
             }
         }

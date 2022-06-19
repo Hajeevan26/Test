@@ -32,7 +32,7 @@ if(isset($_POST['btnsubmit']) ) {
 
     if (isset($_POST['2_1'])) {  $a2_1 = $_POST['2_1'];   } else {$a2_1_= 0; }
     if (isset($_POST['2_2'] )) { $a2_2 = $_POST['2_2'];} else {$a2_2 = 0; }
-    if (isset($_POST['2_2_oth'] )) { $a6_2_oth = $_POST['2_2_oth'];} else {$a2_2_oth = NULL; }
+    if (isset($_POST['2_2_oth'] )) { $a2_2_oth = $_POST['2_2_oth'];} else {$a2_2_oth = NULL; }
     if (isset($_POST['2_3'])) {  $a2_3 = $_POST['2_3'];   } else {$a2_3_= 0; }
     if (isset($_POST['2_4'] )) { $a2_4 = $_POST['2_4'];} else {$a2_4 = 0; }
     if (isset($_POST['2_5'] )) { $a2_5 = $_POST['2_5'];} else {$a2_5 = 0; }
@@ -47,13 +47,13 @@ if(isset($_POST['btnsubmit']) ) {
     if (isset($_POST['2_8'] )) { $a2_8 = $_POST['2_8'];} else {$a2_8 = 0; }
         
     
-    $sqlupdatesq = "UPDATE tblsurvey_question SET 2_1='$a2_1',2_2='$a2_2' ,2_2_oth='$a2_2_oth' ,2_3='$a2_3',2_4='$a2_4' ,2_5='$a2_5',2_6a=' $a2_6a',2_6b=' $a2_6b', 2_6c=' $a2_6c', 2_6d=' $a2_6d' ,2_6e='$a2_6e'  ,2_6f='$a2_6f',2_6_oth=$a2_6_oth,2_7=$a2_7,2_8=$a2_8  where household_id= '$household_id' ";
+    $sqlupdatesq = "UPDATE tblsurvey_question SET 2_1='$a2_1',2_2='$a2_2' ,2_2_oth='$a2_2_oth' ,2_3='$a2_3',2_4='$a2_4' ,2_5='$a2_5',2_6a=' $a2_6a',2_6b=' $a2_6b', 2_6c=' $a2_6c', 2_6d='$a2_6d' ,2_6e='$a2_6e'  ,2_6f='$a2_6f',2_6_oth='$a2_6_oth',2_7='$a2_7',2_8='$a2_8'  where household_id= '$household_id' ";
         $resultupdatecustomer = mysqli_query($con, $sqlupdatesq) or die("error in update customer part:" . mysqli_error($con));
 
         if ($resultupdatecustomer == 1) 
         {
            
-            echo '<script> alert("your data added successfully");//window.location.href="index1.php?pg=surveyG.php";</script>';
+            echo '<script> alert("your data added successfully");window.location.href="index1.php?pg=survey2a.php";</script>';
            
             // $_SESSION['id'] = $id;
            

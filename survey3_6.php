@@ -29,22 +29,80 @@ if(isset($_POST['btnsubmit']) ) {
     $row = mysqli_fetch_assoc($resultitem);
         
    
+    if (isset($_POST['3_6_5_a'])) {  $a3_6_5_a = $_POST['3_6_5_a'];   } else {$a3_6_5_a = NULL; }
+    if (isset($_POST['3_6_6_a'])) {  $a3_6_6_a = $_POST['3_6_6_a'];   } else {$a3_6_6_a = 0; }
+    if (isset($_POST['3_6_7_a'])) {  $a3_6_7_a = $_POST['3_6_7_a'];   } else {$a3_6_7_a = 0; }
+    if (isset($_POST['3_6_8_a'])) {  $a3_6_8_a = $_POST['3_6_8_a'];   } else {$a3_6_8_a = 0; }
 
-        if (isset($_POST['1_1_2_1'])) {  $a1_1_2_1 = $_POST['1_1_2_1'];   } else {$a1_1_2_1 = NULL; }
-        if (isset($_POST['1_1_3_1'] )) { $a1_1_3_1 = $_POST['1_1_3_1'];} else {$a1_1_3_1 = NULL; }
-        if (isset($_POST['1_1_4_1'] )) { $a1_1_4_1 = $_POST['1_1_4_1'];} else {$a1_1_4_1 = NULL; }
-        if (isset($_POST['1_1_5_1'] )) { $a1_1_5_1 = $_POST['1_1_5_1'];} else {$a1_1_5_1 = NULL; }
-        if (isset($_POST['1_1_6_1'] )) { $a1_1_6_1 = $_POST['1_1_6_1'];} else {$a1_1_6_1 = NULL; }
-        if (isset($_POST['1_1_7_1'] )) { $a1_1_7_1 = $_POST['1_1_7_1'];} else {$a1_1_7_1 = NULL; }
-        if (isset($_POST['1_1_8_1'] )) { $a1_1_8_1 = $_POST['1_1_8_1'];} else {$a1_1_8_1 = NULL; }
-        if (isset($_POST['1_1_9_1'] )) { $a1_1_9_1 = $_POST['1_1_9_1'];} else {$a1_1_9_1 = NULL; }
-        if (isset($_POST['1_1_10_1'] )) { $a1_1_10_1 = $_POST['1_1_10_1'];} else {$a1_1_10_1 = NULL; }
-        if (isset($_POST['1_1_11_1'] )) { $a1_1_11_1 = $_POST['1_1_11_1'];} else {$a1_1_11_1 = NULL; }
-        if (isset($_POST['1_1_12_1'] )) { $a1_1_12_1 = $_POST['1_1_12_1'];} else {$a1_1_12_1 = NULL; }
-        if (isset($_POST['1_1_13_1'] )) { $a1_1_13_1 = $_POST['1_1_13_1'];} else {$a1_1_13_1 = NULL; }
+    
+    if (isset($_POST['3_6_5_b'])) {  $a3_6_5_b = $_POST['3_6_5_b'];   } else {$a3_6_5_b= NULL; }
+    if (isset($_POST['3_6_6_b'])) {  $a3_6_6_b = $_POST['3_6_6_b'];   } else {$a3_6_6_b = 0; }
+    if (isset($_POST['3_6_7_b'])) {  $a3_6_7_b = $_POST['3_6_7_b'];   } else {$a3_6_7_b = 0; }
+    if (isset($_POST['3_6_8_b'])) {  $a3_6_8_b = $_POST['3_6_8_b'];   } else {$a3_6_8_b = 0; }
+
+    if (isset($_POST['3_6_5_c'])) {  $a3_6_5_c = $_POST['3_6_5_c'];   } else {$a3_6_5_c= NULL; }
+    if (isset($_POST['3_6_6_c'])) {  $a3_6_6_c = $_POST['3_6_6_c'];   } else {$a3_6_6_c = 0; }
+    if (isset($_POST['3_6_7_c'])) {  $a3_6_7_c = $_POST['3_6_7_c'];   } else {$a3_6_7_c = 0; }
+    if (isset($_POST['3_6_8_c'])) {  $a3_6_8_c = $_POST['3_6_8_c'];   } else {$a3_6_8_c = 0; }
+
+    if (isset($_POST['3_6_5_d'])) {  $a3_6_5_d = $_POST['3_6_5_d'];   } else {$a3_6_5_d= NULL; }
+    if (isset($_POST['3_6_6_d'])) {  $a3_6_6_d = $_POST['3_6_6_d'];   } else {$a3_6_6_d = 0; }
+    if (isset($_POST['3_6_7_d'])) {  $a3_6_7_d = $_POST['3_6_7_d'];   } else {$a3_6_7_d = 0; }
+    if (isset($_POST['3_6_8_d'])) {  $a3_6_8_d = $_POST['3_6_8_d'];   } else {$a3_6_8_d = 0; }
+
+    if (isset($_POST['3_6_5_e'])) {  $a3_6_5_e = $_POST['3_6_5_e'];   } else {$a3_6_5_e= NULL; }
+    if (isset($_POST['3_6_6_e'])) {  $a3_6_6_e = $_POST['3_6_6_e'];   } else {$a3_6_6_e = 0; }
+    if (isset($_POST['3_6_7_e'])) {  $a3_6_7_e = $_POST['3_6_7_e'];   } else {$a3_6_7_e = 0; }
+    if (isset($_POST['3_6_8_e'])) {  $a3_6_8_e = $_POST['3_6_8_e'];   } else {$a3_6_8_e = 0; }
+
+    if (isset($_POST['3_6_5_f'])) {  $a3_6_5_f = $_POST['3_6_5_f'];   } else {$a3_6_5_f= NULL; }
+    if (isset($_POST['3_6_6_f'])) {  $a3_6_6_f = $_POST['3_6_6_f'];   } else {$a3_6_6_f = 0; }
+    if (isset($_POST['3_6_7_f'])) {  $a3_6_7_f = $_POST['3_6_7_f'];   } else {$a3_6_7_f = 0; }
+    if (isset($_POST['3_6_8_f'])) {  $a3_6_8_f = $_POST['3_6_8_f'];   } else {$a3_6_8_f = 0; }
+
+    if (isset($_POST['3_6_5_g'])) {  $a3_6_5_g = $_POST['3_6_5_g'];   } else {$a3_6_5_g= 0; }
+    if (isset($_POST['3_6_6_g'])) {  $a3_6_6_g = $_POST['3_6_6_g'];   } else {$a3_6_6_g = 0; }
+    if (isset($_POST['3_6_7_g'])) {  $a3_6_7_g = $_POST['3_6_7_g'];   } else {$a3_6_7_g = 0; }
+    if (isset($_POST['3_6_8_g'])) {  $a3_6_8_g = $_POST['3_6_8_g'];   } else {$a3_6_8_g = 0; }
+    
+    //
+   if (isset($_POST['3_6_9_a'])) {  $a3_6_9_a = $_POST['3_6_9_a'];   } else {$a3_6_9_a= NULL; }
+   if (isset($_POST['3_6_10_a'])) {  $a3_6_10_a = $_POST['3_6_10_a'];   } else {$a3_6_10_a= 0; }
+   if (isset($_POST['3_6_11_a'])) {  $a3_6_11_a = $_POST['3_6_11_a'];   } else {$a3_6_11_a= 0; }
+   if (isset($_POST['3_6_12_a'])) {  $a3_6_12_a = $_POST['3_6_12_a'];   } else {$a3_6_12_a= 0; }
+
+   if (isset($_POST['3_6_9_b'])) {  $a3_6_9_b = $_POST['3_6_9_b'];   } else {$a3_6_9_b= NULL; }
+   if (isset($_POST['3_6_10_b'])) {  $a3_6_10_b = $_POST['3_6_10_b'];   } else {$a3_6_10_b= 0; }
+   if (isset($_POST['3_6_11_b'])) {  $a3_6_11_b = $_POST['3_6_11_b'];   } else {$a3_6_11_b= 0; }
+   if (isset($_POST['3_6_12_b'])) {  $a3_6_12_b = $_POST['3_6_12_b'];   } else {$a3_6_12_b= 0; }
+
+   if (isset($_POST['3_6_9_c'])) {  $a3_6_9_c = $_POST['3_6_9_c'];   } else {$a3_6_9_c= NULL; }
+   if (isset($_POST['3_6_10_c'])) {  $a3_6_10_c = $_POST['3_6_10_c'];   } else {$a3_6_10_c= 0; }
+   if (isset($_POST['3_6_11_c'])) {  $a3_6_11_c = $_POST['3_6_11_c'];   } else {$a3_6_11_c= 0; }
+   if (isset($_POST['3_6_12_c'])) {  $a3_6_12_c = $_POST['3_6_12_c'];   } else {$a3_6_12_c= 0; }
+
+   if (isset($_POST['3_6_9_d'])) {  $a3_6_9_d = $_POST['3_6_9_d'];   } else {$a3_6_9_d= NULL; }
+   if (isset($_POST['3_6_10_d'])) {  $a3_6_10_d = $_POST['3_6_10_d'];   } else {$a3_6_10_d= 0; }
+   if (isset($_POST['3_6_11_d'])) {  $a3_6_11_d = $_POST['3_6_11_d'];   } else {$a3_6_11_d= 0; }
+   if (isset($_POST['3_6_12_d'])) {  $a3_6_12_d = $_POST['3_6_12_d'];   } else {$a3_6_12_d= 0; }
+
+   if (isset($_POST['3_6_9_e'])) {  $a3_6_9_a = $_POST['3_6_9_e'];   } else {$a3_6_9_e= NULL; }
+   if (isset($_POST['3_6_10_e'])) {  $a3_6_10_a = $_POST['3_6_10_e'];   } else {$a3_6_10_e= 0; }
+   if (isset($_POST['3_6_11_e'])) {  $a3_6_11_a = $_POST['3_6_11_e'];   } else {$a3_6_11_e= 0; }
+   if (isset($_POST['3_6_12_e'])) {  $a3_6_12_a = $_POST['3_6_12_e'];   } else {$a3_6_12_e= 0; }
+
+   if (isset($_POST['3_6_9_f'])) {  $a3_6_9_f = $_POST['3_6_9_f'];   } else {$a3_6_9_f= NULL; }
+   if (isset($_POST['3_6_10_f'])) {  $a3_6_10_f = $_POST['3_6_10_f'];   } else {$a3_6_10_f= 0; }
+   if (isset($_POST['3_6_11_f'])) {  $a3_6_11_f = $_POST['3_6_11_f'];   } else {$a3_6_11_f= 0; }
+   if (isset($_POST['3_6_12_f'])) {  $a3_6_12_f = $_POST['3_6_12_f'];   } else {$a3_6_12_f= 0; }
+
+   if (isset($_POST['3_6_9_g'])) {  $a3_6_9_g = $_POST['3_6_9_g'];   } else {$a3_6_9_g= NULL; }
+   if (isset($_POST['3_6_10_g'])) {  $a3_6_10_g = $_POST['3_6_10_g'];   } else {$a3_6_10_g= 0; }
+   if (isset($_POST['3_6_11_g'])) {  $a3_6_11_g = $_POST['3_6_11_g'];   } else {$a3_6_11_g= 0; }
+   if (isset($_POST['3_6_12_g'])) {  $a3_6_12_g = $_POST['3_6_12_g'];   } else {$a3_6_12_g= 0; }
         
     
-        $sqlupdatesq = "UPDATE tblsurvey_question SET 1_1_2_1='$a1_1_2_1',1_1_3_1='$a1_1_3_1' ,1_1_4_1='$a1_1_4_1' ,1_1_5_1='$a1_1_5_1',1_1_6_1='$a1_1_7_1' ,1_1_7_1='$a1_1_7_1',1_1_8_1=' $a1_1_8_1',1_1_9_1=' $a1_1_9_1', 1_1_10_1=' $a1_1_10_1', 1_1_11_1=' $a1_1_11_1' ,1_1_12_1='$a1_1_12_1'  ,1_1_13_1='$a1_1_13_1'  where household_id= '$household_id' ";
+ $sqlupdatesq = "UPDATE tblsurvey_question SET  3_6_5_a='$a3_6_5_a',  3_6_6_a='$a3_6_6_a',  3_6_7_a='$a3_6_7_a',  3_6_8_a='$a3_6_8_a',   3_6_5_b='$a3_6_5_b',  3_6_6_b='$a3_6_6_b',  3_6_7_b='$a3_6_7_b',  3_6_8_b='$a3_6_8_b',   3_6_5_c='$a3_6_5_c',  3_6_6_c='$a3_6_6_c',  3_6_7_c='$a3_6_7_c',  3_6_8_c='$a3_6_8_c',   3_6_5_d='$a3_6_5_d',  3_6_6_d='$a3_6_6_d',  3_6_7_d='$a3_6_7_d',  3_6_8_d='$a3_6_8_d',   3_6_5_e='$a3_6_5_e',  3_6_6_e='$a3_6_6_e',  3_6_7_e='$a3_6_7_e',  3_6_8_e='$a3_6_8_e',   3_6_5_f='$a3_6_5_f',  3_6_6_f='$a3_6_6_f',  3_6_7_f='$a3_6_7_f',  3_6_8_f='$a3_6_8_f',   3_6_5_g='$a3_6_5_g',  3_6_6_g='$a3_6_6_g',  3_6_7_g='$a3_6_7_g',  3_6_8_g='$a3_6_8_g',             3_6_9_a='$a3_6_9_a',  3_6_10_a='$a3_6_10_a',  3_6_11_a='$a3_6_11_a',  3_6_12_a='$a3_6_12_a',   3_6_9_b='$a3_6_9_b',  3_6_10_b='$a3_6_10_b',  3_6_11_b='$a3_6_11_b',  3_6_12_b='$a3_6_12_b',   3_6_9_c='$a3_6_9_c',  3_6_10_c='$a3_6_10_c',  3_6_11_c='$a3_6_11_c',  3_6_12_c='$a3_6_12_c',   3_6_9_d='$a3_6_9_d',  3_6_10_d='$a3_6_10_d',  3_6_11_d='$a3_6_11_d',  3_6_12_d='$a3_6_12_d',   3_6_9_e='$a3_6_9_a',  3_6_10_e='$a3_6_10_a',  3_6_11_e='$a3_6_11_a',  3_6_12_e='$a3_6_12_a', 				  3_6_9_f='$a3_6_9_f,  3_6_10_f='$a3_6_10_f',  3_6_11_f='$a3_6_11_f',  3_6_12_f='$a3_6_12_f', 				  3_6_9_g='$a3_6_9_g,  3_6_10_g='$a3_6_10_g',  3_6_11_g='$a3_6_11_g',  3_6_12_g='$a3_6_12_g'  where household_id= '$household_id' ";    
         $resultupdatecustomer = mysqli_query($con, $sqlupdatesq) or die("error in update customer part:" . mysqli_error($con));
 
         if ($resultupdatecustomer == 1) 

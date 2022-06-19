@@ -11,7 +11,7 @@ if (isset($_GET['option'])) {
 	if ($_GET['option'] == "update2_19") {
 		$household_id = $_GET["household_id"];
 		$a2_19 = $_GET["f2_19"];
-      echo $a2_19;
+   
       
 		$sqlupdateb6 = "UPDATE tblsurvey_question SET 2_19='$a2_19' where household_id= $household_id";
 		//$resultupdatecustomer = mysqli_query($con, $sqlupdateb6) or die("error in update customer part:" . mysqli_error($con));
@@ -39,54 +39,54 @@ if (isset($_GET['option'])) {
                             <tr>
                                 <td>Adult Male</td>
                                 <td>
-                                    <div>2_20_1 <input type="text" name="2_20_1" id="2_20_1"
+                                    <div>2_20_1 <input type="number" value="0" required  name="2_20_1" id="2_20_1"
                                             class="form-control" />
                                 </td>
                                 <td>
-                                    <div>2_20_2 <input type="text" name="2_20_2" id="2_20_2"
+                                    <div>2_20_2 <input type="number" value="0" required  name="2_20_2" id="2_20_2"
                                             class="form-control" />
                                 </td>
                                 <td>
-                                    <div>2_20_3 <input type="text" name="2_20_3" id="2_20_3"
+                                    <div>2_20_3 <input type="number" value="0" required  name="2_20_3" id="2_20_3"
                                             class="form-control" />
                                 </td>
                                 <td>
-                                    <div>2_20_4<input type="text" name="2_20_4" id="2_20_4"
+                                    <div>2_20_4<input type="number" value="0" required  name="2_20_4" id="2_20_4"
                                             class="form-control" />
                                 </td>
                                 <td>
-                                    <div>2_20_5<input type="text" name="2_20_5" id="2_20_5"
+                                    <div>2_20_5<input type="number" value="0" required  name="2_20_5" id="2_20_5"
                                             class="form-control" />
                                 </td>
                                 <td>
-                                    <div>1.1.12.1 <input type="text" name="2_20_6" id="2_20_6"
+                                    <div>1.1.12.1 <input type="number" value="0" required  name="2_20_6" id="2_20_6"
                                             class="form-control" />
                                 </td>
                             </tr>
                             <tr>
                                 <td>Adult Female</td>
                                 <td>
-                                    <div>2_20_7 <input type="text" name="2_20_7" id="2_20_7"
+                                    <div>2_20_7 <input type="number" value="0" required  name="2_20_7" id="2_20_7"
                                             class="form-control" />
                                 </td>
                                 <td>
-                                    <div>2_20_8 <input type="text" name="2_20_8" id="2_20_8"
+                                    <div>2_20_8 <input type="number" value="0" required  name="2_20_8" id="2_20_8"
                                             class="form-control" />
                                 </td>
                                 <td>
-                                    <div>2_20_9<input type="text" name="2_20_9" id="2_20_9"
+                                    <div>2_20_9<input type="number" value="0" required  name="2_20_9" id="2_20_9"
                                             class="form-control" />
                                 </td>
                                 <td>
-                                    <div>2_20_10<input type="text" name="2_20_10" id="2_20_10"
+                                    <div>2_20_10<input type="number" value="0" required  name="2_20_10" id="2_20_10"
                                             class="form-control" />
                                 </td>
                                 <td>
-                                    <div>2_20_11<input type="text" name="2_20_11" id="2_20_11"
+                                    <div>2_20_11<input type="number" value="0" required  name="2_20_11" id="2_20_11"
                                             class="form-control" />
                                 </td>
                                 <td>
-                                    <div>2_20_12 <input type="text" name="2_20_12" id="2_20_12"
+                                    <div>2_20_12 <input type="number" value="0" required  name="2_20_12" id="2_20_12"
                                             class="form-control" />
                                 </td>
                             </tr>
@@ -113,54 +113,54 @@ if (isset($_GET['option'])) {
                             <tr>
                                 <td>Adult Male</td>
                                 <td>
-                                    <div>2_21_1<input type="text" name="2_21_1" id="2_21_1"
+                                    <div>2_21_1<input type="number" value="0" required  name="2_21_1" id="2_21_1"
                                             class="form-control" />
                                 </td>
                                 <td>
-                                    <div>2_21_2 <input type="text" name="2_21_2" id="2_21_2"
+                                    <div>2_21_2 <input type="number" value="0" required  name="2_21_2" id="2_21_2"
                                             class="form-control" />
                                 </td>
                                 <td>
-                                    <div>2_21_3<input type="text" name="2_21_3" id="2_21_3"
+                                    <div>2_21_3<input type="number" value="0" required  name="2_21_3" id="2_21_3"
                                             class="form-control" />
                                 </td>
                                 <td>
-                                    <div>2_21_4<input type="text" name="2_21_4" id="2_21_4"
+                                    <div>2_21_4<input type="number" value="0" required  name="2_21_4" id="2_21_4"
                                             class="form-control" />
                                 </td>
                                 <td>
-                                    <div>2_21_5<input type="text" name="2_21_5" id="2_21_5"
+                                    <div>2_21_5<input type="number" value="0" required  name="2_21_5" id="2_21_5"
                                             class="form-control" />
                                 </td>
                                 <td>
-                                    <div>2_21_6<input type="text" name="2_21_6" id="2_21_6"
+                                    <div>2_21_6<input type="number" value="0" required  name="2_21_6" id="2_21_6"
                                             class="form-control" />
                                 </td>
                             </tr>
                             <tr>
                                 <td>Adult Female</td>
                                 <td>
-                                    <div>2_21_7 <input type="text" name="2_21_7" id="2_21_7"
+                                    <div>2_21_7 <input type="number" value="0" required  name="2_21_7" id="2_21_7"
                                             class="form-control" />
                                 </td>
                                 <td>
-                                    <div>2_21_8<input type="text" name="2_21_8" id="2_21_8"
+                                    <div>2_21_8<input type="number" value="0" required  name="2_21_8" id="2_21_8"
                                             class="form-control" />
                                 </td>
                                 <td>
-                                    <div>2_21_9<input type="text" name="2_21_9" id="2_21_9"
+                                    <div>2_21_9<input type="number" value="0" required  name="2_21_9" id="2_21_9"
                                             class="form-control" />
                                 </td>
                                 <td>
-                                    <div>2_21_10<input type="text" name="2_21_10" id="2_21_10"
+                                    <div>2_21_10<input type="number" value="0" required  name="2_21_10" id="2_21_10"
                                             class="form-control" />
                                 </td>
                                 <td>
-                                    <div>2_21_11<input type="text" name="2_21_11" id="2_21_11"
+                                    <div>2_21_11<input type="number" value="0" required  name="2_21_11" id="2_21_11"
                                             class="form-control" />
                                 </td>
                                 <td>
-                                    <div>2_21_12<input type="text" name="2_21_12" id="2_21_12"
+                                    <div>2_21_12<input type="number" value="0" required  name="2_21_12" id="2_21_12"
                                             class="form-control" />
                                 </td>
                             </tr>

@@ -38,10 +38,10 @@ if(isset($_POST['btnsubmit']) ) {
         if (isset($_POST['2_16h'])) {  $a2_16h = $_POST['2_16h'];   } else {$a2_16h = 0; }
         if (isset($_POST['2_16i'])) {  $a2_16i = $_POST['2_16i'];   } else {$a2_16i = 0; }
         if (isset($_POST['2_16j'])) {  $a2_16j = $_POST['2_16j'];   } else {$a2_16j = 0; }
-        if (isset($_POST['2_16_oth'] )) { $a2_16_oth = $_POST['2_16_oth'];} else {$a2__16_oth = NULL; }
+        if (isset($_POST['2_16f_oth'] )) { $a2_16f_oth = $_POST['2_16f_oth'];} else {$a2_16f_oth = NULL; }
         
     
-        $sqlupdatesq = "UPDATE tblsurvey_question SET 2_16a='$a2_16a',2_16b='$a2_16b' ,2_16c='$a2_16c' ,2_16d='$a2_16d',2_16e='$a2_16e' ,2_16f='$a2_16f',2_16g=' $a2_16g',2_16h=' $a2_16h', 2_16i=' $a2_16i', 2_16j=' $a2_16j' ,2_16_oth='$a2_16_oth'    where household_id= '$household_id' ";
+        $sqlupdatesq = "UPDATE tblsurvey_question SET 2_16a='$a2_16a',2_16b='$a2_16b' ,2_16c='$a2_16c' ,2_16d='$a2_16d',2_16e='$a2_16e' ,2_16f='$a2_16f',2_16g=' $a2_16g',2_16h=' $a2_16h', 2_16i=' $a2_16i', 2_16j=' $a2_16j' ,2_16f_oth='$a2_16f_oth'    where household_id= '$household_id' ";
         $resultupdatecustomer = mysqli_query($con, $sqlupdatesq) or die("error in update customer part:" . mysqli_error($con));
 
         if ($resultupdatecustomer == 1) 
@@ -112,7 +112,7 @@ if(isset($_POST['btnsubmit']) ) {
                 <div class="card-footer">
                    
                    <button type="reset" class="btn btn-default">Reset Button</button>
-                   <button type="submit" name="btnsave" id="btnsave" class="btn btn-primary float-right">Submit Button</button>
+                   <button type="submit" name="btnsubmit" id="btnsubmit" class="btn btn-primary float-right">Submit Button</button>
                </div>
         </form>
     </div>

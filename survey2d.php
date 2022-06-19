@@ -30,27 +30,40 @@ if(isset($_POST['btnsubmit']) ) {
         
    
 
-        if (isset($_POST['1_1_2_1'])) {  $a1_1_2_1 = $_POST['1_1_2_1'];   } else {$a1_1_2_1 = NULL; }
-        if (isset($_POST['1_1_3_1'] )) { $a1_1_3_1 = $_POST['1_1_3_1'];} else {$a1_1_3_1 = NULL; }
-        if (isset($_POST['1_1_4_1'] )) { $a1_1_4_1 = $_POST['1_1_4_1'];} else {$a1_1_4_1 = NULL; }
-        if (isset($_POST['1_1_5_1'] )) { $a1_1_5_1 = $_POST['1_1_5_1'];} else {$a1_1_5_1 = NULL; }
-        if (isset($_POST['1_1_6_1'] )) { $a1_1_6_1 = $_POST['1_1_6_1'];} else {$a1_1_6_1 = NULL; }
-        if (isset($_POST['1_1_7_1'] )) { $a1_1_7_1 = $_POST['1_1_7_1'];} else {$a1_1_7_1 = NULL; }
-        if (isset($_POST['1_1_8_1'] )) { $a1_1_8_1 = $_POST['1_1_8_1'];} else {$a1_1_8_1 = NULL; }
-        if (isset($_POST['1_1_9_1'] )) { $a1_1_9_1 = $_POST['1_1_9_1'];} else {$a1_1_9_1 = NULL; }
-        if (isset($_POST['1_1_10_1'] )) { $a1_1_10_1 = $_POST['1_1_10_1'];} else {$a1_1_10_1 = NULL; }
-        if (isset($_POST['1_1_11_1'] )) { $a1_1_11_1 = $_POST['1_1_11_1'];} else {$a1_1_11_1 = NULL; }
-        if (isset($_POST['1_1_12_1'] )) { $a1_1_12_1 = $_POST['1_1_12_1'];} else {$a1_1_12_1 = NULL; }
-        if (isset($_POST['1_1_13_1'] )) { $a1_1_13_1 = $_POST['1_1_13_1'];} else {$a1_1_13_1 = NULL; }
+    if (isset($_POST['2_20_1'])) {  $a2_20_1 = $_POST['2_20_1'];   } else {$a2_20_1 = NULL; }
+    if (isset($_POST['2_20_2'])) {  $a2_20_2 = $_POST['2_20_2'];   } else {$a2_20_2 = NULL; }
+    if (isset($_POST['2_20_3'])) {  $a2_20_3 = $_POST['2_20_3'];   } else {$a2_20_3 = NULL; }
+    if (isset($_POST['2_20_4'])) {  $a2_20_4 = $_POST['2_20_4'];   } else {$a2_20_4 = NULL; }
+    if (isset($_POST['2_20_5'])) {  $a2_20_5 = $_POST['2_20_5'];   } else {$a2_20_5 = NULL; }
+    if (isset($_POST['2_20_6'])) {  $a2_20_6 = $_POST['2_20_6'];   } else {$a2_20_6 = NULL; }
+    if (isset($_POST['2_20_7'])) {  $a2_20_7 = $_POST['2_20_7'];   } else {$a2_20_7 = NULL; }
+    if (isset($_POST['2_20_8'])) {  $a2_20_8 = $_POST['2_20_8'];   } else {$a2_20_8 = NULL; }
+    if (isset($_POST['2_20_9'])) {  $a2_20_9 = $_POST['2_20_9'];   } else {$a2_20_9 = NULL; }
+    if (isset($_POST['2_20_10'])) {  $a2_20_10 = $_POST['2_20_10'];   } else {$a2_20_10 = NULL; }
+    if (isset($_POST['2_20_11'])) {  $a2_20_11 = $_POST['2_20_11'];   } else {$a2_20_11 = NULL; }
+    if (isset($_POST['2_20_12'])) {  $a2_20_12 = $_POST['2_20_12'];   } else {$a2_20_12 = NULL; }
+
+    if (isset($_POST['2_21_1'])) {  $a2_21_1 = $_POST['2_21_1'];   }else {$a2_21_1 = NULL; }
+    if (isset($_POST['2_21_2'])) {  $a2_21_2 = $_POST['2_21_2'];   } else {$a2_21_2 = NULL; }
+    if (isset($_POST['2_21_3'])) {  $a2_21_3 = $_POST['2_21_3'];   } else {$a2_21_3 = NULL; }
+    if (isset($_POST['2_21_4'])) {  $a2_21_4 = $_POST['2_21_4'];   } else {$a2_21_4 = NULL; }
+    if (isset($_POST['2_21_5'])) {  $a2_21_5 = $_POST['2_21_5'];   } else {$a2_21_5 = NULL; }
+    if (isset($_POST['2_21_6'])) {  $a2_21_6 = $_POST['2_21_6'];   } else {$a2_21_6 = NULL; }
+    if (isset($_POST['2_21_7'])) {  $a2_21_7 = $_POST['2_21_7'];   } else {$a2_21_7 = NULL; }
+    if (isset($_POST['2_21_8'])) {  $a2_21_8 = $_POST['2_21_8'];   } else {$a2_21_8 = NULL; }
+    if (isset($_POST['2_21_9'])) {  $a2_21_9 = $_POST['2_21_9'];   } else {$a2_21_9 = NULL; }
+    if (isset($_POST['2_21_10'])) {  $a2_21_10 = $_POST['2_21_10'];   } else {$a2_21_10 = NULL; }
+    if (isset($_POST['2_21_11'])) {  $a2_21_11 = $_POST['2_21_11'];   } else {$a2_21_11 = NULL; }
+    if (isset($_POST['2_21_12'])) {  $a2_21_12 = $_POST['2_21_12'];   } else {$a2_21_12 = NULL; }
         
     
-        $sqlupdatesq = "UPDATE tblsurvey_question SET 1_1_2_1='$a1_1_2_1',1_1_3_1='$a1_1_3_1' ,1_1_4_1='$a1_1_4_1' ,1_1_5_1='$a1_1_5_1',1_1_6_1='$a1_1_7_1' ,1_1_7_1='$a1_1_7_1',1_1_8_1=' $a1_1_8_1',1_1_9_1=' $a1_1_9_1', 1_1_10_1=' $a1_1_10_1', 1_1_11_1=' $a1_1_11_1' ,1_1_12_1='$a1_1_12_1'  ,1_1_13_1='$a1_1_13_1'  where household_id= '$household_id' ";
-        $resultupdatecustomer = mysqli_query($con, $sqlupdatesq) or die("error in update customer part:" . mysqli_error($con));
+    $sqlupdatesq = "UPDATE tblsurvey_question SET  2_20_1='$a2_20_1',2_20_2='$a2_20_2',2_20_3='$a2_20_3',2_20_4='$a2_20_4',2_20_5='$a2_20_5',2_20_6='$a2_20_6',2_20_7='$a2_20_7',2_20_8='$a2_20_8',2_20_9='$a2_20_9',2_20_10='$a2_20_10',2_20_11='$a2_20_11',2_20_12='$a2_20_12',2_21_1='$a2_21_1',2_21_2='$a2_21_2',2_21_3='$a2_21_3',2_21_4='$a2_21_4',2_21_5='$a2_21_5',2_21_6='$a2_21_6',2_21_7='$a2_21_7',2_21_8='$a2_21_8',2_21_9='$a2_21_9',2_21_10='$a2_21_10',2_21_11='$a2_21_11',2_21_12='$a2_21_12'  where household_id= '$household_id' "; 	   
+    $resultupdatecustomer = mysqli_query($con, $sqlupdatesq) or die("error in update customer part:" . mysqli_error($con));
 
         if ($resultupdatecustomer == 1) 
         {
            
-            echo '<script> alert("your data added successfully");//window.location.href="index1.php?pg=surveyG.php";</script>';
+            echo '<script> alert("your data added successfully");window.location.href="index1.php?pg=survey3_1.php";</script>';
            
             // $_SESSION['id'] = $id;
            
@@ -93,7 +106,7 @@ if(isset($_POST['btnsubmit']) ) {
                 <div class="card-footer">
 
                     <button type="reset" class="btn btn-default">Reset Button</button>
-                    <button type="submit" name="btnsave" id="btnsave" class="btn btn-primary float-right">Submit
+                    <button type="submit" name="btnsubmit" id="btnsubmit" class="btn btn-primary float-right">Submit
                         Button</button>
                 </div>
         </form>
