@@ -152,10 +152,6 @@ if (isset($_GET['option'])) {
     if ($_GET['option'] == "update3_2_1") {
 		$household_id = $_GET["household_id"];
 		$a3_2_1 = $_GET["f3_2_1"];
-   
-		//$resultupdatecustomer = mysqli_query($con, $sqlupdateb6) or die("error in update customer part:" . mysqli_error($con));
-
-		//if ($resultupdatecustomer) {
 			if ($a3_2_1 == 2) { ?>
 <div class="row">
     <div class="col-md-12">
@@ -179,5 +175,58 @@ if (isset($_GET['option'])) {
     </div>
 </div>
 <?php } 
+            }
+
+            if ($_GET['option'] == "update4_2") {
+                $household_id = $_GET["household_id"];
+                $af4_1 = $_GET["f4_1"];
+                    if ($af4_1 == 2) { ?>
+<div class="row">
+                <div class="col-md-12">
+                    <table class="table table-bordered table-hover">
+                        <tr>
+                            <th colspan="4">If Yes</th>
+                        </tr>
+                        <tr>
+                            <th>4.2.Source of the loan </th>
+                            <th>4.3.Paid/ Unpaid</th>
+                            <th>4.4.Interest rate</th>
+                            <th>4.5.Amount of the loan</th>
+                        </tr>
+                        <tr>
+                            <td>4_2a<input type="text" name="4_2a" id="4_2a" class="form-control" /></td>
+                            <td>4_3a<div class="input-group"> 
+                                <select class="form-control  col-6" name="4_3a" id="4_3a">
+                                <option value="1">Yes</option>
+                                <option value="2">No</option> </div>
+                            </td>
+                            <td>4_4a<input type="number" name="4_4a" id="4_4a" class="form-control" /></td>
+                            <td>4_5a<input type="number" name="4_5a" id="4_5a" class="form-control" /></td>
+                        </tr>
+                        <tr>
+                            <td>4_2b<input type="text" name="4_2b" id="4_2b" class="form-control" /></td>
+                            <td>4_3b<div class="input-group"> 
+                                <select class="form-control  col-6" name="4_3b" id="4_3b">
+                                <option value="1">Yes</option>
+                                <option value="2">No</option> </div>
+                            </td>
+                            <td>4_4b<input type="number" name="4_4b" id="4_4b" class="form-control" /></td>
+                            <td>4_5b<input type="number" name="4_5b" id="4_5b" class="form-control" /></td>
+                        </tr>
+                        <tr>
+                            <td>4_2c<input type="text" name="4_2c" id="4_2c" class="form-control" /></td>
+                            <td>4_3c<div class="input-group"> 
+                                <select class="form-control  col-6" name="4_3c" id="4_3c">
+                                <option value="1">Yes</option>
+                                <option value="2">No</option> </div>
+                            </td>
+                            <td>4_4c<input type="number" name="4_4c" id="4_4c" class="form-control" /></td>
+                            <td>4_5c<input type="number" name="4_5c" id="4_5c" class="form-control" /></td>
+                        </tr>
+                        
+                    </table>
+                </div>
+            </div>
+                    <?php }
             }
 }

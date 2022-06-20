@@ -52,7 +52,7 @@ if(isset($_POST['btnsubmit']) ) {
         if ($resultupdatecustomer == 1) 
         {
            
-            echo '<script> alert("your data added successfully");//window.location.href="index1.php?pg=surveyG.php";</script>';
+            echo '<script> alert("your data added successfully");window.location.href="index1.php?pg=survey5.php";</script>';
            
             // $_SESSION['id'] = $id;
            
