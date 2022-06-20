@@ -171,10 +171,17 @@
         if (isset($_POST['3_2_c_13_4_6'] ))     { $a3_2_c_13_4_6 =     $_POST['3_2_c_13_4_6'];}     else {$a3_2_c_13_4_6 = 0; }
         if (isset($_POST['3_2_c_13_4_6_oth'] )) { $a3_2_c_13_4_6_oth = $_POST['3_2_c_13_4_6_oth'];} else {$a3_2_c_13_4_6_oth = NULL; }		
 /////////////d4
-		if (isset($_POST['3_2_d_8_1'] ))        { $a3_2_d_8_1 =        $_POST['3_2_d_8_1'];}        else {$a3_2_d_8_1 = NULL; }
-        if (isset($_POST['3_2_d_8_2'] ))        { $a3_2_d_8_2 =        $_POST['3_2_d_8_2'];}        else {$a3_2_d_8_2 = NULL; }
-        if (isset($_POST['3_2_d_8_3'] ))        { $a3_2_d_8_3 =        $_POST['3_2_d_8_3'];}        else {$a3_2_d_8_3 = NULL; }
-        if (isset($_POST['3_2_d_8_4'] ))        { $a3_2_d_8_4 =        $_POST['3_2_d_8_4'];}        else {$a3_2_d_8_4 = NULL; }
+		if (isset($_POST['3_2_d_8_1'] )) {
+
+             $a3_2_d_8_1 = $_POST['3_2_d_8_1'];
+            }        
+            else 
+            {
+                $a3_2_d_8_1 = NULL; 
+            }
+        if (isset($_POST['3_2_d_8_2'] ))        { $a3_2_d_8_2 =        $_POST['3_2_d_8_2'];}        else {$a3_2_d_8_2 = ""; }
+        if (isset($_POST['3_2_d_8_3'] ))        { $a3_2_d_8_3 =        $_POST['3_2_d_8_3'];}        else {$a3_2_d_8_3 = ""; }
+        if (isset($_POST['3_2_d_8_4'] ))        { $a3_2_d_8_4 =        $_POST['3_2_d_8_4'];}        else {$a3_2_d_8_4 = ""; }
  
 		if (isset($_POST['3_2_d_9_1'] ))        { $a3_2_d_9_1 =        $_POST['3_2_d_9_1'];}        else {$a3_2_d_9_1 = 0; }
         if (isset($_POST['3_2_d_9_2'] ))        { $a3_2_d_9_2 =        $_POST['3_2_d_9_2'];}        else {$a3_2_d_9_2 = 0; }

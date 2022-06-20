@@ -16,8 +16,7 @@
         if (isset($_POST['3_4_1_2'] ))     { $a3_4_1_2 =     $_POST['3_4_1_2'];}     else {$a3_4_1_2 = NULL; }
         if (isset($_POST['3_4_1_3'] ))     { $a3_4_1_3 =     $_POST['3_4_1_3'];}     else {$a3_4_1_3 = NULL; }
         if (isset($_POST['3_4_1_4'] ))     { $a3_4_1_4 =     $_POST['3_4_1_4'];}     else {$a3_4_1_4 = NULL; }
-        if (isset($_POST['3_4_1_5'] ))     { $a3_4_1_5 =     $_POST['3_4_1_5'];}     else {$a3_4_1_5 = NULL; }
-        if (isset($_POST['3_4_1_6'] ))     { $a3_4_1_6 =     $_POST['3_4_1_6'];}     else {$a3_4_1_6 = NULL; }
+ 
 //3.5
 if (isset($_POST['3_5_1_a'] ))     { $a3_5_1_a =     $_POST['3_5_1_a'];}     else {$a3_5_1_a= NULL; }
 if (isset($_POST['3_5_2_a'] ))     { $a3_5_2_a =     $_POST['3_5_2_a'];}     else {$a3_5_2_a = NULL; }

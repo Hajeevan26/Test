@@ -283,12 +283,27 @@ include($_GET['pg']); }
         </script>
          <script>
         function funb3_2_1() {
-            var x = document.getElementById("3_2_2").value;
-            if (x == 2) {
-                var data ="<input type='text'  required  name='3_2_1_oth' id='3_2_1_oth' placeholder='If other Specify' class='form-control'>";
-                document.getElementById("divid3_2_2").innerHTML = data;
-            } else {
-                document.getElementById("divid3_2_2").innerHTML = "";
+            var f3_2_1 = document.getElementById("3_2_1").value;
+
+            var household_id = document.getElementById("household_id").value;
+            //alert(b6);
+            if (f3_2_1 == 2) {
+                var xmlhttp = new XMLHttpRequest();
+                xmlhttp.onreadystatechange = function() 
+                {
+                    if (xmlhttp.readyState == 4 & xmlhttp.status == 200) {
+                        document.getElementById("divid3_2_1").innerHTML = xmlhttp.responseText;
+                    }
+                }
+                xmlhttp.open("GET", "ajaxpage.php?option=update3_2_1&f3_2_1=" + f3_2_1 + "&household_id=" + household_id,
+                    true);
+                xmlhttp.send();
+            } 
+            else 
+            {
+
+                document.getElementById("divid3_2_1").innerHTML = "";
+                //window.location.href = "http://www.google.com";
             }
         }
         </script>
