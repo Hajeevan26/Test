@@ -318,7 +318,7 @@ if(isset($_POST['btnsubmit']) ) {
                             <tr>
                                 <td>Urea</td>
                                 <td>
-                                    <div>3_1_2_1<input type="number" value="0" required name="3_1_2_1" id="3_1_2_1"
+                                    <div>3_1_2_1<input type="number" value="0" onkeyup="fnmulty('3_1_2_1','3_1_4_1','3_1_5_1');" required name="3_1_2_1" id="3_1_2_1"
                                             class="form-control" />
                                 </td>
                                 <td>
@@ -326,11 +326,11 @@ if(isset($_POST['btnsubmit']) ) {
                                             class="form-control" />
                                 </td>
                                 <td>
-                                    <div>3_1_4_1<input type="number" value="0" required name="3_1_4_1" id="3_1_4_1"
+                                    <div>3_1_4_1<input type="number" value="0" onkeyup="fnmulty('3_1_2_1','3_1_4_1','3_1_5_1');" required name="3_1_4_1" id="3_1_4_1"
                                             class="form-control" />
                                 </td>
                                 <td>
-                                    <div>3_1_5_1<input type="number" value="0" required name="3_1_5_1" id="3_1_5_1"
+                                    <div>3_1_5_1<input type="number" value="0" readonly name="3_1_5_1" id="3_1_5_1"
                                             class="form-control" />
                                 </td>
                                 <td>
@@ -357,7 +357,7 @@ if(isset($_POST['btnsubmit']) ) {
                             <tr>
                                 <td>TSP</td>
                                 <td>
-                                    <div>3_1_2_2<input type="number" value="0" required name="3_1_2_2" id="3_1_2_2"
+                                    <div>3_1_2_2<input type="number" value="0" onkeyup="fnmulty('3_1_2_2','3_1_4_2','3_1_5_2');"  required name="3_1_2_2" id="3_1_2_2"
                                             class="form-control" />
                                 </td>
                                 <td>
@@ -365,11 +365,11 @@ if(isset($_POST['btnsubmit']) ) {
                                             class="form-control" />
                                 </td>
                                 <td>
-                                    <div>3_1_4_2<input type="number" value="0" required name="3_1_4_2" id="3_1_4_2"
+                                    <div>3_1_4_2<input type="number" value="0"  onkeyup="fnmulty('3_1_2_2','3_1_4_2','3_1_5_2');" required name="3_1_4_2" id="3_1_4_2"
                                             class="form-control" />
                                 </td>
                                 <td>
-                                    <div>3_1_5_2<input type="number" value="0" required name="3_1_5_2" id="3_1_5_2"
+                                    <div>3_1_5_2<input type="number" value="0" readonly name="3_1_5_2" id="3_1_5_2"
                                             class="form-control" />
                                 </td>
                                 <td>
@@ -397,7 +397,7 @@ value="6">Other</label> </div>
                             <tr>
                                 <td>MOP</td>
                                 <td>
-                                    <div>3_1_2_3<input type="number" value="0" required name="3_1_2_3" id="3_1_2_3"
+                                    <div>3_1_2_3<input type="number" value="0" onkeyup="fnmulty('3_1_2_3','3_1_4_3','3_1_5_3');"  required name="3_1_2_3" id="3_1_2_3"
                                             class="form-control" />
                                 </td>
                                 <td>
@@ -405,11 +405,11 @@ value="6">Other</label> </div>
                                             class="form-control" />
                                 </td>
                                 <td>
-                                    <div>3_1_4_3<input type="number" value="0" required name="3_1_4_3" id="3_1_4_3"
+                                    <div>3_1_4_3<input type="number" value="0" onkeyup="fnmulty('3_1_2_3','3_1_4_3','3_1_5_3');"  required name="3_1_4_3" id="3_1_4_3"
                                             class="form-control" />
                                 </td>
                                 <td>
-                                    <div>3_1_5_3<input type="number" value="0" required name="3_1_5_3" id="3_1_5_3"
+                                    <div>3_1_5_3<input type="number" value="0" readonly name="3_1_5_3" id="3_1_5_3"
                                             class="form-control" />
                                 </td>
                                 <td>
@@ -436,7 +436,7 @@ value="6">Other</label> </div>
                             <tr>
                                 <td>Compost</td>
                                 <td>
-                                    <div>3_1_2_4<input type="number" value="0" required name="3_1_2_4" id="3_1_2_4"
+                                    <div>3_1_2_4<input type="number" value="0" onkeyup="fnmulty('3_1_2_4','3_1_4_4','3_1_5_4');"  required name="3_1_2_4" id="3_1_2_4"
                                             class="form-control" />
                                 </td>
                                 <td>
@@ -444,11 +444,11 @@ value="6">Other</label> </div>
                                             class="form-control" />
                                 </td>
                                 <td>
-                                    <div>3_1_4_4<input type="number" value="0" required name="3_1_4_4" id="3_1_4_4"
+                                    <div>3_1_4_4<input type="number" value="0" onkeyup="fnmulty('3_1_2_4','3_1_4_4','3_1_5_4');"  required name="3_1_4_4" id="3_1_4_4"
                                             class="form-control" />
                                 </td>
                                 <td>
-                                    <div>3_1_5_4<input type="number" value="0" required name="3_1_5_4" id="3_1_5_4"
+                                    <div>3_1_5_4<input type="number" value="0" readonly name="3_1_5_4" id="3_1_5_4"
                                             class="form-control" />
                                 </td>
                                 <td>
@@ -475,7 +475,7 @@ value="6">Other</label> </div>
                             <tr>
                                 <td>Manure</td>
                                 <td>
-                                    <div>3_1_2_5<input type="number" value="0" required name="3_1_2_5" id="3_1_2_5"
+                                    <div>3_1_2_5<input type="number" value="0" onkeyup="fnmulty('3_1_2_5','3_1_4_5','3_1_5_5');"  required name="3_1_2_5" id="3_1_2_5"
                                             class="form-control" />
                                 </td>
                                 <td>
@@ -483,11 +483,11 @@ value="6">Other</label> </div>
                                             class="form-control" />
                                 </td>
                                 <td>
-                                    <div>3_1_4_5<input type="number" value="0" required name="3_1_4_5" id="3_1_4_5"
+                                    <div>3_1_4_5<input type="number" value="0" onkeyup="fnmulty('3_1_2_5','3_1_4_5','3_1_5_5');"  required name="3_1_4_5" id="3_1_4_5"
                                             class="form-control" />
                                 </td>
                                 <td>
-                                    <div>3_1_5_5<input type="number" value="0" required name="3_1_5_5" id="3_1_5_5"
+                                    <div>3_1_5_5<input type="number" value="0" readonly name="3_1_5_5" id="3_1_5_5"
                                             class="form-control" />
                                 </td>
                                 <td>
@@ -515,7 +515,7 @@ value="6">Other</label> </div>
                             <tr>
                                 <td> Liquid fertilizers</td>
                                 <td>
-                                    <div>3_1_2_6<input type="number" value="0" required name="3_1_2_6" id="3_1_2_6"
+                                    <div>3_1_2_6<input type="number" value="0" onkeyup="fnmulty('3_1_2_6','3_1_4_6','3_1_5_6');"  required name="3_1_2_6" id="3_1_2_6"
                                             class="form-control" />
                                 </td>
                                 <td>
@@ -523,11 +523,11 @@ value="6">Other</label> </div>
                                             class="form-control" />
                                 </td>
                                 <td>
-                                    <div>3_1_4_6<input type="number" value="0" required name="3_1_4_6" id="3_1_4_6"
+                                    <div>3_1_4_6<input type="number" value="0" onkeyup="fnmulty('3_1_2_6','3_1_4_6','3_1_5_6');"  required name="3_1_4_6" id="3_1_4_6"
                                             class="form-control" />
                                 </td>
                                 <td>
-                                    <div>3_1_5_6<input type="number" value="0" required name="3_1_5_6" id="3_1_5_6"
+                                    <div>3_1_5_6<input type="number" value="0" readonly name="3_1_5_6" id="3_1_5_6"
                                             class="form-control" />
                                 </td>
                                 <td>
@@ -554,7 +554,7 @@ value="6">Other</label> </div>
                                 <td> Other organic
                                     fertilizers</td>
                                     <td>
-                                    <div>3_1_2_7<input type="number" value="0" required name="3_1_2_7" id="3_1_2_7"
+                                    <div>3_1_2_7<input type="number" value="0" onkeyup="fnmulty('3_1_2_7','3_1_4_7','3_1_5_7');"  required name="3_1_2_7" id="3_1_2_7"
                                             class="form-control" />
                                 </td>
                                 <td>
@@ -562,11 +562,11 @@ value="6">Other</label> </div>
                                             class="form-control" />
                                 </td>
                                 <td>
-                                    <div>3_1_4_7<input type="number" value="0" required name="3_1_4_7" id="3_1_4_7"
+                                    <div>3_1_4_7<input type="number" value="0" onkeyup="fnmulty('3_1_2_7','3_1_4_7','3_1_5_7');"  required name="3_1_4_7" id="3_1_4_7"
                                             class="form-control" />
                                 </td>
                                 <td>
-                                    <div>3_1_5_7<input type="number" value="0" required name="3_1_5_7" id="3_1_5_7"
+                                    <div>3_1_5_7<input type="number" value="0" readonly name="3_1_5_7" id="3_1_5_7"
                                             class="form-control" />
                                 </td>
                                 <td>
@@ -592,7 +592,7 @@ value="6">Other</label> </div>
                             <tr>
                                 <td> Other</td>
                                 <td>
-                                    <div>3_1_2_8<input type="number" value="0" required name="3_1_2_8" id="3_1_2_8"
+                                    <div>3_1_2_8<input type="number" value="0" onkeyup="fnmulty('3_1_2_8','3_1_4_8','3_1_5_8');"  required name="3_1_2_8" id="3_1_2_8"
                                             class="form-control" />
                                 </td>
                                 <td>
@@ -600,11 +600,11 @@ value="6">Other</label> </div>
                                             class="form-control" />
                                 </td>
                                 <td>
-                                    <div>3_1_4_8<input type="number" value="0" required name="3_1_4_8" id="3_1_4_8"
+                                    <div>3_1_4_8<input type="number" value="0" onkeyup="fnmulty('3_1_2_8','3_1_4_8','3_1_5_8');"  required name="3_1_4_8" id="3_1_4_8"
                                             class="form-control" />
                                 </td>
                                 <td>
-                                    <div>3_1_5_8<input type="number" value="0" required name="3_1_5_8" id="3_1_5_8"
+                                    <div>3_1_5_8<input type="number" value="0" readonly name="3_1_5_8" id="3_1_5_8"
                                             class="form-control" />
                                 </td>
                                 <td>
@@ -676,10 +676,10 @@ value="6">Other</label> </div>
                             </tr>
                             <tr>
                                 <td>Urea</td>
-                                <td><div>3_1_8_1<input type="number" value="0" required name="3_1_8_1" id="3_1_8_1"  class="form-control" /> </td>
+                                <td><div>3_1_8_1<input type="number" onkeyup="fnmulty('3_1_8_1','3_1_10_1','3_1_11_1');"  value="0" required name="3_1_8_1" id="3_1_8_1"  class="form-control" /> </td>
                                 <td><div>3_1_9_1<input type="number" value="0" required name="3_1_9_1" id="3_1_9_1" class="form-control" /> </td>
-                                <td><div>3_1_10_1<input type="number" value="0" required name="3_1_10_1" id="3_1_10_1" class="form-control" /> </td>
-                                <td><div>3_1_11_1<input type="number" value="0" required name="3_1_11_1" id="3_1_11_1" class="form-control" /> </td>
+                                <td><div>3_1_10_1<input type="number" onkeyup="fnmulty('3_1_8_1','3_1_10_1','3_1_11_1');"  value="0" required name="3_1_10_1" id="3_1_10_1" class="form-control" /> </td>
+                                <td><div>3_1_11_1<input type="number" value="0" readonly name="3_1_11_1" id="3_1_11_1" class="form-control" /> </td>
                                 <td>
                                     <div class="form-group">
                                         <div class="checkbox"><label><input type="checkbox" name="3_1_12_1a" id="3_1_12_1a"
@@ -702,10 +702,10 @@ value="6">Other</label> </div>
                             </tr>
                             <tr>
                                 <td>TSP</td>
-                                <td><div>3_1_8_2<input type="number" value="0" required name="3_1_8_2" id="3_1_8_2"  class="form-control" /> </td>
-                                <td><div>3_1_9_2<input type="text"  value="0" required name="3_1_9_2" id="3_1_9_2" class="form-control" /> </td>
-                                <td><div>3_1_10_2<input type="text" value="0" required  name="3_1_10_2" id="3_1_10_2" class="form-control" /> </td>
-                                <td><div>3_1_11_2<input type="text" value="0" required  name="3_1_11_2" id="3_1_11_2" class="form-control" /> </td>
+                                <td><div>3_1_8_2<input type="number"  onkeyup="fnmulty('3_1_8_2','3_1_10_2','3_1_11_2');" value="0" required name="3_1_8_2" id="3_1_8_2"  class="form-control" /> </td>
+                                <td><div>3_1_9_2<input type="number"  value="0" required name="3_1_9_2" id="3_1_9_2" class="form-control" /> </td>
+                                <td><div>3_1_10_2<input type="number" onkeyup="fnmulty('3_1_8_2','3_1_10_2','3_1_11_2');"  value="0" required  name="3_1_10_2" id="3_1_10_2" class="form-control" /> </td>
+                                <td><div>3_1_11_2<input type="number" value="0" readonly  name="3_1_11_2" id="3_1_11_2" class="form-control" /> </td>
                                 <td>
                                     <div class="form-group">
                                     <div class="checkbox"><label><input type="checkbox" name="3_1_12_2a" id="3_1_12_2a" value="1"> Retail Shop/ wholesaler</label> </div>
@@ -722,10 +722,10 @@ value="6">Other</label> </div>
 
                             <tr>
                                 <td>MOP</td>
-                                <td><div>3_1_8_3<input type="text" value="0" required  name="3_1_8_3" id="3_1_8_3"  class="form-control" /> </td>
+                                <td><div>3_1_8_3<input type="text" value="0" onkeyup="fnmulty('3_1_8_3','3_1_10_3','3_1_11_3');"  required  name="3_1_8_3" id="3_1_8_3"  class="form-control" /> </td>
                                 <td><div>3_1_9_3<input type="text" value="0" required  name="3_1_9_3" id="3_1_9_3" class="form-control" /> </td>
-                                <td><div>3_1_10_3<input type="text" value="0" required  name="3_1_10_3" id="3_1_10_3" class="form-control" /> </td>
-                                <td><div>3_1_11_3<input type="text" value="0" required  name="3_1_11_3" id="3_1_11_3" class="form-control" /> </td>
+                                <td><div>3_1_10_3<input type="text" value="0" onkeyup="fnmulty('3_1_8_3','3_1_10_3','3_1_11_3');"  required  name="3_1_10_3" id="3_1_10_3" class="form-control" /> </td>
+                                <td><div>3_1_11_3<input type="text" value="0" readonly  name="3_1_11_3" id="3_1_11_3" class="form-control" /> </td>
                                 <td>
                                     <div class="form-group">
                                     <div class="checkbox"><label><input type="checkbox" name="3_1_12_3a" id="3_1_12_3a" value="1"> Retail Shop/ wholesaler</label> </div>
@@ -741,10 +741,10 @@ value="6">Other</label> </div>
                             </tr>
                             <tr>
                                 <td>Compost</td>
-                                <td><div>3_1_8_4<input type="text" value="0" required  name="3_1_8_4" id="3_1_8_4"  class="form-control" /> </td>
-                                <td><div>3_1_9_4<input type="text" value="0" required  name="3_1_9_4" id="3_1_9_4" class="form-control" /> </td>
-                                <td><div>3_1_10_4<input type="text" value="0" required  name="3_1_10_4" id="3_1_10_4" class="form-control" /> </td>
-                                <td><div>3_1_11_4<input type="text" value="0" required  name="3_1_11_4" id="3_1_11_4" class="form-control" /> </td>
+                                <td><div>3_1_8_4<input type="number"  onkeyup="fnmulty('3_1_8_4','3_1_10_4','3_1_11_4');" value="0" required  name="3_1_8_4" id="3_1_8_4"  class="form-control" /> </td>
+                                <td><div>3_1_9_4<input type="number" value="0" required  name="3_1_9_4" id="3_1_9_4" class="form-control" /> </td>
+                                <td><div>3_1_10_4<input type="number"  onkeyup="fnmulty('3_1_8_4','3_1_10_4','3_1_11_4');" value="0" required  name="3_1_10_4" id="3_1_10_4" class="form-control" /> </td>
+                                <td><div>3_1_11_4<input type="number" value="0" readonly  name="3_1_11_4" id="3_1_11_4" class="form-control" /> </td>
                                 <td>
                                     <div class="form-group">
                                     <div class="checkbox"><label><input type="checkbox" name="3_1_12_4a" id="3_1_12_4a" value="1"> Retail Shop/ wholesaler</label> </div>
@@ -760,10 +760,10 @@ value="6">Other</label> </div>
                             </tr>
                             <tr>
                             <td>Manure</td>
-                            <td>    <div>3_1_8_5<input type="text" value="0" required  name="3_1_8_5" id="3_1_8_5"  class="form-control" /> </td>
-                                <td><div>3_1_9_5<input type="text" value="0" required  name="3_1_9_5" id="3_1_9_5" class="form-control" /> </td>
-                                <td><div>3_1_10_5<input type="text" value="0" required  name="3_1_10_5" id="3_1_10_5" class="form-control" /> </td>
-                                <td><div>3_1_11_5<input type="text" value="0" required  name="3_1_11_5" id="3_1_11_5" class="form-control" /> </td>
+                            <td>    <div>3_1_8_5<input type="number" onkeyup="fnmulty('3_1_8_5','3_1_10_5','3_1_11_5');"  value="0" required  name="3_1_8_5" id="3_1_8_5"  class="form-control" /> </td>
+                                <td><div>3_1_9_5<input type="number" value="0" required  name="3_1_9_5" id="3_1_9_5" class="form-control" /> </td>
+                                <td><div>3_1_10_5<input type="number" onkeyup="fnmulty('3_1_8_5','3_1_10_5','3_1_11_5');"  value="0" required  name="3_1_10_5" id="3_1_10_5" class="form-control" /> </td>
+                                <td><div>3_1_11_5<input type="number" value="0" readonly  name="3_1_11_5" id="3_1_11_5" class="form-control" /> </td>
                                 <td>
                                     <div class="form-group">
                                     <div class="checkbox"><label><input type="checkbox" name="3_1_12_5a" id="3_1_12_5a" value="1"> Retail Shop/ wholesaler</label> </div>
@@ -781,10 +781,10 @@ value="6">Other</label> </div>
 
                             <tr>
                                 <td> Liquid fertilizers</td>
-                                <td><div>3_1_8_6<input type="text" value="0" required name="3_1_8_6" id="3_1_8_6"  class="form-control" /> </td>
-                                <td><div>3_1_9_6<input type="text" value="0" required name="3_1_9_6" id="3_1_9_6" class="form-control" /> </td>
-                                <td><div>3_1_10_6<input type="text" value="0" required name="3_1_10_6" id="3_1_10_6" class="form-control" /> </td>
-                                <td><div>3_1_11_6<input type="text" value="0" required name="3_1_11_6" id="3_1_11_6" class="form-control" /> </td>
+                                <td><div>3_1_8_6<input type="number" onkeyup="fnmulty('3_1_8_6','3_1_10_6','3_1_11_6');"  value="0" required name="3_1_8_6" id="3_1_8_6"  class="form-control" /> </td>
+                                <td><div>3_1_9_6<input type="number" value="0" required name="3_1_9_6" id="3_1_9_6" class="form-control" /> </td>
+                                <td><div>3_1_10_6<input type="number" onkeyup="fnmulty('3_1_8_6','3_1_10_6','3_1_11_6');"  value="0" required name="3_1_10_6" id="3_1_10_6" class="form-control" /> </td>
+                                <td><div>3_1_11_6<input type="number" value="0" readonly name="3_1_11_6" id="3_1_11_6" class="form-control" /> </td>
                                 <td>
                                     <div class="form-group">
                                     <div class="checkbox"><label><input type="checkbox" name="3_1_12_6a" id="3_1_12_6a" value="1"> Retail Shop/ wholesaler</label> </div>
@@ -800,10 +800,10 @@ value="6">Other</label> </div>
                             </tr>
                             <tr>
                                 <td> Other organic fertilizers</td>
-                                <td><div>3_1_8_7<input type="text" value="0" required  name="3_1_8_7" id="3_1_8_7"  class="form-control" /> </td>
-                                <td><div>3_1_9_7<input type="text" value="0" required  name="3_1_9_7" id="3_1_9_7" class="form-control" /> </td>
-                                <td><div>3_1_10_7<input type="text" value="0" required  name="3_1_10_7" id="3_1_10_7" class="form-control" /> </td>
-                                <td><div>3_1_11_7<input type="text" value="0" required  name="3_1_11_7" id="3_1_11_7" class="form-control" /> </td>
+                                <td><div>3_1_8_7<input type="number" onkeyup="fnmulty('3_1_8_7','3_1_10_7','3_1_11_7');"  value="0" required  name="3_1_8_7" id="3_1_8_7"  class="form-control" /> </td>
+                                <td><div>3_1_9_7<input type="number" value="0" required  name="3_1_9_7" id="3_1_9_7" class="form-control" /> </td>
+                                <td><div>3_1_10_7<input type="number" onkeyup="fnmulty('3_1_8_7','3_1_10_7','3_1_11_7');"  value="0" required  name="3_1_10_7" id="3_1_10_7" class="form-control" /> </td>
+                                <td><div>3_1_11_7<input type="number" value="0" readonly  name="3_1_11_7" id="3_1_11_7" class="form-control" /> </td>
                                 <td>
                                     <div class="form-group">
                                     <div class="checkbox"><label><input type="checkbox" name="3_1_12_7a" id="3_1_12_7a" value="1"> Retail Shop/ wholesaler</label> </div>
@@ -819,10 +819,10 @@ value="6">Other</label> </div>
                             </tr>
                             <tr>
                                 <td> Other</td>
-                                <td><div>3_1_8_8<input type="text" value="0" required  name="3_1_8_8" id="3_1_8_8"  class="form-control" /> </td>
-                                <td><div>3_1_9_8<input type="text" value="0" required  name="3_1_9_8" id="3_1_9_8" class="form-control" /> </td>
-                                <td><div>3_1_10_8<input type="text" value="0" required  name="3_1_10_8" id="3_1_10_8" class="form-control" /> </td>
-                                <td><div>3_1_11_8<input type="text" value="0" required  name="3_1_11_8" id="3_1_11_8" class="form-control" /> </td>
+                                <td><div>3_1_8_8<input type="number" onkeyup="fnmulty('3_1_8_8','3_1_10_8','3_1_11_8');"  value="0" required  name="3_1_8_8" id="3_1_8_8"  class="form-control" /> </td>
+                                <td><div>3_1_9_8<input type="number" value="0" required  name="3_1_9_8" id="3_1_9_8" class="form-control" /> </td>
+                                <td><div>3_1_10_8<input type="number" onkeyup="fnmulty('3_1_8_8','3_1_10_8','3_1_11_8');"  value="0" required  name="3_1_10_8" id="3_1_10_8" class="form-control" /> </td>
+                                <td><div>3_1_11_8<input type="number" value="0" readonly  name="3_1_11_8" id="3_1_11_8" class="form-control" /> </td>
                                 <td>
                                     <div class="form-group">
 

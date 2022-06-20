@@ -394,6 +394,29 @@ include($_GET['pg']); }
        }
    }
         </script>
+
+<script>
+    function fnmulty(a,b,x) {
+       var a = document.getElementById(a).value;
+       var b = document.getElementById(b).value;
+       //var x = document.getElementById(x).value;
+     
+       //var x = document.getElementById(x).value;
+
+       //var txtSecondNumberValue = document.getElementById('txt2').value;
+       if (a == "")
+         {  a = 0;  } 
+       if (b == "")
+          { b = 0;}
+        
+
+       var result = parseInt(a) * parseInt(b);
+       if (!isNaN(result)) {
+        
+           document.getElementById(x).value = result;
+       }
+   }
+        </script>
 </body>
 
 </html>
