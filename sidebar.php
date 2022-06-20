@@ -101,7 +101,7 @@
                 <li class="nav-item">
                     <a href="index1.php?pg=survey2c.php" class="nav-link">
                         <i class="nav-icon fas fa-th"></i>
-                        <p> Farm information C unf</p>
+                        <p> Farm information C</p>
                     </a>
                 </li>
                 <li class="nav-item">
@@ -162,9 +162,10 @@
                 
             } 
                 ?>
+                
                  <li class="nav-item">
                     <a href="logout.php" class="nav-link">
-                        <i class="nav-icon fas fa-th"></i>
+                        <i class="nav-icon far fa-circle text-danger"></i>
                         <p>Logout </p>
                     </a>
                 </li>
