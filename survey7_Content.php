@@ -7,7 +7,6 @@
         <div class="card-body">
             <div class="row">
                 <input type="hidden" id="household_id" name="household_id" value="<?php echo $household_id; ?>">
-
                 <div class="col-md-4">
                     <div class="input-group">
                         <label>7.1.What do you think that a country could become 100%
@@ -21,12 +20,9 @@
                             </option>
                             <option value="4">A country can never do it
                             </option>
-                            <option value="5">Other
-
+                            <option value="5" selected >Other
                             </option>
-
                         </select>
-
                     </div>
                     <div id="7_1_ot">
                         <div class="input-group">
@@ -57,7 +53,7 @@
                             <option value="5">No, but I will consider to convert into organic in future
 
                             </option>
-                            <option value="6">Other
+                            <option value="6" selected >Other
 
                             </option>
 
@@ -79,30 +75,15 @@
 
                         </label>
                         <select class="form-control" name="7_3" id="7_3">
-                            <option value="1">It will be higher than usual
-                            </option>
-                            <option value="2">It will be lower than usual
-
-                            </option>
-                            <option value="3">No difference
-
-                            </option>
-                            <option value="4">No idea
-
-                            </option>
-
-
+                            <option value="1">It will be higher than usual</option>
+                            <option value="2">It will be lower than usual</option>
+                            <option value="3">No difference</option>
+                            <option value="4">No idea</option>
                         </select>
-
-
                     </div>
-
                 </div>
             </div>
-
             <!-- 2nd row -->
-
-
             <!-- 3rd -->
 <hr>
             <div class="row">
@@ -121,7 +102,7 @@
                                 will start doing it</label> </div>
                         <div class="checkbox"><label><input type="checkbox" name="7_4_d" id="7_4_d" value="4">No, I
                                 don’t like to do organic farming</label></div>
-                                <div class="checkbox"><label><input type="checkbox" name="7_4_e" id="7_4_e" value="5" onclick="eDcheckOT('7_4_e','7_4_e_oth')">Other</label></div>
+                                <div class="checkbox"><label><input type="checkbox" name="7_4_e" id="7_4_e" value="5" onclick="eDcheckOT('7_4_e','7_4_e_oth')" selected >Other</label></div>
                         <div> <label><input type="text" placeholder="if other" required name="7_4_e_oth" id="7_4_e_oth">
                         </div>
                        

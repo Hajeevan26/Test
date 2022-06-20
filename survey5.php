@@ -67,7 +67,7 @@ if (isset($_POST['5_2_c_2'] )) { $a5_2_c_2 = $_POST['5_2_c_2'];} else {$a5_2_c_2
 if (isset($_POST['5_2_c_3'] )) { $a5_2_c_3 = $_POST['5_2_c_3'];} else {$a5_2_c_3 = 0; }
 if (isset($_POST['5_2_c_4'] )) { $a5_2_c_4 = $_POST['5_2_c_4'];} else {$a5_2_c_4= 0; }
 if (isset($_POST['5_2_c_5'] )) { $a5_2_c_5 = $_POST['5_2_c_5'];} else {$a5_2_c_5 = 0; }
-if (isset($_POST['5_2_c_6'] )) { $a5_2_c_6 = $_POST['5_2_c_6'];} else {$a5_c_c_6 = 0; }
+if (isset($_POST['5_2_c_6'] )) { $a5_2_c_6 = $_POST['5_2_c_6'];} else {$a5_2_c_6 = 0; }
 if (isset($_POST['5_2_c_7'] )) { $a5_2_c_7 = $_POST['5_2_c_7'];} else {$a5_2_c_7 = 0; }
 if (isset($_POST['5_2_c_7_oth'])){ $a5_2_c_7_oth = $_POST['5_2_c_7_oth'];} else {$a5_2_c_7_oth = NULL; }
 if (isset($_POST['5_3_c_1'] )) { $a5_3_c_1 = $_POST['5_3_c_1'];} else {$a5_3_c_1 = 0; }
@@ -212,7 +212,7 @@ if (isset($_POST['5_4_l'] )) {   $a5_4_l =   $_POST['5_4_l'];} else {  $a5_4_l= 
 if (isset($_POST['5_5_l'] )) {   $a5_5_l =   $_POST['5_5_l'];} else {  $a5_5_l= 0; }
 if (isset($_POST['5_2_l_7_oth'])){$a5_2_l_7_oth =$_POST['5_2_l_7_oth'];} else {$a5_2_l_7_oth = NULL; }
 //m
-if (isset($_POST['5_1_m'])) {    $a5_1_m =   $_POST['5_1_m'];   } else{$a5_1_m = 0; }
+if (isset($_POST['5_1_m'])) {    $a5_1_m =   $_POST['5_1_m'];   } else{$a5_1_m = NULL; }
 if (isset($_POST['5_2_m_1'] )) { $a5_2_m_1 = $_POST['5_2_m_1'];} else {$a5_2_m_1 = 0; }
 if (isset($_POST['5_2_m_2'] )) { $a5_2_m_2 = $_POST['5_2_m_2'];} else {$a5_2_m_2 = 0; }
 if (isset($_POST['5_2_m_3'] )) { $a5_2_m_3 = $_POST['5_2_m_3'];} else {$a5_2_m_3 = 0; }
@@ -259,7 +259,7 @@ $res13 = mysqli_query($con, $sqlupdatesq113) or die("error in update customer pa
         if ($res1 == 1 && $res2 == 1 && $res3 == 1 &&  $res4 == 1 && $res5 == 1 && $res6 == 1 && $res7 == 1 && $res8 == 1 && $res9 == 1 && $res10 == 1 && $res11 == 1 && $res12 == 1 && $res13 == 1  ) 
         {
            
-            echo '<script> alert("your data added successfully");//window.location.href="index1.php?pg=surveyG.php";</script>';
+            echo '<script> alert("your data added successfully");window.location.href="index1.php?pg=survey6.php";</script>';
            
             // $_SESSION['id'] = $id;
            

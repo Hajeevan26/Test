@@ -1,7 +1,7 @@
 <form role="form" action="" method="post">
     <div class="card card-primary">
         <div class="card-header">
-            7. Perception on organic farming
+            8. Perception on organic farming
         </div>
 
         <div class="card-body">
@@ -77,15 +77,7 @@
                         </select>
                     </div>
                 </div>
-                <div class="col-md-4">
-                    <div class="input-group">
-                        <label>8_6.Do you like to produce organic fertilizer by your own?</label>
-                        <select class="form-control" name="8_6" id="8_6">
-                            <option value="1">Yes</option>
-                            <option value="2">No</option>
-                        </select>
-                    </div>
-                </div>
+                
 
             </div>
             <hr>
@@ -95,7 +87,7 @@
                 <div class="col-md-4">
                     <div class="input-group">
                         <label>8_6.Did you notice any relationship between pesticides and kidney damage?</label>
-                        <select class="form-control" name="6_1" id="6_1">
+                        <select class="form-control" name="8_6" id="8_6">
                             <option value="1">Yes</option>
                             <option value="2">No</option>
                         </select>
