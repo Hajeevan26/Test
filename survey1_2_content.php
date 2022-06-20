@@ -125,8 +125,7 @@
                                     value="3">Electricity- Solar power</label></div>
                         <div class="checkbox"><label><input type="checkbox" name="1_2_7_d" id="1_2_7_d" value="4">Lamps-
                                 Kerosene/Petrol</label></div>
-                        <div class="checkbox"><label><input type="checkbox" name="1_2_7_e" id="1_2_7_e" value="5">Crop
-                                residue</label></div>
+                     
 
                     </div>
                 </div>
@@ -137,10 +136,7 @@
                                 phone</label></div>
                         <div class="checkbox"><label><input type="checkbox" name="1_2_8_b" id="1_2_8_b"
                                     value="2">Non-smart phone</label></div>
-                        <div class="checkbox"><label><input type="checkbox" name="1_2_8_c" id="1_2_8_c"
-                                    value="3">Electricity- Solar power</label></div>
-                        <div class="checkbox"><label><input type="checkbox" name="1_2_8_d" id="1_2_8_d" value="4">Lamps-
-                                Kerosene/Petrol</label></div>
+                     
 
                     </div>
                 </div>

@@ -1,7 +1,7 @@
 <form role="form" action="" method="post">
     <div class="card card-primary">
         <div class="card-header">
-            1.2. Household and living conditions (Put “√”)
+        2. Farm information
         </div>
 
         <div class="card-body">
@@ -37,7 +37,7 @@
                 </div>
                 <div class="col-md-3">
                     <div class="form-group">
-                        <label>2.3 Years of experience in paddy cultivation</label>
+                        <label>2.3 What was the seed variety you cultivated in Maha 2021/22?</label>
                         <div class="row">
                             <div class="col-md-15"><input type="number" name="2_3" id="2_3" placeholder="Year"
                                     class="form-control" />
@@ -95,7 +95,7 @@
                 </div>
                 <div class="col-md-4">
                     <div class="input-group">
-                        <label>2.7 </label>
+                        <label>2.7 Have you a membership of any farmer organization?</label>
                         <select class="form-control" name="2_7" id="2_7">
                             <option value="1">Yes </option>
                             <option value="2">No</option>

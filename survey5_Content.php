@@ -136,7 +136,7 @@
                         </tr>
                         <!-- 3nd row -->
                         <tr>
-                            <td>.Information on agro-chemical applications</td>
+                            <td>C.Information on agro-chemical applications</td>
                             <td>5_1_c<div class="input-group">
                                     <select class="form-control" name="5_1_c" id="5_1_c">
                                         <option value="1">Yes</option>

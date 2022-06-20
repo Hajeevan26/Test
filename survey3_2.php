@@ -1128,8 +1128,8 @@ id="3_2_d_7_1_6_oth" class="form-control" /> </div>
                                 <th colspan="3">3.4.2. Method of practice</th>
                             </tr>
                             <tr>
-                                <th>Manual</th>
-                                <th>Mechanical</th>
+                                <th>Fuel cost</th>
+                                <th>Rented cost</th>
                                 <th>Other Cost</th>
                             </tr>
                             <tr>

@@ -26,10 +26,9 @@ if (isset($_GET['option'])) {
         </tr>
         <tr>
             <td> </td>
-            <td>norganic Fertilizer application</td>
+            <td>Inorganic Fertilizer application</td>
             <td>Organic fertilizer application</td>
-            <td>Organic fertilizer application
-                Land Preparation</td>
+            <td>Land Preparation</td>
             <td>Chemical application</td>
             <td>Harvest</td>
             <td>Post-harvest handling (carry
