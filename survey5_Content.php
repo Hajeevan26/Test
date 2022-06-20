@@ -830,7 +830,6 @@
 
 
             <div class="card-footer">
-
                 <button type="reset" class="btn btn-default">Reset Button</button>
                 <button type="submit" name="btnsubmit" id="btnsubmit" class="btn btn-primary float-right">Submit
                     Button</button>
