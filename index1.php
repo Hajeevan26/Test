@@ -272,16 +272,24 @@ include($_GET['pg']); }
 
         <script>
         function funb3_1_1() {
-
             var x = document.getElementById("3_1_1").value;
             if (x == 5) {
-                var data =
-                    "<input type='text'  required  name='3_1_1oth' id='3_1_1oth' placeholder='If other Specify' class='form-control'>";
+                var data ="<input type='text'  required  name='3_1_1_oth' id='3_1_1_oth' placeholder='If other Specify' class='form-control'>";
                 document.getElementById("divid3_1_1").innerHTML = data;
             } else {
                 document.getElementById("divid3_1_1").innerHTML = "";
             }
-
+        }
+        </script>
+         <script>
+        function funb3_2_1() {
+            var x = document.getElementById("3_2_2").value;
+            if (x == 2) {
+                var data ="<input type='text'  required  name='3_2_1_oth' id='3_2_1_oth' placeholder='If other Specify' class='form-control'>";
+                document.getElementById("divid3_2_2").innerHTML = data;
+            } else {
+                document.getElementById("divid3_2_2").innerHTML = "";
+            }
         }
         </script>
         <script type="text/javascript">

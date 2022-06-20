@@ -67,15 +67,16 @@ include('query3_2Table3.php');
                         <div class="col-md-12">
                             <label>3.2.1 Did you use agro-chemicals for your paddy cultivation?</label>
                             <div class="input-group">
-                                <select class="form-control" name="3_2_1" id="3_2_1">
-                                    <option value="1">Yes</option>
-                                    <option value="2">No</option>
+                                <select class="form-control" name="3_2_1" id="3_2_1" onchange="funb3_2_1()" >
+                                   
+                                    <option value="1">No</option>
+                                    <option value="2">Yes</option>
                                 </select>
                             </div>
                         </div>
                     </div>
                     <br>
-                    <div class="row">
+                    <div id="divid3_2_2" class="row">
                         <div class="col-md-12">
                             <label>3_2_2 if yes, what type of Agro-chemicals you used in last 2021/22 Maha season?
                             </label>
