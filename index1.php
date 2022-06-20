@@ -365,6 +365,35 @@ include($_GET['pg']); }
             eDcheckOT('1_2_5_d','1_2_5_d_oth');
         }
         </script>
+
+        <script>
+    function fnsum(a,b,c,d,e,x) {
+       var a = document.getElementById(a).value;
+       var b = document.getElementById(b).value;
+       var c = document.getElementById(c).value;
+       var d = document.getElementById(d).value;
+       var e = document.getElementById(e).value;
+       //var x = document.getElementById(x).value;
+
+       //var txtSecondNumberValue = document.getElementById('txt2').value;
+       if (a == "")
+         {  a = 0;  } 
+       if (b == "")
+          { b = 0;}
+          if (c == "")
+          { c = 0;}
+          if (d == "")
+          { d = 0;}
+          if (e == "")
+          { e = 0;}
+          
+
+       var result = parseInt(a) + parseInt(b) + parseInt(c) + parseInt(d) + parseInt(e);
+       if (!isNaN(result)) {
+           document.getElementById(x).value = result;
+       }
+   }
+        </script>
 </body>
 
 </html>
