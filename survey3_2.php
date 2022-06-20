@@ -94,24 +94,24 @@ include('query3_2Table3.php');
                                     <tr>
                                         <td>
                                             <div>Weedicides</div>
-                                            <div>3_2_a_1_1<input type="text" name="3_2_a_1_1" id="3_2_a_1_1" value="0" required 
+                                            <div>3_2_a_1_1<input type="text" name="3_2_a_1_1" id="3_2_a_1_1" required 
                                                     class="form-control" /></div>
-                                            <div>3_2_a_1_2<input type="text" name="3_2_a_1_2" id="3_2_a_1_2" value="0" required 
+                                            <div>3_2_a_1_2<input type="text" name="3_2_a_1_2" id="3_2_a_1_2" required 
                                                     class="form-control" /></div>
-                                            <div>3_2_a_1_3<input type="text" name="3_2_a_1_3" id="3_2_a_1_3" value="0" required 
+                                            <div>3_2_a_1_3<input type="text" name="3_2_a_1_3" id="3_2_a_1_3" required 
                                                     class="form-control" /></div>
-                                            <div>3_2_a_1_4<input type="text" name="3_2_a_1_4" id="3_2_a_1_4" value="0" required 
+                                            <div>3_2_a_1_4<input type="text" name="3_2_a_1_4" id="3_2_a_1_4" required 
                                                     class="form-control" /></div>
                                         </td>
                                         <td>
                                             <div>KG</div>
-                                            <div>3_2_a_3_1<input type="text" name="3_2_a_3_1" id="3_2_a_3_1" value="0" required 
+                                            <div>3_2_a_3_1<input type="text" name="3_2_a_3_1" id="3_2_a_3_1" onkeyup="fnmulty('3_2_a_3_1','3_2_a_5_1','3_2_a_6_1')" value="0" required 
                                                     class="form-control" /></div>
-                                            <div>3_2_a_3_2<input type="text" name="3_2_a_3_2" id="3_2_a_3_2" value="0" required 
+                                            <div>3_2_a_3_2<input type="text" name="3_2_a_3_2" id="3_2_a_3_2" onkeyup="fnmulty('3_2_a_3_2','3_2_a_5_2','3_2_a_6_2')" value="0" required 
                                                     class="form-control" /></div>
-                                            <div>3_2_a_3_3<input type="text" name="3_2_a_3_3" id="3_2_a_3_3" value="0" required 
+                                            <div>3_2_a_3_3<input type="text" name="3_2_a_3_3" id="3_2_a_3_3" onkeyup="fnmulty('3_2_a_3_3','3_2_a_5_3','3_2_a_6_3')" value="0" required 
                                                     class="form-control" /></div>
-                                            <div>3_2_a_3_4<input type="text" name="3_2_a_3_4" id="3_2_a_3_4" value="0" required 
+                                            <div>3_2_a_3_4<input type="text" name="3_2_a_3_4" id="3_2_a_3_4" onkeyup="fnmulty('3_2_a_3_4','3_2_a_5_4','3_2_a_6_4')" value="0" required 
                                                     class="form-control" /></div>
                                         </td>
                                         <td>
@@ -127,17 +127,17 @@ include('query3_2Table3.php');
                                         </td>
                                         <td>
                                             <div>Rs/Kg</div>
-                                            <div>3_2_a_5_1<input type="text" name="3_2_a_5_1" id="3_2_a_5_1" value="0" required 
+                                            <div>3_2_a_5_1<input type="text" name="3_2_a_5_1" id="3_2_a_5_1" onkeyup="fnmulty('3_2_a_3_1','3_2_a_5_1','3_2_a_6_1')"  value="0" required 
                                                     class="form-control" /></div>
-                                            <div>3_2_a_5_2<input type="text" name="3_2_a_5_2" id="3_2_a_5_2" value="0" required 
+                                            <div>3_2_a_5_2<input type="text" name="3_2_a_5_2" id="3_2_a_5_2" onkeyup="fnmulty('3_2_a_3_2','3_2_a_5_2','3_2_a_6_2')" value="0" required 
                                                     class="form-control" /></div>
-                                            <div>3_2_a_5_3<input type="text" name="3_2_a_5_3" id="3_2_a_5_3" value="0" required 
+                                            <div>3_2_a_5_3<input type="text" name="3_2_a_5_3" id="3_2_a_5_3" onkeyup="fnmulty('3_2_a_3_3','3_2_a_5_3','3_2_a_6_3')" value="0" required 
                                                     class="form-control" /></div>
-                                            <div>3_2_a_5_4<input type="text" name="3_2_a_5_4" id="3_2_a_5_4" value="0" required 
+                                            <div>3_2_a_5_4<input type="text" name="3_2_a_5_4" id="3_2_a_5_4" onkeyup="fnmulty('3_2_a_3_4','3_2_a_5_4','3_2_a_6_4')" value="0" required 
                                                     class="form-control" /></div>
                                         </td>
                                         <td>
-                                            <div>Rs/Kg</div>
+                                            <div>Total</div>
                                             <div>3_2_a_6_1<input type="text" name="3_2_a_6_1" id="3_2_a_6_1" value="0" required 
                                                     class="form-control" /></div>
                                             <div>3_2_a_6_2<input type="text" name="3_2_a_6_2" id="3_2_a_6_2" value="0" required 
@@ -241,23 +241,23 @@ include('query3_2Table3.php');
                                     <tr>
                                         <td>
                                             <div>Pesticides</div>
-                                            <div>3_2_b_1_1<input type="text" name="3_2_b_1_1" id="3_2_b_1_1" value="0" required 
+                                            <div>3_2_b_1_1<input type="text" name="3_2_b_1_1" id="3_2_b_1_1"  required 
                                                     class="form-control" /></div>
-                                            <div>3_2_b_1_2<input type="text" name="3_2_b_1_2" id="3_2_b_1_2" value="0" required 
+                                            <div>3_2_b_1_2<input type="text" name="3_2_b_1_2" id="3_2_b_1_2"  required 
                                                     class="form-control" /></div>
-                                            <div>3_2_b_1_3<input type="text" name="3_2_b_1_3" id="3_2_b_1_3" value="0" required 
+                                            <div>3_2_b_1_3<input type="text" name="3_2_b_1_3" id="3_2_b_1_3" required 
                                                     class="form-control" /></div>
-                                            <div>3_2_b_1_4<input type="text" name="3_2_b_1_4" id="3_2_b_1_4" value="0" required 
+                                            <div>3_2_b_1_4<input type="text" name="3_2_b_1_4" id="3_2_b_1_4"  required 
                                                     class="form-control" /></div>
                                         </td>
                                         <td>
-                                            <div>3_2_b_3_1<input type="text" name="3_2_b_3_1" id="3_2_b_3_1" value="0" required 
+                                            <div>3_2_b_3_1<input type="text" name="3_2_b_3_1" id="3_2_b_3_1" onkeyup="fnmulty('3_2_b_3_1','3_2_b_5_1','3_2_b_6_1')"  value="0" required 
                                                     class="form-control" /></div>
-                                            <div>3_2_b_3_2<input type="text" name="3_2_b_3_2" id="3_2_b_3_2" value="0" required 
+                                            <div>3_2_b_3_2<input type="text" name="3_2_b_3_2" id="3_2_b_3_2" onkeyup="fnmulty('3_2_b_3_2','3_2_b_5_2','3_2_b_6_2')"  value="0" required 
                                                     class="form-control" /></div>
-                                            <div>3_2_b_3_3<input type="text" name="3_2_b_3_3" id="3_2_b_3_3" value="0" required 
+                                            <div>3_2_b_3_3<input type="text" name="3_2_b_3_3" id="3_2_b_3_3" onkeyup="fnmulty('3_2_b_3_3','3_2_b_5_3','3_2_b_6_3')"  value="0" required 
                                                     class="form-control" /></div>
-                                            <div>3_2_b_3_4<input type="text" name="3_2_b_3_4" id="3_2_b_3_4" value="0" required 
+                                            <div>3_2_b_3_4<input type="text" name="3_2_b_3_4" id="3_2_b_3_4" onkeyup="fnmulty('3_2_b_3_4','3_2_b_5_4','3_2_b_6_4')"  value="0" required 
                                                     class="form-control" /></div>
                                         </td>
                                         <td>
@@ -271,23 +271,23 @@ include('query3_2Table3.php');
                                                     class="form-control" /></div>
                                         </td>
                                         <td>
-                                            <div>3_2_b_5_1<input type="text" name="3_2_b_5_1" id="3_2_b_5_1" value="0" required 
+                                            <div>3_2_b_5_1<input type="text" name="3_2_b_5_1" id="3_2_b_5_1" onkeyup="fnmulty('3_2_b_3_1','3_2_b_5_1','3_2_b_6_1');"  value="0" required 
                                                     class="form-control" /></div>
-                                            <div>3_2_b_5_2<input type="text" name="3_2_b_5_2" id="3_2_b_5_2" value="0" required 
+                                            <div>3_2_b_5_2<input type="text" name="3_2_b_5_2" id="3_2_b_5_2" onkeyup="fnmulty('3_2_b_3_2','3_2_b_5_2','3_2_b_6_2');" value="0" required 
                                                     class="form-control" /></div>
-                                            <div>3_2_b_5_3<input type="text" name="3_2_b_5_3" id="3_2_b_5_3" value="0" required 
+                                            <div>3_2_b_5_3<input type="text" name="3_2_b_5_3" id="3_2_b_5_3" onkeyup="fnmulty('3_2_b_3_3','3_2_b_5_3','3_2_b_6_3');" value="0" required 
                                                     class="form-control" /></div>
-                                            <div>3_2_b_5_4<input type="text" name="3_2_b_5_4" id="3_2_b_5_4" value="0" required 
+                                            <div>3_2_b_5_4<input type="text" name="3_2_b_5_4" id="3_2_b_5_4" onkeyup="fnmulty('3_2_b_3_4','3_2_b_5_4','3_2_b_6_4');" value="0" required 
                                                     class="form-control" /></div>
                                         </td>
                                         <td>
-                                            <div>3_2_b_6_1<input type="text" name="3_2_b_6_1" id="3_2_a_6_1" value="0" required 
+                                            <div>3_2_b_6_1<input type="text" name="3_2_b_6_1" id="3_2_b_6_1" value="0" readonly 
                                                     class="form-control" /></div>
-                                            <div>3_2_b_6_2<input type="text" name="3_2_b_6_2" id="3_2_b_6_2" value="0" required 
+                                            <div>3_2_b_6_2<input type="text" name="3_2_b_6_2" id="3_2_b_6_2" value="0" readonly 
                                                     class="form-control" /></div>
-                                            <div>3_2_b_6_3<input type="text" name="3_2_b_6_3" id="3_2_b_6_3" value="0" required 
+                                            <div>3_2_b_6_3<input type="text" name="3_2_b_6_3" id="3_2_b_6_3" value="0" readonly 
                                                     class="form-control" /></div>
-                                            <div>3_2_b_6_4<input type="text" name="3_2_b_6_4" id="3_2_b_6_4" value="0" required 
+                                            <div>3_2_b_6_4<input type="text" name="3_2_b_6_4" id="3_2_b_6_4" value="0" readonly 
                                                     class="form-control" /></div>
                                         </td>
                                         <td>
@@ -382,23 +382,23 @@ include('query3_2Table3.php');
                                     <tr>
                                         <td>
                                             <div>Insecticides</div>
-                                            <div>3_2_c_1_1<input type="text" name="3_2_c_1_1" id="3_2_c_1_1" value="0" required 
+                                            <div>3_2_c_1_1<input type="text" name="3_2_c_1_1" id="3_2_c_1_1" required 
                                                     class="form-control" /></div>
-                                            <div>3_2_c_1_2<input type="text" name="3_2_c_1_2" id="3_2_c_1_2" value="0" required 
+                                            <div>3_2_c_1_2<input type="text" name="3_2_c_1_2" id="3_2_c_1_2"  required 
                                                     class="form-control" /></div>
-                                            <div>3_2_c_1_3<input type="text" name="3_2_c_1_3" id="3_2_c_1_3" value="0" required 
+                                            <div>3_2_c_1_3<input type="text" name="3_2_c_1_3" id="3_2_c_1_3" required 
                                                     class="form-control" /></div>
-                                            <div>3_2_c_1_4<input type="text" name="3_2_c_1_4" id="3_2_c_1_4" value="0" required 
+                                            <div>3_2_c_1_4<input type="text" name="3_2_c_1_4" id="3_2_c_1_4"  required 
                                                     class="form-control" /></div>
                                         </td>
                                         <td>
-                                            <div>3_2_c_3_1<input type="text" name="3_2_c_3_1" id="3_2_c_3_1" value="0" required 
+                                            <div>3_2_c_3_1<input type="text" name="3_2_c_3_1" id="3_2_c_3_1" onkeyup="fnmulty('3_2_c_3_1','3_2_c_5_1','3_2_c_6_1');"  value="0" required 
                                                     class="form-control" /></div>
-                                            <div>3_2_c_3_2<input type="text" name="3_2_c_3_2" id="3_2_c_3_2" value="0" required 
+                                            <div>3_2_c_3_2<input type="text" name="3_2_c_3_2" id="3_2_c_3_2" onkeyup="fnmulty('3_2_c_3_2','3_2_c_5_2','3_2_c_6_2');"  value="0" required 
                                                     class="form-control" /></div>
-                                            <div>3_2_c_3_3<input type="text" name="3_2_c_3_3" id="3_2_c_3_3" value="0" required 
+                                            <div>3_2_c_3_3<input type="text" name="3_2_c_3_3" id="3_2_c_3_3" onkeyup="fnmulty('3_2_c_3_3','3_2_c_5_3','3_2_c_6_3');"  value="0" required 
                                                     class="form-control" /></div>
-                                            <div>3_2_c_3_4<input type="text" name="3_2_c_3_4" id="3_2_c_3_4" value="0" required 
+                                            <div>3_2_c_3_4<input type="text" name="3_2_c_3_4" id="3_2_c_3_4" onkeyup="fnmulty('3_2_c_3_4','3_2_c_5_4','3_2_c_6_4');" value="0" required 
                                                     class="form-control" /></div>
                                         </td>
                                         <td>
@@ -412,23 +412,23 @@ include('query3_2Table3.php');
                                                     class="form-control" /></div>
                                         </td>
                                         <td>
-                                            <div>3_2_c_5_1<input type="text" name="3_2_c_5_1" id="3_2_c_5_1" value="0" required 
+                                            <div>3_2_c_5_1<input type="text" name="3_2_c_5_1" id="3_2_c_5_1" onkeyup="fnmulty('3_2_c_3_1','3_2_c_5_1','3_2_c_6_1');"  value="0" required 
                                                     class="form-control" /></div>
-                                            <div>3_2_c_5_2<input type="text" name="3_2_c_5_2" id="3_2_c_5_2" value="0" required 
+                                            <div>3_2_c_5_2<input type="text" name="3_2_c_5_2" id="3_2_c_5_2" onkeyup="fnmulty('3_2_c_3_2','3_2_c_5_2','3_2_c_6_2');"  value="0" required 
                                                     class="form-control" /></div>
-                                            <div>3_2_c_5_3<input type="text" name="3_2_c_5_3" id="3_2_c_5_3" value="0" required 
+                                            <div>3_2_c_5_3<input type="text" name="3_2_c_5_3" id="3_2_c_5_3" onkeyup="fnmulty('3_2_c_3_3','3_2_c_5_3','3_2_c_6_3');" value="0" required 
                                                     class="form-control" /></div>
-                                            <div>3_2_c_5_4<input type="text" name="3_2_c_5_4" id="3_2_c_5_4" value="0" required 
+                                            <div>3_2_c_5_4<input type="text" name="3_2_c_5_4" id="3_2_c_5_4" onkeyup="fnmulty('3_2_c_3_4','3_2_c_5_4','3_2_c_6_4');" value="0" required 
                                                     class="form-control" /></div>
                                         </td>
                                         <td>
-                                            <div>3_2_c_6_1<input type="text" name="3_2_c_6_1" id="3_2_a_6_1" value="0" required 
+                                            <div>3_2_c_6_1<input type="text" name="3_2_c_6_1" id="3_2_c_6_1" value="0" readonly 
                                                     class="form-control" /></div>
-                                            <div>3_2_c_6_2<input type="text" name="3_2_c_6_2" id="3_2_c_6_2" value="0" required 
+                                            <div>3_2_c_6_2<input type="text" name="3_2_c_6_2" id="3_2_c_6_2" value="0" readonly 
                                                     class="form-control" /></div>
-                                            <div>3_2_c_6_3<input type="text" name="3_2_c_6_3" id="3_2_c_6_3" value="0" required 
+                                            <div>3_2_c_6_3<input type="text" name="3_2_c_6_3" id="3_2_c_6_3" value="0" readonly 
                                                     class="form-control" /></div>
-                                            <div>3_2_c_6_4<input type="text" name="3_2_c_6_4" id="3_2_c_6_4" value="0" required 
+                                            <div>3_2_c_6_4<input type="text" name="3_2_c_6_4" id="3_2_c_6_4" value="0" readonly 
                                                     class="form-control" /></div>
                                         </td>
                                         <td>
@@ -531,13 +531,13 @@ include('query3_2Table3.php');
                                                     class="form-control" /></div>
                                         </td>
                                         <td>
-                                            <div>3_2_d_3_1<input type="text" name="3_2_d_3_1" id="3_2_d_3_1" value="0" required 
+                                            <div>3_2_d_3_1<input type="text" name="3_2_d_3_1" id="3_2_d_3_1" onkeyup="fnmulty('3_2_d_3_1','3_2_d_5_1','3_2_d_6_1');" value="0" required 
                                                     class="form-control" /></div>
-                                            <div>3_2_d_3_2<input type="text" name="3_2_d_3_2" id="3_2_d_3_2" value="0" required 
+                                            <div>3_2_d_3_2<input type="text" name="3_2_d_3_2" id="3_2_d_3_2" onkeyup="fnmulty('3_2_d_3_2','3_2_d_5_2','3_2_d_6_2');" value="0" required 
                                                     class="form-control" /></div>
-                                            <div>3_2_d_3_3<input type="text" name="3_2_d_3_3" id="3_2_d_3_3" value="0" required 
+                                            <div>3_2_d_3_3<input type="text" name="3_2_d_3_3" id="3_2_d_3_3" onkeyup="fnmulty('3_2_d_3_3','3_2_d_5_3','3_2_d_6_3');" value="0" required 
                                                     class="form-control" /></div>
-                                            <div>3_2_d_3_4<input type="text" name="3_2_d_3_4" id="3_2_d_3_4" value="0" required 
+                                            <div>3_2_d_3_4<input type="text" name="3_2_d_3_4" id="3_2_d_3_4" onkeyup="fnmulty('3_2_d_3_4','3_2_d_5_4','3_2_d_6_4');" value="0" required 
                                                     class="form-control" /></div>
                                         </td>
                                         <td>
@@ -551,23 +551,23 @@ include('query3_2Table3.php');
                                                     class="form-control" /></div>
                                         </td>
                                         <td>
-                                            <div>3_2_d_5_1<input type="text" name="3_2_d_5_1" id="3_2_d_5_1" value="0" required 
+                                            <div>3_2_d_5_1<input type="text" name="3_2_d_5_1" id="3_2_d_5_1" onkeyup="fnmulty('3_2_d_3_1','3_2_d_5_1','3_2_d_6_1');" value="0" required 
                                                     class="form-control" /></div>
-                                            <div>3_2_d_5_2<input type="text" name="3_2_d_5_2" id="3_2_d_5_2" value="0" required 
+                                            <div>3_2_d_5_2<input type="text" name="3_2_d_5_2" id="3_2_d_5_2" onkeyup="fnmulty('3_2_d_3_2','3_2_d_5_2','3_2_d_6_2');" value="0" required 
                                                     class="form-control" /></div>
-                                            <div>3_2_d_5_3<input type="text" name="3_2_d_5_3" id="3_2_d_5_3" value="0" required 
+                                            <div>3_2_d_5_3<input type="text" name="3_2_d_5_3" id="3_2_d_5_3" onkeyup="fnmulty('3_2_d_3_3','3_2_d_5_3','3_2_d_6_3');" value="0" required 
                                                     class="form-control" /></div>
-                                            <div>3_2_d_5_4<input type="text" name="3_2_d_5_4" id="3_2_d_5_4" value="0" required 
+                                            <div>3_2_d_5_4<input type="text" name="3_2_d_5_4" id="3_2_d_5_4" onkeyup="fnmulty('3_2_d_3_4','3_2_d_5_4','3_2_d_6_4');" value="0" required 
                                                     class="form-control" /></div>
                                         </td>
                                         <td>
-                                            <div>3_2_d_6_1<input type="text" name="3_2_d_6_1" id="3_2_a_6_1" value="0" required 
+                                            <div>3_2_d_6_1<input type="text" name="3_2_d_6_1" id="3_2_d_6_1" value="0" readonly 
                                                     class="form-control" /></div>
-                                            <div>3_2_d_6_2<input type="text" name="3_2_d_6_2" id="3_2_d_6_2" value="0" required 
+                                            <div>3_2_d_6_2<input type="text" name="3_2_d_6_2" id="3_2_d_6_2" value="0" readonly 
                                                     class="form-control" /></div>
-                                            <div>3_2_d_6_3<input type="text" name="3_2_d_6_3" id="3_2_d_6_3" value="0" required 
+                                            <div>3_2_d_6_3<input type="text" name="3_2_d_6_3" id="3_2_d_6_3" value="0" readonly 
                                                     class="form-control" /></div>
-                                            <div>3_2_d_6_4<input type="text" name="3_2_d_6_4" id="3_2_d_6_4" value="0" required 
+                                            <div>3_2_d_6_4<input type="text" name="3_2_d_6_4" id="3_2_d_6_4" value="0" readonly 
                                                     class="form-control" /></div>
                                         </td>
                                         <td>
@@ -717,10 +717,10 @@ id="3_2_d_7_1_6_oth" class="form-control" /> </div>
 	</td>
 	<td>
 		<div>KG</div>
-		<div>3_2_a_9_1<input type="text" name="3_2_a_3_1" id="3_2_a_9_1" value="0" required  class="form-control" /></div>
-		<div>3_2_a_9_2<input type="text" name="3_2_a_3_2" id="3_2_a_9_2" value="0" required  class="form-control" /></div>
-		<div>3_2_a_9_3<input type="text" name="3_2_a_3_3" id="3_2_a_9_3" value="0" required  class="form-control" /></div>
-		<div>3_2_a_9_4<input type="text" name="3_2_a_3_4" id="3_2_a_9_4" value="0" required  class="form-control" /></div>
+		<div>3_2_a_9_1<input type="text" name="3_2_a_9_1" id="3_2_a_9_1" onkeyup="fnmulty('3_2_a_9_1','3_2_a_11_1','3_2_a_12_1');" value="0" required  class="form-control" /></div>
+		<div>3_2_a_9_2<input type="text" name="3_2_a_9_2" id="3_2_a_9_2" onkeyup="fnmulty('3_2_a_9_2','3_2_a_11_2','3_2_a_12_2');"  value="0" required  class="form-control" /></div>
+		<div>3_2_a_9_3<input type="text" name="3_2_a_9_3" id="3_2_a_9_3" onkeyup="fnmulty('3_2_a_9_3','3_2_a_11_3','3_2_a_12_3');" value="0" required  class="form-control" /></div>
+		<div>3_2_a_9_4<input type="text" name="3_2_a_9_4" id="3_2_a_9_4" onkeyup="fnmulty('3_2_a_9_4','3_2_a_11_4','3_2_a_12_4');" value="0" required  class="form-control" /></div>
 	</td>
 	<td>
 		<div>Acres</div>
@@ -731,17 +731,17 @@ id="3_2_d_7_1_6_oth" class="form-control" /> </div>
 	</td>
 	<td>
 		<div>Rs/Kg</div>
-		<div>3_2_a_11_1<input type="text" name="3_2_a_11_1" id="3_2_a_11_1" value="0" required  class="form-control" /></div>
-		<div>3_2_a_11_2<input type="text" name="3_2_a_11_2" id="3_2_a_11_2" value="0" required  class="form-control" /></div>
-		<div>3_2_a_11_3<input type="text" name="3_2_a_11_3" id="3_2_a_11_3" value="0" required  class="form-control" /></div>
-		<div>3_2_a_11_4<input type="text" name="3_2_a_11_4" id="3_2_a_11_4" value="0" required  class="form-control" /></div>
+		<div>3_2_a_11_1<input type="text" name="3_2_a_11_1" id="3_2_a_11_1" onkeyup="fnmulty('3_2_a_9_1','3_2_a_11_1','3_2_a_12_1');"  value="0" required  class="form-control" /></div>
+		<div>3_2_a_11_2<input type="text" name="3_2_a_11_2" id="3_2_a_11_2" onkeyup="fnmulty('3_2_a_9_2','3_2_a_11_2','3_2_a_12_2');" value="0" required  class="form-control" /></div>
+		<div>3_2_a_11_3<input type="text" name="3_2_a_11_3" id="3_2_a_11_3" onkeyup="fnmulty('3_2_a_9_3','3_2_a_11_3','3_2_a_12_3');" value="0" required  class="form-control" /></div>
+		<div>3_2_a_11_4<input type="text" name="3_2_a_11_4" id="3_2_a_11_4" onkeyup="fnmulty('3_2_a_9_4','3_2_a_11_4','3_2_a_12_4');" value="0" required  class="form-control" /></div>
 	</td>
 	<td>
 		<div>Rs/Kg</div>
-		<div>3_2_a_12_1<input type="text" name="3_2_a_12_1" id="3_2_a_12_1" value="0" required  class="form-control" /></div>
-		<div>3_2_a_12_2<input type="text" name="3_2_a_12_2" id="3_2_a_12_2" value="0" required  class="form-control" /></div>
-		<div>3_2_a_12_3<input type="text" name="3_2_a_12_3" id="3_2_a_12_3" value="0" required  class="form-control" /></div>
-		<div>3_2_a_12_4<input type="text" name="3_2_a_12_4" id="3_2_a_12_4" value="0" required  class="form-control" /></div>
+		<div>3_2_a_12_1<input type="text" name="3_2_a_12_1" id="3_2_a_12_1" readonly value="0" class="form-control" /></div>
+		<div>3_2_a_12_2<input type="text" name="3_2_a_12_2" id="3_2_a_12_2" readonly value="0" class="form-control" /></div>
+		<div>3_2_a_12_3<input type="text" name="3_2_a_12_3" id="3_2_a_12_3" readonly value="0" class="form-control" /></div>
+		<div>3_2_a_12_4<input type="text" name="3_2_a_12_4" id="3_2_a_12_4" readonly value="0" class="form-control" /></div>
 	</td>
 	<td>
 		<div class="form-group">1
@@ -797,10 +797,10 @@ id="3_2_d_7_1_6_oth" class="form-control" /> </div>
 		<div>3_2_b_8_4<input type="text" name="3_2_b_8_4" id="3_2_b_8_4" class="form-control" /></div>
 	</td>
 	<td>
-		<div>3_2_b_9_1<input type="text" name="3_2_b_9_1" id="3_2_b_9_1" value="0" required  class="form-control" /></div>
-		<div>3_2_b_9_2<input type="text" name="3_2_b_9_2" id="3_2_b_9_2" value="0" required  class="form-control" /></div>
-		<div>3_2_b_9_3<input type="text" name="3_2_b_9_3" id="3_2_b_9_3" value="0" required  class="form-control" /></div>
-		<div>3_2_b_9_4<input type="text" name="3_2_b_9_4" id="3_2_b_9_4" value="0" required  class="form-control" /></div>
+		<div>3_2_b_9_1<input type="text" name="3_2_b_9_1" id="3_2_b_9_1" onkeyup="fnmulty('3_2_b_9_1','3_2_b_11_1','3_2_b_12_1');"  value="0" required  class="form-control" /></div>
+		<div>3_2_b_9_2<input type="text" name="3_2_b_9_2" id="3_2_b_9_2" onkeyup="fnmulty('3_2_b_9_2','3_2_b_11_2','3_2_b_12_2');"  value="0" required  class="form-control" /></div>
+		<div>3_2_b_9_3<input type="text" name="3_2_b_9_3" id="3_2_b_9_3"  onkeyup="fnmulty('3_2_b_9_3','3_2_b_11_3','3_2_b_12_3');" value="0" required  class="form-control" /></div>
+		<div>3_2_b_9_4<input type="text" name="3_2_b_9_4" id="3_2_b_9_4"  onkeyup="fnmulty('3_2_b_9_4','3_2_b_11_4','3_2_b_12_4');" value="0" required  class="form-control" /></div>
 	</td>
 	<td>
 		<div>3_2_b_10_1<input type="text" name="3_2_b_10_1" id="3_2_b_10_1" value="0" required  class="form-control" /></div>
@@ -809,16 +809,16 @@ id="3_2_d_7_1_6_oth" class="form-control" /> </div>
 		<div>3_2_b_10_4<input type="text" name="3_2_b_10_4" id="3_2_b_10_4" value="0" required  class="form-control" /></div>
 	</td>
 	<td>
-		<div>3_2_b_11_1<input type="text" name="3_2_b_11_1" id="3_2_b_11_1" value="0" required  class="form-control" /></div>
-		<div>3_2_b_11_2<input type="text" name="3_2_b_11_2" id="3_2_b_11_2" value="0" required  class="form-control" /></div>
-		<div>3_2_b_11_3<input type="text" name="3_2_b_11_3" id="3_2_b_11_3" value="0" required  class="form-control" /></div>
-		<div>3_2_b_11_4<input type="text" name="3_2_b_11_4" id="3_2_b_11_4" value="0" required  class="form-control" /></div>
+		<div>3_2_b_11_1<input type="text" name="3_2_b_11_1" id="3_2_b_11_1" onkeyup="fnmulty('3_2_b_9_1','3_2_b_11_1','3_2_b_12_1');"  value="0" required  class="form-control" /></div>
+		<div>3_2_b_11_2<input type="text" name="3_2_b_11_2" id="3_2_b_11_2" onkeyup="fnmulty('3_2_b_9_2','3_2_b_11_2','3_2_b_12_2');"  value="0" required  class="form-control" /></div>
+		<div>3_2_b_11_3<input type="text" name="3_2_b_11_3" id="3_2_b_11_3" onkeyup="fnmulty('3_2_b_9_3','3_2_b_11_3','3_2_b_12_3');"  value="0" required  class="form-control" /></div>
+		<div>3_2_b_11_4<input type="text" name="3_2_b_11_4" id="3_2_b_11_4" onkeyup="fnmulty('3_2_b_9_4','3_2_b_11_4','3_2_b_12_4');"  value="0" required  class="form-control" /></div>
 	</td>
 	<td>
-		<div>3_2_b_12_1<input type="text" name="3_2_b_12_1" id="3_2_b_12_1" value="0" required  class="form-control" /></div>
-		<div>3_2_b_12_2<input type="text" name="3_2_b_12_2" id="3_2_b_12_2" value="0" required  class="form-control" /></div>
-		<div>3_2_b_12_3<input type="text" name="3_2_b_12_3" id="3_2_b_12_3" value="0" required  class="form-control" /></div>
-		<div>3_2_b_12_4<input type="text" name="3_2_b_12_4" id="3_2_b_12_4" value="0" required  class="form-control" /></div>
+		<div>3_2_b_12_1<input type="text" name="3_2_b_12_1" id="3_2_b_12_1" readonly value="0" class="form-control" /></div>
+		<div>3_2_b_12_2<input type="text" name="3_2_b_12_2" id="3_2_b_12_2" readonly value="0" class="form-control" /></div>
+		<div>3_2_b_12_3<input type="text" name="3_2_b_12_3" id="3_2_b_12_3"  readonly value="0" class="form-control" /></div>
+		<div>3_2_b_12_4<input type="text" name="3_2_b_12_4" id="3_2_b_12_4"readonly value="0" class="form-control" /></div>
 	</td>
 	<td>
 		<div class="form-group">1
@@ -875,10 +875,10 @@ id="3_2_d_7_1_6_oth" class="form-control" /> </div>
 		<div>3_2_c_8_4<input type="text" name="3_2_c_8_4" id="3_2_c_8_4" class="form-control" /></div>
 	</td>
 	<td>
-		<div>3_2_c_9_1<input type="text" name="3_2_c_9_1" id="3_2_c_9_1" value="0" required  class="form-control" /></div>
-		<div>3_2_c_9_2<input type="text" name="3_2_c_9_2" id="3_2_c_9_2" value="0" required  class="form-control" /></div>
-		<div>3_2_c_9_3<input type="text" name="3_2_c_9_3" id="3_2_c_9_3" value="0" required  class="form-control" /></div>
-		<div>3_2_c_9_4<input type="text" name="3_2_c_9_4" id="3_2_c_9_4" value="0" required  class="form-control" /></div>
+		<div>3_2_c_9_1<input type="text" name="3_2_c_9_1" id="3_2_c_9_1" value="0" onkeyup="fnmulty('3_2_c_9_4','3_2_c_11_4','3_2_c_12_4');"  required  class="form-control" /></div>
+		<div>3_2_c_9_2<input type="text" name="3_2_c_9_2" id="3_2_c_9_2" value="0" onkeyup="fnmulty('3_2_c_9_4','3_2_c_11_4','3_2_c_12_4');"  required  class="form-control" /></div>
+		<div>3_2_c_9_3<input type="text" name="3_2_c_9_3" id="3_2_c_9_3" value="0" onkeyup="fnmulty('3_2_c_9_4','3_2_c_11_4','3_2_c_12_4');"  required  class="form-control" /></div>
+		<div>3_2_c_9_4<input type="text" name="3_2_c_9_4" id="3_2_c_9_4" value="0" onkeyup="fnmulty('3_2_c_9_4','3_2_c_11_4','3_2_c_12_4');"  required  class="form-control" /></div>
 	</td>
 	<td>
 		<div>3_2_c_10_1<input type="text" name="3_2_c_10_1" id="3_2_c_10_1" value="0" required  class="form-control" /></div>
@@ -887,16 +887,16 @@ id="3_2_d_7_1_6_oth" class="form-control" /> </div>
 		<div>3_2_c_10_4<input type="text" name="3_2_c_10_4" id="3_2_c_10_4" value="0" required  class="form-control" /></div>
 	</td>
 	<td>
-		<div>3_2_c_11_1<input type="text" name="3_2_b_11_1" id="3_2_b_11_1" value="0" required  class="form-control" /></div>
-		<div>3_2_c_11_2<input type="text" name="3_2_b_11_2" id="3_2_b_11_2" value="0" required  class="form-control" /></div>
-		<div>3_2_c_11_3<input type="text" name="3_2_b_11_3" id="3_2_b_11_3" value="0" required  class="form-control" /></div>
-		<div>3_2_c_11_4<input type="text" name="3_2_b_11_4" id="3_2_b_11_4" value="0" required  class="form-control" /></div>
+		<div>3_2_c_11_1<input type="text" name="3_2_b_11_1" id="3_2_b_11_1" value="0" onkeyup="fnmulty('3_2_c_9_4','3_2_c_11_4','3_2_c_12_4');"  required  class="form-control" /></div>
+		<div>3_2_c_11_2<input type="text" name="3_2_b_11_2" id="3_2_b_11_2" value="0" onkeyup="fnmulty('3_2_c_9_4','3_2_c_11_4','3_2_c_12_4');"  required  class="form-control" /></div>
+		<div>3_2_c_11_3<input type="text" name="3_2_b_11_3" id="3_2_b_11_3" value="0" onkeyup="fnmulty('3_2_c_9_4','3_2_c_11_4','3_2_c_12_4');"  required  class="form-control" /></div>
+		<div>3_2_c_11_4<input type="text" name="3_2_b_11_4" id="3_2_b_11_4" value="0" onkeyup="fnmulty('3_2_c_9_4','3_2_c_11_4','3_2_c_12_4');"  required  class="form-control" /></div>
 	</td>
 	<td>
-		<div>3_2_c_12_1<input type="text" name="3_2_c_12_1" id="3_2_c_12_1" value="0" required  class="form-control" /></div>
-		<div>3_2_c_12_2<input type="text" name="3_2_c_12_2" id="3_2_c_12_2" value="0" required  class="form-control" /></div>
-		<div>3_2_c_12_3<input type="text" name="3_2_c_12_3" id="3_2_c_12_3" value="0" required  class="form-control" /></div>
-		<div>3_2_c_12_4<input type="text" name="3_2_c_12_4" id="3_2_c_12_4" value="0" required  class="form-control" /></div>
+		<div>3_2_c_12_1<input type="text" name="3_2_c_12_1" id="3_2_c_12_1" readonly value="0" class="form-control" /></div>
+		<div>3_2_c_12_2<input type="text" name="3_2_c_12_2" id="3_2_c_12_2" readonly value="0" class="form-control" /></div>
+		<div>3_2_c_12_3<input type="text" name="3_2_c_12_3" id="3_2_c_12_3" readonly value="0" class="form-control" /></div>
+		<div>3_2_c_12_4<input type="text" name="3_2_c_12_4" id="3_2_c_12_4" readonly value="0" class="form-control" /></div>
 	</td>
 	<td>
 		<div class="form-group">1c
@@ -949,10 +949,10 @@ id="3_2_d_7_1_6_oth" class="form-control" /> </div>
 		<div>3_2_d_8_4<input type="text" name="3_2_d_8_4" id="3_2_d_8_4"  class="form-control" /></div>
 	</td>
 	<td>
-		<div>3_2_d_9_1<input type="text" name="3_2_d_9_1" id="3_2_d_9_1" value="0" required  class="form-control" /></div>
-		<div>3_2_d_9_2<input type="text" name="3_2_d_9_2" id="3_2_d_9_2" value="0" required  class="form-control" /></div>
-		<div>3_2_d_9_3<input type="text" name="3_2_d_9_3" id="3_2_d_9_3" value="0" required  class="form-control" /></div>
-		<div>3_2_d_9_4<input type="text" name="3_2_d_9_4" id="3_2_d_9_4" value="0" required  class="form-control" /></div>
+		<div>3_2_d_9_1<input type="text" name="3_2_d_9_1" id="3_2_d_9_1" value="0" onkeyup="fnmulty('3_2_d_9_1','3_2_d_11_1','3_2_d_12_1');"  required  class="form-control" /></div>
+		<div>3_2_d_9_2<input type="text" name="3_2_d_9_2" id="3_2_d_9_2" value="0" onkeyup="fnmulty('3_2_d_9_2','3_2_d_11_2','3_2_d_12_2');"  required  class="form-control" /></div>
+		<div>3_2_d_9_3<input type="text" name="3_2_d_9_3" id="3_2_d_9_3" value="0" onkeyup="fnmulty('3_2_d_9_3','3_2_d_11_3','3_2_d_12_3');" required  class="form-control" /></div>
+		<div>3_2_d_9_4<input type="text" name="3_2_d_9_4" id="3_2_d_9_4" value="0" onkeyup="fnmulty('3_2_d_9_4','3_2_d_11_4','3_2_d_12_4');"  required  class="form-control" /></div>
 	</td>
 	<td>
 		<div>3_2_d_10_1<input type="text" name="3_2_d_10_1" id="3_2_d_10_1" value="0" required  class="form-control" /></div>
@@ -961,16 +961,16 @@ id="3_2_d_7_1_6_oth" class="form-control" /> </div>
 		<div>3_2_d_10_4<input type="text" name="3_2_d_10_4" id="3_2_d_10_4" value="0" required  class="form-control" /></div>
 	</td>
 	<td>
-		<div>3_2_d_11_1<input type="text" name="3_2_b_11_1" id="3_2_b_11_1" value="0" required  class="form-control" /></div>
-		<div>3_2_d_11_2<input type="text" name="3_2_b_11_2" id="3_2_b_11_2" value="0" required  class="form-control" /></div>
-		<div>3_2_d_11_3<input type="text" name="3_2_b_11_3" id="3_2_b_11_3" value="0" required  class="form-control" /></div>
-		<div>3_2_d_11_4<input type="text" name="3_2_b_11_4" id="3_2_b_11_4" value="0" required  class="form-control" /></div>
+		<div>3_2_d_11_1<input type="text" name="3_2_d_11_1" id="3_2_d_11_1" onkeyup="fnmulty('3_2_d_9_1','3_2_d_11_1','3_2_d_12_4');" value="0" required  class="form-control" /></div>
+		<div>3_2_d_11_2<input type="text" name="3_2_d_11_2" id="3_2_d_11_2" onkeyup="fnmulty('3_2_d_9_2','3_2_d_11_2','3_2_d_12_2');" value="0" required  class="form-control" /></div>
+		<div>3_2_d_11_3<input type="text" name="3_2_d_11_3" id="3_2_d_11_3" onkeyup="fnmulty('3_2_d_9_3','3_2_d_11_3','3_2_d_12_3');" value="0" required  class="form-control" /></div>
+		<div>3_2_d_11_4<input type="text" name="3_2_d_11_4" id="3_2_d_11_4" onkeyup="fnmulty('3_2_d_9_4','3_2_d_11_4','3_2_d_12_4');"  value="0" required  class="form-control" /></div>
 	</td>
 	<td>
-		<div>3_2_d_12_1<input type="text" name="3_2_d_12_1" id="3_2_d_12_1" value="0" required  class="form-control" /></div>
-		<div>3_2_d_12_2<input type="text" name="3_2_d_12_2" id="3_2_d_12_2" value="0" required  class="form-control" /></div>
-		<div>3_2_d_12_3<input type="text" name="3_2_d_12_3" id="3_2_d_12_3" value="0" required  class="form-control" /></div>
-		<div>3_2_d_12_4<input type="text" name="3_2_d_12_4" id="3_2_d_12_4" value="0" required  class="form-control" /></div>
+		<div>3_2_d_12_1<input type="text" name="3_2_d_12_1" id="3_2_d_12_1" readonly value="0"  class="form-control" /></div>
+		<div>3_2_d_12_2<input type="text" name="3_2_d_12_2" id="3_2_d_12_2" readonly value="0" class="form-control" /></div>
+		<div>3_2_d_12_3<input type="text" name="3_2_d_12_3" id="3_2_d_12_3" readonly value="0" class="form-control" /></div>
+		<div>3_2_d_12_4<input type="text" name="3_2_d_12_4" id="3_2_d_12_4" readonly value="0" class="form-control" /></div>
 	</td>
 	<td>
 		<div class="form-group">1

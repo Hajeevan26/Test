@@ -45,7 +45,7 @@ if(isset($_POST['btnsubmit']) ) {
 
         if ($resultupdatecustomer == 1) 
         {
-           
+            unset($_SESSION['household_id']);
             echo '<script> alert("your data added successfully");window.location.href="index1.php?pg=createsurvey.php";</script>';
            
             // $_SESSION['id'] = $id;
