@@ -162,7 +162,12 @@
                 
             } 
                 ?>
-                
+                <li class="nav-item">
+                    <a href="index1.php?pg=sync.php" class="nav-link">
+                        <i class="nav-icon far fa-circle text-danger"></i>
+                        <p>sync </p>
+                    </a>
+                </li>
                  <li class="nav-item">
                     <a href="logout.php" class="nav-link">
                         <i class="nav-icon far fa-circle text-danger"></i>

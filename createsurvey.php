@@ -155,8 +155,8 @@ else
                 } 
                 else 
                 {
-                    
-                    $id = $user_name+"0001";
+                   // $SUFFIX = '0001 ';
+                    $id = $user_name .'0001';
                 }
             }
                 ?>
