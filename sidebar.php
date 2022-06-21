@@ -159,12 +159,11 @@
                     </a>
                 </li>
                 <?php 
-                
             } 
                 ?>
                 <li class="nav-item">
                     <a href="index1.php?pg=sync.php" class="nav-link">
-                        <i class="nav-icon far fa-circle text-danger"></i>
+                        <i class="nav-icon far fa-circle text-info"></i>
                         <p>sync </p>
                     </a>
                 </li>
