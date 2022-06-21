@@ -57,12 +57,12 @@ if(isset($_POST['btnsubmit']) ) {
 ?>
 <div class="content">
     <div class="container-fluid">
-        <h2>2. Farm information </h2>
+        <h2>2. ගොවිපල තොරතුරු </h2>
         Household number is -<?php echo $household_id; ?>
         <form role="form" action="" method="post">
             <div class="card card-primary">
                 <div class="card-header">
-                b). Farm machinery
+                b). ගොවිපල යන්ත්‍රෝපකරණ
                 </div>
 
                 <div class="card-body">
@@ -70,38 +70,38 @@ if(isset($_POST['btnsubmit']) ) {
                     <div class="row">
                         <div class="col-md-12">
                             <div class="form-group">
-                                <label>2.16. Which of the following farm machinery/assets do you have?</label>
+                                <label>2.16.පහත සඳහන් කුමන ගොවිපල යන්ත්‍රෝපකරණ/වත්කම් ඔබ සතුව තිබේද</label>
                                 <div class="checkbox"><label><input type="checkbox" name="2_16a" id="2_16a"
-                                            value="1">2-wheel tractor</label></div>
+                                            value="1">2- රෝද ට්‍රැක්ටරය</label></div>
                                 <div class="checkbox"><label><input type="checkbox" name="2_16b" id="2_16b"
-                                            value="2">4-wheel tractor
+                                            value="2">4- රෝද ට්‍රැක්ටරය
                                     </label></div>
                                 <div class="checkbox"><label><input type="checkbox" name="2_16c" id="2_16c"
-                                            value="3">Mechanical thresher</label></div>
+                                            value="3">යාන්ත්‍රික තෙරපුම් යන්ත්‍ර</label></div>
                                 <div class="checkbox"><label><input type="checkbox" name="2_16d" id="2_16d"
-                                            value="4">Reaper/ harvester
+                                            value="4">රීපර් / අස්වනු නෙලන යන්ත්‍රය
                                     </label></div>
                                 <div class="checkbox"><label><input type="checkbox" name="2_16e" id="2_16e"
-                                            value="5">Ground tiller
+                                            value="5">බිම් ගොයම් කපන යන්ත්‍ර
                                     </label></div>
                                 <div class="checkbox"><label><input type="checkbox" name="2_16f" id="2_16f"
-                                            value="6">Combined harvester
+                                            value="6">ඒකාබද්ධ අස්වනු නෙලන යන්ත්‍රය
                                     </label></div>
                                     <div class="checkbox"><label><input type="checkbox" name="2_16g" id="2_16g"
-                                            value="7">Sprayers
+                                            value="7">රසායන ඉසින යන්ත්‍ර
                                     </label></div>
                                     <div class="checkbox"><label><input type="checkbox" name="2_16h" id="2_16h"
-                                            value="8">Water pump
+                                            value="8">ජල පොම්පය
                                     </label></div>
                                     <div class="checkbox"><label><input type="checkbox" name="2_16i" id="2_16i"
-                                            value="9">Agro-wells
+                                            value="9">කෘෂි ළිං
                                     </label></div>
                                     <div class="checkbox"><label><input type="checkbox" name="2_16j" id="2_16j"
-                                            value="10" onclick="eDcheckOT('2_16j','2_16f_oth')">Others
+                                            value="10" onclick="eDcheckOT('2_16j','2_16f_oth')">වෙනත්
                                     </label></div>
 
                             </div>
-                            <div class="input-group" id="2_16f_ot"><input type="text" placeholder="other" required name="2_16f_oth" id="2_16f_oth" class="form-control" /></div>
+                            <div class="input-group" id="2_16f_ot"><input type="text" placeholder="වෙනත්" required name="2_16f_oth" id="2_16f_oth" class="form-control" /></div>
 
                         </div>
                         

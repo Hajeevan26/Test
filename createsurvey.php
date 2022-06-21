@@ -5,6 +5,7 @@ if (!isset($_SESSION)) {
 }
 $user_id = $_SESSION['user_id'];
 $role_id = $_SESSION['role_id'];
+$user_name=$_SESSION['user_name'];
 date_default_timezone_set("Asia/Colombo");
 $sql1 = "select household_id from tblsurvey_question where status=0 and interviewer_id='$user_id' order by household_id DESC";
               
@@ -100,13 +101,13 @@ else
     <div class="container-fluid">
 
 
-        <h2>Create Field Survey</h2>
+        <h2>සමීක්ෂණ ප්‍රශ්නාවලිය</h2>
 
         <form role="form" action="" method="post">
             <div class="card card-primary">
                 <div class="card-header">
                     <h4>
-                        <center>The Transition from Conventional to Organic Farming
+                        <center>සාම්ප්‍රදායික ගොවිතැනේ සිට කාබනික ගොවිතැනට සංක්‍රමණය වීම පිලිබඳ ක්ෂේත්‍ර සමීක්ෂණය
                         </center>
                     </h4><br>
                 </div>
@@ -135,9 +136,9 @@ else
                 //Generate Vehicle id automatically-start
             
 
-if (!isset($_SESSION)) {
-    session_start();
-}
+                if (!isset($_SESSION)) {
+                    session_start();
+                }
                 if(isset($_SESSION['household_id'])) {
                     //$sql1 = "select household_id from tblsurvey_question where status=0 order by household_id DESC";
                     $id=$_SESSION['household_id'];
@@ -154,7 +155,8 @@ if (!isset($_SESSION)) {
                 } 
                 else 
                 {
-                    $id = "H001";
+                   // $SUFFIX = '0001 ';
+                    $id = $user_name .'0001';
                 }
             }
                 ?>
@@ -164,7 +166,7 @@ if (!isset($_SESSION)) {
                         </div>
                         <div class="col-md-3">
                             <div class="input-group">
-                                <label>District</label>
+                                <label>දිස්ත්‍රික්කය</label>
                                 <select class="form-control" name="district" id="district" onChange="callScreener1();">
                                     <option value="1">Anuradapura</option>
                                     <option value="2">Polonnaruwa</option>
@@ -178,14 +180,14 @@ if (!isset($_SESSION)) {
                     <div class="row">
                         <div class="col-md-4">
                             <div class="input-group">
-                                <label>DS Division</label>
+                                <label>ප්‍රාදේශීය ලේකම් කොට්ඨාශය</label>
                                 <input type="text" required name="ds_division" required id="ds_division"
                                     class="form-control" />
                             </div>
                         </div>
                         <div class="col-md-4">
                             <div class="input-group">
-                                <label> Name of the GN division </label>
+                                <label> ග්‍රාම නිළධාරී කොට්ඨාශය </label>
 
                                 <input type="text" required name="gn_division" required id="gn_division"
                                     class="form-control" />
@@ -194,7 +196,7 @@ if (!isset($_SESSION)) {
                         </div>
                         <div class="col-md-4">
                             <div class="input-group">
-                                <label> Name of the village </label>
+                                <label> ග්‍රාමයේ නම </label>
                                 <input type="text" required name="village" id="village" class="form-control" />
                                 <font color="red">
                                     <div id="tperrormsg"></div>
@@ -208,39 +210,39 @@ if (!isset($_SESSION)) {
                     <div class="row">
                         <div class="col-md-3">
                             <div class="input-group">
-                                <label> Controlled sample </label>
+                                <label> පාලිත නියැදිය </label>
                                 <select class="form-control  col-4" name="control_sample" id="control_sample">
-                                    <option value="1">Yes</option>
-                                    <option value="2">No</option>
+                                    <option value="1">ඔව්</option>
+                                    <option value="2">නැත</option>
                                 </select>
                             </div>
                         </div>
                         <div class="col-md-3">
                             <div class="input-group">
-                                <label> Treated sample </label>
+                                <label> ප්‍රතිකාර කළ නියැදිය </label>
                                 <select class="form-control col-4" name="treated_sample" id="treated_sample">
-                                    <option value="1">Yes</option>
-                                    <option value="2">No</option>
+                                    <option value="1">ඔව්</option>
+                                    <option value="2">නැත</option>
                                 </select>
                             </div>
                         </div>
 
                         <div class="col-md-3">
                             <div class="input-group">
-                                <label> Organic Farmers </label>
+                                <label> කාබනික ගොවියා</label>
                                 <select class="form-control col-4" name="organic_farmers" id="organic_farmers">
-                                    <option value="1">Yes</option>
-                                    <option value="2">No</option>
+                                    <option value="1">ඔව්</option>
+                                    <option value="2">නැත</option>
                                 </select>
                             </div>
                         </div>
                         <div class="col-md-3">
                             <div class="input-group">
-                                <label> Conventional Farmers </label>
+                                <label> සාම්ප්‍රදායික ගොවියා </label>
                                 <select class="form-control col-4" name="conventional_farmers"
                                     id="conventional_farmers">
-                                    <option value="1">Yes</option>
-                                    <option value="2">No</option>
+                                    <option value="1">ඔව්</option>
+                                    <option value="2">නැත</option>
                                 </select>
                             </div>
                         </div>
@@ -250,10 +252,10 @@ if (!isset($_SESSION)) {
                         <div class="col-md-4"></div>
                         <div class="col-md-4">
                             <div class="input-group">
-                                <label> Could household be located? </label>
+                                <label> නිවස ස්ථානගත කළ හැකිද?</label>
                                 <select class="form-control" name="hbl" id="hbl" onChange="funhbl();">
-                                    <option value="1">Yes</option>
-                                    <option value="2">No</option>
+                                    <option value="1">ඔව්</option>
+                                    <option value="2">නැත</option>
                                 </select>
                             </div>
                             <div id="loadhblnot">

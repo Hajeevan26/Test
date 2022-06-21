@@ -1,7 +1,7 @@
 <form role="form" action="" method="post">
     <div class="card card-primary">
         <div class="card-header">
-        6.	Decision on conversion into organic farming
+        6.	කාබනික ගොවිතැන බවට පරිවර්තනය කිරීම පිළිබඳ තීරණය
         </div>
 
         <div class="card-body">
@@ -9,30 +9,27 @@
                 <input type="hidden" id="household_id" name="household_id" value="<?php echo $household_id; ?>">
                 <div class="col-md-6">
                     <div class="input-group">
-                        <label>6.1. Do you like organic farming?</label>
+                        <label>6.1. ඔබ කාබනික වගාවට කැමතිද?</label>
                         <select class="form-control" name="6_1" id="6_1">
-                            <option value="1">Yes</option>
-                            <option value="2">No</option>
+                            <option value="1">ඔව්</option>
+                            <option value="2">නැත</option>
                         </select>
                     </div>
                 </div>
                 <div class="col-md-6">
                     <div class="input-group">
-                        <label>6.2. What do you think about the policy decision of the government to become fully
-                            organic suddenly?</label>
+                        <label>6.2. හදිසියේ සම්පූර්ණයෙන්ම කාබනික වීමට රජය ගත් ප්‍රතිපත්තිමය තීරණය ගැන ඔබ මොකද හිතන්නේ?</label>
                         <select class="form-control" name="6_2" id="6_2"  onchange="eDoth(this,5,'6_2_oth')">
-                            <option value="1">It was a good and timely decision
+                            <option value="1">එය හොඳ සහ කාලෝචිත තීරණයක්
                             </option>
-                            <option value="2">It would have become a good decision if it had a long term and
-                                strategic plan
+                            <option value="2">දිගු කාලීන සහ උපාය මාර්ගික සැලැස්මක් තිබුණා නම් එය හොඳ තීරණයක් බවට පත් වෙනවා
                             </option>
-                            <option value="3">It was not a good decision since becoming fully organic cannot
-                                be achieved
+                            <option value="3">සම්පූර්ණයෙන්ම කාබනික බවට පත්වීම සාක්ෂාත් කරගත නොහැකි බැවින් එය හොඳ තීරණයක් නොවේ
                             </option>
-                            <option value="4">It was not a good decision as the yield might drop drastically
+                            <option value="4">අස්වැන්න විශාල ලෙස පහත වැටීමට ඉඩ ඇති බැවින් එය හොඳ තීරණයක් නොවේ
 
                             </option>
-                            <option value="5">Other
+                            <option value="5">වෙනත්
 
                             </option>
 
@@ -56,28 +53,27 @@
 
                 <div class="col-md-6">
                     <div class="input-group">
-                        <label>6.3. Was that government decision influenced on your
-                            cultivation on last Maha season?
+                        <label>6.3. පසුගිය මහ කන්නයේ ඔබේ වගාවට රජයේ එම තීරණය බලපෑවාද?
                         </label>
                         <select class="form-control" name="6_3" id="6_3" onchange="eDoth(this,7,'6_3_oth')">
-                            <option value="1">Yes, I totally converted into organic
+                            <option value="1">ඔව්, මම සම්පූර්ණයෙන්ම කාබනික බවට පරිවර්තනය කළා
                             </option>
-                            <option value="2">Yes, I converted into organic at a certain level
+                            <option value="2">ඔව්, මම එක්තරා මට්ටමක කාබනික බවට පරිවර්තනය කළා
 
                             </option>
-                            <option value="3">No, I was an organic farmer before the ban
+                            <option value="3">නැහැ, මම තහනමට පෙර කාබනික ගොවියෙක්
 
                             </option>
-                            <option value="4">It was not a good decision as the yield might drop drastically
+                            <option value="4">නැත, නමුත් අනාගතයේදී කාබනික බවට පරිවර්තනය කිරීමට මම සලකා බලමි
 
                             </option>
-                            <option value="5">No, but I will consider to convert into organic in future
+                            <option value="5">නැහැ, මම කවදාවත් පරිවර්තනය කරන්නේ නැහැ
 
                             </option>
                             <option value="6">No, I will never convert
 
                             </option>
-                            <option value="7" >Other
+                            <option value="7" >වෙනත්
                             </option>
                         </select>
 
@@ -96,16 +92,16 @@
 <div class="row">
 <div class="col-md-12">
                     <div class="form-group">
-                        <label><u>6.4.Have you received sufficient amounts of fertilizers during last Maha season?</u></label>
-                        <div class="checkbox"><label><input type="checkbox" name="6_4a" id="6_4a" value="1">6.4.	Have you received sufficient amounts of fertilizers during last Maha season?</label> </div>
-                        <div class="checkbox"><label><input type="checkbox" name="6_4b" id="6_4b" value="2">I could not find any inorganic fertilizer during this season; however, I could manage with some inorganic fertilizers I had</label> </div>
-                        <div class="checkbox"><label><input type="checkbox" name="6_4c" id="6_4c" value="3">I paid a huge amount of money than before to buy inorganic fertilizers from some sellers</label> </div>
-                        <div class="checkbox"><label><input type="checkbox" name="6_4d" id="6_4d" value="4">I started my own organic fertilizer production and used them for paddy field</label></div>
-                        <div class="checkbox"><label><input type="checkbox" name="6_4e" id="6_4e"value="5">I bought sufficient amounts of organic fertilizers from sellers</label> </div>
-                        <div class="checkbox"><label><input type="checkbox" name="6_4f" id="6_4f" value="6">I received organic fertilizer free of charge sufficiently</label> </div>
-                        <div class="checkbox"><label><input type="checkbox" name="6_4g" id="6_4g" value="7">I received organic fertilizer free of charge but not sufficient enough</label> </div>
-                        <div class="checkbox"><label><input type="checkbox" name="6_4h" id="6_4h" value="8">Did not apply any fertilizers</label> </div>           
-                        <div class="checkbox"><label><input type="checkbox" name="6_4i" id="6_4i" value="9" onclick="eDcheckOT('6_4i','6_4_oth')">Other</label> </div>
+                        <label><u>6.4.පසුගිය මහ කන්නයේදී ඔබට ප්‍රමාණවත් පොහොර ප්‍රමාණයක් ලැබී තිබේද?</u></label>
+                        <div class="checkbox"><label><input type="checkbox" name="6_4a" id="6_4a" value="1">මේ කන්නයේ අකාබනික පොහොර හොයාගන්න බැරි වුණා</label> </div>
+                        <div class="checkbox"><label><input type="checkbox" name="6_4b" id="6_4b" value="2">මේ කන්නයේ මට කිසිම අකාබනික පොහොරක් හොයාගන්න බැරි වුණා. කෙසේ වෙතත්, මා සතුව තිබූ සමහර අකාබනික පොහොරවලින් මට කළමනාකරණය කළ හැකි විය</label> </div>
+                        <div class="checkbox"><label><input type="checkbox" name="6_4c" id="6_4c" value="3">සමහර වෙළෙන්දන්ගෙන් අකාබනික පොහොර ගන්න කලින්ට වඩා විශාල මුදලක් ගෙව්වා</label> </div>
+                        <div class="checkbox"><label><input type="checkbox" name="6_4d" id="6_4d" value="4">මම මගේම කාබනික පොහොර නිෂ්පාදනය ආරම්භ කර කුඹුරු සඳහා යොදා ගත්තා</label></div>
+                        <div class="checkbox"><label><input type="checkbox" name="6_4e" id="6_4e"value="5">මම වෙළෙන්දන්ගෙන් කාබනික පොහොර ප්‍රමාණවත් ප්‍රමාණයක් මිලදී ගත්තා</label> </div>
+                        <div class="checkbox"><label><input type="checkbox" name="6_4f" id="6_4f" value="6">මට ප්‍රමාණවත් තරම් කාබනික පොහොර නොමිලේ ලැබුණා</label> </div>
+                        <div class="checkbox"><label><input type="checkbox" name="6_4g" id="6_4g" value="7">මට කාබනික පොහොර නොමිලේ ලැබුණත් ප්‍රමාණවත් වුණේ නැහැ</label> </div>
+                        <div class="checkbox"><label><input type="checkbox" name="6_4h" id="6_4h" value="8">පොහොර දැම්මේ නැහැ</label> </div>           
+                        <div class="checkbox"><label><input type="checkbox" name="6_4i" id="6_4i" value="9" onclick="eDcheckOT('6_4i','6_4_oth')">වෙනත්</label> </div>
 
                     </div>
                     <div id="6_4_ot">

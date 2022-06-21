@@ -62,12 +62,12 @@ if(isset($_POST['btnsubmit']) ) {
 ?>
 <div class="content">
     <div class="container-fluid">
-        <h2>4.Debts and credits</h2>
+        <h2>4. ණය සහ බැර</h2>
         Household number is -<?php echo $household_id; ?>
         <form role="form" action="" method="post">
             <div class="widget-header">
                 <h4 class="widget-title">
-                    <center>Loans/ Credit facilities/Services</center>
+                    <center>ණය/ණය පහසුකම්/සේවා</center>
                 </h4>
 
             </div>

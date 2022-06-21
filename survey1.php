@@ -255,7 +255,7 @@ if(isset($_POST['btnsubmit']) ) {
 ?>
 <div class="content">
     <div class="container-fluid">
-        <h2>SECTION 1 - Household Information - <span><?php echo $household_id; ?></span></h2>
+        <h2>කොටස 1 - ගෘහයේ තොරුතුරු - <span><?php echo $household_id; ?></span></h2>
    
         <form role="form" action="" method="post" onload="updateb6()">
             <div class="widget-header">

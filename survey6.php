@@ -61,11 +61,12 @@ if(isset($_POST['btnsubmit']) ) {
 
 ?>
 <div class="content">
+<h2>6. කාබනික ගොවිතැන බවට පරිවර්තනය කිරීම පිළිබඳ තීරණය </h2>
     <div class="container-fluid">Household number is -<?php echo $household_id; ?>
         <form role="form" action="" method="post">
             <div class="widget-header">
                 <h4 class="widget-title">
-                    <center>6.Decision on conversion into organic farming</center>
+                    <center>6. කාබනික ගොවිතැන බවට පරිවර්තනය කිරීම පිළිබඳ තීරණය</center>
                 </h4>
 
             </div>

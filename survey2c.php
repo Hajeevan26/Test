@@ -124,12 +124,12 @@ if(isset($_POST['btnsubmit']) ) {
 ?>
 <div class="content">
     <div class="container-fluid">
-        <h2>need to do later </h2>
+        <h2>2. ගොවිපල තොරතුරු </h2>
         Household number is -<?php echo $household_id; ?>
         <form role="form" action="" method="post">
             <div class="card card-primary">
                 <div class="card-header">
-                    c). Family labour use (2021/2022 Maha season)
+                    c). පවුලේ ශ්‍රම භාවිතය (2021/2022 මහ කන්නය)
                 </div>
 
                 <div class="card-body">
@@ -139,25 +139,25 @@ if(isset($_POST['btnsubmit']) ) {
                             <div class="form-group">
                                 <table class="table table-bordered table-hover">
                                     <tr>
-                                        <th rowspan="2">SN</th>
-                                        <th rowspan="2">2.17.Did any of the household
-                                            members involve in paddy farming
-                                            activities in the last season?
-                                            1;Yes, 2; No</th>
-                                        <th colspan="6">2.18.How much time did they spend (in Average days) </th>
+                                        <th rowspan="2">නිවසේ අනුක්‍රමික අංකය</th>
+                                        <th rowspan="2">2.17.පසුගිය කන්නයේ නිවසේ කිසිවකු හෝ වී 
+                                            ගොවිතැන් කටයුතු සඳහා සම්බන්ධ වූයේද?
+                                            1ඔව්, 2; නැත
+
+                                            </th>
+                                        <th colspan="6">2.18.ඔවුන් කොපමණ කාලයක් ගත කළාද (සාමාන්‍ය දිනවලින්) </th>
                                     </tr>
                                     <tr>
-                                        <th>Inorganic Fertilizer application</th>
-                                        <th>Organic fertilizer application</th>
-                                        <th>Land Preparation</th>
-                                        <th>Chemical application</th>
-                                        <th>Harvest</th>
-                                        <th>Post-harvest
-                                            handling</th>
+                                        <th>අකාබනික පොහොර යෙදීම</th>
+                                        <th>කාබනික පොහොර යෙදීම</th>
+                                        <th>ඉඩම් සකස් කිරීම</th>
+                                        <th>රසායනික යෙදීම</th>
+                                        <th>අස්වනු නෙලීම</th>
+                                        <th>පසු අස්වනු හසුරුව</th>
                                     </tr>
                                     <tr>
                                         <td>1</td>
-                                        <td><div class="input-group"><select class="form-control" name="2_1_7_1" id="2_1_7_1"><option value="1">Yes</option><option value="2">No</option></select></div></td>
+                                        <td><div class="input-group"><select class="form-control" name="2_1_7_1" id="2_1_7_1"><option value="1">ඔව්</option><option value="2">නැත</option></select></div></td>
                                         <td><div class="input-group"><input type="text" required name="2_1_8_1" id="2_1_8_1" class="form-control" /></div></td>
                                         <td><div class="input-group"><input type="text" required name="2_1_9_1" id="2_1_9_1" class="form-control" /></div></td>
                                         <td><div class="input-group"><input type="text" required name="2_1_10_1" id="2_1_10_1" class="form-control" /></div></td>
@@ -168,7 +168,7 @@ if(isset($_POST['btnsubmit']) ) {
                                     <tr>
                                         <td>2</td>
                                         
-                                        <td><div class="input-group"><select class="form-control" name="2_1_7_2" id="2_1_7_2"><option value="1">Yes</option><option value="2">No</option></select></div></td>
+                                        <td><div class="input-group"><select class="form-control" name="2_1_7_2" id="2_1_7_2"><option value="1">ඔව්</option><option value="2">නැත</option></select></div></td>
                                         <td><div class="input-group"><input type="text" required name="2_1_8_2" id="2_1_8_2" class="form-control" /></div></td>
                                         <td><div class="input-group"><input type="text" required name="2_1_9_2" id="2_1_9_2" class="form-control" /></div></td>
                                         <td><div class="input-group"><input type="text" required name="2_1_10_2" id="2_1_10_2" class="form-control" /></div></td>
@@ -178,7 +178,7 @@ if(isset($_POST['btnsubmit']) ) {
                                     </tr>
                                     <tr>
                                         <td>3</td>
-                                        <td><div class="input-group"><select class="form-control" name="2_1_7_3" id="2_1_7_3"><option value="1">Yes</option><option value="2">No</option></select></div></td>
+                                        <td><div class="input-group"><select class="form-control" name="2_1_7_3" id="2_1_7_3"><option value="1">ඔව්</option><option value="2">නැත</option></select></div></td>
                                         <td><div class="input-group"><input type="text" required name="2_1_8_3" id="2_1_8_3" class="form-control" /></div></td>
                                         <td><div class="input-group"><input type="text" required name="2_1_9_3" id="2_1_9_3" class="form-control" /></div></td>
                                         <td><div class="input-group"><input type="text" required name="2_1_10_3" id="2_1_10_3" class="form-control" /></div></td>
@@ -188,7 +188,7 @@ if(isset($_POST['btnsubmit']) ) {
                                     </tr>
                                     <tr>
                                         <td>4</td>
-                                        <td><div class="input-group"><select class="form-control" name="2_1_7_4" id="2_1_7_4"><option value="1">Yes</option><option value="2">No</option></select></div></td>
+                                        <td><div class="input-group"><select class="form-control" name="2_1_7_4" id="2_1_7_4"><option value="1">ඔව්</option><option value="2">නැත</option></select></div></td>
                                         <td><div class="input-group"><input type="text" required name="2_1_8_4" id="2_1_8_4" class="form-control" /></div></td>
                                         <td><div class="input-group"><input type="text" required name="2_1_9_4" id="2_1_9_4" class="form-control" /></div></td>
                                         <td><div class="input-group"><input type="text" required name="2_1_10_4" id="2_1_10_4" class="form-control" /></div></td>
@@ -198,7 +198,7 @@ if(isset($_POST['btnsubmit']) ) {
                                     </tr>
                                     <tr>
                                         <td>5</td>
-                                        <td><div class="input-group"><select class="form-control" name="2_1_7_5" id="2_1_7_5"><option value="1">Yes</option><option value="2">No</option></select></div></td>
+                                        <td><div class="input-group"><select class="form-control" name="2_1_7_5" id="2_1_7_5"><option value="1">ඔව්</option><option value="2">නැත</option></select></div></td>
                                         <td><div class="input-group"><input type="text" required name="2_1_8_5" id="2_1_8_5" class="form-control" /></div></td>
                                         <td><div class="input-group"><input type="text" required name="2_1_9_5" id="2_1_9_5" class="form-control" /></div></td>
                                         <td><div class="input-group"><input type="text" required name="2_1_10_5" id="2_1_10_5" class="form-control" /></div></td>
@@ -208,7 +208,7 @@ if(isset($_POST['btnsubmit']) ) {
                                     </tr>
                                     <tr>
                                         <td>6</td>
-                                        <td><div class="input-group"><select class="form-control" name="2_1_7_6" id="2_1_7_6"><option value="1">Yes</option><option value="2">No</option></select></div></td>
+                                        <td><div class="input-group"><select class="form-control" name="2_1_7_6" id="2_1_7_6"><option value="1">ඔව්</option><option value="2">නැත</option></select></div></td>
                                         <td><div class="input-group"><input type="text" required name="2_1_8_6" id="2_1_8_6" class="form-control" /></div></td>
                                         <td><div class="input-group"><input type="text" required name="2_1_9_6" id="2_1_9_6" class="form-control" /></div></td>
                                         <td><div class="input-group"><input type="text" required name="2_1_10_6" id="2_1_10_6" class="form-control" /></div></td>
@@ -218,7 +218,7 @@ if(isset($_POST['btnsubmit']) ) {
                                     </tr>
                                     <tr>
                                         <td>7</td>
-                                        <td><div class="input-group"><select class="form-control" name="2_1_7_7" id="2_1_7_7"><option value="1">Yes</option><option value="2">No</option></select></div></td>
+                                        <td><div class="input-group"><select class="form-control" name="2_1_7_7" id="2_1_7_7"><option value="1">ඔව්</option><option value="2">නැත</option></select></div></td>
                                         <td><div class="input-group"><input type="text" required name="2_1_8_7" id="2_1_8_7" class="form-control" /></div></td>
                                         <td><div class="input-group"><input type="text" required name="2_1_9_7" id="2_1_9_7" class="form-control" /></div></td>
                                         <td><div class="input-group"><input type="text" required name="2_1_10_7" id="2_1_10_7" class="form-control" /></div></td>
@@ -228,7 +228,7 @@ if(isset($_POST['btnsubmit']) ) {
                                     </tr>
                                     <tr>
                                         <td>8</td>
-                                        <td><div class="input-group"><select class="form-control" name="2_1_7_8" id="2_1_7_8"><option value="1">Yes</option><option value="2">No</option></select></div></td>
+                                        <td><div class="input-group"><select class="form-control" name="2_1_7_8" id="2_1_7_8"><option value="1">ඔව්</option><option value="2">නැත</option></select></div></td>
                                         <td><div class="input-group"><input type="text" required name="2_1_8_8" id="2_1_8_8" class="form-control" /></div></td>
                                         <td><div class="input-group"><input type="text" required name="2_1_9_8" id="2_1_9_8" class="form-control" /></div></td>
                                         <td><div class="input-group"><input type="text" required name="2_1_10_8" id="2_1_10_8" class="form-control" /></div></td>
@@ -238,7 +238,7 @@ if(isset($_POST['btnsubmit']) ) {
                                     </tr>
                                     <tr>
                                         <td>9</td>
-                                        <td><div class="input-group"><select class="form-control" name="2_1_7_9" id="2_1_7_9"><option value="1">Yes</option><option value="2">No</option></select></div></td>
+                                        <td><div class="input-group"><select class="form-control" name="2_1_7_9" id="2_1_7_9"><option value="1">ඔව්</option><option value="2">නැත</option></select></div></td>
                                         <td><div class="input-group"><input type="text" required name="2_1_8_9" id="2_1_8_9" class="form-control" /></div></td>
                                         <td><div class="input-group"><input type="text" required name="2_1_9_9" id="2_1_9_9" class="form-control" /></div></td>
                                         <td><div class="input-group"><input type="text" required name="2_1_10_9" id="2_1_10_9" class="form-control" /></div></td>
@@ -248,7 +248,7 @@ if(isset($_POST['btnsubmit']) ) {
                                     </tr>
                                     <tr>
                                         <td>10</td>
-                                        <td><div class="input-group"><select class="form-control" name="2_1_7_10" id="2_1_7_10"><option value="1">Yes</option><option value="2">No</option></select></div></td>
+                                        <td><div class="input-group"><select class="form-control" name="2_1_7_10" id="2_1_7_10"><option value="1">ඔව්</option><option value="2">නැත</option></select></div></td>
                                         <td><div class="input-group"><input type="text" required name="2_1_8_10" id="2_1_8_10" class="form-control" /></div></td>
                                         <td><div class="input-group"><input type="text" required name="2_1_9_10" id="2_1_9_10" class="form-control" /></div></td>
                                         <td><div class="input-group"><input type="text" required name="2_1_10_10" id="2_1_10_10" class="form-control" /></div></td>

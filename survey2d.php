@@ -73,25 +73,25 @@ if(isset($_POST['btnsubmit']) ) {
 ?>
 <div class="content">
     <div class="container-fluid">
-        <h2>need to do later </h2>
+        <h2>2. ගොවිපල තොරතුරු </h2>
         Household number is -<?php echo $household_id; ?>
         <form role="form" action="" method="post">
             <div class="card card-primary">
                 <div class="card-header">
-                    d). Hired Labour
+                    d).කුලියට ගත් කම්කරු ශ්‍රමිකයන් පිලිබඳ තොරතුරු
                 </div>
 
                 <div class="card-body">
                     <input type="hidden" id="household_id" name="household_id" value="<?php echo $household_id; ?>">
                     <div class="row">
                         <div class="col-md-12">
-                            <label>2.19 Did you hire labours for the field work? </label>
+                            <label>2.19 ඔබ කුඹුරු වැඩ සඳහා කම්කරුවන් කුලියට ගත්තාද? </label>
                             <div class="input-group">
 
                                 <select class="form-control" name="2_19" id="2_19" onchange="updatef2d()">
                                     
-                                    <option value="1">No</option>
-                                    <option value="2">Yes </option>
+                                    <option value="1">ඔව්</option>
+                                    <option value="2">නැත </option>
 
                                 </select>
                             </div>

@@ -79,12 +79,12 @@ if(isset($_POST['btnsubmit']) ) {
 ?>
 <div class="content">
     <div class="container-fluid">
-        <h2>2. Farm information </h2>
+        <h2>2. ගොවිපල තොරතුරු </h2>
         Household number is -<?php echo $household_id; ?>
         <form role="form" action="" method="post">
             <div class="card card-primary">
                 <div class="card-header">
-                    a). Land assets (please put extent in Acres)
+                    a). ඉඩම් වත්කම් (කරුණාකර අක්කර වලින් ප්‍රමාණය දක්වන්න)
                 </div>
 
                 <div class="card-body">

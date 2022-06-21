@@ -45,7 +45,7 @@ if(isset($_POST['btnsubmit']) ) {
 
         if ($resultupdatecustomer == 1) 
         {
-           
+            unset($_SESSION['household_id']);
             echo '<script> alert("your data added successfully");window.location.href="index1.php?pg=createsurvey.php";</script>';
            
             // $_SESSION['id'] = $id;
@@ -55,11 +55,12 @@ if(isset($_POST['btnsubmit']) ) {
 
 ?>
 <div class="content">
+    <h2>8. සෞඛ්‍ය සහ පාරිසරික ගැටළු</h2>
     <div class="container-fluid">Household number is -<?php echo $household_id; ?>
         <form role="form" action="" method="post">
             <div class="widget-header">
                 <h4 class="widget-title">
-                    <center>8. Health and Environmental concerns</center>
+                    <center>8. සෞඛ්‍ය සහ පාරිසරික ගැටළු</center>
                 </h4>
 
             </div>

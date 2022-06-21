@@ -46,19 +46,28 @@
                     </a>
                 </li>
                 <?php 
-         if(isset($_SESSION['household_id'])) 
-         {
+     if(isset($_SESSION['household_id'])) 
+       {
           //$sql1 = "select household_id from tblsurvey_question where status=0 order by household_id DESC";
           $id1=$_SESSION['household_id'];
+         
+           include('connection/config.php');
+           $sql1 = "select household_id from tblsurvey_question where status=0 and household_id='$id1'";
+           
       }
      else
       {
         include('connection/config.php');
-      $sql11 = "select household_id from tblsurvey_question where status=0 limit 1";
-      $result11 = mysqli_query($con, $sql11) or die("error in insert Vehicle Id:" . mysqli_error($con));
-      $row1 = mysqli_fetch_assoc($result11);
-      $id1 = $row1['household_id'];
-         if (isset($id1)) { ?>
+        $sql1 = "select household_id from tblsurvey_question where status=0 limit 1";
+      
+
+      }
+      $result11 = mysqli_query($con, $sql1) or die("error in insert Vehicle Id:" . mysqli_error($con));
+           $row1 = mysqli_fetch_assoc($result11);
+           $id1 = $row1['household_id'];
+       
+         if (isset($id1)) 
+         { ?>
                 <li class="nav-item">
                     <a href="index1.php?pg=survey1.php" class="nav-link">
                         <i class="nav-icon fas fa-th"></i>
@@ -92,7 +101,7 @@
                 <li class="nav-item">
                     <a href="index1.php?pg=survey2c.php" class="nav-link">
                         <i class="nav-icon fas fa-th"></i>
-                        <p> Farm information C unf</p>
+                        <p> Farm information C</p>
                     </a>
                 </li>
                 <li class="nav-item">
@@ -149,8 +158,21 @@
                         <p>8 Health and Environmental </p>
                     </a>
                 </li>
-                <?php } 
-                }?>
+                <?php 
+            } 
+                ?>
+                <li class="nav-item">
+                    <a href="index1.php?pg=sync.php" class="nav-link">
+                        <i class="nav-icon far fa-circle text-info"></i>
+                        <p>sync </p>
+                    </a>
+                </li>
+                 <li class="nav-item">
+                    <a href="logout.php" class="nav-link">
+                        <i class="nav-icon far fa-circle text-danger"></i>
+                        <p>Logout </p>
+                    </a>
+                </li>
         </nav>
         <!-- /.sidebar-menu -->
     </div>

@@ -1,7 +1,7 @@
 <form role="form" action="" method="post">
     <div class="card card-primary">
         <div class="card-header">
-            7. Perception on organic farming
+        8. සෞඛ්‍ය සහ පාරිසරික ගැටළු
         </div>
 
         <div class="card-body">
@@ -10,13 +10,10 @@
 
                 <div class="col-md-4">
                     <div class="input-group">
-                        <label>8_1.Did you observe/Was it inspected any water pollution surrounding your
-                            paddy fields?</label>
+                        <label>8_1.ඔබේ කුඹුරු ආශ්‍රිත ජල දූෂණයක් ඔබ නිරීක්ෂණය කළේද/පරීක්ෂා කළේද?</label>
                         <select class="form-control" name="8_1" id="8_1">
-                            <option value="1">Yes
-                            </option>
-                            <option value="2">No
-                            </option>
+                        <option value="1">ඔව්</option>
+                            <option value="2">නැත</option>
                         </select>
 
                     </div>
@@ -24,29 +21,23 @@
                 </div>
                 <div class="col-md-4">
                     <div class="input-group">
-                        <label>8_2. Did you observe/ was it inspected any nearby wells polluted and water is
-                            not safe to drink?
+                        <label>8_2. 8.2. අවට ළිං අපවිත්‍ර වී ඇති බව සහ ජලය පානය කිරීමට ආරක්ෂිත නොවන බව ඔබ නිරීක්‍ෂණය කළේ/ පරීක්‍ෂා කළේද
                         </label>
                         <select class="form-control" name="8_2" id="8_2">
-                            <option value="1">Yes
-                            </option>
-                            <option value="2">No
-                            </option>
+                        <option value="1">ඔව්</option>
+                            <option value="2">නැත</option>
                         </select>
                     </div>
                 </div>
 
                 <div class="col-md-4">
                     <div class="input-group">
-                        <label>8_3. If yes, do you believe the above pollution is due to heavy usage of chemical
-                            fertilizer/pesticides?
+                        <label>8_3.එසේ නම්, ඉහත දූෂණයට හේතු වී ඇත්තේ අධික ලෙස රසායනික පොහොර/පළිබෝධනාශක භාවිතය නිසා යැයි ඔබ විශ්වාස කරනවාද
 
                         </label>
                         <select class="form-control" name="8_3" id="8_3">
-                            <option value="1">Yes
-                            </option>
-                            <option value="2">No
-                            </option>
+                        <option value="1">ඔව්</option>
+                            <option value="2">නැත</option>
                         </select>
 
 
@@ -63,23 +54,23 @@
             <div class="row">
                 <div class="col-md-4">
                     <div class="input-group">
-                        <label>8_4. If not, what do you think the reason might be? </label>
+                        <label>8_4. එසේ නොවේ නම්, හේතුව කුමක් විය හැකි යැයි ඔබ සිතන්නේද?</label>
 
                         <input type="text" required name="8_4" id="8_4" class="form-control" />
                     </div>
                 </div>
                 <div class="col-md-4">
                     <div class="input-group">
-                        <label>8_5.Do you or your any family member suffer from kidney diseases? </label>
+                        <label>8_5.ඔබ හෝ ඔබගේ පවුලේ කිසිවකු වකුගඩු රෝගයෙන් පෙළෙනවාද</label>
                         <select class="form-control" name="8_5" id="8_5">
-                            <option value="1">Yes</option>
-                            <option value="2">No</option>
+                        <option value="1">ඔව්</option>
+                            <option value="2">නැත</option>
                         </select>
                     </div>
                 </div>
-                <div class="col-md-4">
+                <!-- <div class="col-md-4">
                     <div class="input-group">
-                        <label>8_6.Do you like to produce organic fertilizer by your own?</label>
+                        <label>8_6.පළිබෝධනාශක සහ වකුගඩු හානි අතර සම්බන්ධයක් ඔබ දුටුවාද</label>
                         <select class="form-control" name="8_6" id="8_6">
                             <option value="1">Yes</option>
                             <option value="2">No</option>
@@ -87,32 +78,31 @@
                     </div>
                 </div>
 
-            </div>
+            </div> -->
             <hr>
            
             <hr>
             <div class="row">
                 <div class="col-md-4">
                     <div class="input-group">
-                        <label>8_6.Did you notice any relationship between pesticides and kidney damage?</label>
+                        <label>8_6.පළිබෝධනාශක සහ වකුගඩු හානි අතර සම්බන්ධයක් ඔබ දුටුවාද</label>
                         <select class="form-control" name="6_1" id="6_1">
-                            <option value="1">Yes</option>
-                            <option value="2">No</option>
+                        <option value="1">ඔව්</option>
+                            <option value="2">නැත</option>
                         </select>
                     </div>
                 </div>
                 <div class="col-md-4">
                     <div class="input-group">
-                        <label>8_7.Do you believe transform into organic agriculture would decrease water
-                            pollution and reduce health related concerns of the human?
+                        <label>8_7.කාබනික කෘෂිකර්මාන්තයට පරිවර්තනය වීමෙන් ජල දූෂණය අඩු වන අතර මිනිසාගේ සෞඛ්‍ය සම්බන්ධ ගැටළු අවම වනු ඇතැයි ඔබ විශ්වාස කරනවාද?
 
                         </label>
                         <select class="form-control" name="8_7" id="8_7">
-                            <option value="1">Strongly believe</option>
-                            <option value="2">Moderately believe</option>
-                            <option value="3">No idea</option>
-                            <option value="4">Slightly believe</option>
-                            <option value="5">Not at all believe</option>
+                            <option value="1">දැඩි ලෙස විශ්වාස කරමි</option>
+                            <option value="2">මධ්‍යස්ථව විශ්වාස කරමි</option>
+                            <option value="3">අදහසක් නැහැ</option>
+                            <option value="4">තරමක් විශ්වාස කරමි</option>
+                            <option value="5">කොහෙත්ම විශ්වාස නොකරමි</option>
                         </select>
                     </div>
                 </div>
@@ -124,11 +114,11 @@
               
                 <div class="col-md-6">
                     <div class="input-group">
-                        <label>9. Was the questionnaire completed successfully?
+                        <label>9. ඔබ සමීක්ෂණය සාර්ථකව නිම කළාද?  
                         </label>
                         <select class="form-control" name="9" id="9">
-                            <option value="1">Yes</option>
-                            <option value="2">No</option>
+                            <option value="1">ඔව්</option>
+                            <option value="2">නැත</option>
                         </select>
                     </div>
                 </div>

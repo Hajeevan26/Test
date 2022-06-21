@@ -53,65 +53,49 @@ include('query3_2Table3.php');
 ?>
 <div class="content">
     <div class="container-fluid">
-        <h2>need to do later </h2>
+        <h2>3. වී වගා යෙදවුම් </h2>
         Household number is -<?php echo $household_id; ?>
         <form role="form" action="" method="post">
             <div class="card card-primary">
                 <div class="card-header">
-                    d). Hired Labour
+                3.2. කෘෂි රසායන භාවිතය
                 </div>
 
                 <div class="card-body">
                     <input type="hidden" id="household_id" name="household_id" value="<?php echo $household_id; ?>">
                     <div class="row">
                         <div class="col-md-12">
-                            <label>3.2.1 Did you use agro-chemicals for your paddy cultivation?</label>
+                            <label>3.2.1 ඔබ ඔබේ වී වගාවට කෘෂි රසායන භාවිත කළාද? </label>
                             <div class="input-group">
-                                <select class="form-control" name="3_2_1" id="3_2_1" onchange="funb3_2_1()" >
-                                   
-                                    <option value="1">No</option>
-                                    <option value="2">Yes</option>
+                            <select class="form-control" name="3_2_1" id="3_2_1" onchange="funb3_2_1()" >
+                                    <option value="1">ඔව්</option>
+                                    <option value="2">නැත</option>
                                 </select>
                             </div>
                         </div>
                     </div>
                     <br>
-                    <div id="divid3_2_2" class="row">
+                    <div class="row">
                         <div class="col-md-12">
-                            <label>3_2_2 if yes, what type of Agro-chemicals you used in last 2021/22 Maha season?
+                            <label>3_2_2 ඔව් නම්, ඔබ පසුගිය 2021/22 මහ කන්නයේ භාවිතා කළේ කුමන 
+                                ආකාරයේ කෘෂි රසායන ද
                             </label>
-                            <div class="form-group">
-
-                                <div class="checkbox"><label><input type="checkbox" name="3_2_2a" id="3_2_2a"
-                                            value="1">Weedicides</label> </div>
-                                <div class="checkbox"><label><input type="checkbox" name="3_2_2b" id="3_2_2b"
-                                            value="2">Pesticides</label> </div>
-                                <div class="checkbox"><label><input type="checkbox" name="3_2_2c" id="3_2_2c"
-                                            value="3">Insecticides</label> </div>
-                                <div class="checkbox"><label><input type="checkbox" name="3_2_2d" id="3_2_2d"
-                                            value="4">Farmer association or cooperative</label></div>
-                                <div class="checkbox"> <label><input type="checkbox" name="3_2_2e" id="3_2_2e"
-                                            value="5">None</label> </div>
-                                <div class="checkbox"> <label><input type="checkbox" name="3_2_2f" id="3_2_2f" onclick="eDcheckOT('3_2_2f','3_2_2f_oth')"
-                                            value="5">Other</label> </div>
-                                <div>3_2_2f_oth<input type="text" name="3_2_2f_oth" id="3_2_2f_oth" class="form-control" />
-                                </div>
-                            </div>
+                            
                             <div class="row">
                                 <table class="table table-bordered table-hover">
 
                                     <tr>
-                                        <th> Type of agro-chemical 2021/22</th>
-                                        <th>3.2.3.Amount (Kg/L) </th>
-                                        <th>3.2.4.Area applied (Acres)</th>
-                                        <th>3.2.5.Price per unit (Rs/Kg)</th>
-                                        <th>3.2.6.Total Cost (Rs)</th>
-                                        <th colspan="2">3.2.7.Source (Please use below codes)</th>
+                                        <th> කෘෂි රසායන වර්ගය 2021/22</th>
+                                        <th>3.2.3.ප්‍රමාණය (Kg/L) </th>
+                                        <th>3.2.4.යොදන ලද ප්‍රදේශය (අක්කර)</th>
+                                        <th>3.2.5.ඒකකයකට මිල (රු./කිලෝ)</th>
+                                        <th>3.2.6.මුළු පිරිවැය (රු.)</th>
+                                        <th colspan="2">3.2.7.මූලාශ්‍රය (කරුණාකර පහත කේත භාවිතා කරන්න)</th>
 
                                     </tr>
                                     <tr>
                                         <td>
-                                            <div>Weedicides</div>
+                                            <div>වල්නාශක </div>
                                             <div>3_2_a_1_1<input type="text" name="3_2_a_1_1" id="3_2_a_1_1"
                                                     class="form-control" /></div>
                                             <div>3_2_a_1_2<input type="text" name="3_2_a_1_2" id="3_2_a_1_2"
@@ -168,43 +152,37 @@ include('query3_2Table3.php');
                                         <td>
                                             <div class="form-group">1
                                                 <div class="checkbox"><label><input type="checkbox" name="3_2_a_7_1_1"
-                                                            id="3_2_a_7_1_1" value="1">Retail Shop/ wholesaler</label>
+                                                            id="3_2_a_7_1_1" value="1"> සිල්ලර වෙළඳසැල</label>
                                                 </div>
                                                 <div class="checkbox"><label><input type="checkbox" name="3_2_a_7_1_2"
-                                                            id="3_2_a_7_1_2" value="2">Agrarian Devlopment
-                                                        Centre</label> </div>
+                                                            id="3_2_a_7_1_2" value="2">ගොවිජන සංවර්ධන මධ්‍යස්ථානය</label> </div>
                                                 <div class="checkbox"><label><input type="checkbox" name="3_2_a_7_1_3"
-                                                            id="3_2_a_7_1_3" value="3">Fellow farmer</label> </div>
+                                                            id="3_2_a_7_1_3" value="3"> සෙසු ගොවියා</label> </div>
                                                 <div class="checkbox"><label><input type="checkbox" name="3_2_a_7_1_4"
-                                                            id="3_2_a_7_1_4" value="4">Farmer association or
-                                                        cooperative</label></div>
+                                                            id="3_2_a_7_1_4" value="4">ගොවි සංගමය හෝ සමුපකාරය</label></div>
                                                 <div class="checkbox"><label><input type="checkbox" name="3_2_a_7_1_5"
-                                                            id="3_2_a_7_1_5" value="5">Neighbour</label> </div>
+                                                            id="3_2_a_7_1_5" value="5"> අසල්වැසියා</label> </div>
                                                 <div class="checkbox"><label><input type="checkbox" name="3_2_a_7_1_6" onclick="eDcheckOT('3_2_a_7_1_6','3_2_a_7_1_6_oth')"
-                                                            id="3_2_a_7_1_6" value="6">Other</label> </div>
+                                                            id="3_2_a_7_1_6" value="6"> වෙනත්, සඳහන් කරන්න</label> </div>
 
                                                 <div>3_2_a_7_1_6_oth <input type="text" name="3_2_a_7_1_6_oth"
                                                         id="3_2_a_7_1_6_oth" class="form-control" /> </div>
                                                 <hr>
                                                 <div class="form-group">3
                                                     <div class="checkbox"><label><input type="checkbox"
-                                                                name="3_2_a_7_3_1" id="3_2_a_7_3_1" value="1">Retail
-                                                            Shop/ wholesaler</label> </div>
+                                                                name="3_2_a_7_3_1" id="3_2_a_7_3_1" value="1">සිල්ලර වෙළඳසැල</label> </div>
                                                     <div class="checkbox"><label><input type="checkbox"
-                                                                name="3_2_a_7_3_2" id="3_2_a_7_3_2" value="2">Agrarian
-                                                            Devlopment Centre</label> </div>
+                                                                name="3_2_a_7_3_2" id="3_2_a_7_3_2" value="2">ගොවිජන සංවර්ධන මධ්‍යස්ථානය</label> </div>
                                                     <div class="checkbox"><label><input type="checkbox"
-                                                                name="3_2_a_7_3_3" id="3_2_a_7_3_3" value="3">Fellow
-                                                            farmer</label> </div>
+                                                                name="3_2_a_7_3_3" id="3_2_a_7_3_3" value="3"> සෙසු ගොවියා</label> </div>
                                                     <div class="checkbox"><label><input type="checkbox"
-                                                                name="3_2_a_7_3_4" id="3_2_a_7_3_4" value="4">Farmer
-                                                            association or cooperative</label></div>
+                                                                name="3_2_a_7_3_4" id="3_2_a_7_3_4" value="4">ගොවි සංගමය හෝ සමුපකාරය</label></div>
                                                     <div class="checkbox"><label><input type="checkbox"
                                                                 name="3_2_a_7_3_5" id="3_2_a_7_3_5"
-                                                                value="5">Neighbour</label> </div>
+                                                                value="5">අසල්වැසියා</label> </div>
                                                     <div class="checkbox"><label><input type="checkbox"
                                                                 name="3_2_a_7_3_6" id="3_2_a_7_3_6" onclick="eDcheckOT('3_2_a_7_3_6','3_2_a_7_3_6_oth')"
-                                                                value="6">Other</label> </div>
+                                                                value="6"> වෙනත්, සඳහන් කරන්න</label> </div>
 
                                                     <div>3_2_a_7_3_6_oth <input type="text" name="3_2_a_7_3_6_oth"
                                                             id="3_2_a_7_3_6_oth" class="form-control" /> </div>
@@ -214,43 +192,37 @@ include('query3_2Table3.php');
                                         <td>
                                             <div class="form-group">2
                                                 <div class="checkbox"><label><input type="checkbox" name="3_2_a_7_2_1"
-                                                            id="3_2_a_7_2_1" value="1">Retail Shop/ wholesaler</label>
+                                                            id="3_2_a_7_2_1" value="1"> සිල්ලර වෙළඳසැල</label>
                                                 </div>
                                                 <div class="checkbox"><label><input type="checkbox" name="3_2_a_7_2_2"
-                                                            id="3_2_a_7_2_2" value="2">Agrarian Devlopment
-                                                        Centre</label> </div>
+                                                            id="3_2_a_7_2_2" value="2"> ගොවිජන සංවර්ධන මධ්‍යස්ථානය</label> </div>
                                                 <div class="checkbox"><label><input type="checkbox" name="3_2_a_7_2_3"
-                                                            id="3_2_a_7_2_3" value="3">Fellow farmer</label> </div>
+                                                            id="3_2_a_7_2_3" value="3"> සෙසු ගොවියා</label> </div>
                                                 <div class="checkbox"><label><input type="checkbox" name="3_2_a_7_2_4"
-                                                            id="3_2_a_7_2_4" value="4">Farmer association or
-                                                        cooperative</label></div>
+                                                            id="3_2_a_7_2_4" value="4"> ගොවි සංගමය හෝ සමුපකාරය</label></div>
                                                 <div class="checkbox"><label><input type="checkbox" name="3_2_a_7_2_5"
-                                                            id="3_2_a_7_2_5" value="5">Neighbour</label> </div>
+                                                            id="3_2_a_7_2_5" value="5"> අසල්වැසියා</label> </div>
                                                 <div class="checkbox"><label><input type="checkbox" name="3_2_a_7_2_6" onclick="eDcheckOT('3_2_a_7_2_6','3_2_a_7_2_6_oth')"
-                                                            id="3_2_a_7_2_6" value="6">Other</label> </div>
+                                                            id="3_2_a_7_2_6" value="6"> වෙනත්, සඳහන් කරන්න</label> </div>
 
                                                 <div>3_2_a_7_2_6_oth <input type="text" name="3_2_a_7_2_6_oth"
                                                         id="3_2_a_7_2_6_oth" class="form-control" /> </div>
                                                 <hr>
                                                 <div class="form-group">4
                                                     <div class="checkbox"><label><input type="checkbox"
-                                                                name="3_2_a_7_4_1" id="3_2_a_7_4_1" value="1">Retail
-                                                            Shop/ wholesaler</label> </div>
+                                                                name="3_2_a_7_4_1" id="3_2_a_7_4_1" value="1"> සිල්ලර වෙළඳසැල</label> </div>
                                                     <div class="checkbox"><label><input type="checkbox"
-                                                                name="3_2_a_7_4_2" id="3_2_a_7_4_2" value="2">Agrarian
-                                                            Devlopment Centre</label> </div>
+                                                                name="3_2_a_7_4_2" id="3_2_a_7_4_2" value="2"> ගොවිජන සංවර්ධන මධ්‍යස්ථානය</label> </div>
                                                     <div class="checkbox"><label><input type="checkbox"
-                                                                name="3_2_a_7_4_3" id="3_2_a_7_4_3" value="3">Fellow
-                                                            farmer</label> </div>
+                                                                name="3_2_a_7_4_3" id="3_2_a_7_4_3" value="3"> සෙසු ගොවියා</label> </div>
                                                     <div class="checkbox"><label><input type="checkbox"
-                                                                name="3_2_a_7_4_4" id="3_2_a_7_4_4" value="4">Farmer
-                                                            association or cooperative</label></div>
+                                                                name="3_2_a_7_4_4" id="3_2_a_7_4_4" value="4"> ගොවි සංගමය හෝ සමුපකාරය</label></div>
                                                     <div class="checkbox"><label><input type="checkbox"
                                                                 name="3_2_a_7_4_5" id="3_2_a_7_4_5"
-                                                                value="5">Neighbour</label> </div>
+                                                                value="5"> අසල්වැසියා</label> </div>
                                                     <div class="checkbox"><label><input type="checkbox"
                                                                 name="3_2_a_7_4_6" id="3_2_a_7_4_6" onclick="eDcheckOT('3_2_a_7_4_6','3_2_a_7_4_6_oth')"
-                                                                value="6">Other</label> </div>
+                                                                value="6"> වෙනත්, සඳහන් කරන්න</label> </div>
                                                     <div>3_2_a_7_4_6_oth <input type="text" name="3_2_a_7_4_6_oth"
                                                             id="3_2_a_7_4_6_oth" class="form-control" /> </div>
                                         </td>
@@ -258,7 +230,7 @@ include('query3_2Table3.php');
                                     </tr>
                                     <tr>
                                         <td>
-                                            <div>Pesticides</div>
+                                            <div>පළිබෝධනාශක </div>
                                             <div>3_2_b_1_1<input type="text" name="3_2_b_1_1" id="3_2_b_1_1"
                                                     class="form-control" /></div>
                                             <div>3_2_b_1_2<input type="text" name="3_2_b_1_2" id="3_2_b_1_2"
@@ -312,43 +284,37 @@ include('query3_2Table3.php');
 
                                             <div class="form-group">1
                                                 <div class="checkbox"><label><input type="checkbox" name="3_2_b_7_1_1"
-                                                            id="3_2_b_7_1_1" value="1">Retail Shop/ wholesaler</label>
+                                                            id="3_2_b_7_1_1" value="1"> සිල්ලර වෙළඳසැල</label>
                                                 </div>
                                                 <div class="checkbox"><label><input type="checkbox" name="3_2_b_7_1_2"
-                                                            id="3_2_b_7_1_2" value="2">Agrarian Devlopment
-                                                        Centre</label> </div>
+                                                            id="3_2_b_7_1_2" value="2"> ගොවිජන සංවර්ධන මධ්‍යස්ථානය</label> </div>
                                                 <div class="checkbox"><label><input type="checkbox" name="3_2_b_7_1_3"
-                                                            id="3_2_b_7_1_3" value="3">Fellow farmer</label> </div>
+                                                            id="3_2_b_7_1_3" value="3"> සෙසු ගොවියා</label> </div>
                                                 <div class="checkbox"><label><input type="checkbox" name="3_2_b_7_1_4"
-                                                            id="3_2_b_7_1_4" value="4">Farmer association or
-                                                        cooperative</label></div>
+                                                            id="3_2_b_7_1_4" value="4"> ගොවි සංගමය හෝ සමුපකාරය</label></div>
                                                 <div class="checkbox"><label><input type="checkbox" name="3_2_b_7_1_5"
-                                                            id="3_2_b_7_1_5" value="5">Neighbour</label> </div>
+                                                            id="3_2_b_7_1_5" value="5"> අසල්වැසියා</label> </div>
                                                 <div class="checkbox"><label><input type="checkbox" name="3_2_b_7_1_6" onclick="eDcheckOT('3_2_b_7_1_6','3_2_b_7_1_6_oth')"
-                                                            id="3_2_b_7_1_6" value="6">Other</label> </div>
+                                                            id="3_2_b_7_1_6" value="6"> වෙනත්, සඳහන් කරන්න</label> </div>
 
                                                 <div>3_2_b_7_1_6_oth <input type="text" name="3_2_b_7_1_6_oth"
                                                         id="3_2_b_7_1_6_oth" class="form-control" /> </div>
                                                 <hr>
                                                 <div class="form-group">3
                                                     <div class="checkbox"><label><input type="checkbox"
-                                                                name="3_2_b_7_3_1" id="3_2_b_7_3_1" value="1">Retail
-                                                            Shop/ wholesaler</label> </div>
+                                                                name="3_2_b_7_3_1" id="3_2_b_7_3_1" value="1"> සිල්ලර වෙළඳසැල</label> </div>
                                                     <div class="checkbox"><label><input type="checkbox"
-                                                                name="3_2_b_7_3_2" id="3_2_b_7_3_2" value="2">Agrarian
-                                                            Devlopment Centre</label> </div>
+                                                                name="3_2_b_7_3_2" id="3_2_b_7_3_2" value="2"> ගොවිජන සංවර්ධන මධ්‍යස්ථානය</label> </div>
                                                     <div class="checkbox"><label><input type="checkbox"
-                                                                name="3_2_b_7_3_3" id="3_2_b_7_3_3" value="3">Fellow
-                                                            farmer</label> </div>
+                                                                name="3_2_b_7_3_3" id="3_2_b_7_3_3" value="3"> සෙසු ගොවියා</label> </div>
                                                     <div class="checkbox"><label><input type="checkbox"
-                                                                name="3_2_b_7_3_4" id="3_2_b_7_3_4" value="4">Farmer
-                                                            association or cooperative</label></div>
+                                                                name="3_2_b_7_3_4" id="3_2_b_7_3_4" value="4">  ගොවි සංගමය හෝ සමුපකාරය</label></div>
                                                     <div class="checkbox"><label><input type="checkbox"
                                                                 name="3_2_b_7_3_5" id="3_2_b_7_3_5"
-                                                                value="5">Neighbour</label> </div>
+                                                                value="5"> අසල්වැසියා</label> </div>
                                                     <div class="checkbox"><label><input type="checkbox"
                                                                 name="3_2_b_7_3_6" id="3_2_b_7_3_6"  onclick="eDcheckOT('3_2_b_7_3_6','3_2_b_7_3_6_oth')"
-                                                                value="6">Other</label> </div>
+                                                                value="6"> වෙනත්, සඳහන් කරන්න</label> </div>
 
                                                     <div>3_2_b_7_3_6_oth <input type="text" name="3_2_b_7_3_6_oth"
                                                             id="3_2_b_7_3_6_oth" class="form-control" /> </div>
@@ -356,42 +322,36 @@ include('query3_2Table3.php');
                                         <td>
                                             <div class="form-group">2
                                                 <div class="checkbox"><label><input type="checkbox" name="3_2_b_7_2_1"
-                                                            id="3_2_b_7_2_1" value="1">Retail Shop/ wholesaler</label>
+                                                            id="3_2_b_7_2_1" value="1"> සිල්ලර වෙළඳසැල</label>
                                                 </div>
                                                 <div class="checkbox"><label><input type="checkbox" name="3_2_b_7_2_2"
-                                                            id="3_2_b_7_2_2" value="2">Agrarian Devlopment
-                                                        Centre</label> </div>
+                                                            id="3_2_b_7_2_2" value="2"> ගොවිජන සංවර්ධන මධ්‍යස්ථානය</label> </div>
                                                 <div class="checkbox"><label><input type="checkbox" name="3_2_b_7_2_3"
-                                                            id="3_2_b_7_2_3" value="3">Fellow farmer</label> </div>
+                                                            id="3_2_b_7_2_3" value="3"> සෙසු ගොවියා</label> </div>
                                                 <div class="checkbox"><label><input type="checkbox" name="3_2_b_7_2_4"
-                                                            id="3_2_b_7_2_4" value="4">Farmer association or
-                                                        cooperative</label></div>
+                                                            id="3_2_b_7_2_4" value="4">  ගොවි සංගමය හෝ සමුපකාරය</label></div>
                                                 <div class="checkbox"><label><input type="checkbox" name="3_2_b_7_2_5"
-                                                            id="3_2_b_7_2_5" value="5">Neighbour</label> </div>
+                                                            id="3_2_b_7_2_5" value="5">  අසල්වැසියා</label> </div>
                                                 <div class="checkbox"><label><input type="checkbox" name="3_2_b_7_2_6" onclick="eDcheckOT('3_2_b_7_2_6','3_2_b_7_2_6_oth')"
-                                                            id="3_2_b_7_2_6" value="6">Other</label> </div>
+                                                            id="3_2_b_7_2_6" value="6"> වෙනත්, සඳහන් කරන්න</label> </div>
                                                 <div>3_2_b_7_2_6_oth <input type="text" name="3_2_b_7_2_6_oth" 
                                                         id="3_2_b_7_2_6_oth" class="form-control" /> </div>
                                                 <hr>
                                                 <div class="form-group">4
                                                     <div class="checkbox"><label><input type="checkbox"
-                                                                name="3_2_b_7_4_1" id="3_2_b_7_4_1" value="1">Retail
-                                                            Shop/ wholesaler</label> </div>
+                                                                name="3_2_b_7_4_1" id="3_2_b_7_4_1" value="1">  සිල්ලර වෙළඳසැල</label> </div>
                                                     <div class="checkbox"><label><input type="checkbox"
-                                                                name="3_2_b_7_4_2" id="3_2_b_7_4_2" value="2">Agrarian
-                                                            Devlopment Centre</label> </div>
+                                                                name="3_2_b_7_4_2" id="3_2_b_7_4_2" value="2"> ගොවිජන සංවර්ධන මධ්‍යස්ථානය</label> </div>
                                                     <div class="checkbox"><label><input type="checkbox"
-                                                                name="3_2_b_7_4_3" id="3_2_b_7_4_3" value="3">Fellow
-                                                            farmer</label> </div>
+                                                                name="3_2_b_7_4_3" id="3_2_b_7_4_3" value="3"> සෙසු ගොවියා</label> </div>
                                                     <div class="checkbox"><label><input type="checkbox"
-                                                                name="3_2_b_7_4_4" id="3_2_b_7_4_4" value="4">Farmer
-                                                            association or cooperative</label></div>
+                                                                name="3_2_b_7_4_4" id="3_2_b_7_4_4" value="4">  ගොවි සංගමය හෝ සමුපකාරය</label></div>
                                                     <div class="checkbox"><label><input type="checkbox"
                                                                 name="3_2_b_7_4_5" id="3_2_b_7_4_5"
-                                                                value="5">Neighbour</label> </div>
+                                                                value="5"> අසල්වැසියා</label> </div>
                                                     <div class="checkbox"><label><input type="checkbox"
                                                                 name="3_2_b_7_4_6" id="3_2_b_7_4_6"  onclick="eDcheckOT('3_2_b_7_4_6','3_2_b_7_4_6_oth')"
-                                                                value="6">Other</label> </div>
+                                                                value="6">  වෙනත්, සඳහන් කරන්න</label> </div>
                                                     <div>3_2_b_7_4_6_oth <input type="text" name="3_2_b_7_4_6_oth"
                                                             id="3_2_b_7_4_6_oth" class="form-control" /> </div>
                                         </td>
@@ -399,7 +359,7 @@ include('query3_2Table3.php');
 
                                     <tr>
                                         <td>
-                                            <div>Insecticides</div>
+                                            <div>කෘමිනාශක</div>
                                             <div>3_2_c_1_1<input type="text" name="3_2_c_1_1" id="3_2_c_1_1"
                                                     class="form-control" /></div>
                                             <div>3_2_c_1_2<input type="text" name="3_2_c_1_2" id="3_2_c_1_2"
@@ -452,43 +412,37 @@ include('query3_2Table3.php');
                                         <td>
                                             <div class="form-group">1
                                                 <div class="checkbox"><label><input type="checkbox" name="3_2_c_7_1_1"
-                                                            id="3_2_c_7_1_1" value="1">Retail Shop/ wholesaler</label>
+                                                            id="3_2_c_7_1_1" value="1"> සිල්ලර වෙළඳසැල</label>
                                                 </div>
                                                 <div class="checkbox"><label><input type="checkbox" name="3_2_c_7_1_2"
-                                                            id="3_2_c_7_1_2" value="2">Agrarian Devlopment
-                                                        Centre</label> </div>
+                                                            id="3_2_c_7_1_2" value="2"> ගොවිජන සංවර්ධන මධ්‍යස්ථානය</label> </div>
                                                 <div class="checkbox"><label><input type="checkbox" name="3_2_c_7_1_3"
-                                                            id="3_2_c_7_1_3" value="3">Fellow farmer</label> </div>
+                                                            id="3_2_c_7_1_3" value="3"> සෙසු ගොවියා</label> </div>
                                                 <div class="checkbox"><label><input type="checkbox" name="3_2_c_7_1_4"
-                                                            id="3_2_c_7_1_4" value="4">Farmer association or
-                                                        cooperative</label></div>
+                                                            id="3_2_c_7_1_4" value="4"> ගොවි සංගමය හෝ සමුපකාරය</label></div>
                                                 <div class="checkbox"><label><input type="checkbox" name="3_2_c_7_1_5"
-                                                            id="3_2_c_7_1_5" value="5">Neighbour</label> </div>
+                                                            id="3_2_c_7_1_5" value="5"> අසල්වැසියා</label> </div>
                                                 <div class="checkbox"><label><input type="checkbox" name="3_2_c_7_1_6" onclick="eDcheckOT('3_2_c_7_1_6','3_2_c_7_1_6_oth')"
-                                                            id="3_2_c_7_1_6" value="6">Other</label> </div>
+                                                            id="3_2_c_7_1_6" value="6"> වෙනත්, සඳහන් කරන්න</label> </div>
 
                                                 <div>3_2_c_7_1_6_oth <input type="text" name="3_2_c_7_1_6_oth"
                                                         id="3_2_c_7_1_6_oth" class="form-control" /> </div>
                                                 <hr>
                                                 <div class="form-group">3
                                                     <div class="checkbox"><label><input type="checkbox"
-                                                                name="3_2_c_7_3_1" id="3_2_c_7_3_1" value="1">Retail
-                                                            Shop/ wholesaler</label> </div>
+                                                                name="3_2_c_7_3_1" id="3_2_c_7_3_1" value="1"> සිල්ලර වෙළඳසැල</label> </div>
                                                     <div class="checkbox"><label><input type="checkbox"
-                                                                name="3_2_c_7_3_2" id="3_2_c_7_3_2" value="2">Agrarian
-                                                            Devlopment Centre</label> </div>
+                                                                name="3_2_c_7_3_2" id="3_2_c_7_3_2" value="2"> ගොවිජන සංවර්ධන මධ්‍යස්ථානය</label> </div>
                                                     <div class="checkbox"><label><input type="checkbox"
-                                                                name="3_2_c_7_3_3" id="3_2_c_7_3_3" value="3">Fellow
-                                                            farmer</label> </div>
+                                                                name="3_2_c_7_3_3" id="3_2_c_7_3_3" value="3"> සෙසු ගොවියා</label> </div>
                                                     <div class="checkbox"><label><input type="checkbox"
-                                                                name="3_2_c_7_3_4" id="3_2_c_7_3_4" value="4">Farmer
-                                                            association or cooperative</label></div>
+                                                                name="3_2_c_7_3_4" id="3_2_c_7_3_4" value="4"> ගොවි සංගමය හෝ සමුපකාරය</label></div>
                                                     <div class="checkbox"><label><input type="checkbox"
                                                                 name="3_2_c_7_3_5" id="3_2_c_7_3_5"
-                                                                value="5">Neighbour</label> </div>
+                                                                value="5"> අසල්වැසියා</label> </div>
                                                     <div class="checkbox"><label><input type="checkbox"
                                                                 name="3_2_c_7_3_6" id="3_2_c_7_3_6" onclick="eDcheckOT('3_2_c_7_3_6','3_2_c_7_3_6_oth')"
-                                                                value="6">Other</label> </div>
+                                                                value="6">  වෙනත්, සඳහන් කරන්න</label> </div>
 
                                                     <div>3_2_c_7_3_6_oth <input type="text" name="3_2_c_7_3_6_oth"
                                                             id="3_2_c_7_3_6_oth" class="form-control" /> </div>
@@ -496,49 +450,43 @@ include('query3_2Table3.php');
                                         <td>
                                             <div class="form-group">2
                                                 <div class="checkbox"><label><input type="checkbox" name="3_2_c_7_2_1"
-                                                            id="3_2_c_7_2_1" value="1">Retail Shop/ wholesaler</label>
+                                                            id="3_2_c_7_2_1" value="1"> සිල්ලර වෙළඳසැල</label>
                                                 </div>
                                                 <div class="checkbox"><label><input type="checkbox" name="3_2_c_7_2_2"
-                                                            id="3_2_c_7_2_2" value="2">Agrarian Devlopment
-                                                        Centre</label> </div>
+                                                            id="3_2_c_7_2_2" value="2"> ගොවිජන සංවර්ධන මධ්‍යස්ථානය</label> </div>
                                                 <div class="checkbox"><label><input type="checkbox" name="3_2_c_7_2_3"
-                                                            id="3_2_c_7_2_3" value="3">Fellow farmer</label> </div>
+                                                            id="3_2_c_7_2_3" value="3"> සෙසු ගොවියා</label> </div>
                                                 <div class="checkbox"><label><input type="checkbox" name="3_2_c_7_2_4"
-                                                            id="3_2_c_7_2_4" value="4">Farmer association or
-                                                        cooperative</label></div>
+                                                            id="3_2_c_7_2_4" value="4"> ගොවි සංගමය හෝ සමුපකාරය</label></div>
                                                 <div class="checkbox"><label><input type="checkbox" name="3_2_c_7_2_5"
-                                                            id="3_2_c_7_2_5" value="5">Neighbour</label> </div>
+                                                            id="3_2_c_7_2_5" value="5"> අසල්වැසියා</label> </div>
                                                 <div class="checkbox"><label><input type="checkbox" name="3_2_c_7_2_6" onclick="eDcheckOT('3_2_c_7_2_6','3_2_c_7_2_6_oth')"
-                                                            id="3_2_c_7_2_6" value="6">Other</label> </div>
+                                                            id="3_2_c_7_2_6" value="6"> වෙනත්, සඳහන් කරන්න</label> </div>
                                                 <div>3_2_c_7_2_6_oth <input type="text" name="3_2_c_7_2_6_oth"
                                                         id="3_2_c_7_2_6_oth" class="form-control" /> </div>
                                                 <hr>
                                                 <div class="form-group">4
                                                     <div class="checkbox"><label><input type="checkbox"
-                                                                name="3_2_c_7_4_1" id="3_2_c_7_4_1" value="1">Retail
-                                                            Shop/ wholesaler</label> </div>
+                                                                name="3_2_c_7_4_1" id="3_2_c_7_4_1" value="1"> සිල්ලර වෙළඳසැල</label> </div>
                                                     <div class="checkbox"><label><input type="checkbox"
-                                                                name="3_2_c_7_4_2" id="3_2_c_7_4_2" value="2">Agrarian
-                                                            Devlopment Centre</label> </div>
+                                                                name="3_2_c_7_4_2" id="3_2_c_7_4_2" value="2"> ගොවිජන සංවර්ධන මධ්‍යස්ථානය</label> </div>
                                                     <div class="checkbox"><label><input type="checkbox"
-                                                                name="3_2_c_7_4_3" id="3_2_c_7_4_3" value="3">Fellow
-                                                            farmer</label> </div>
+                                                                name="3_2_c_7_4_3" id="3_2_c_7_4_3" value="3"> සෙසු ගොවියා</label> </div>
                                                     <div class="checkbox"><label><input type="checkbox"
-                                                                name="3_2_c_7_4_4" id="3_2_c_7_4_4" value="4">Farmer
-                                                            association or cooperative</label></div>
+                                                                name="3_2_c_7_4_4" id="3_2_c_7_4_4" value="4">  ගොවි සංගමය හෝ සමුපකාරය</label></div>
                                                     <div class="checkbox"><label><input type="checkbox"
                                                                 name="3_2_c_7_4_5" id="3_2_c_7_4_5"
-                                                                value="5">Neighbour</label> </div>
+                                                                value="5"> අසල්වැසියා</label> </div>
                                                     <div class="checkbox"><label><input type="checkbox"
                                                                 name="3_2_c_7_4_6" id="3_2_c_7_4_6" onclick="eDcheckOT('3_2_c_7_4_6','3_2_c_7_4_6_oth')"
-                                                                value="6">Other</label> </div>
+                                                                value="6"> වෙනත්, සඳහන් කරන්න</label> </div>
                                                     <div>3_2_c_7_4_6_oth <input type="text" name="3_2_c_7_4_6_oth"
                                                             id="3_2_c_7_4_6_oth" class="form-control" /> </div>
                                         </td>
                                     </tr>
                                     <tr>
                                         <td>
-                                            <div>Other</div>
+                                            <div>වෙනත්</div>
                                             <div>3_2_d_1_1<input type="text" name="3_2_d_1_1" id="3_2_d_1_1"
                                                     class="form-control" /></div>
                                             <div>3_2_d_1_2<input type="text" name="3_2_d_1_2" id="3_2_d_1_2"
@@ -591,43 +539,37 @@ include('query3_2Table3.php');
                                         <td>
                                             <div class="form-group">1
                                             <div class="checkbox"><label><input type="checkbox" name="3_2_d_7_1_1"
-	id="3_2_d_7_1_1" value="1">Retail Shop/ wholesaler</label>
-</div>
-<div class="checkbox"><label><input type="checkbox" name="3_2_d_7_1_2"
-id="3_2_d_7_1_2" value="2">Agrarian Devlopment
-Centre</label> </div>
-<div class="checkbox"><label><input type="checkbox" name="3_2_d_7_1_3"
-id="3_2_d_7_1_3" value="3">Fellow farmer</label> </div>
-<div class="checkbox"><label><input type="checkbox" name="3_2_d_7_1_4"
-id="3_2_d_7_1_4" value="4">Farmer association or
-cooperative</label></div>
-<div class="checkbox"><label><input type="checkbox" name="3_2_d_7_1_5"
-id="3_2_d_7_1_5" value="5">Neighbour</label> </div>
-<div class="checkbox"><label><input type="checkbox" name="3_2_d_7_1_6" onclick="eDcheckOT('3_2_d_7_1_6','3_2_d_7_1_6_oth')"
-id="3_2_d_7_1_6" value="6">Other</label> </div>
+                                                    id="3_2_d_7_1_1" value="1"> සිල්ලර වෙළඳසැල</label>
+                                                </div>
+                                                <div class="checkbox"><label><input type="checkbox" name="3_2_d_7_1_2"
+                                                id="3_2_d_7_1_2" value="2"> ගොවිජන සංවර්ධන මධ්‍යස්ථානය</label> </div>
+                                                <div class="checkbox"><label><input type="checkbox" name="3_2_d_7_1_3"
+                                                id="3_2_d_7_1_3" value="3"> සෙසු ගොවියා</label> </div>
+                                                <div class="checkbox"><label><input type="checkbox" name="3_2_d_7_1_4"
+                                                id="3_2_d_7_1_4" value="4"> ගොවි සංගමය හෝ සමුපකාරය</label></div>
+                                                <div class="checkbox"><label><input type="checkbox" name="3_2_d_7_1_5"
+                                                id="3_2_d_7_1_5" value="5"> අසල්වැසියා</label> </div>
+                                                <div class="checkbox"><label><input type="checkbox" name="3_2_d_7_1_6" onclick="eDcheckOT('3_2_d_7_1_6','3_2_d_7_1_6_oth')"
+                                                id="3_2_d_7_1_6" value="6"> වෙනත්, සඳහන් කරන්න</label> </div>
 
-<div>3_2_d_7_1_6_oth <input type="text" name="3_2_d_7_1_6_oth"
-id="3_2_d_7_1_6_oth" class="form-control" /> </div>
+                                                <div>3_2_d_7_1_6_oth <input type="text" name="3_2_d_7_1_6_oth"
+                                                id="3_2_d_7_1_6_oth" class="form-control" /> </div>
                                                 <hr>
                                                 <div class="form-group">3
                                                     <div class="checkbox"><label><input type="checkbox"
-                                                                name="3_2_d_7_3_1" id="3_2_d_7_3_1" value="1">Retail
-                                                            Shop/ wholesaler</label> </div>
+                                                                name="3_2_d_7_3_1" id="3_2_d_7_3_1" value="1"> සිල්ලර වෙළඳසැල</label> </div>
                                                     <div class="checkbox"><label><input type="checkbox"
-                                                                name="3_2_d_7_3_2" id="3_2_d_7_3_2" value="2">Agrarian
-                                                            Devlopment Centre</label> </div>
+                                                                name="3_2_d_7_3_2" id="3_2_d_7_3_2" value="2"> ගොවිජන සංවර්ධන මධ්‍යස්ථානය</label> </div>
                                                     <div class="checkbox"><label><input type="checkbox"
-                                                                name="3_2_d_7_3_3" id="3_2_d_7_3_3" value="3">Fellow
-                                                            farmer</label> </div>
+                                                                name="3_2_d_7_3_3" id="3_2_d_7_3_3" value="3"> සෙසු ගොවියා</label> </div>
                                                     <div class="checkbox"><label><input type="checkbox"
-                                                                name="3_2_d_7_3_4" id="3_2_d_7_3_4" value="4">Farmer
-                                                            association or cooperative</label></div>
+                                                                name="3_2_d_7_3_4" id="3_2_d_7_3_4" value="4">  ගොවි සංගමය හෝ සමුපකාරය</label></div>
                                                     <div class="checkbox"><label><input type="checkbox"
                                                                 name="3_2_d_7_3_5" id="3_2_d_7_3_5"
-                                                                value="5">Neighbour</label> </div>
+                                                                value="5"> අසල්වැසියා</label> </div>
                                                     <div class="checkbox"><label><input type="checkbox"
                                                                 name="3_2_d_7_3_6" id="3_2_d_7_3_6" onclick="eDcheckOT('3_2_d_7_3_6','3_2_d_7_3_6_oth')"
-                                                                value="6">Other</label> </div>
+                                                                value="6"> වෙනත්, සඳහන් කරන්න</label> </div>
 
                                                     <div>3_2_d_7_3_6_oth <input type="text" name="3_2_d_7_3_6_oth"
                                                             id="3_2_d_7_3_6_oth" class="form-control" /> </div>
@@ -635,42 +577,36 @@ id="3_2_d_7_1_6_oth" class="form-control" /> </div>
                                         <td>
                                             <div class="form-group">2
                                                 <div class="checkbox"><label><input type="checkbox" name="3_2_d_7_2_1"
-                                                            id="3_2_d_7_2_1" value="1">Retail Shop/ wholesaler</label>
+                                                            id="3_2_d_7_2_1" value="1"> සිල්ලර වෙළඳසැල</label>
                                                 </div>
                                                 <div class="checkbox"><label><input type="checkbox" name="3_2_d_7_2_2"
-                                                            id="3_2_d_7_2_2" value="2">Agrarian Devlopment
-                                                        Centre</label> </div>
+                                                            id="3_2_d_7_2_2" value="2"> ගොවිජන සංවර්ධන මධ්‍යස්ථානය</label> </div>
                                                 <div class="checkbox"><label><input type="checkbox" name="3_2_d_7_2_3"
-                                                            id="3_2_d_7_2_3" value="3">Fellow farmer</label> </div>
+                                                            id="3_2_d_7_2_3" value="3"> සෙසු ගොවියා</label> </div>
                                                 <div class="checkbox"><label><input type="checkbox" name="3_2_d_7_2_4"
-                                                            id="3_2_d_7_2_4" value="4">Farmer association or
-                                                        cooperative</label></div>
+                                                            id="3_2_d_7_2_4" value="4">  ගොවි සංගමය හෝ සමුපකාරය</label></div>
                                                 <div class="checkbox"><label><input type="checkbox" name="3_2_d_7_2_5"
-                                                            id="3_2_d_7_2_5" value="5">Neighbour</label> </div>
+                                                            id="3_2_d_7_2_5" value="5"> අසල්වැසියා</label> </div>
                                                 <div class="checkbox"><label><input type="checkbox" name="3_2_d_7_2_6" onclick="eDcheckOT('3_2_d_7_2_6','3_2_d_7_2_6_oth')"
-                                                            id="3_2_d_7_2_6" value="6">Other</label> </div>
+                                                            id="3_2_d_7_2_6" value="6">වෙනත්, සඳහන් කරන්න</label> </div>
                                                 <div>3_2_d_7_2_6_oth <input type="text" name="3_2_d_7_2_6_oth"
                                                         id="3_2_d_7_2_6_oth" class="form-control" /> </div>
                                                 <hr>
                                                 <div class="form-group">4
                                                     <div class="checkbox"><label><input type="checkbox"
-                                                                name="3_2_d_7_4_1" id="3_2_d_7_4_1" value="1">Retail
-                                                            Shop/ wholesaler</label> </div>
+                                                                name="3_2_d_7_4_1" id="3_2_d_7_4_1" value="1"> සිල්ලර වෙළඳසැල</label> </div>
                                                     <div class="checkbox"><label><input type="checkbox"
-                                                                name="3_2_d_7_4_2" id="3_2_d_7_4_2" value="2">Agrarian
-                                                            Devlopment Centre</label> </div>
+                                                                name="3_2_d_7_4_2" id="3_2_d_7_4_2" value="2"> ගොවිජන සංවර්ධන මධ්‍යස්ථානය</label> </div>
                                                     <div class="checkbox"><label><input type="checkbox"
-                                                                name="3_2_d_7_4_3" id="3_2_d_7_4_3" value="3">Fellow
-                                                            farmer</label> </div>
+                                                                name="3_2_d_7_4_3" id="3_2_d_7_4_3" value="3"> සෙසු ගොවියා</label> </div>
                                                     <div class="checkbox"><label><input type="checkbox"
-                                                                name="3_2_d_7_4_4" id="3_2_d_7_4_4" value="4">Farmer
-                                                            association or cooperative</label></div>
+                                                                name="3_2_d_7_4_4" id="3_2_d_7_4_4" value="4"> ගොවි සංගමය හෝ සමුපකාරය</label></div>
                                                     <div class="checkbox"><label><input type="checkbox"
                                                                 name="3_2_d_7_4_5" id="3_2_d_7_4_5"
-                                                                value="5">Neighbour</label> </div>
+                                                                value="5"> අසල්වැසියා</label> </div>
                                                     <div class="checkbox"><label><input type="checkbox"
                                                                 name="3_2_d_7_4_6" id="3_2_d_7_4_6"onclick="eDcheckOT('3_2_d_7_4_6','3_2_d_7_4_6_oth')"
-                                                                value="6">Other</label> </div>
+                                                                value="6">වෙනත්, සඳහන් කරන්න</label> </div>
                                                     <div>3_2_d_7_4_6_oth <input type="text" name="3_2_d_7_4_6_oth"
                                                             id="3_2_d_7_4_6_oth" class="form-control" /> </div>
                                         </td>
@@ -685,28 +621,28 @@ id="3_2_d_7_1_6_oth" class="form-control" /> </div>
                             <div class="row">
                                 <table class="table table-bordered table-hover">
                                     <tr>
-                                        <th rowspan="4">3.2.8. Costs incurred with chemical application (without labour
-                                            costs)
+                                        <th rowspan="4">3.2.8. රසායනික යෙදීම් සමඟ දැරූ පිරිවැය (ශ්‍රම පිරිවැය නොමැතිව)
+                                            
                                         </th>
-                                        <th>Reason</th>
-                                        <th>Cost</th>
+                                        <th>හේතුව</th>
+                                        <th>පිරිවැය</th>
                                     </tr>
                                     <tr>
-                                        <td>Fuel for transport fertilizer</td>
+                                        <td> රසායනික යෙදවුම් ප්‍රවාහනය සඳහා ඉන්ධන</td>
                                         <td>
                                             <div>3_2_8_1<input type="text" name="3_2_8_1" id="3_2_8_1"
                                                     class="form-control" />
                                         </td>
                                     </tr>
                                     <tr>
-                                        <td>Cost for spraying machine</td>
+                                        <td>රසායන ඉසින යන්ත්‍රය සඳහා පිරිවැය</td>
                                         <td>
                                             <div>3_2_8_2 <input type="text" name="3_2_8_2" id="3_2_8_2"
                                                     class="form-control" />
                                         </td>
                                     </tr>
                                     <tr>
-                                        <td>Other costs</td>
+                                        <td>වෙනත් වියදම්</td>
                                         <td>
                                             <div>3_2_8_3<input type="text" name="3_2_8_3" id="3_2_8_3"
                                                     class="form-control" />
@@ -718,16 +654,16 @@ id="3_2_d_7_1_6_oth" class="form-control" /> </div>
                                 <table class="table table-bordered table-hover">
 
                                     <tr>
-                                        <th> Type of agro-chemical 2020/21</th>
-                                        <th>3.2.9.Amount (Kg/L) </th>
-                                        <th>3.2.10.Area applied (Acres)</th>
-                                        <th>3.2.11.Price per unit (Rs/Kg)</th>
-                                        <th>3.2.12.Total Cost (Rs)</th>
-                                        <th colspan="2">3.2.13.Source (Please use below codes)</th>
+                                        <th> කෘෂි රසායන වර්ගය 2020/21</th>
+                                        <th>3.2.9.පුමාණය (Kg/L)  </th>
+                                        <th>3.2.10.යොදන ලද ප්‍රදේශය (අක්කර)</th>
+                                        <th>3.2.11.ඒකකයකට මිල (රු./කිලෝ)</th>
+                                        <th>3.2.12.මුළු පිරිවැය (රු.</th>
+                                        <th colspan="2">3.2.13.මූලාශ්‍රය (කරුණාකර පහත කේත භාවිතා කරන්න)</th>
                                     </tr>
                                     <tr>
 	<td>
-		<div>Weedicides</div>
+		<div>වල්නාශක </div>
 		<div>3_2_a_8_1<input type="text" name="3_2_a_8_1" id="3_2_a_8_1" class="form-control" /></div>
 		<div>3_2_a_8_2<input type="text" name="3_2_a_8_2" id="3_2_a_8_2" class="form-control" /></div>
 		<div>3_2_a_8_3<input type="text" name="3_2_a_8_3" id="3_2_a_8_3" class="form-control" /></div>
@@ -763,22 +699,22 @@ id="3_2_d_7_1_6_oth" class="form-control" /> </div>
 	</td>
 	<td>
 		<div class="form-group">1
-			<div class="checkbox"><label><input type="checkbox" name="3_2_a_13_1_1" id="3_2_a_13_1_1" value="1">Retail Shop/ wholesaler</label></div>
-			<div class="checkbox"><label><input type="checkbox" name="3_2_a_13_1_2" id="3_2_a_13_1_2" value="2">Agrarian Devlopment Centre</label> </div>
-			<div class="checkbox"><label><input type="checkbox" name="3_2_a_13_1_3" id="3_2_a_13_1_3" value="3">Fellow farmer</label> </div>
-			<div class="checkbox"><label><input type="checkbox" name="3_2_a_13_1_4" id="3_2_a_13_1_4" value="4">Farmer association or cooperative</label></div>
-			<div class="checkbox"><label><input type="checkbox" name="3_2_a_13_1_5" id="3_2_a_13_1_5" value="5">Neighbour</label> </div>
-			<div class="checkbox"><label><input type="checkbox" name="3_2_a_13_1_6" id="3_2_a_13_1_6" value="6" onclick="eDcheckOT('3_2_a_13_1_6','3_2_a_13_1_6_oth')">Other</label> </div>
+			<div class="checkbox"><label><input type="checkbox" name="3_2_a_13_1_1" id="3_2_a_13_1_1" value="1"> සිල්ලර වෙළඳසැල</label></div>
+			<div class="checkbox"><label><input type="checkbox" name="3_2_a_13_1_2" id="3_2_a_13_1_2" value="2"> ගොවිජන සංවර්ධන මධ්‍යස්ථානය</label> </div>
+			<div class="checkbox"><label><input type="checkbox" name="3_2_a_13_1_3" id="3_2_a_13_1_3" value="3"> සෙසු ගොවියාr</label> </div>
+			<div class="checkbox"><label><input type="checkbox" name="3_2_a_13_1_4" id="3_2_a_13_1_4" value="4"> ගොවි සංගමය හෝ සමුපකාරය</label></div>
+			<div class="checkbox"><label><input type="checkbox" name="3_2_a_13_1_5" id="3_2_a_13_1_5" value="5"> අසල්වැසියා</label> </div>
+			<div class="checkbox"><label><input type="checkbox" name="3_2_a_13_1_6" id="3_2_a_13_1_6" value="6" onclick="eDcheckOT('3_2_a_13_1_6','3_2_a_13_1_6_oth')">වෙනත්, සඳහන් කරන්න</label> </div>
 
 			<div>3_2_a_7_1_6_oth <input type="text" name="3_2_a_13_1_6_oth" id="3_2_a_13_1_6_oth" class="form-control" /> </div>
 			<hr>
 			<div class="form-group">3
-				<div class="checkbox"><label><input type="checkbox" name="3_2_a_13_3_1" id="3_2_a_13_3_1" value="1">Retail Shop/ wholesaler</label> </div>
-				<div class="checkbox"><label><input type="checkbox" name="3_2_a_13_3_2" id="3_2_a_13_3_2" value="2">Agrarian Devlopment Centre</label> </div>
-				<div class="checkbox"><label><input type="checkbox" name="3_2_a_13_3_3" id="3_2_a_13_3_3" value="3">Fellow farmer</label> </div>
-				<div class="checkbox"><label><input type="checkbox" name="3_2_a_13_3_4" id="3_2_a_13_3_4" value="4">Farmer association or cooperative</label></div>
-				<div class="checkbox"><label><input type="checkbox" name="3_2_a_13_3_5" id="3_2_a_13_3_5" value="5">Neighbour</label> </div>
-				<div class="checkbox"><label><input type="checkbox" name="3_2_a_13_3_6" id="3_2_a_13_3_6" value="6" onclick="eDcheckOT('3_2_a_13_3_6','3_2_a_13_3_6_oth')">Other</label> </div>
+				<div class="checkbox"><label><input type="checkbox" name="3_2_a_13_3_1" id="3_2_a_13_3_1" value="1">සිල්ලර වෙළඳසැල</label></div>
+				<div class="checkbox"><label><input type="checkbox" name="3_2_a_13_3_2" id="3_2_a_13_3_2" value="2">ගොවිජන සංවර්ධන මධ්‍යස්ථානය</label> </div>
+				<div class="checkbox"><label><input type="checkbox" name="3_2_a_13_3_3" id="3_2_a_13_3_3" value="3">සෙසු ගොවියාr</label> </div>
+				<div class="checkbox"><label><input type="checkbox" name="3_2_a_13_3_4" id="3_2_a_13_3_4" value="4">ගොවි සංගමය හෝ සමුපකාරය</label></div>
+				<div class="checkbox"><label><input type="checkbox" name="3_2_a_13_3_5" id="3_2_a_13_3_5" value="5">අසල්වැසියා</label> </div>
+				<div class="checkbox"><label><input type="checkbox" name="3_2_a_13_3_6" id="3_2_a_13_3_6" value="6" onclick="eDcheckOT('3_2_a_13_3_6','3_2_a_13_3_6_oth')">වෙනත්, සඳහන් කරන්න</label> </div>
 
 				<div>3_2_a_13_3_6_oth <input type="text" name="3_2_a_13_3_6_oth" id="3_2_a_13_3_6_oth" class="form-control" /> </div>
 
@@ -786,29 +722,29 @@ id="3_2_d_7_1_6_oth" class="form-control" /> </div>
 	</td>
 	<td>
 		<div class="form-group">2
-			<div class="checkbox"><label><input type="checkbox" name="3_2_a_13_2_1" id="3_2_a_13_2_1" value="1">Retail Shop/ wholesaler</label> </div>
-			<div class="checkbox"><label><input type="checkbox" name="3_2_a_13_2_2" id="3_2_a_13_2_2" value="2">Agrarian Devlopment Centre</label> </div>
-			<div class="checkbox"><label><input type="checkbox" name="3_2_a_13_2_3" id="3_2_a_13_2_3" value="3">Fellow farmer</label> </div>
-			<div class="checkbox"><label><input type="checkbox" name="3_2_a_13_2_4" id="3_2_a_13_2_4" value="4">Farmer association or cooperative</label></div>
-			<div class="checkbox"><label><input type="checkbox" name="3_2_a_13_2_5" id="3_2_a_13_2_5" value="5">Neighbour</label> </div>
-			<div class="checkbox"><label><input type="checkbox" name="3_2_a_13_2_6" id="3_2_a_13_2_6" value="6" onclick="eDcheckOT('3_2_a_13_2_6','3_2_a_13_2_6_oth')">Other</label> </div>
+			<div class="checkbox"><label><input type="checkbox" name="3_2_a_13_2_1" id="3_2_a_13_2_1" value="1"> සිල්ලර වෙළඳසැල</label></div>
+			<div class="checkbox"><label><input type="checkbox" name="3_2_a_13_2_2" id="3_2_a_13_2_2" value="2"> ගොවිජන සංවර්ධන මධ්‍යස්ථානය</label> </div>
+			<div class="checkbox"><label><input type="checkbox" name="3_2_a_13_2_3" id="3_2_a_13_2_3" value="3"> සෙසු ගොවියාr</label> </div>
+			<div class="checkbox"><label><input type="checkbox" name="3_2_a_13_2_4" id="3_2_a_13_2_4" value="4"> ගොවි සංගමය හෝ සමුපකාරය</label></div>
+			<div class="checkbox"><label><input type="checkbox" name="3_2_a_13_2_5" id="3_2_a_13_2_5" value="5"> අසල්වැසියා</label> </div>
+			<div class="checkbox"><label><input type="checkbox" name="3_2_a_13_2_6" id="3_2_a_13_2_6" value="6" onclick="eDcheckOT('3_2_a_13_2_6','3_2_a_13_2_6_oth')"> වෙනත්, සඳහන් කරන්න</label> </div>
 
 			<div>3_2_a_13_2_6_oth <input type="text" name="3_2_a_13_2_6_oth" id="3_2_a_13_2_6_oth" class="form-control" /> </div>
 			<hr>
 			<div class="form-group">4
-				<div class="checkbox"><label><input type="checkbox" name="3_2_a_13_4_1" id="3_2_a_13_4_1" value="1">Retail Shop/ wholesaler</label> </div>
-				<div class="checkbox"><label><input type="checkbox" name="3_2_a_13_4_2" id="3_2_a_13_4_2" value="2">Agrarian Devlopment Centre</label> </div>
-				<div class="checkbox"><label><input type="checkbox" name="3_2_a_13_4_3" id="3_2_a_13_4_3" value="3">Fellow farmer</label> </div>
-				<div class="checkbox"><label><input type="checkbox" name="3_2_a_13_4_4" id="3_2_a_13_4_4" value="4">Farmer association or cooperative</label></div>
-				<div class="checkbox"><label><input type="checkbox" name="3_2_a_13_4_5" id="3_2_a_13_4_5" value="5">Neighbour</label> </div> 
-				<div class="checkbox"><label><input type="checkbox" name="3_2_a_13_4_6" id="3_2_a_13_4_6" value="6" onclick="eDcheckOT('3_2_a_13_4_6','3_2_a_13_4_6_oth')">Other</label> </div>
+				<div class="checkbox"><label><input type="checkbox" name="3_2_a_13_4_1" id="3_2_a_13_4_1" value="1">සිල්ලර වෙළඳසැල</label></div>
+				<div class="checkbox"><label><input type="checkbox" name="3_2_a_13_4_2" id="3_2_a_13_4_2" value="2"> ගොවිජන සංවර්ධන මධ්‍යස්ථානය</label> </div>
+				<div class="checkbox"><label><input type="checkbox" name="3_2_a_13_4_3" id="3_2_a_13_4_3" value="3">සෙසු ගොවියාr</label> </div>
+				<div class="checkbox"><label><input type="checkbox" name="3_2_a_13_4_4" id="3_2_a_13_4_4" value="4"> ගොවි සංගමය හෝ සමුපකාරය</label></div>
+				<div class="checkbox"><label><input type="checkbox" name="3_2_a_13_4_5" id="3_2_a_13_4_5" value="5">අසල්වැසියා</label> </div>
+				<div class="checkbox"><label><input type="checkbox" name="3_2_a_13_4_6" id="3_2_a_13_4_6" value="6" onclick="eDcheckOT('3_2_a_13_4_6','3_2_a_13_4_6_oth')">වෙනත්, සඳහන් කරන්න</label> </div>
 				<div>3_2_a_13_4_6_oth <input type="text" name="3_2_a_13_4_6_oth" id="3_2_a_13_4_6_oth" class="form-control" /> </div>
 	</td>
 
 	</tr>
 	<tr>
 	<td>
-		<div>Pesticides</div>
+		<div>පළිබෝධනාශක </div>
 		<div>3_2_b_8_1<input type="text" name="3_2_b_8_1" id="3_2_b_8_1" class="form-control" /></div>
 		<div>3_2_b_8_2<input type="text" name="3_2_b_8_2" id="3_2_b_8_2" class="form-control" /></div>
 		<div>3_2_b_8_3<input type="text" name="3_2_b_8_3" id="3_2_b_8_3" class="form-control" /></div>
@@ -840,22 +776,22 @@ id="3_2_d_7_1_6_oth" class="form-control" /> </div>
 	</td>
 	<td>
 		<div class="form-group">1
-			<div class="checkbox"><label><input type="checkbox" name="3_2_b_13_1_1" id="3_2_b_13_1_1" value="1">Retail Shop/ wholesaler</label></div>
-			<div class="checkbox"><label><input type="checkbox" name="3_2_b_13_1_2" id="3_2_b_13_1_2" value="2">Agrarian Devlopment Centre</label> </div>
-			<div class="checkbox"><label><input type="checkbox" name="3_2_b_13_1_3" id="3_2_b_13_1_3" value="3">Fellow farmer</label> </div>
-			<div class="checkbox"><label><input type="checkbox" name="3_2_b_13_1_4" id="3_2_b_13_1_4" value="4">Farmer association or cooperative</label></div>
-			<div class="checkbox"><label><input type="checkbox" name="3_2_b_13_1_5" id="3_2_b_13_1_5" value="5">Neighbour</label> </div>
-			<div class="checkbox"><label><input type="checkbox" name="3_2_b_13_1_6" id="3_2_b_13_1_6" value="6" onclick="eDcheckOT('3_2_b_13_1_6','3_2_b_13_1_6_oth')">Other</label> </div>
+			<div class="checkbox"><label><input type="checkbox" name="3_2_b_13_1_1" id="3_2_b_13_1_1" value="1">සිල්ලර වෙළඳසැල</label></div>
+			<div class="checkbox"><label><input type="checkbox" name="3_2_b_13_1_2" id="3_2_b_13_1_2" value="2">ගොවිජන සංවර්ධන මධ්‍යස්ථානය</label> </div>
+			<div class="checkbox"><label><input type="checkbox" name="3_2_b_13_1_3" id="3_2_b_13_1_3" value="3">සෙසු ගොවියා</label> </div>
+			<div class="checkbox"><label><input type="checkbox" name="3_2_b_13_1_4" id="3_2_b_13_1_4" value="4"> ගොවි සංගමය හෝ සමුපකාරය</label></div>
+			<div class="checkbox"><label><input type="checkbox" name="3_2_b_13_1_5" id="3_2_b_13_1_5" value="5">අසල්වැසියා</label> </div>
+			<div class="checkbox"><label><input type="checkbox" name="3_2_b_13_1_6" id="3_2_b_13_1_6" value="6" onclick="eDcheckOT('3_2_b_13_1_6','3_2_b_13_1_6_oth')"> වෙනත්, සඳහන් කරන්න</label> </div>
 
 			<div>3_2_b_7_1_6_oth <input type="text" name="3_2_b_13_1_6_oth" id="3_2_b_13_1_6_oth" class="form-control" /> </div>
 			<hr>
 			<div class="form-group">3
-				<div class="checkbox"><label><input type="checkbox" name="3_2_b_13_3_1" id="3_2_b_13_3_1" value="1">Retail Shop/ wholesaler</label> </div>
-				<div class="checkbox"><label><input type="checkbox" name="3_2_b_13_3_2" id="3_2_b_13_3_2" value="2">Agrarian Devlopment Centre</label> </div>
-				<div class="checkbox"><label><input type="checkbox" name="3_2_b_13_3_3" id="3_2_b_13_3_3" value="3">Fellow farmer</label> </div>
-				<div class="checkbox"><label><input type="checkbox" name="3_2_b_13_3_4" id="3_2_b_13_3_4" value="4">Farmer association or cooperative</label></div>
-				<div class="checkbox"><label><input type="checkbox" name="3_2_b_13_3_5" id="3_2_b_13_3_5" value="5">Neighbour</label> </div>
-				<div class="checkbox"><label><input type="checkbox" name="3_2_b_13_3_6" id="3_2_b_13_3_6" value="6" onclick="eDcheckOT('3_2_b_13_3_6','3_2_b_13_3_6_oth')">Other</label> </div>
+				<div class="checkbox"><label><input type="checkbox" name="3_2_b_13_3_1" id="3_2_b_13_3_1" value="1"> සිල්ලර වෙළඳසැල</label></div>
+				<div class="checkbox"><label><input type="checkbox" name="3_2_b_13_3_2" id="3_2_b_13_3_2" value="2"> ගොවිජන සංවර්ධන මධ්‍යස්ථානය</label> </div>
+				<div class="checkbox"><label><input type="checkbox" name="3_2_b_13_3_3" id="3_2_b_13_3_3" value="3"> සෙසු ගොවියා</label> </div>
+				<div class="checkbox"><label><input type="checkbox" name="3_2_b_13_3_4" id="3_2_b_13_3_4" value="4"> ගොවි සංගමය හෝ සමුපකාරය</label></div>
+				<div class="checkbox"><label><input type="checkbox" name="3_2_b_13_3_5" id="3_2_b_13_3_5" value="5"> අසල්වැසියා</label> </div>
+				<div class="checkbox"><label><input type="checkbox" name="3_2_b_13_3_6" id="3_2_b_13_3_6" value="6" onclick="eDcheckOT('3_2_b_13_3_6','3_2_b_13_3_6_oth')"> වෙනත්, සඳහන් කරන්න</label> </div>
 
 				<div>3_2_b_13_3_6_oth <input type="text" name="3_2_b_13_3_6_oth" id="3_2_b_13_3_6_oth" class="form-control" /> </div>
 
@@ -863,22 +799,22 @@ id="3_2_d_7_1_6_oth" class="form-control" /> </div>
 	</td>
 	<td>
 		<div class="form-group">2
-			<div class="checkbox"><label><input type="checkbox" name="3_2_b_13_2_1" id="3_2_b_13_2_1" value="1">Retail Shop/ wholesaler</label> </div>
-			<div class="checkbox"><label><input type="checkbox" name="3_2_b_13_2_2" id="3_2_b_13_2_2" value="2">Agrarian Devlopment Centre</label> </div>
-			<div class="checkbox"><label><input type="checkbox" name="3_2_b_13_2_3" id="3_2_b_13_2_3" value="3">Fellow farmer</label> </div>
-			<div class="checkbox"><label><input type="checkbox" name="3_2_b_13_2_4" id="3_2_b_13_2_4" value="4">Farmer association or cooperative</label></div>
-			<div class="checkbox"><label><input type="checkbox" name="3_2_b_13_2_5" id="3_2_b_13_2_5" value="5">Neighbour</label> </div>
-			<div class="checkbox"><label><input type="checkbox" name="3_2_b_13_2_6" id="3_2_b_13_2_6" value="6" onclick="eDcheckOT('3_2_b_13_2_6','3_2_b_13_2_6_oth')">Other</label> </div>
+			<div class="checkbox"><label><input type="checkbox" name="3_2_b_13_2_1" id="3_2_b_13_2_1" value="1"> සිල්ලර වෙළඳසැල</label></div>
+			<div class="checkbox"><label><input type="checkbox" name="3_2_b_13_2_2" id="3_2_b_13_2_2" value="2"> ගොවිජන සංවර්ධන මධ්‍යස්ථානය</label> </div>
+			<div class="checkbox"><label><input type="checkbox" name="3_2_b_13_2_3" id="3_2_b_13_2_3" value="3"> සෙසු ගොවියා</label> </div>
+			<div class="checkbox"><label><input type="checkbox" name="3_2_b_13_2_4" id="3_2_b_13_2_4" value="4"> ගොවි සංගමය හෝ සමුපකාරය</label></div>
+			<div class="checkbox"><label><input type="checkbox" name="3_2_b_13_2_5" id="3_2_b_13_2_5" value="5"> අසල්වැසියා</label> </div>
+			<div class="checkbox"><label><input type="checkbox" name="3_2_b_13_2_6" id="3_2_b_13_2_6" value="6" onclick="eDcheckOT('3_2_b_13_2_6','3_2_b_13_2_6_oth')">වෙනත්, සඳහන් කරන්න</label> </div>
 
 			<div>3_2_b_13_2_6_oth <input type="text" name="3_2_b_13_2_6_oth" id="3_2_b_13_2_6_oth" class="form-control" /> </div>
 			<hr>
 			<div class="form-group">4
-				<div class="checkbox"><label><input type="checkbox" name="3_2_b_13_4_1" id="3_2_b_13_4_1" value="1">Retail Shop/ wholesaler</label> </div>
-				<div class="checkbox"><label><input type="checkbox" name="3_2_b_13_4_2" id="3_2_b_13_4_2" value="2">Agrarian Devlopment Centre</label> </div>
-				<div class="checkbox"><label><input type="checkbox" name="3_2_b_13_4_3" id="3_2_b_13_4_3" value="3">Fellow farmer</label> </div>
-				<div class="checkbox"><label><input type="checkbox" name="3_2_b_13_4_4" id="3_2_b_13_4_4" value="4">Farmer association or cooperative</label></div>
-				<div class="checkbox"><label><input type="checkbox" name="3_2_b_13_4_5" id="3_2_b_13_4_5" value="5">Neighbour</label> </div> 
-				<div class="checkbox"><label><input type="checkbox" name="3_2_b_13_4_6" id="3_2_b_13_4_6" value="6" onclick="eDcheckOT('3_2_b_13_4_6','3_2_b_13_4_6_oth')">Other</label> </div>
+				<div class="checkbox"><label><input type="checkbox" name="3_2_b_13_4_1" id="3_2_b_13_4_1" value="1">  සිල්ලර වෙළඳසැල</label></div>
+				<div class="checkbox"><label><input type="checkbox" name="3_2_b_13_4_2" id="3_2_b_13_4_2" value="2"> ගොවිජන සංවර්ධන මධ්‍යස්ථානය</label> </div>
+				<div class="checkbox"><label><input type="checkbox" name="3_2_b_13_4_3" id="3_2_b_13_4_3" value="3"> සෙසු ගොවියා</label> </div>
+				<div class="checkbox"><label><input type="checkbox" name="3_2_b_13_4_4" id="3_2_b_13_4_4" value="4">  ගොවි සංගමය හෝ සමුපකාරය</label></div>
+				<div class="checkbox"><label><input type="checkbox" name="3_2_b_13_4_5" id="3_2_b_13_4_5" value="5"> අසල්වැසියා</label> </div>
+				<div class="checkbox"><label><input type="checkbox" name="3_2_b_13_4_6" id="3_2_b_13_4_6" value="6" onclick="eDcheckOT('3_2_b_13_4_6','3_2_b_13_4_6_oth')"> වෙනත්, සඳහන් කරන්න</label> </div>
 				<div>3_2_b_13_4_6_oth <input type="text" name="3_2_b_13_4_6_oth" id="3_2_b_13_4_6_oth" class="form-control" /> </div>
 	</td>
 	</tr>
@@ -886,7 +822,7 @@ id="3_2_d_7_1_6_oth" class="form-control" /> </div>
 	<tr>
 	<!-- c start -->
 	<td>
-		<div>Insecticides</div>
+		<div>කෘමිනාශක</div>
 		<div>3_2_c_8_1<input type="text" name="3_2_c_8_1" id="3_2_c_8_1" class="form-control" /></div>
 		<div>3_2_c_8_2<input type="text" name="3_2_c_8_2" id="3_2_c_8_2" class="form-control" /></div>
 		<div>3_2_c_8_3<input type="text" name="3_2_c_8_3" id="3_2_c_8_3" class="form-control" /></div>
@@ -918,49 +854,49 @@ id="3_2_d_7_1_6_oth" class="form-control" /> </div>
 	</td>
 	<td>
 		<div class="form-group">1c
-                <div class="checkbox"><label><input type="checkbox" name="3_2_c_13_1_1" id="3_2_c_13_1_1" value="1">Retail Shop/ wholesaler</label></div>
-                <div class="checkbox"><label><input type="checkbox" name="3_2_c_13_1_2" id="3_2_c_13_1_2" value="2">Agrarian Devlopment Centre</label> </div>
-                <div class="checkbox"><label><input type="checkbox" name="3_2_c_13_1_3" id="3_2_c_13_1_3" value="3">Fellow farmer</label> </div>
-                <div class="checkbox"><label><input type="checkbox" name="3_2_c_13_1_4" id="3_2_c_13_1_4" value="4">Farmer association or cooperative</label></div>
-                <div class="checkbox"><label><input type="checkbox" name="3_2_c_13_1_5" id="3_2_c_13_1_5" value="5">Neighbour</label> </div>
-                <div class="checkbox"><label><input type="checkbox" name="3_2_c_13_1_6" id="3_2_c_13_1_6" value="6" onclick="eDcheckOT('3_2_c_13_1_6','3_2_c_13_1_6_oth')">Other</label> </div>
+                <div class="checkbox"><label><input type="checkbox" name="3_2_c_13_1_1" id="3_2_c_13_1_1" value="1">  සිල්ලර වෙළඳසැල</label></div>
+                <div class="checkbox"><label><input type="checkbox" name="3_2_c_13_1_2" id="3_2_c_13_1_2" value="2">  ගොවිජන සංවර්ධන මධ්‍යස්ථානය</label> </div>
+                <div class="checkbox"><label><input type="checkbox" name="3_2_c_13_1_3" id="3_2_c_13_1_3" value="3"> සෙසු ගොවියා</label> </div>
+                <div class="checkbox"><label><input type="checkbox" name="3_2_c_13_1_4" id="3_2_c_13_1_4" value="4"> ගොවි සංගමය හෝ සමුපකාරය</label></div>
+                <div class="checkbox"><label><input type="checkbox" name="3_2_c_13_1_5" id="3_2_c_13_1_5" value="5"> අසල්වැසියා</label> </div>
+                <div class="checkbox"><label><input type="checkbox" name="3_2_c_13_1_6" id="3_2_c_13_1_6" value="6" onclick="eDcheckOT('3_2_c_13_1_6','3_2_c_13_1_6_oth')"> වෙනත්, සඳහන් කරන්න</label> </div>
 			<div>3_2_b_13_1_6_oth <input type="text" name="3_2_c_13_1_6_oth" id="3_2_c_13_1_6_oth" class="form-control" /> </div>
 			<hr>
 			<div class="form-group">3
-            <div class="checkbox"><label><input type="checkbox" name="3_2_c_13_3_1" id="3_2_c_13_3_1" value="1">Retail Shop/ wholesaler</label> </div>
-				<div class="checkbox"><label><input type="checkbox" name="3_2_c_13_3_2" id="3_2_c_13_3_2" value="2">Agrarian Devlopment Centre</label> </div>
-				<div class="checkbox"><label><input type="checkbox" name="3_2_c_13_3_3" id="3_2_c_13_3_3" value="3">Fellow farmer</label> </div>
-				<div class="checkbox"><label><input type="checkbox" name="3_2_c_13_3_4" id="3_2_c_13_3_4" value="4">Farmer association or cooperative</label></div>
-				<div class="checkbox"><label><input type="checkbox" name="3_2_c_13_3_5" id="3_2_c_13_3_5" value="5">Neighbour</label> </div>
-				<div class="checkbox"><label><input type="checkbox" name="3_2_c_13_3_6" id="3_2_c_13_3_6" value="6" onclick="eDcheckOT('3_2_c_13_3_6','3_2_c_13_3_6_oth')">Other</label> </div>
+            <div class="checkbox"><label><input type="checkbox" name="3_2_c_13_3_1" id="3_2_c_13_3_1" value="1">  සිල්ලර වෙළඳසැල</label></div>
+				<div class="checkbox"><label><input type="checkbox" name="3_2_c_13_3_2" id="3_2_c_13_3_2" value="2">  ගොවිජන සංවර්ධන මධ්‍යස්ථානය</label> </div>
+				<div class="checkbox"><label><input type="checkbox" name="3_2_c_13_3_3" id="3_2_c_13_3_3" value="3"> සෙසු ගොවියා</label> </div>
+				<div class="checkbox"><label><input type="checkbox" name="3_2_c_13_3_4" id="3_2_c_13_3_4" value="4"> ගොවි සංගමය හෝ සමුපකාරය</label></div>
+				<div class="checkbox"><label><input type="checkbox" name="3_2_c_13_3_5" id="3_2_c_13_3_5" value="5"> අසල්වැසියා</label> </div>
+				<div class="checkbox"><label><input type="checkbox" name="3_2_c_13_3_6" id="3_2_c_13_3_6" value="6" onclick="eDcheckOT('3_2_c_13_3_6','3_2_c_13_3_6_oth')"> වෙනත්, සඳහන් කරන්න</label> </div>
 
 				<div>3_2_c_13_3_6_oth <input type="text" name="3_2_c_13_3_6_oth" id="3_2_c_13_3_6_oth" class="form-control" /> </div>
 
 	</td>
 	<td>
 		<div class="form-group">2
-			<div class="checkbox"><label><input type="checkbox" name="3_2_c_13_2_1" id="3_2_c_13_2_1" value="1">Retail Shop/ wholesaler</label> </div>
-			<div class="checkbox"><label><input type="checkbox" name="3_2_c_13_2_2" id="3_2_c_13_2_2" value="2">Agrarian Devlopment Centre</label> </div>
-			<div class="checkbox"><label><input type="checkbox" name="3_2_c_13_2_3" id="3_2_c_13_2_3" value="3">Fellow farmer</label> </div>
-			<div class="checkbox"><label><input type="checkbox" name="3_2_c_13_2_4" id="3_2_c_13_2_4" value="4">Farmer association or cooperative</label></div>
-			<div class="checkbox"><label><input type="checkbox" name="3_2_c_13_2_5" id="3_2_c_13_2_5" value="5">Neighbour</label> </div>
-			<div class="checkbox"><label><input type="checkbox" name="3_2_c_13_2_6" id="3_2_c_13_2_6" value="6" onclick="eDcheckOT('3_2_c_13_2_6','3_2_c_13_2_6_oth')">Other</label> </div>
+			<div class="checkbox"><label><input type="checkbox" name="3_2_c_13_2_1" id="3_2_c_13_2_1" value="1">  සිල්ලර වෙළඳසැල</label></div>
+			<div class="checkbox"><label><input type="checkbox" name="3_2_c_13_2_2" id="3_2_c_13_2_2" value="2"> ගොවිජන සංවර්ධන මධ්‍යස්ථානය</label> </div>
+			<div class="checkbox"><label><input type="checkbox" name="3_2_c_13_2_3" id="3_2_c_13_2_3" value="3">  සෙසු ගොවියා</label> </div>
+			<div class="checkbox"><label><input type="checkbox" name="3_2_c_13_2_4" id="3_2_c_13_2_4" value="4">  ගොවි සංගමය හෝ සමුපකාරය</label></div>
+			<div class="checkbox"><label><input type="checkbox" name="3_2_c_13_2_5" id="3_2_c_13_2_5" value="5"> අසල්වැසියා</label> </div>
+			<div class="checkbox"><label><input type="checkbox" name="3_2_c_13_2_6" id="3_2_c_13_2_6" value="6" onclick="eDcheckOT('3_2_c_13_2_6','3_2_c_13_2_6_oth')"> වෙනත්, සඳහන් කරන්න</label> </div>
 
 			<div>3_2_c_13_2_6_oth <input type="text" name="3_2_c_13_2_6_oth" id="3_2_c_13_2_6_oth" class="form-control" /> </div>
 			<hr>
 			<div class="form-group">4
-				<div class="checkbox"><label><input type="checkbox" name="3_2_c_13_4_1" id="3_2_c_13_4_1" value="1">Retail Shop/ wholesaler</label> </div>
-				<div class="checkbox"><label><input type="checkbox" name="3_2_c_13_4_2" id="3_2_c_13_4_2" value="2">Agrarian Devlopment Centre</label> </div>
-				<div class="checkbox"><label><input type="checkbox" name="3_2_c_13_4_3" id="3_2_c_13_4_3" value="3">Fellow farmer</label> </div>
-				<div class="checkbox"><label><input type="checkbox" name="3_2_c_13_4_4" id="3_2_c_13_4_4" value="4">Farmer association or cooperative</label></div>
-				<div class="checkbox"><label><input type="checkbox" name="3_2_c_13_4_5" id="3_2_c_13_4_5" value="5">Neighbour</label> </div> 
-				<div class="checkbox"><label><input type="checkbox" name="3_2_c_13_4_6" id="3_2_c_13_4_6" value="6" onclick="eDcheckOT('3_2_c_13_4_6','3_2_c_13_4_6_oth')">Other</label> </div>
+				<div class="checkbox"><label><input type="checkbox" name="3_2_c_13_4_1" id="3_2_c_13_4_1" value="1">  සිල්ලර වෙළඳසැල</label></div>
+				<div class="checkbox"><label><input type="checkbox" name="3_2_c_13_4_2" id="3_2_c_13_4_2" value="2"> ගොවිජන සංවර්ධන මධ්‍යස්ථානය</label> </div>
+				<div class="checkbox"><label><input type="checkbox" name="3_2_c_13_4_3" id="3_2_c_13_4_3" value="3"> සෙසු ගොවියා</label> </div>
+				<div class="checkbox"><label><input type="checkbox" name="3_2_c_13_4_4" id="3_2_c_13_4_4" value="4"> ගොවි සංගමය හෝ සමුපකාරය</label></div>
+				<div class="checkbox"><label><input type="checkbox" name="3_2_c_13_4_5" id="3_2_c_13_4_5" value="5"> අසල්වැසියා</label> </div>
+				<div class="checkbox"><label><input type="checkbox" name="3_2_c_13_4_6" id="3_2_c_13_4_6" value="6" onclick="eDcheckOT('3_2_c_13_4_6','3_2_c_13_4_6_oth')"> වෙනත්, සඳහන් කරන්න</label> </div>
 				<div>3_2_b_13_4_6_oth <input type="text" name="3_2_c_13_4_6_oth" id="3_2_c_13_4_6_oth" class="form-control" /> </div>
 	</td>
 	</tr>
 	<tr>
 	<td>
-		<div>Other</div>
+		<div>වෙනත්</div>
 		<div>3_2_d_8_1<input type="text" name="3_2_d_8_1" id="3_2_d_8_1" class="form-control" /></div>
 		<div>3_2_d_8_2<input type="text" name="3_2_d_8_2" id="3_2_d_8_2" class="form-control" /></div>
 		<div>3_2_d_8_3<input type="text" name="3_2_d_8_3" id="3_2_d_8_3" class="form-control" /></div>
@@ -992,22 +928,22 @@ id="3_2_d_7_1_6_oth" class="form-control" /> </div>
 	</td>
 	<td>
 		<div class="form-group">1
-			<div class="checkbox"><label><input type="checkbox" name="3_2_d_13_1_1" id="3_2_d_13_1_1" value="1">Retail Shop/ wholesaler</label></div>
-			<div class="checkbox"><label><input type="checkbox" name="3_2_d_13_1_2" id="3_2_d_13_1_2" value="2">Agrarian Devlopment Centre</label> </div>
-			<div class="checkbox"><label><input type="checkbox" name="3_2_d_13_1_3" id="3_2_d_13_1_3" value="3">Fellow farmer</label> </div>
-			<div class="checkbox"><label><input type="checkbox" name="3_2_d_13_1_4" id="3_2_d_13_1_4" value="4">Farmer association or cooperative</label></div>
-			<div class="checkbox"><label><input type="checkbox" name="3_2_d_13_1_5" id="3_2_d_13_1_5" value="5">Neighbour</label> </div>
-			<div class="checkbox"><label><input type="checkbox" name="3_2_d_13_1_6" id="3_2_d_13_1_6" value="6" onclick="eDcheckOT('3_2_d_13_1_6','3_2_d_13_1_6_oth')">Other</label> </div>
+			<div class="checkbox"><label><input type="checkbox" name="3_2_d_13_1_1" id="3_2_d_13_1_1" value="1">සිල්ලර වෙළඳසැල</label></div>
+			<div class="checkbox"><label><input type="checkbox" name="3_2_d_13_1_2" id="3_2_d_13_1_2" value="2"> ගොවිජන සංවර්ධන මධ්‍යස්ථානය</label> </div>
+			<div class="checkbox"><label><input type="checkbox" name="3_2_d_13_1_3" id="3_2_d_13_1_3" value="3"> සෙසු ගොවියා</label> </div>
+			<div class="checkbox"><label><input type="checkbox" name="3_2_d_13_1_4" id="3_2_d_13_1_4" value="4"> ගොවි සංගමය හෝ සමුපකාරය</label></div>
+			<div class="checkbox"><label><input type="checkbox" name="3_2_d_13_1_5" id="3_2_d_13_1_5" value="5"> අසල්වැසියා</label> </div>
+			<div class="checkbox"><label><input type="checkbox" name="3_2_d_13_1_6" id="3_2_d_13_1_6" value="6" onclick="eDcheckOT('3_2_d_13_1_6','3_2_d_13_1_6_oth')">වෙනත්, සඳහන් කරන්න</label> </div>
 
 			<div>3_2_d_13_1_6_oth <input type="text" name="3_2_d_13_1_6_oth" id="3_2_d_13_1_6_oth" class="form-control" /> </div>
 			<hr>
 			<div class="form-group">3
-				<div class="checkbox"><label><input type="checkbox" name="3_2_d_13_3_1" id="3_2_d_13_3_1" value="1">Retail Shop/ wholesaler</label> </div>
-				<div class="checkbox"><label><input type="checkbox" name="3_2_d_13_3_2" id="3_2_d_13_3_2" value="2">Agrarian Devlopment Centre</label> </div>
-				<div class="checkbox"><label><input type="checkbox" name="3_2_d_13_3_3" id="3_2_d_13_3_3" value="3">Fellow farmer</label> </div>
-				<div class="checkbox"><label><input type="checkbox" name="3_2_d_13_3_4" id="3_2_d_13_3_4" value="4">Farmer association or cooperative</label></div>
-				<div class="checkbox"><label><input type="checkbox" name="3_2_d_13_3_5" id="3_2_d_13_3_5" value="5">Neighbour</label> </div>
-				<div class="checkbox"><label><input type="checkbox" name="3_2_d_13_3_6" id="3_2_d_13_3_6" value="6" onclick="eDcheckOT('3_2_d_13_3_6','3_2_d_13_3_6_oth')">Other</label> </div>
+				<div class="checkbox"><label><input type="checkbox" name="3_2_d_13_3_1" id="3_2_d_13_3_1" value="1"> සිල්ලර වෙළඳසැල</label></div>
+				<div class="checkbox"><label><input type="checkbox" name="3_2_d_13_3_2" id="3_2_d_13_3_2" value="2"> ගොවිජන සංවර්ධන මධ්‍යස්ථානය</label> </div>
+				<div class="checkbox"><label><input type="checkbox" name="3_2_d_13_3_3" id="3_2_d_13_3_3" value="3"> සෙසු ගොවියා</label> </div>
+				<div class="checkbox"><label><input type="checkbox" name="3_2_d_13_3_4" id="3_2_d_13_3_4" value="4">  ගොවි සංගමය හෝ සමුපකාරය</label></div>
+				<div class="checkbox"><label><input type="checkbox" name="3_2_d_13_3_5" id="3_2_d_13_3_5" value="5">  අසල්වැසියා</label> </div>
+				<div class="checkbox"><label><input type="checkbox" name="3_2_d_13_3_6" id="3_2_d_13_3_6" value="6" onclick="eDcheckOT('3_2_d_13_3_6','3_2_d_13_3_6_oth')">වෙනත්, සඳහන් කරන්න</label> </div>
 
 				<div>3_2_d_13_3_6_oth <input type="text" name="3_2_d_13_3_6_oth" id="3_2_d_13_3_6_oth" class="form-control" /> </div>
 
@@ -1015,22 +951,22 @@ id="3_2_d_7_1_6_oth" class="form-control" /> </div>
 	</td>
 	<td>
 		<div class="form-group">2
-			<div class="checkbox"><label><input type="checkbox" name="3_2_d_13_2_1" id="3_2_d_13_2_1" value="1">Retail Shop/ wholesaler</label> </div>
-			<div class="checkbox"><label><input type="checkbox" name="3_2_d_13_2_2" id="3_2_d_13_2_2" value="2">Agrarian Devlopment Centre</label> </div>
-			<div class="checkbox"><label><input type="checkbox" name="3_2_d_13_2_3" id="3_2_d_13_2_3" value="3">Fellow farmer</label> </div>
-			<div class="checkbox"><label><input type="checkbox" name="3_2_d_13_2_4" id="3_2_d_13_2_4" value="4">Farmer association or cooperative</label></div>
-			<div class="checkbox"><label><input type="checkbox" name="3_2_d_13_2_5" id="3_2_d_13_2_5" value="5">Neighbour</label> </div>
-			<div class="checkbox"><label><input type="checkbox" name="3_2_d_13_2_6" id="3_2_d_13_2_6" value="6" onclick="eDcheckOT('3_2_d_13_2_6','3_2_d_13_2_6_oth')">Other</label> </div>
+			<div class="checkbox"><label><input type="checkbox" name="3_2_d_13_2_1" id="3_2_d_13_2_1" value="1"> සිල්ලර වෙළඳසැල</label></div>
+			<div class="checkbox"><label><input type="checkbox" name="3_2_d_13_2_2" id="3_2_d_13_2_2" value="2"> ගොවිජන සංවර්ධන මධ්‍යස්ථානය</label> </div>
+			<div class="checkbox"><label><input type="checkbox" name="3_2_d_13_2_3" id="3_2_d_13_2_3" value="3"> සෙසු ගොවියා</label> </div>
+			<div class="checkbox"><label><input type="checkbox" name="3_2_d_13_2_4" id="3_2_d_13_2_4" value="4"> ගොවි සංගමය හෝ සමුපකාරය</label></div>
+			<div class="checkbox"><label><input type="checkbox" name="3_2_d_13_2_5" id="3_2_d_13_2_5" value="5"> අසල්වැසියා</label> </div>
+			<div class="checkbox"><label><input type="checkbox" name="3_2_d_13_2_6" id="3_2_d_13_2_6" value="6" onclick="eDcheckOT('3_2_d_13_2_6','3_2_d_13_2_6_oth')"> වෙනත්, සඳහන් කරන්න</label> </div>
 
 			<div>3_2_d_13_2_6_oth <input type="text" name="3_2_d_13_2_6_oth" id="3_2_d_13_2_6_oth" class="form-control" /> </div>
 			<hr>
 			<div class="form-group">4
-				<div class="checkbox"><label><input type="checkbox" name="3_2_d_13_4_1" id="3_2_d_13_4_1" value="1">Retail Shop/ wholesaler</label> </div>
-				<div class="checkbox"><label><input type="checkbox" name="3_2_d_13_4_2" id="3_2_d_13_4_2" value="2">Agrarian Devlopment Centre</label> </div>
-				<div class="checkbox"><label><input type="checkbox" name="3_2_d_13_4_3" id="3_2_d_13_4_3" value="3">Fellow farmer</label> </div>
-				<div class="checkbox"><label><input type="checkbox" name="3_2_d_13_4_4" id="3_2_d_13_4_4" value="4">Farmer association or cooperative</label></div>
-				<div class="checkbox"><label><input type="checkbox" name="3_2_d_13_4_5" id="3_2_d_13_4_5" value="5">Neighbour</label> </div> 
-				<div class="checkbox"><label><input type="checkbox" name="3_2_d_13_4_6" id="3_2_d_13_4_6" value="6" onclick="eDcheckOT('3_2_d_13_4_6','3_2_d_13_4_6_oth')">Other</label> </div>
+				<div class="checkbox"><label><input type="checkbox" name="3_2_d_13_4_1" id="3_2_d_13_4_1" value="1">  සිල්ලර වෙළඳසැල</label></div>
+				<div class="checkbox"><label><input type="checkbox" name="3_2_d_13_4_2" id="3_2_d_13_4_2" value="2"> ගොවිජන සංවර්ධන මධ්‍යස්ථානය</label> </div>
+				<div class="checkbox"><label><input type="checkbox" name="3_2_d_13_4_3" id="3_2_d_13_4_3" value="3"> සෙසු ගොවියා</label> </div>
+				<div class="checkbox"><label><input type="checkbox" name="3_2_d_13_4_4" id="3_2_d_13_4_4" value="4"> ගොවි සංගමය හෝ සමුපකාරය</label></div>
+				<div class="checkbox"><label><input type="checkbox" name="3_2_d_13_4_5" id="3_2_d_13_4_5" value="5"> අසල්වැසියා</label> </div>
+				<div class="checkbox"><label><input type="checkbox" name="3_2_d_13_4_6" id="3_2_d_13_4_6" value="6" onclick="eDcheckOT('3_2_d_13_4_6','3_2_d_13_4_6_oth')"> වෙනත්, සඳහන් කරන්න</label> </div>
 				<div>3_2_d_13_4_6_oth <input type="text" name="3_2_d_13_4_6_oth" id="3_2_d_13_4_6_oth" class="form-control" /> </div>
 	</td>
 	</tr>
@@ -1041,26 +977,26 @@ id="3_2_d_7_1_6_oth" class="form-control" /> </div>
 
                     </div>
                     <div class="row">
-                        <h2> 3.3. Irrigation </h2>
+                        <h2> 3.3.  වාරිමාර්ග </h2>
                     </div>
                     <div class="row">
                         <div class="col-md-6">
                             <div class="form-group">
-                                <label for="">3.3.1 How do you irrigate your cultivations? </label>
+                                <label for="">3.3.1 ඔබේ වගාවන් සඳහා ජලය සපයන්නේ කෙසේද? </label>
                                 <div class="checkbox"><label><input type="checkbox" name="3_3_1_a" id="1_2_1_a"
-                                            value="1">Water from major irrigation </label>
+                                            value="1">ප්‍රධාන වාරිමාර්ග වලින් ජලය </label>
                                 </div>
                                 <div class="checkbox"><label><input type="checkbox" name="3_3_1_b" id="3_3_1_b"
-                                            value="2">Rain-fed</label>
+                                            value="2">වැසි ජලය </label>
                                 </div>
                                 <div class="checkbox"><label><input type="checkbox" name="3_3_1_c" id="3_3_1_c"
-                                            value="3">Water from minor irrigation</label> </div>
+                                            value="3">  සුළු වාරිමාර්ග වලින් ජලය</label> </div>
                                 <div class="checkbox"><label><input type="checkbox" name="3_3_1_d" id="3_3_1_d"
-                                            value="4">Deep-wells</label></div>
+                                            value="4">  ගැඹුරු ළිං</label></div>
                                 <div class="checkbox"> <label><input type="checkbox" name="3_3_1_e" id="3_3_1_e"
-                                            value="5">Agro-wells</label> </div>
+                                            value="5">  කෘෂි ළිං</label> </div>
                                 <div class="checkbox"> <label><input type="checkbox" name="3_3_1_f" id="3_3_1_f"
-                                            value="6" onclick="eDcheckOT('3_3_1_f','3_3_1_f_oth')">Other</label> </div>
+                                            value="6" onclick="eDcheckOT('3_3_1_f','3_3_1_f_oth')"> වෙනත්</label> </div>
                                 <div>3_3_1_e_oth<input type="text" name="3_3_1_f_oth" id="3_3_1_f_oth" class="form-control" />
                                 </div>
                             </div>
@@ -1068,28 +1004,28 @@ id="3_2_d_7_1_6_oth" class="form-control" /> </div>
                         <div class="col-md-6">
                             <table class="table table-bordered table-hover">
                                 <tr>
-                                    <th colspan="3">3.3.2. Costs incurred with irrigation</th>
+                                    <th colspan="3">3.3.2. වාරිමාර්ග සඳහා දරන ලද වියදම්</th>
                                 </tr>
                                 <tr>
-                                    <th>Reason</th>
-                                    <th>Cost</th>
+                                    <th>හේතුව</th>
+                                    <th>පිරිවැය</th>
                                 </tr>
                                 <tr>
-                                    <td>Fuel for water pump </td>
+                                    <td>    ජල පොම්ප සඳහා ඉන්ධන </td>
                                     <td>
                                         <div>3_3_2_1<input type="text" name="3_3_2_1" id="3_3_2_1"
                                                 class="form-control" />
                                     </td>
                                 </tr>
                                 <tr>
-                                    <td>Rental cost for equipments (ex: Water pump)</td>
+                                    <td>    උපකරණ සඳහා කුලී පිරිවැය (උදා: ජල පොම්ප)</td>
                                     <td>
                                         <div>3_3_2_2<input type="text" name="3_3_2_2" id="3_3_2_2"
                                                 class="form-control" />
                                     </td>
                                 </tr>
                                 <tr>
-                                    <td>Other costs</td>
+                                    <td>    වෙනත් වියදම්</td>
                                     <td>
                                         <div>3_3_2_3<input type="text" name="3_3_2_3" id="3_3_2_3"
                                                 class="form-control" />
@@ -1101,18 +1037,18 @@ id="3_2_d_7_1_6_oth" class="form-control" /> </div>
                 </div>
                 <div class="row">
                     <div class="col-md-12">
-                        <h3>3.4. Land Management practices and Harvesting </h3>
+                        <h3>3.4. ඉඩම් කළමනාකරණ පිළිවෙත් සහ අස්වනු නෙලීම </h3>
                         <table class="table table-bordered table-hover">
                             <tr>
                                 <th rowspan="2"></th>
-                                <th colspan="2">3.4.1. Method of practice</th>
+                                <th colspan="2">3.4.1.  පුහුණු කිරීමේ ක්‍රමය</th>
                             </tr>
                             <tr>
-                                <th>Manual</th>
-                                <th>Mechanical</th>
+                                <th>    අතින්</th>
+                                <th>යාන්ත්‍රික</th>
                             </tr>
                             <tr>
-                                <td>Land Management</td>
+                                <td>    ඉඩම් කළමනාකරණය</td>
                                 <td>
                                     <div>3_4_1_1<input type="text" name="3_4_1_1" id="3_4_1_1"
                                             class="form-control" />
@@ -1123,7 +1059,7 @@ id="3_2_d_7_1_6_oth" class="form-control" /> </div>
                                 </td>
                             </tr>
                             <tr>
-                                <td>Harvesting</td>
+                                <td>අස්වනු නෙලීම</td>
                                 <td>
                                     <div>3_4_1_3<input type="text" name="3_4_1_3" id="3_4_1_3"
                                             class="form-control" />
@@ -1143,15 +1079,15 @@ id="3_2_d_7_1_6_oth" class="form-control" /> </div>
                         <table class="table table-bordered table-hover">
                             <tr>
                                 <th rowspan="2"></th>
-                                <th colspan="3">3.4.2. Method of practice</th>
+                                <th colspan="3">3.4.2. යන්ත්‍රෝපකරණ සඳහා පිරිවැය (ශ්‍රමය හැර)</th>
                             </tr>
                             <tr>
-                                <th>Manual</th>
-                                <th>Mechanical</th>
-                                <th>Other Cost</th>
+                                <th>    ඉන්ධන පිරිවැය</th>
+                                <th>    කුලියට ගත් පිරිවැය</th>
+                                <th>වෙනත් පිරිවැය</th>
                             </tr>
                             <tr>
-                                <td>Land Management</td>
+                                <td>ඉඩම් කළමනාකරණය</td>
                                 <td>
                                     <div>3_4_2_1<input type="text" name="3_4_2_1" id="3_4_2_1"
                                             class="form-control" />
@@ -1166,7 +1102,7 @@ id="3_2_d_7_1_6_oth" class="form-control" /> </div>
                                 </td>
                             </tr>
                             <tr>
-                                <td>Harvesting</td>
+                                <td>අස්වනු නෙලීම</td>
                                 <td>
                                     <div>3_4_2_4<input type="text" name="3_4_2_4" id="3_4_2_4"
                                             class="form-control" />
@@ -1185,15 +1121,15 @@ id="3_2_d_7_1_6_oth" class="form-control" /> </div>
                 </div>
                 <div class="row">
                     <div class="col-md-12">
-                        <h4>3.5.Yield information</h4>
+                        <h4>3.5.අස්වැන්න තොරතුරු</h4>
                         <table class="table table-bordered table-hover">
                             <tr>
-                                <th>Season</th>
-                                <th>3.5.1. Production/ harvest (Kg) </th>
-                                <th>3.5.2. Sold amount</th>
+                                <th>කන්නය</th>
+                                <th>3.5.1. නිෂ්පාදනය/අස්වැන්න (Kg) </th>
+                                <th>3.5.2. විකුණන ලද මුදල</th>
                             </tr>
                             <tr>
-                                <td>Maha 2021/22</td>
+                                <td>    මහ 2021/22/td>
                                 <td>
                                     <div>3_5_1_a<input type="text" name="3_5_1_a" id="3_5_1_a"
                                             class="form-control" />
@@ -1204,7 +1140,7 @@ id="3_2_d_7_1_6_oth" class="form-control" /> </div>
                                 </td>
                             </tr>
                             <tr>
-                                <td>Maha 2020/21</td>
+                                <td>    මහ 2020/21</td>
                                 <td>
                                     <div>3_5_1_b<input type="text" name="3_5_1_b" id="3_5_1_b"
                                             class="form-control" />
@@ -1219,16 +1155,16 @@ id="3_2_d_7_1_6_oth" class="form-control" /> </div>
                 </div>
                 <div class="row">
                     <div class="col-md-12">
-                        <label>3.5.3. Are you satisfied with the harvest in Maha 2021/22? </label>
+                        <label>3.5.3. මහ 2021/22 අස්වැන්න ගැන ඔබ සෑහීමකට පත්වේද? </label>
                         <div class="input-group">
 
                             <select class="form-control" name="3_5_3" id="3_5_3">
-                                <option value="1">Highly satisfied, I had received a good harvest with a high difference
+                                <option value="1">ඉතා තෘප්තිමත්, ඉහළ වෙනසක් ඇති හොඳ අස්වැන්නක් ලැබී තිබුණි
                                 </option>
-                                <option value="2">Satisfied, I had received the harvest with a low difference</option>
-                                <option value="3">Neither satisfied nor dissatisfied with no difference</option>
-                                <option value="4">Dissatisfied, I had received a comparatively low yield</option>
-                                <option value="5">Highly dissatisfied, my harvest was really lower</option>
+                                <option value="2">තෘප්තිමත්, වෙනත් කන්න වල අස්වැන්න සමග සසදන විට අඩු අස්වනු වෙනසක් සහිතව අස්වැන්න ලැබී තිබුණා</option>
+                                <option value="3">සෑහීමකට පත්වෙන්නෙත් නැහැ, අතෘප්තිමත් වෙන්නෙත් නැහැ, අස්වැන්නෙහි  කිසිදු වෙනසක් නොමැත</option>
+                                <option value="4">සෑහීමකට පත් නොවේ  , මට සාපේක්ෂව අඩු අස්වැන්නක් ලැබී තිබුණි</option>
+                                <option value="5">ඉතා අතෘප්තිමත්, මගේ අස්වැන්න ඇත්තෙන්ම අඩු විය</option>
                             </select>
                         </div>
                     </div>
@@ -1237,35 +1173,35 @@ id="3_2_d_7_1_6_oth" class="form-control" /> </div>
                 <div class="row">
                     <div class="col-md-4">
                         <div class="form-group">
-                            <label>3.6.1. What is the closest market to your farm?</label>
+                            <label>3.6.1.ඔබේ ගොවිපලට ආසන්නතම වෙළඳපොළ කුමක්ද?</label>
                             <div><input type="text" name="3_6_1" id="3_6_1" placeholder="Years" class="form-control" />
                             </div>
                         </div>
                     </div>
                     <div class="col-md-4">
                         <div class="form-group">
-                            <label>3.6.2. How far do you go for it?</label>
+                            <label>3.6.2.ඔබ ඒ සඳහා කොපමණ දුරක් යනවාද?</label>
                             <div><input type="text" name="3_6_2" id="3_6_2" placeholder="Years" class="form-control" />
                             </div>
                         </div>
                     </div>
                     <div class="col-md-4">
                         <div class="form-group">
-                            <label for="">3.6.3. What is the transport method? </label>
-                            <div class="checkbox"><label><input type="checkbox" name="3_6_3a" id="3_6_3a" value="1">By
-                                    own vehicle
+                            <label for="">3.6.3. ප්‍රවාහන ක්‍රමය කුමක්ද?</label>
+                            <div class="checkbox"><label><input type="checkbox" name="3_6_3a" id="3_6_3a" value="1">
+                            තමන්ගේම වාහනයකින්
                                 </label>
                             </div>
-                            <div class="checkbox"><label><input type="checkbox" name="3_6_3b" id="3_6_3b" value="2">By
-                                    a rented vehicle
+                            <div class="checkbox"><label><input type="checkbox" name="3_6_3b" id="3_6_3b" value="2">
+                            කුලියට ගත් වාහනයකින්
                                 </label>
                             </div>
                             <div class="checkbox"><label><input type="checkbox" name="3_6_3c" id="3_6_3c"
-                                        value="3">The seller comes to the doorstep to buy paddy
+                                        value="3">වෙළෙන්දා වී මිලදී ගැනීමට දොරකඩට පැමිණේ
                                 </label> </div>
 
                             <div class="checkbox"> <label><input type="checkbox" name="3_6_3d" id="3_6_3d"
-                                        value="4" onclick="eDcheckOT('3_6_3d','3_6_3d_oth')">Other</label> </div>
+                                        value="4" onclick="eDcheckOT('3_6_3d','3_6_3d_oth')">වෙනත්</label> </div>
                             <div>3_6_3d_oth<input type="text" name="3_6_3d_oth" id="3_6_3d_oth" class="form-control" />
                             </div>
                         </div>
@@ -1277,21 +1213,21 @@ id="3_2_d_7_1_6_oth" class="form-control" /> </div>
 
                         <table class="table table-bordered table-hover">
                             <tr>
-                                <th colspan="3">3.6.4. Cost incurred with the marketing process?</th>
+                                <th colspan="3">3.6.4. අලෙවිකරණ ක්‍රියාවලිය සමඟ දරන ලද පිරිවැය?</th>
                             </tr>
                             <tr>
-                                <th>Reason</th>
-                                <th>Cost</th>
+                                <th>හේතුව</th>
+                                <th>පිරිවැය (රු.)</th>
                             </tr>
                             <tr>
-                                <td>Fuel for the vehicle</td>
+                                <td>වාහනය සඳහා ඉන්ධන</td>
                                 <td>
                                     <div>3_6_4_1 <input type="text" name="3_6_4_1" id="3_6_4_1"
                                             class="form-control" />
                                 </td>
                             </tr>
                             <tr>
-                                <td>Rent for the vehicle
+                                <td>වාහනය සඳහා කුලියට
                                 </td>
                                 <td>
                                     <div>3_6_4_2<input type="text" name="3_6_4_2" id="3_6_4_2"
@@ -1299,7 +1235,7 @@ id="3_2_d_7_1_6_oth" class="form-control" /> </div>
                                 </td>
                             </tr>
                             <tr>
-                                <td>Other costs</td>
+                                <td>වෙනත් වියදම්</td>
                                 <td>
                                     <div>3_6_4_3 <input type="text" name="3_6_4_3" id="3_6_4_3"
                                             class="form-control" />

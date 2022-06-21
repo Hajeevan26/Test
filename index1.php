@@ -2,11 +2,11 @@
 if (!isset($_SESSION)) {
 	session_start();
 }
-$_SESSION['user_id'] = 1;
-//$user_id = $_SESSION['user_id'];
-//$role_id = $_SESSION['role_id'];
+//$_SESSION['user_id'] = 1;
+$user_id = $_SESSION['user_id'];
+$role_id = $_SESSION['role_id'];
 
-$_SESSION['role_id']=1;
+//$_SESSION['role_id']=1;
 $role_id = 1;
 ?>
 <!DOCTYPE html>
@@ -283,12 +283,47 @@ include($_GET['pg']); }
         </script>
          <script>
         function funb3_2_1() {
-            var x = document.getElementById("3_2_2").value;
-            if (x == 2) {
-                var data ="<input type='text'  required  name='3_2_1_oth' id='3_2_1_oth' placeholder='If other Specify' class='form-control'>";
-                document.getElementById("divid3_2_2").innerHTML = data;
-            } else {
-                document.getElementById("divid3_2_2").innerHTML = "";
+            var f3_2_1 = document.getElementById("3_2_1").value;
+            var household_id = document.getElementById("household_id").value;
+            //alert(b6);
+            if (f3_2_1 == 2) {
+                var xmlhttp = new XMLHttpRequest();
+                xmlhttp.onreadystatechange = function() 
+                {
+                    if (xmlhttp.readyState == 4 & xmlhttp.status == 200) {
+                        document.getElementById("divid3_2_1").innerHTML = xmlhttp.responseText;
+                    }
+                }
+                xmlhttp.open("GET", "ajaxpage.php?option=update3_2_1&f3_2_1=" + f3_2_1 + "&household_id=" + household_id,
+                    true);
+                xmlhttp.send();
+            } 
+            else 
+            {
+                document.getElementById("divid3_2_1").innerHTML = "";
+            }
+        }
+        </script>
+        <script>
+       function funb4_2() {
+            var f4_1 = document.getElementById("4_1").value;
+            var household_id = document.getElementById("household_id").value;
+            //alert(b6);
+            if (f4_1 == 2) {
+                var xmlhttp = new XMLHttpRequest();
+                xmlhttp.onreadystatechange = function() 
+                {
+                    if (xmlhttp.readyState == 4 & xmlhttp.status == 200) {
+                        document.getElementById("divid4_2").innerHTML = xmlhttp.responseText;
+                    }
+                }
+                xmlhttp.open("GET", "ajaxpage.php?option=update4_2&f4_1=" + f4_1 + "&household_id=" + household_id,
+                    true);
+                xmlhttp.send();
+            } 
+            else 
+            {
+                document.getElementById("divid4_2").innerHTML = "";
             }
         }
         </script>
@@ -326,10 +361,67 @@ include($_GET['pg']); }
         window.onload = function() {
             //create survey
            
-            eDcheckOT('2_6f','2_6_f_oth');
+            // eDcheckOT('2_6f','2_6_f_oth');
+            eDcheckOT('1_2_1_e','1_2_1_e_oth');
+            eDcheckOT('1_2_2_d','1_2_2_d_oth');
+            eDcheckOT('1_2_3_d','1_2_3_d_oth');
+            eDcheckOT('1_2_4_h','1_2_4_h_oth');
             eDcheckOT('1_2_5_d','1_2_5_d_oth');
+            eDcheckOT('1_2_6_f','1_2_6_f_oth');
+            eDcheckOT('1_2_9_g','1_2_9_g_oth');
+            eDcheckOT('1_2_10_u','1_2_10_u_oth');
+            eDcheckOT('1_2_5_d','1_2_5_d_oth');
+            // eDcheckOT('2_16j','2_16f_oth');
+            
         }
         </script>
-</body>
 
+        <script>
+    function fnsum(a,b,c,d,e,x) {
+       var a = document.getElementById(a).value;
+       var b = document.getElementById(b).value;
+       var c = document.getElementById(c).value;
+       var d = document.getElementById(d).value;
+       var e = document.getElementById(e).value;
+       //var x = document.getElementById(x).value;
+
+       //var txtSecondNumberValue = document.getElementById('txt2').value;
+       if (a == "")
+         {  a = 0;  } 
+       if (b == "")
+          { b = 0;}
+          if (c == "")
+          { c = 0;}
+          if (d == "")
+          { d = 0;}
+          if (e == "")
+          { e = 0;}
+          
+
+       var result = parseInt(a) + parseInt(b) + parseInt(c) + parseInt(d) + parseInt(e);
+       if (!isNaN(result)) {
+           document.getElementById(x).value = result;
+       }
+   }
+        </script>
+
+<script>
+    function fnmulty(a,b,x) {
+       var a = document.getElementById(a).value;
+       var b = document.getElementById(b).value;
+       //var x = document.getElementById(x).value;
+//alert(b);
+       //var txtSecondNumberValue = document.getElementById('txt2').value;
+       if (a == "")
+         {  a = 0;  } 
+       if (b == "")
+          { b = 0;}
+
+       var result = parseInt(a) * parseInt(b);
+       if (!isNaN(result)) {
+           document.getElementById(x).value = result;
+       }
+   }
+</script>
+</body>
 </html>

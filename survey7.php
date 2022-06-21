@@ -66,11 +66,12 @@ if(isset($_POST['btnsubmit']) ) {
 
 ?>
 <div class="content">
+    <h2>7. කාබනික ගොවිතැන පිළිබඳ අවබෝධය</h2>
     <div class="container-fluid">Household number is -<?php echo $household_id; ?>
         <form role="form" action="" method="post">
             <div class="widget-header">
                 <h4 class="widget-title">
-                    <center>2. Farm information</center>
+                    <center>7. කාබනික ගොවිතැන පිළිබඳ අවබෝධය</center>
                 </h4>
 
             </div>

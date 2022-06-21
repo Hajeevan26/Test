@@ -268,11 +268,12 @@ $res13 = mysqli_query($con, $sqlupdatesq113) or die("error in update customer pa
 
 ?>
 <div class="content">
+ <h2>5.	කෘෂි දැනුවත් කිරීම්, ව්යාප්ති සේවා සඳහා වන ප්රවේශය  </h2>
     <div class="container-fluid">Household number is -<?php echo $household_id; ?>
         <form role="form" action="" method="post">
             <div class="widget-header">
                 <h4 class="widget-title">
-                    <center>5 Access to extension</center>
+                    <center>5 කෘෂි දැනුවත් කිරීම්, ව්යාප්ති සේවා සඳහා වන ප්රවේශය </center>
                 </h4>
 
             </div>

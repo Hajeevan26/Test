@@ -276,27 +276,27 @@ if(isset($_POST['btnsubmit']) ) {
 ?>
 <div class="content">
     <div class="container-fluid">
-        <h2>need to do later </h2>
+        <h2>3. වී වගා යෙදවුම් </h2>
         Household number is -<?php echo $household_id; ?>
         <form role="form" action="" method="post">
             <div class="card card-primary">
                 <div class="card-header">
-                    d). Hired Labour
+                    3.1. පොහොර භාවිතය
                 </div>
 
                 <div class="card-body">
                     <input type="hidden" id="household_id" name="household_id" value="<?php echo $household_id; ?>">
                     <div class="row">
                         <div class="col-md-12">
-                            <label>3.1.1 What type of fertilizer you used in last 2021/22 Maha season? </label>
+                            <label>3.1.1 පසුගිය 2021/22 මහ කන්නයේ ඔබ භාවිතා කළ පොහොර වර්ගය කුමක්ද? </label>
                             <div class="input-group">
 
                                 <select class="form-control" name="3_1_1" id="3_1_1" onchange="funb3_1_1()">
-                                    <option value="1">Inorganic fertilizer only </option>
-                                    <option value="2">Organic fertilizer only</option>
-                                    <option value="3">Mixture of both inorganic and organic fertilizers</option>
-                                    <option value="4">None</option>
-                                    <option value="5">Other</option>
+                                    <option value="1">අකාබනික පොහොර පමණයි </option>
+                                    <option value="2">කාබනික පොහොර පමණි</option>
+                                    <option value="3">කාබනික හා අකාබනික පොහොර යන දෙකෙහිම මිශ්‍රණ</option>
+                                    <option value="4">කිසිවක් නැත</option>
+                                    <option value="5">වෙනත්</option>
                                 </select>
                             </div>
                             <div id="divid3_1_1"></div>
@@ -307,18 +307,18 @@ if(isset($_POST['btnsubmit']) ) {
                         <table class="table table-bordered table-hover">
 
                             <tr>
-                                <th> Type of fertilizer usage for 2021/22 </th>
-                                <th>3.1.2.Amount (Kg)</th>
-                                <th>3.1.3.Area applied (Acres)</th>
-                                <th>3.1.4.Price per unit (Rs/Kg)</th>
-                                <th>3.1.5.Total Cost (Rs) </th>
-                                <th>3.1.6.Source (Please use below codes) </th>
+                                <th> 2022/21 සඳහා පොහොර භාවිතයේ වර්ගය </th>
+                                <th>3.1.2.ප්‍රමාණය(kg)</th>
+                                <th>3.1.3.යොදන ලද භූමි ප්‍රදේශය (අක්කර)</th>
+                                <th>3.1.4.ඒකකයකට මිල (රු./කිලෝ)</th>
+                                <th>3.1.5.මුළු පිරිවැය (රු.) </th>
+                                <th>3.1.6.මූලාශ්‍රය (කරුණාකර පහත කේත භාවිතා කරන්න) </th>
 
                             </tr>
                             <tr>
-                                <td>Urea</td>
+                                <td>යූරියා</td>
                                 <td>
-                                    <div>3_1_2_1<input type="number" value="0" required name="3_1_2_1" id="3_1_2_1"
+                                    <div>3_1_2_1<input type="number" value="0" onkeyup="fnmulty('3_1_2_1','3_1_4_1','3_1_5_1');" required name="3_1_2_1" id="3_1_2_1"
                                             class="form-control" />
                                 </td>
                                 <td>
@@ -326,28 +326,28 @@ if(isset($_POST['btnsubmit']) ) {
                                             class="form-control" />
                                 </td>
                                 <td>
-                                    <div>3_1_4_1<input type="number" value="0" required name="3_1_4_1" id="3_1_4_1"
+                                    <div>3_1_4_1<input type="number" value="0" onkeyup="fnmulty('3_1_2_1','3_1_4_1','3_1_5_1');" required name="3_1_4_1" id="3_1_4_1"
                                             class="form-control" />
                                 </td>
                                 <td>
-                                    <div>3_1_5_1<input type="number" value="0" required name="3_1_5_1" id="3_1_5_1"
+                                    <div>3_1_5_1<input type="number" value="0" readonly name="3_1_5_1" id="3_1_5_1"
                                             class="form-control" />
                                 </td>
                                 <td>
                                     <div class="form-group">
 
-                                        <div class="checkbox"><label><input type="checkbox" name="3_1_6_1a" id="1_2_1_a"  
-                                                    value="1">Retail Shop/ wholesaler-3_1_6_1a</label> </div>
+                                        <div class="checkbox"><label><input type="checkbox" name="3_1_6_1a" id="1_2_1_a"
+                                                    value="1">සිල්ලර කඩ/තොග-3_1_6_1a</label> </div>
                                         <div class="checkbox"><label><input type="checkbox" name="3_1_6_1b" id="3_1_6_1b"
-                                                    value="2">Agrarian Devlopment Centre-3_1_6_1b</label> </div>
+                                                    value="2">ගොවිජන සංවර්ධන මධ්‍යස්ථානය-3_1_6_1b</label> </div>
                                         <div class="checkbox"><label><input type="checkbox" name="3_1_6_1c" id="3_1_6_1c"
-                                                    value="3">Fellow farmer</label> </div>
+                                                    value="3">සෙසු ගොවියා</label> </div>
                                         <div class="checkbox"><label><input type="checkbox" name="3_1_6_1d" id="3_1_6_1d"
-                                                    value="4">Farmer association or cooperative</label></div>
+                                                    value="4">ගොවි සංගමය හෝ සමුපකාරය</label></div>
                                         <div class="checkbox"> <label><input type="checkbox" name="3_1_6_1e" id="3_1_6_1e"
-                                                    value="5">Neighbour</label> </div>
+                                                    value="5">අසල්වැසියා</label> </div>
                                         <div class="checkbox"> <label><input type="checkbox" name="3_1_6_1f" id="3_1_6_1f" onclick="eDcheckOT('3_1_6_1f','3_1_6_1f_oth')"
-                                                    value="6">Other</label> </div>
+                                                    value="5">වෙනත්, සඳහන් කරන්න</label> </div>
                                         <div>3_1_6_1f_oth<input type="text" name="3_1_6_1f_oth" id="3_1_6_1f_oth"
                                                 class="form-control" />
                                         </div>
@@ -355,9 +355,9 @@ if(isset($_POST['btnsubmit']) ) {
 
                             </tr>
                             <tr>
-                                <td>TSP</td>
+                                <td>ටී.එස්.පී TSP</td>
                                 <td>
-                                    <div>3_1_2_2<input type="number" value="0" required name="3_1_2_2" id="3_1_2_2"
+                                    <div>3_1_2_2<input type="number" value="0" onkeyup="fnmulty('3_1_2_2','3_1_4_2','3_1_5_2');"  required name="3_1_2_2" id="3_1_2_2"
                                             class="form-control" />
                                 </td>
                                 <td>
@@ -365,39 +365,39 @@ if(isset($_POST['btnsubmit']) ) {
                                             class="form-control" />
                                 </td>
                                 <td>
-                                    <div>3_1_4_2<input type="number" value="0" required name="3_1_4_2" id="3_1_4_2"
+                                    <div>3_1_4_2<input type="number" value="0"  onkeyup="fnmulty('3_1_2_2','3_1_4_2','3_1_5_2');" required name="3_1_4_2" id="3_1_4_2"
                                             class="form-control" />
                                 </td>
                                 <td>
-                                    <div>3_1_5_2<input type="number" value="0" required name="3_1_5_2" id="3_1_5_2"
+                                    <div>3_1_5_2<input type="number" value="0" readonly name="3_1_5_2" id="3_1_5_2"
                                             class="form-control" />
                                 </td>
                                 <td>
                                     <div class="form-group">
 
                                     <div class="checkbox"><label><input type="checkbox" name="3_1_6_2a" id="3_1_6_2a"
-value="1">Retail Shop/ wholesaler-3_1_6_2a</label> </div>
-<div class="checkbox"><label><input type="checkbox" name="3_1_6_2b" id="3_1_6_2b"
-value="2">Agrarian Devlopment Centre-3_1_6_2b</label> </div>
-<div class="checkbox"><label><input type="checkbox" name="3_1_6_2c" id="3_1_6_2c"
-value="3">Fellow farmer</label> </div>
-<div class="checkbox"><label><input type="checkbox" name="3_1_6_2d" id="3_1_6_2d"
-value="4">Farmer association or cooperative</label></div>
-<div class="checkbox"> <label><input type="checkbox" name="3_1_6_2e" id="3_1_6_2e"
-value="5">Neighbour</label> </div>
-<div class="checkbox"> <label><input type="checkbox" name="3_1_6_2f" id="3_1_6_2f"  onclick="eDcheckOT('3_1_6_2f','3_1_6_2f_oth')"
-value="6">Other</label> </div>
-<div>3_1_6_2f_oth<input type="text" name="3_1_6_2f_oth" id="3_1_6_2f_oth"
-	class="form-control" />
-</div>
+                                    value="1">  සිල්ලර කඩ/තොග-3_1_6_2a</label> </div>
+                                    <div class="checkbox"><label><input type="checkbox" name="3_1_6_2b" id="3_1_6_2b"
+                                    value="2">  ගොවිජන සංවර්ධන මධ්‍යස්ථානය-3_1_6_2b</label> </div>
+                                    <div class="checkbox"><label><input type="checkbox" name="3_1_6_2c" id="3_1_6_2c"
+                                    value="3">  සෙසු ගොවියා</label> </div>
+                                    <div class="checkbox"><label><input type="checkbox" name="3_1_6_2d" id="3_1_6_2d"
+                                    value="4">  ගොවි සංගමය හෝ සමුපකාරය</label></div>
+                                    <div class="checkbox"> <label><input type="checkbox" name="3_1_6_2e" id="3_1_6_2e"
+                                    value="5">  අසල්වැසියා</label> </div>
+                                    <div class="checkbox"> <label><input type="checkbox" name="3_1_6_2f" id="3_1_6_2f"  onclick="eDcheckOT('3_1_6_2f','3_1_6_2f_oth')"
+                                    value="5">  වෙනත්, සඳහන් කරන්න</label> </div>
+                                    <div>3_1_6_2f_oth<input type="text" name="3_1_6_2f_oth" id="3_1_6_2f_oth"
+                                        class="form-control" />
+                                    </div>
                                 </td>
 
                             </tr>
 
                             <tr>
-                                <td>MOP</td>
+                                <td>එම්ඕපී MOP</td>
                                 <td>
-                                    <div>3_1_2_3<input type="number" value="0" required name="3_1_2_3" id="3_1_2_3"
+                                    <div>3_1_2_3<input type="number" value="0" onkeyup="fnmulty('3_1_2_3','3_1_4_3','3_1_5_3');"  required name="3_1_2_3" id="3_1_2_3"
                                             class="form-control" />
                                 </td>
                                 <td>
@@ -405,38 +405,38 @@ value="6">Other</label> </div>
                                             class="form-control" />
                                 </td>
                                 <td>
-                                    <div>3_1_4_3<input type="number" value="0" required name="3_1_4_3" id="3_1_4_3"
+                                    <div>3_1_4_3<input type="number" value="0" onkeyup="fnmulty('3_1_2_3','3_1_4_3','3_1_5_3');"  required name="3_1_4_3" id="3_1_4_3"
                                             class="form-control" />
                                 </td>
                                 <td>
-                                    <div>3_1_5_3<input type="number" value="0" required name="3_1_5_3" id="3_1_5_3"
+                                    <div>3_1_5_3<input type="number" value="0" readonly name="3_1_5_3" id="3_1_5_3"
                                             class="form-control" />
                                 </td>
                                 <td>
                                     <div class="form-group">
 
                                     <div class="checkbox"><label><input type="checkbox" name="3_1_6_3a" id="3_1_6_3a"
-value="1">Retail Shop/ wholesaler-3_1_6_3a</label> </div>
-<div class="checkbox"><label><input type="checkbox" name="3_1_6_3b" id="3_1_6_3b"
-value="2">Agrarian Devlopment Centre-3_1_6_3b</label> </div>
-<div class="checkbox"><label><input type="checkbox" name="3_1_6_3c" id="3_1_6_3c"
-value="3">Fellow farmer</label> </div>
-<div class="checkbox"><label><input type="checkbox" name="3_1_6_3d" id="3_1_6_3d"
-value="4">Farmer association or cooperative</label></div>
-<div class="checkbox"> <label><input type="checkbox" name="3_1_6_3e" id="3_1_6_3e"
-value="5">Neighbour</label> </div>
-<div class="checkbox"> <label><input type="checkbox" name="3_1_6_3f" id="3_1_6_3f" onclick="eDcheckOT('3_1_6_3f','3_1_6_3f_oth')"
-value="6">Other</label> </div>
-<div>3_1_6_3f_oth<input type="text" name="3_1_6_3f_oth" id="3_1_6_3f_oth"
-	class="form-control" />
-</div>
+                                    value="1">සිල්ලර කඩ/තොග-3_1_6_3a</label> </div>
+                                    <div class="checkbox"><label><input type="checkbox" name="3_1_6_3b" id="3_1_6_3b"
+                                    value="2">ගොවිජන සංවර්ධන මධ්‍යස්ථානය-3_1_6_3b</label> </div>
+                                    <div class="checkbox"><label><input type="checkbox" name="3_1_6_3c" id="3_1_6_3c"
+                                    value="3">  සෙසු ගොවියා</label> </div>
+                                    <div class="checkbox"><label><input type="checkbox" name="3_1_6_3d" id="3_1_6_3d"
+                                    value="4">  ගොවි සංගමය හෝ සමුපකාරය</label></div>
+                                    <div class="checkbox"> <label><input type="checkbox" name="3_1_6_3e" id="3_1_6_3e"
+                                    value="5">   අසල්වැසියා</label> </div>
+                                    <div class="checkbox"> <label><input type="checkbox" name="3_1_6_3f" id="3_1_6_3f" onclick="eDcheckOT('3_1_6_3f','3_1_6_3f_oth')"
+                                    value="5">වෙනත්, සඳහන් කරන්න</label> </div>
+                                    <div>3_1_6_3f_oth<input type="text" name="3_1_6_3f_oth" id="3_1_6_3f_oth"
+                                        class="form-control" />
+                                    </div>
                                 </td>
 
                             </tr>
                             <tr>
-                                <td>Compost</td>
+                                <td>    කොම්පෝස්ට්</td>
                                 <td>
-                                    <div>3_1_2_4<input type="number" value="0" required name="3_1_2_4" id="3_1_2_4"
+                                    <div>3_1_2_4<input type="number" value="0" onkeyup="fnmulty('3_1_2_4','3_1_4_4','3_1_5_4');"  required name="3_1_2_4" id="3_1_2_4"
                                             class="form-control" />
                                 </td>
                                 <td>
@@ -444,28 +444,28 @@ value="6">Other</label> </div>
                                             class="form-control" />
                                 </td>
                                 <td>
-                                    <div>3_1_4_4<input type="number" value="0" required name="3_1_4_4" id="3_1_4_4"
+                                    <div>3_1_4_4<input type="number" value="0" onkeyup="fnmulty('3_1_2_4','3_1_4_4','3_1_5_4');"  required name="3_1_4_4" id="3_1_4_4"
                                             class="form-control" />
                                 </td>
                                 <td>
-                                    <div>3_1_5_4<input type="number" value="0" required name="3_1_5_4" id="3_1_5_4"
+                                    <div>3_1_5_4<input type="number" value="0" readonly name="3_1_5_4" id="3_1_5_4"
                                             class="form-control" />
                                 </td>
                                 <td>
                                     <div class="form-group">
 
                                         <div class="checkbox"><label><input type="checkbox" name="3_1_6_4a" id="3_1_6_4a"
-                                                    value="1">Retail Shop/ wholesaler</label> </div>
+                                                    value="1">සිල්ලර කඩ/තොග</label> </div>
                                         <div class="checkbox"><label><input type="checkbox" name="3_1_6_4b" id="3_1_6_4b"
-                                                    value="2">Agrarian Devlopment Centre</label> </div>
+                                                    value="2">ගොවිජන සංවර්ධන මධ්‍යස්ථානය</label> </div>
                                         <div class="checkbox"><label><input type="checkbox" name="3_1_6_4c" id="3_1_6_4c"
-                                                    value="3">Fellow farmer</label> </div>
+                                                    value="3">සෙසු ගොවියා</label> </div>
                                         <div class="checkbox"><label><input type="checkbox" name="3_1_6_4d" id="3_1_6_4d"
-                                                    value="4">Farmer association or cooperative</label></div>
+                                                    value="4">ගොවි සංගමය හෝ සමුපකාරය</label></div>
                                         <div class="checkbox"> <label><input type="checkbox" name="3_1_6_4e" id="3_1_6_4e"
-                                                    value="5">Neighbour</label> </div>
+                                                    value="5">අසල්වැසියා</label> </div>
                                         <div class="checkbox"> <label><input type="checkbox" name="3_1_6_4f" id="3_1_6_4f" onclick="eDcheckOT('3_1_6_4f','3_1_6_4f_oth')"
-                                                    value="6">Other</label> </div>
+                                                    value="5">වෙනත්, සඳහන් කරන්න</label> </div>
                                         <div>3_1_6_4e_oth<input type="text" name="3_1_6_4f_oth" id="3_1_6_4f_oth"
                                                 class="form-control" />
                                         </div>
@@ -473,9 +473,9 @@ value="6">Other</label> </div>
 
                             </tr>
                             <tr>
-                                <td>Manure</td>
+                                <td>    ගොම</td>
                                 <td>
-                                    <div>3_1_2_5<input type="number" value="0" required name="3_1_2_5" id="3_1_2_5"
+                                    <div>3_1_2_5<input type="number" value="0" onkeyup="fnmulty('3_1_2_5','3_1_4_5','3_1_5_5');"  required name="3_1_2_5" id="3_1_2_5"
                                             class="form-control" />
                                 </td>
                                 <td>
@@ -483,27 +483,27 @@ value="6">Other</label> </div>
                                             class="form-control" />
                                 </td>
                                 <td>
-                                    <div>3_1_4_5<input type="number" value="0" required name="3_1_4_5" id="3_1_4_5"
+                                    <div>3_1_4_5<input type="number" value="0" onkeyup="fnmulty('3_1_2_5','3_1_4_5','3_1_5_5');"  required name="3_1_4_5" id="3_1_4_5"
                                             class="form-control" />
                                 </td>
                                 <td>
-                                    <div>3_1_5_5<input type="number" value="0" required name="3_1_5_5" id="3_1_5_5"
+                                    <div>3_1_5_5<input type="number" value="0" readonly name="3_1_5_5" id="3_1_5_5"
                                             class="form-control" />
                                 </td>
                                 <td>
                                     <div class="form-group">
                                         <div class="checkbox"><label><input type="checkbox" name="3_1_6_5a" id="3_1_6_5a"
-                                                    value="1">Retail Shop/ wholesaler</label> </div>
+                                                    value="1">සිල්ලර කඩ/තොග</label> </div>
                                         <div class="checkbox"><label><input type="checkbox" name="3_1_6_5b" id="3_1_6_5b"
-                                                    value="2">Agrarian Devlopment Centre</label> </div>
+                                                    value="2">ගොවිජන සංවර්ධන මධ්‍යස්ථානය</label> </div>
                                         <div class="checkbox"><label><input type="checkbox" name="3_1_6_5c" id="3_1_6_5c"
-                                                    value="3">Fellow farmer</label> </div>
+                                                    value="3">සෙසු ගොවියා</label> </div>
                                         <div class="checkbox"><label><input type="checkbox" name="3_1_5_5d" id="3_1_6_5d"
-                                                    value="4">Farmer association or cooperative</label></div>
+                                                    value="4">ගොවි සංගමය හෝ සමුපකාරය</label></div>
                                         <div class="checkbox"> <label><input type="checkbox" name="3_1_6_5e" id="3_1_6_5e"
-                                                    value="5">Neighbour</label> </div>
+                                                    value="5">අසල්වැසියා</label> </div>
                                         <div class="checkbox"> <label><input type="checkbox" name="3_1_6_5f" id="3_1_6_5f" onclick="eDcheckOT('3_1_6_5f','3_1_6_5f_oth')"
-                                                    value="6">Other</label> </div>
+                                                    value="5">වෙනත්, සඳහන් කරන්න</label> </div>
                                         <div>3_1_6_5e_oth<input type="text" name="3_1_6_5f_oth" id="3_1_6_5f_oth"
                                                 class="form-control" />
                                         </div>
@@ -513,9 +513,9 @@ value="6">Other</label> </div>
 
 
                             <tr>
-                                <td> Liquid fertilizers</td>
+                                <td>දියර පොහොර</td>
                                 <td>
-                                    <div>3_1_2_6<input type="number" value="0" required name="3_1_2_6" id="3_1_2_6"
+                                    <div>3_1_2_6<input type="number" value="0" onkeyup="fnmulty('3_1_2_6','3_1_4_6','3_1_5_6');"  required name="3_1_2_6" id="3_1_2_6"
                                             class="form-control" />
                                 </td>
                                 <td>
@@ -523,27 +523,27 @@ value="6">Other</label> </div>
                                             class="form-control" />
                                 </td>
                                 <td>
-                                    <div>3_1_4_6<input type="number" value="0" required name="3_1_4_6" id="3_1_4_6"
+                                    <div>3_1_4_6<input type="number" value="0" onkeyup="fnmulty('3_1_2_6','3_1_4_6','3_1_5_6');"  required name="3_1_4_6" id="3_1_4_6"
                                             class="form-control" />
                                 </td>
                                 <td>
-                                    <div>3_1_5_6<input type="number" value="0" required name="3_1_5_6" id="3_1_5_6"
+                                    <div>3_1_5_6<input type="number" value="0" readonly name="3_1_5_6" id="3_1_5_6"
                                             class="form-control" />
                                 </td>
                                 <td>
                                     <div class="form-group">
                                     <div class="checkbox"><label><input type="checkbox" name="3_1_6_6a" id="3_1_5_6a"
-                                                    value="1">Retail Shop/ wholesaler</label> </div>
+                                                    value="1">  සිල්ලර කඩ/තොග</label> </div>
                                         <div class="checkbox"><label><input type="checkbox" name="3_1_6_6b" id="3_1_6_6b"
-                                                    value="2">Agrarian Devlopment Centre</label> </div>
+                                                    value="2">  ගොවිජන සංවර්ධන මධ්‍යස්ථානය</label> </div>
                                         <div class="checkbox"><label><input type="checkbox" name="3_1_6_6c" id="3_1_6_6c"
-                                                    value="3">Fellow farmer</label> </div>
+                                                    value="3">  සෙසු ගොවියා</label> </div>
                                         <div class="checkbox"><label><input type="checkbox" name="3_1_6_6d" id="3_1_6_6d"
-                                                    value="4">Farmer association or cooperative</label></div>
+                                                    value="4">ගොවි සංගමය හෝ සමුපකාරය  </label></div>
                                         <div class="checkbox"> <label><input type="checkbox" name="3_1_6_6e" id="3_1_6_6e"
-                                                    value="5">Neighbour</label> </div>
+                                                    value="5">  අසල්වැසියා</label> </div>
                                         <div class="checkbox"> <label><input type="checkbox" name="3_1_6_6f" id="3_1_6_6f"  onclick="eDcheckOT('3_1_6_6f','3_1_6_6f_oth')"
-                                                    value="6">Other</label> </div>
+                                                    value="5">  වෙනත්, සඳහන් කරන්න</label> </div>
                                         <div>3_1_5_6e_oth<input type="text" name="3_1_5_6e_oth" id="3_1_6_6f_oth"
                                                 class="form-control" />
                                         </div>
@@ -551,10 +551,10 @@ value="6">Other</label> </div>
 
                             </tr>
                             <tr>
-                                <td> Other organic
-                                    fertilizers</td>
+                                <td>වෙනත් කාබනික පොහොර</td>
+                                   
                                     <td>
-                                    <div>3_1_2_7<input type="number" value="0" required name="3_1_2_7" id="3_1_2_7"
+                                    <div>3_1_2_7<input type="number" value="0" onkeyup="fnmulty('3_1_2_7','3_1_4_7','3_1_5_7');"  required name="3_1_2_7" id="3_1_2_7"
                                             class="form-control" />
                                 </td>
                                 <td>
@@ -562,27 +562,27 @@ value="6">Other</label> </div>
                                             class="form-control" />
                                 </td>
                                 <td>
-                                    <div>3_1_4_7<input type="number" value="0" required name="3_1_4_7" id="3_1_4_7"
+                                    <div>3_1_4_7<input type="number" value="0" onkeyup="fnmulty('3_1_2_7','3_1_4_7','3_1_5_7');"  required name="3_1_4_7" id="3_1_4_7"
                                             class="form-control" />
                                 </td>
                                 <td>
-                                    <div>3_1_5_7<input type="number" value="0" required name="3_1_5_7" id="3_1_5_7"
+                                    <div>3_1_5_7<input type="number" value="0" readonly name="3_1_5_7" id="3_1_5_7"
                                             class="form-control" />
                                 </td>
                                 <td>
                                     <div class="form-group">
                                     <div class="checkbox"><label><input type="checkbox" name="3_1_6_7a" id="3_1_6_7a"
-                                                    value="1">Retail Shop/ wholesaler</label> </div>
+                                                    value="1">  සිල්ලර කඩ/තොග</label> </div>
                                         <div class="checkbox"><label><input type="checkbox" name="3_1_6_7b" id="3_1_6_7b"
-                                                    value="2">Agrarian Devlopment Centre</label> </div>
+                                                    value="2">  ගොවිජන සංවර්ධන මධ්‍යස්ථානය</label> </div>
                                         <div class="checkbox"><label><input type="checkbox" name="3_1_6_7c" id="3_1_6_7c"
-                                                    value="3">Fellow farmer</label> </div>
+                                                    value="3"> සෙසු ගොවියා</label> </div>
                                         <div class="checkbox"><label><input type="checkbox" name="3_1_6_7d" id="3_1_6_7d"
-                                                    value="4">Farmer association or cooperative</label></div>
+                                                    value="4">  ගොවි සංගමය හෝ සමුපකාරය</label></div>
                                         <div class="checkbox"> <label><input type="checkbox" name="3_1_6_7e" id="3_1_6_7e"
-                                                    value="5">Neighbour</label> </div>
+                                                    value="5">  අසල්වැසියා</label> </div>
                                         <div class="checkbox"> <label><input type="checkbox" name="3_1_6_7f" id="3_1_6_7f"  onclick="eDcheckOT('3_1_6_7f','3_1_6_7f_oth')"
-                                                    value="6">Other</label> </div>
+                                                    value="5">වෙනත්, සඳහන් කරන්න</label> </div>
                                         <div>3_1_5_7e_oth<input type="text" name="3_1_5_7f_oth" id="3_1_6_7f_oth"
                                                 class="form-control" />
                                         </div>
@@ -590,9 +590,9 @@ value="6">Other</label> </div>
 
                             </tr>
                             <tr>
-                                <td> Other</td>
+                                <td> වෙනත්</td>
                                 <td>
-                                    <div>3_1_2_8<input type="number" value="0" required name="3_1_2_8" id="3_1_2_8"
+                                    <div>3_1_2_8<input type="number" value="0" onkeyup="fnmulty('3_1_2_8','3_1_4_8','3_1_5_8');"  required name="3_1_2_8" id="3_1_2_8"
                                             class="form-control" />
                                 </td>
                                 <td>
@@ -600,27 +600,27 @@ value="6">Other</label> </div>
                                             class="form-control" />
                                 </td>
                                 <td>
-                                    <div>3_1_4_8<input type="number" value="0" required name="3_1_4_8" id="3_1_4_8"
+                                    <div>3_1_4_8<input type="number" value="0" onkeyup="fnmulty('3_1_2_8','3_1_4_8','3_1_5_8');"  required name="3_1_4_8" id="3_1_4_8"
                                             class="form-control" />
                                 </td>
                                 <td>
-                                    <div>3_1_5_8<input type="number" value="0" required name="3_1_5_8" id="3_1_5_8"
+                                    <div>3_1_5_8<input type="number" value="0" readonly name="3_1_5_8" id="3_1_5_8"
                                             class="form-control" />
                                 </td>
                                 <td>
                                     <div class="form-group">
                                     <div class="checkbox"><label><input type="checkbox" name="3_1_6_8a" id="3_1_6_8a"
-                                                    value="1">Retail Shop/ wholesaler</label> </div>
+                                                    value="1">සිල්ලර කඩ/තොග</label> </div>
                                         <div class="checkbox"><label><input type="checkbox" name="3_1_6_8b" id="3_1_6_8b"
-                                                    value="2">Agrarian Devlopment Centre</label> </div>
+                                                    value="2">ගොවිජන සංවර්ධන මධ්‍යස්ථානය</label> </div>
                                         <div class="checkbox"><label><input type="checkbox" name="3_1_6_8c" id="3_1_6_8c"
-                                                    value="3">Fellow farmer</label> </div>
+                                                    value="3">සෙසු ගොවියා</label> </div>
                                         <div class="checkbox"><label><input type="checkbox" name="3_1_6_8d" id="3_1_6_8d"
-                                                    value="4">Farmer association or cooperative</label></div>
+                                                    value="4">ගොවි සංගමය හෝ සමුපකාරය</label></div>
                                         <div class="checkbox"> <label><input type="checkbox" name="3_1_6_8e" id="3_1_6_8e"
-                                                    value="5">Neighbour</label> </div>
+                                                    value="5">අසල්වැසියා</label> </div>
                                         <div class="checkbox"> <label><input type="checkbox" name="3_1_6_8f" id="3_1_6_8f"  onclick="eDcheckOT('3_1_6_8f','3_1_6_8f_oth')"
-                                                    value="6">Other</label> </div>
+                                                    value="5">වෙනත්, සඳහන් කරන්න</label> </div>
                                         <div>3_1_5_8e_oth<input type="text" name="3_1_5_8f_oth" id="3_1_6_8f_oth"
                                                 class="form-control" />
                                         </div>
@@ -629,34 +629,34 @@ value="6">Other</label> </div>
                             </tr>
                         </table>
                     </div>
-<div class="row">
-<div class="col-md-12">
+                                <div class="row">
+                                <div class="col-md-12">
                             <table class="table table-bordered table-hover">
                                 <tr>
-                                    <th colspan="3">3.1.7. Costs incurred with fertilizer application (without labour costs)</th>
+                                    <th colspan="3">3.1.7. පොහොර යෙදීමේදී දැරීමට සිදුවන පිරිවැය (ශ්‍රම පිරිවැය නොමැතිව) </th>
                                 </tr>
                                 <tr>
-                                    <th>Reason</th>
-                                    <th>Cost</th>
+                                    <th>    හේතුව</th>
+                                    <th>පිරිවැය</th>
                                 </tr>
                                 <tr>
-                                    <td>Fuel for transport fertilizer</td>
+                                    <td>    පොහොර ප්‍රවාහනය සඳහා ඉන්ධන</td>
                                     <td>
-                                        <div>3_1_7_1 <input type="number" value="0" required name="3_1_7_1" id="3_1_7_1"
+                                    <div>3_1_7_1 <input type="number" value="0" required name="3_1_7_1" id="3_1_7_1"
                                                 class="form-control" />
                                     </td>
                                 </tr>
                                 <tr>
-                                    <td>Cost for spraying machine</td>
+                                    <td>    ඉසින යන්ත්‍රය සඳහා පිරිවැය</td>
                                     <td>
-                                        <div>3_1_7_2<input type="number" value="0" required name="3_1_7_2" id="3_1_7_2"
+                                    <div>3_1_7_2<input type="number" value="0" required name="3_1_7_2" id="3_1_7_2"
                                                 class="form-control" />
                                     </td>
                                 </tr>
                                 <tr>
-                                    <td>Other costs</td>
+                                    <td>වෙනත් පිරිවැය</td>
                                     <td>
-                                        <div>3_1_7_3<input type="number" value="0" required name="3_1_7_3" id="3_1_7_3"
+                                    <div>3_1_7_3<input type="number" value="0" required name="3_1_7_3" id="3_1_7_3"
                                                 class="form-control" />
                                     </td>
                                 </tr>
@@ -666,34 +666,34 @@ value="6">Other</label> </div>
                     <div class="row">
                         <table class="table table-bordered table-hover">
                             <tr>
-                                <th> Type of fertilizer usage for 2020/21 </th>
-                                <th>3.1.8.Amount (Kg)</th>
-                                <th>3.1.9.Area applied (Acres)</th>
-                                <th>3.1.10.Price per unit (Rs/Kg)</th>
-                                <th>3.1.11.Total Cost (Rs) </th>
-                                <th>3.1.12.Source (Please use below codes) </th>
+                                <th> 2020/21 සඳහා පොහොර භාවිතයේ වර්ගය</th>
+                                <th>3.1.8.ප්‍රමාණය(kg)</th>
+                                <th>3.1.9.යොදන ලද භූමි ප්‍රදේශය (අක්කර )</th>
+                                <th>3.1.10.10ඒකකයකට මිල (රු./කිලෝ )</th>
+                                <th>3.1.11.මුළු පිරිවැය (රු.) </th>
+                                <th>3.1.12.මූලාශ්‍රය (කරුණාකර පහත කේත භාවිතා කරන්න) </th>
 
                             </tr>
                             <tr>
-                                <td>Urea</td>
-                                <td><div>3_1_8_1<input type="number" value="0" required name="3_1_8_1" id="3_1_8_1"  class="form-control" /> </td>
+                                <td>යූරියා</td>
+                                <td><div>3_1_8_1<input type="number" onkeyup="fnmulty('3_1_8_1','3_1_10_1','3_1_11_1');"  value="0" required name="3_1_8_1" id="3_1_8_1"  class="form-control" /> </td>
                                 <td><div>3_1_9_1<input type="number" value="0" required name="3_1_9_1" id="3_1_9_1" class="form-control" /> </td>
-                                <td><div>3_1_10_1<input type="number" value="0" required name="3_1_10_1" id="3_1_10_1" class="form-control" /> </td>
-                                <td><div>3_1_11_1<input type="number" value="0" required name="3_1_11_1" id="3_1_11_1" class="form-control" /> </td>
+                                <td><div>3_1_10_1<input type="number" onkeyup="fnmulty('3_1_8_1','3_1_10_1','3_1_11_1');"  value="0" required name="3_1_10_1" id="3_1_10_1" class="form-control" /> </td>
+                                <td><div>3_1_11_1<input type="number" value="0" readonly name="3_1_11_1" id="3_1_11_1" class="form-control" /> </td>
                                 <td>
                                     <div class="form-group">
                                         <div class="checkbox"><label><input type="checkbox" name="3_1_12_1a" id="3_1_12_1a"
-                                                    value="1">Retail Shop/ wholesaler</label> </div>
+                                                    value="1">  සිල්ලර කඩ/තොග</label> </div>
                                         <div class="checkbox"><label><input type="checkbox" name="3_1_12_1b" id="3_1_12_1b"
-                                                    value="2">Agrarian Devlopment Centre</label> </div>
+                                                    value="2">  ගොවිජන සංවර්ධන මධ්‍යස්ථානය</label> </div>
                                         <div class="checkbox"><label><input type="checkbox" name="3_1_12_1c" id="3_1_12_1c"
-                                                    value="3">Fellow farmer</label> </div>
+                                                    value="3">  සෙසු ගොවියා</label> </div>
                                         <div class="checkbox"><label><input type="checkbox" name="3_1_12_1d" id="3_1_12_1d"
-                                                    value="4">Farmer association or cooperative</label></div>
+                                                    value="4">  ගොවි සංගමය හෝ සමුපකාරය</label></div>
                                         <div class="checkbox"> <label><input type="checkbox" name="3_1_12_1e" id="3_1_12_1e"
-                                                    value="5">Neighbour</label> </div>
+                                                    value="5">  අසල්වැසියා</label> </div>
                                         <div class="checkbox"> <label><input type="checkbox" name="3_1_12_1f" id="3_1_12_1f"  onclick="eDcheckOT('3_1_12_1f','3_1_12_1f_oth')"
-                                                    value="6">Other</label> </div>
+                                                    value="5">  වෙනත්, සඳහන් කරන්න</label> </div>
                                         <div>3_1_12_1e_oth<input type="text" name="3_1_12_1f_oth" id="3_1_12_1f_oth"
                                                 class="form-control" />
                                         </div>
@@ -701,143 +701,143 @@ value="6">Other</label> </div>
 
                             </tr>
                             <tr>
-                                <td>TSP</td>
-                                <td><div>3_1_8_2<input type="number" value="0" required name="3_1_8_2" id="3_1_8_2"  class="form-control" /> </td>
-                                <td><div>3_1_9_2<input type="text"  value="0" required name="3_1_9_2" id="3_1_9_2" class="form-control" /> </td>
-                                <td><div>3_1_10_2<input type="text" value="0" required  name="3_1_10_2" id="3_1_10_2" class="form-control" /> </td>
-                                <td><div>3_1_11_2<input type="text" value="0" required  name="3_1_11_2" id="3_1_11_2" class="form-control" /> </td>
+                                <td>ටී.එස්.පී TSP</td>
+                                <td><div>3_1_8_2<input type="number"  onkeyup="fnmulty('3_1_8_2','3_1_10_2','3_1_11_2');" value="0" required name="3_1_8_2" id="3_1_8_2"  class="form-control" /> </td>
+                                <td><div>3_1_9_2<input type="number"  value="0" required name="3_1_9_2" id="3_1_9_2" class="form-control" /> </td>
+                                <td><div>3_1_10_2<input type="number" onkeyup="fnmulty('3_1_8_2','3_1_10_2','3_1_11_2');"  value="0" required  name="3_1_10_2" id="3_1_10_2" class="form-control" /> </td>
+                                <td><div>3_1_11_2<input type="number" value="0" readonly  name="3_1_11_2" id="3_1_11_2" class="form-control" /> </td>
                                 <td>
                                     <div class="form-group">
-                                    <div class="checkbox"><label><input type="checkbox" name="3_1_12_2a" id="3_1_12_2a" value="1"> Retail Shop/ wholesaler</label> </div>
-    <div class="checkbox"><label><input type="checkbox" name="3_1_12_2b" id="3_1_12_2b" value="2">Agrarian Devlopment Centre</label> </div>
-    <div class="checkbox"><label><input type="checkbox" name="3_1_12_2c" id="3_1_12_2c" value="3">Fellow farmer</label> </div>
-    <div class="checkbox"><label><input type="checkbox" name="3_1_12_2d" id="3_1_12_2d" value="4">Farmer association or cooperative</label></div>
-    <div class="checkbox"><label><input type="checkbox" name="3_1_12_2e" id="3_1_12_2e" value="5">Neighbour</label> </div>
-    <div class="checkbox"><label><input type="checkbox" name="3_1_12_2f" id="3_1_12_2f" value="6"  onclick="eDcheckOT('3_1_12_2f','3_1_12_2f_oth')">Other</label> </div>
-	
-    <div>3_1_12_2e_oth<input type="text" name="3_1_12_2f_oth" id="3_1_12_2f_oth" class="form-control" /> </div>
+                                    <div class="checkbox"><label><input type="checkbox" name="3_1_12_2a" id="3_1_12_2a" value="1">  සිල්ලර කඩ/තොග</label> </div>
+                                <div class="checkbox"><label><input type="checkbox" name="3_1_12_2b" id="3_1_12_2b" value="2">  ගොවිජන සංවර්ධන මධ්‍යස්ථානය</label> </div>
+                                <div class="checkbox"><label><input type="checkbox" name="3_1_12_2c" id="3_1_12_2c" value="3">  සෙසු ගොවියා</label> </div>
+                                <div class="checkbox"><label><input type="checkbox" name="3_1_12_2d" id="3_1_12_2d" value="4">ගොවි සංගමය හෝ සමුපකාරය</label></div>
+                                <div class="checkbox"><label><input type="checkbox" name="3_1_12_2e" id="3_1_12_2e" value="5">අසල්වැසියා</label> </div>
+                                <div class="checkbox"><label><input type="checkbox" name="3_1_12_2f" id="3_1_12_2f" value="6"  onclick="eDcheckOT('3_1_12_2f','3_1_12_2f_oth')">වෙනත්, සඳහන් කරන්න</label> </div>
+                                
+                                <div>3_1_12_2e_oth<input type="text" name="3_1_12_2f_oth" id="3_1_12_2f_oth" class="form-control" /> </div>
                                 </td>
 
                             </tr>
 
                             <tr>
-                                <td>MOP</td>
-                                <td><div>3_1_8_3<input type="text" value="0" required  name="3_1_8_3" id="3_1_8_3"  class="form-control" /> </td>
+                                <td>එම්ඕපී MOP</td>
+                                <td><div>3_1_8_3<input type="text" value="0" onkeyup="fnmulty('3_1_8_3','3_1_10_3','3_1_11_3');"  required  name="3_1_8_3" id="3_1_8_3"  class="form-control" /> </td>
                                 <td><div>3_1_9_3<input type="text" value="0" required  name="3_1_9_3" id="3_1_9_3" class="form-control" /> </td>
-                                <td><div>3_1_10_3<input type="text" value="0" required  name="3_1_10_3" id="3_1_10_3" class="form-control" /> </td>
-                                <td><div>3_1_11_3<input type="text" value="0" required  name="3_1_11_3" id="3_1_11_3" class="form-control" /> </td>
+                                <td><div>3_1_10_3<input type="text" value="0" onkeyup="fnmulty('3_1_8_3','3_1_10_3','3_1_11_3');"  required  name="3_1_10_3" id="3_1_10_3" class="form-control" /> </td>
+                                <td><div>3_1_11_3<input type="text" value="0" readonly  name="3_1_11_3" id="3_1_11_3" class="form-control" /> </td>
                                 <td>
                                     <div class="form-group">
-                                    <div class="checkbox"><label><input type="checkbox" name="3_1_12_3a" id="3_1_12_3a" value="1"> Retail Shop/ wholesaler</label> </div>
-    <div class="checkbox"><label><input type="checkbox" name="3_1_12_3b" id="3_1_12_3b" value="2">Agrarian Devlopment Centre</label> </div>
-    <div class="checkbox"><label><input type="checkbox" name="3_1_12_3c" id="3_1_12_3c" value="3">Fellow farmer</label> </div>
-    <div class="checkbox"><label><input type="checkbox" name="3_1_12_3d" id="3_1_12_3d" value="4">Farmer association or cooperative</label></div>
-    <div class="checkbox"><label><input type="checkbox" name="3_1_12_3e" id="3_1_12_3e" value="5">Neighbour</label> </div>
-    <div class="checkbox"><label><input type="checkbox" name="3_1_12_3f" id="3_1_12_3f" value="6"  onclick="eDcheckOT('3_1_12_3f','3_1_12_3f_oth')">Other</label> </div>
-	
-    <div>3_1_12_3e_oth<input type="text" name="3_1_12_3f_oth" id="3_1_12_3f_oth" class="form-control" /> </div>
+                                    <div class="checkbox"><label><input type="checkbox" name="3_1_12_3a" id="3_1_12_3a" value="1">  සිල්ලර කඩ/තොග</label> </div>
+                                <div class="checkbox"><label><input type="checkbox" name="3_1_12_3b" id="3_1_12_3b" value="2">  ගොවිජන සංවර්ධන මධ්‍යස්ථානය</label> </div>
+                                <div class="checkbox"><label><input type="checkbox" name="3_1_12_3c" id="3_1_12_3c" value="3"> සෙසු ගොවියා </label> </div>
+                                <div class="checkbox"><label><input type="checkbox" name="3_1_12_3d" id="3_1_12_3d" value="4">  ගොවි සංගමය හෝ සමුපකාරය</label></div>
+                                <div class="checkbox"><label><input type="checkbox" name="3_1_12_3e" id="3_1_12_3e" value="5">  අසල්වැසියා</label> </div>
+                                <div class="checkbox"><label><input type="checkbox" name="3_1_12_3f" id="3_1_12_3f" value="6"  onclick="eDcheckOT('3_1_12_3f','3_1_12_3f_oth')">වෙනත්, සඳහන් කරන්න</label> </div>
+                                
+                                <div>3_1_12_3e_oth<input type="text" name="3_1_12_3f_oth" id="3_1_12_3f_oth" class="form-control" /> </div>
                                 </td>
 
                             </tr>
                             <tr>
-                                <td>Compost</td>
-                                <td><div>3_1_8_4<input type="text" value="0" required  name="3_1_8_4" id="3_1_8_4"  class="form-control" /> </td>
-                                <td><div>3_1_9_4<input type="text" value="0" required  name="3_1_9_4" id="3_1_9_4" class="form-control" /> </td>
-                                <td><div>3_1_10_4<input type="text" value="0" required  name="3_1_10_4" id="3_1_10_4" class="form-control" /> </td>
-                                <td><div>3_1_11_4<input type="text" value="0" required  name="3_1_11_4" id="3_1_11_4" class="form-control" /> </td>
+                                <td>    කොම්පෝස්ට්</td>
+                                <td><div>3_1_8_4<input type="number"  onkeyup="fnmulty('3_1_8_4','3_1_10_4','3_1_11_4');" value="0" required  name="3_1_8_4" id="3_1_8_4"  class="form-control" /> </td>
+                                <td><div>3_1_9_4<input type="number" value="0" required  name="3_1_9_4" id="3_1_9_4" class="form-control" /> </td>
+                                <td><div>3_1_10_4<input type="number"  onkeyup="fnmulty('3_1_8_4','3_1_10_4','3_1_11_4');" value="0" required  name="3_1_10_4" id="3_1_10_4" class="form-control" /> </td>
+                                <td><div>3_1_11_4<input type="number" value="0" readonly  name="3_1_11_4" id="3_1_11_4" class="form-control" /> </td>
                                 <td>
                                     <div class="form-group">
-                                    <div class="checkbox"><label><input type="checkbox" name="3_1_12_4a" id="3_1_12_4a" value="1"> Retail Shop/ wholesaler</label> </div>
-    <div class="checkbox"><label><input type="checkbox" name="3_1_12_4b" id="3_1_12_4b" value="2">Agrarian Devlopment Centre</label> </div>
-    <div class="checkbox"><label><input type="checkbox" name="3_1_12_4c" id="3_1_12_4c" value="3">Fellow farmer</label> </div>
-    <div class="checkbox"><label><input type="checkbox" name="3_1_12_4d" id="3_1_12_4d" value="4">Farmer association or cooperative</label></div>
-    <div class="checkbox"><label><input type="checkbox" name="3_1_12_4e" id="3_1_12_4e" value="5">Neighbour</label> </div>
-    <div class="checkbox"><label><input type="checkbox" name="3_1_12_4f" id="3_1_12_4f" value="6" onclick="eDcheckOT('3_1_12_4f','3_1_12_4f_oth')">Other</label> </div>
-	
-    <div>3_1_12_4e_oth<input type="text" name="3_1_12_4f_oth" id="3_1_12_4f_oth" class="form-control" /> </div>
+                                                                <div class="checkbox"><label><input type="checkbox" name="3_1_12_4a" id="3_1_12_4a" value="1"> සිල්ලර කඩ/තොග</label> </div>
+                                <div class="checkbox"><label><input type="checkbox" name="3_1_12_4b" id="3_1_12_4b" value="2">ගොවිජන සංවර්ධන මධ්‍යස්ථානය</label> </div>
+                                <div class="checkbox"><label><input type="checkbox" name="3_1_12_4c" id="3_1_12_4c" value="3">සෙසු ගොවියා</label> </div>
+                                <div class="checkbox"><label><input type="checkbox" name="3_1_12_4d" id="3_1_12_4d" value="4">ගොවි සංගමය හෝ සමුපකාරය</label></div>
+                                <div class="checkbox"><label><input type="checkbox" name="3_1_12_4e" id="3_1_12_4e" value="5">අසල්වැසියා</label> </div>
+                                <div class="checkbox"><label><input type="checkbox" name="3_1_12_4f" id="3_1_12_4f" value="6" onclick="eDcheckOT('3_1_12_4f','3_1_12_4f_oth')">වෙනත්, සඳහන් කරන්න</label> </div>
+                                
+                                <div>3_1_12_4e_oth<input type="text" name="3_1_12_4f_oth" id="3_1_12_4f_oth" class="form-control" /> </div>
                                 </td>
 
                             </tr>
                             <tr>
-                            <td>Manure</td>
-                            <td>    <div>3_1_8_5<input type="text" value="0" required  name="3_1_8_5" id="3_1_8_5"  class="form-control" /> </td>
-                                <td><div>3_1_9_5<input type="text" value="0" required  name="3_1_9_5" id="3_1_9_5" class="form-control" /> </td>
-                                <td><div>3_1_10_5<input type="text" value="0" required  name="3_1_10_5" id="3_1_10_5" class="form-control" /> </td>
-                                <td><div>3_1_11_5<input type="text" value="0" required  name="3_1_11_5" id="3_1_11_5" class="form-control" /> </td>
+                            <td>ගොම</td>
+                            <td><div>3_1_8_5<input type="number" onkeyup="fnmulty('3_1_8_5','3_1_10_5','3_1_11_5');"  value="0" required  name="3_1_8_5" id="3_1_8_5"  class="form-control" /> </td>
+                                <td><div>3_1_9_5<input type="number" value="0" required  name="3_1_9_5" id="3_1_9_5" class="form-control" /> </td>
+                                <td><div>3_1_10_5<input type="number" onkeyup="fnmulty('3_1_8_5','3_1_10_5','3_1_11_5');"  value="0" required  name="3_1_10_5" id="3_1_10_5" class="form-control" /> </td>
+                                <td><div>3_1_11_5<input type="number" value="0" readonly  name="3_1_11_5" id="3_1_11_5" class="form-control" /> </td>
                                 <td>
                                     <div class="form-group">
-                                    <div class="checkbox"><label><input type="checkbox" name="3_1_12_5a" id="3_1_12_5a" value="1"> Retail Shop/ wholesaler</label> </div>
-    <div class="checkbox"><label><input type="checkbox" name="3_1_12_5b" id="3_1_12_5b" value="2">Agrarian Devlopment Centre</label> </div>
-    <div class="checkbox"><label><input type="checkbox" name="3_1_12_5c" id="3_1_12_5c" value="3">Fellow farmer</label> </div>
-    <div class="checkbox"><label><input type="checkbox" name="3_1_12_5d" id="3_1_12_5d" value="4">Farmer association or cooperative</label></div>
-    <div class="checkbox"><label><input type="checkbox" name="3_1_12_5e" id="3_1_12_5e" value="5">Neighbour</label> </div>
-    <div class="checkbox"><label><input type="checkbox" name="3_1_12_5f" id="3_1_12_5f" value="6"  onclick="eDcheckOT('3_1_12_5f','3_1_12_5f_oth')">Other</label> </div>
-	
-    <div>3_1_12_5e_oth<input type="text" name="3_1_12_5f_oth" id="3_1_12_5f_oth" class="form-control" /> </div>
+                                    <div class="checkbox"><label><input type="checkbox" name="3_1_12_5a" id="3_1_12_5a" value="1"> සිල්ලර කඩ/තොග</label> </div>
+                                <div class="checkbox"><label><input type="checkbox" name="3_1_12_5b" id="3_1_12_5b" value="2">ගොවිජන සංවර්ධන මධ්‍යස්ථානය</label> </div>
+                                <div class="checkbox"><label><input type="checkbox" name="3_1_12_5c" id="3_1_12_5c" value="3">සෙසු ගොවියා</label> </div>
+                                <div class="checkbox"><label><input type="checkbox" name="3_1_12_5d" id="3_1_12_5d" value="4">ගොවි සංගමය හෝ සමුපකාරය</label></div>
+                                <div class="checkbox"><label><input type="checkbox" name="3_1_12_5e" id="3_1_12_5e" value="5">අසල්වැසියා</label> </div>
+                                <div class="checkbox"><label><input type="checkbox" name="3_1_12_5f" id="3_1_12_5f" value="6"  onclick="eDcheckOT('3_1_12_5f','3_1_12_5f_oth')">වෙනත්, සඳහන් කරන්න</label> </div>
+                                
+                                <div>3_1_12_5e_oth<input type="text" name="3_1_12_5f_oth" id="3_1_12_5f_oth" class="form-control" /> </div>
                                 </td>
 
                             </tr>
 
 
                             <tr>
-                                <td> Liquid fertilizers</td>
-                                <td><div>3_1_8_6<input type="text" value="0" required name="3_1_8_6" id="3_1_8_6"  class="form-control" /> </td>
-                                <td><div>3_1_9_6<input type="text" value="0" required name="3_1_9_6" id="3_1_9_6" class="form-control" /> </td>
-                                <td><div>3_1_10_6<input type="text" value="0" required name="3_1_10_6" id="3_1_10_6" class="form-control" /> </td>
-                                <td><div>3_1_11_6<input type="text" value="0" required name="3_1_11_6" id="3_1_11_6" class="form-control" /> </td>
+                                <td>දියර පොහොර</td>
+                                <td><div>3_1_8_6<input type="number" onkeyup="fnmulty('3_1_8_6','3_1_10_6','3_1_11_6');"  value="0" required name="3_1_8_6" id="3_1_8_6"  class="form-control" /> </td>
+                                <td><div>3_1_9_6<input type="number" value="0" required name="3_1_9_6" id="3_1_9_6" class="form-control" /> </td>
+                                <td><div>3_1_10_6<input type="number" onkeyup="fnmulty('3_1_8_6','3_1_10_6','3_1_11_6');"  value="0" required name="3_1_10_6" id="3_1_10_6" class="form-control" /> </td>
+                                <td><div>3_1_11_6<input type="number" value="0" readonly name="3_1_11_6" id="3_1_11_6" class="form-control" /> </td>
                                 <td>
                                     <div class="form-group">
-                                    <div class="checkbox"><label><input type="checkbox" name="3_1_12_6a" id="3_1_12_6a" value="1"> Retail Shop/ wholesaler</label> </div>
-    <div class="checkbox"><label><input type="checkbox" name="3_1_12_6b" id="3_1_12_6b" value="2">Agrarian Devlopment Centre</label> </div>
-    <div class="checkbox"><label><input type="checkbox" name="3_1_12_6c" id="3_1_12_6c" value="3">Fellow farmer</label> </div>
-    <div class="checkbox"><label><input type="checkbox" name="3_1_12_6d" id="3_1_12_6d" value="4">Farmer association or cooperative</label></div>
-    <div class="checkbox"><label><input type="checkbox" name="3_1_12_6e" id="3_1_12_6e" value="5">Neighbour</label> </div>
-    <div class="checkbox"><label><input type="checkbox" name="3_1_12_6f" id="3_1_12_6f" value="6" onclick="eDcheckOT('3_1_12_6f','3_1_12_6f_oth')">Other</label> </div>
-	
-    <div>3_1_12_6e_oth<input type="text" name="3_1_12_6f_oth" id="3_1_12_6f_oth" class="form-control" /> </div>
+                                    <div class="checkbox"><label><input type="checkbox" name="3_1_12_6a" id="3_1_12_6a" value="1"> සිල්ලර කඩ/තොග</label> </div>
+                                    <div class="checkbox"><label><input type="checkbox" name="3_1_12_6b" id="3_1_12_6b" value="2">ගොවිජන සංවර්ධන මධ්‍යස්ථානය</label> </div>
+                                    <div class="checkbox"><label><input type="checkbox" name="3_1_12_6c" id="3_1_12_6c" value="3">සෙසු ගොවියා</label> </div>
+                                    <div class="checkbox"><label><input type="checkbox" name="3_1_12_6d" id="3_1_12_6d" value="4">ගොවි සංගමය හෝ සමුපකාරය</label></div>
+                                    <div class="checkbox"><label><input type="checkbox" name="3_1_12_6e" id="3_1_12_6e" value="5">අසල්වැසියා</label> </div>
+                                    <div class="checkbox"><label><input type="checkbox" name="3_1_12_6f" id="3_1_12_6f" value="6" onclick="eDcheckOT('3_1_12_6f','3_1_12_6f_oth')">වෙනත්, සඳහන් කරන්න</label> </div>
+                                    
+                                    <div>3_1_12_6e_oth<input type="text" name="3_1_12_6f_oth" id="3_1_12_6f_oth" class="form-control" /> </div>
                                 </td>
 
                             </tr>
                             <tr>
-                                <td> Other organic fertilizers</td>
-                                <td><div>3_1_8_7<input type="text" value="0" required  name="3_1_8_7" id="3_1_8_7"  class="form-control" /> </td>
-                                <td><div>3_1_9_7<input type="text" value="0" required  name="3_1_9_7" id="3_1_9_7" class="form-control" /> </td>
-                                <td><div>3_1_10_7<input type="text" value="0" required  name="3_1_10_7" id="3_1_10_7" class="form-control" /> </td>
-                                <td><div>3_1_11_7<input type="text" value="0" required  name="3_1_11_7" id="3_1_11_7" class="form-control" /> </td>
+                                <td> වෙනත් කාබනික පොහොර</td>
+                                <td><div>3_1_8_7<input type="number" onkeyup="fnmulty('3_1_8_7','3_1_10_7','3_1_11_7');"  value="0" required  name="3_1_8_7" id="3_1_8_7"  class="form-control" /> </td>
+                                <td><div>3_1_9_7<input type="number" value="0" required  name="3_1_9_7" id="3_1_9_7" class="form-control" /> </td>
+                                <td><div>3_1_10_7<input type="number" onkeyup="fnmulty('3_1_8_7','3_1_10_7','3_1_11_7');"  value="0" required  name="3_1_10_7" id="3_1_10_7" class="form-control" /> </td>
+                                <td><div>3_1_11_7<input type="number" value="0" readonly  name="3_1_11_7" id="3_1_11_7" class="form-control" /> </td>
                                 <td>
                                     <div class="form-group">
-                                    <div class="checkbox"><label><input type="checkbox" name="3_1_12_7a" id="3_1_12_7a" value="1"> Retail Shop/ wholesaler</label> </div>
-    <div class="checkbox"><label><input type="checkbox" name="3_1_12_7b" id="3_1_12_7b" value="2">Agrarian Devlopment Centre</label> </div>
-    <div class="checkbox"><label><input type="checkbox" name="3_1_12_7c" id="3_1_12_7c" value="3">Fellow farmer</label> </div>
-    <div class="checkbox"><label><input type="checkbox" name="3_1_12_7d" id="3_1_12_7d" value="4">Farmer association or cooperative</label></div>
-    <div class="checkbox"><label><input type="checkbox" name="3_1_12_7e" id="3_1_12_7e" value="5">Neighbour</label> </div>
-    <div class="checkbox"><label><input type="checkbox" name="3_1_12_7f" id="3_1_12_7f" value="6" onclick="eDcheckOT('3_1_12_7f','3_1_12_7f_oth')">Other</label> </div>
-	
-    <div>3_1_12_7e_oth<input type="text" name="3_1_12_7f_oth" id="3_1_12_7f_oth" class="form-control" /> </div>
+                                    <div class="checkbox"><label><input type="checkbox" name="3_1_12_7a" id="3_1_12_7a" value="1">සිල්ලර කඩ/තොග</label> </div>
+                                <div class="checkbox"><label><input type="checkbox" name="3_1_12_7b" id="3_1_12_7b" value="2">ගොවිජන සංවර්ධන මධ්‍යස්ථානය</label> </div>
+                                <div class="checkbox"><label><input type="checkbox" name="3_1_12_7c" id="3_1_12_7c" value="3">සෙසු ගොවියා</label> </div>
+                                <div class="checkbox"><label><input type="checkbox" name="3_1_12_7d" id="3_1_12_7d" value="4">ගොවි සංගමය හෝ සමුපකාරය</label></div>
+                                <div class="checkbox"><label><input type="checkbox" name="3_1_12_7e" id="3_1_12_7e" value="5">අසල්වැසියා</label> </div>
+                                <div class="checkbox"><label><input type="checkbox" name="3_1_12_7f" id="3_1_12_7f" value="6" onclick="eDcheckOT('3_1_12_7f','3_1_12_7f_oth')">වෙනත්, සඳහන් කරන්න</label> </div>
+                                
+                                <div>3_1_12_7e_oth<input type="text" name="3_1_12_7f_oth" id="3_1_12_7f_oth" class="form-control" /> </div>
                                 </td>
 
                             </tr>
                             <tr>
-                                <td> Other</td>
-                                <td><div>3_1_8_8<input type="text" value="0" required  name="3_1_8_8" id="3_1_8_8"  class="form-control" /> </td>
-                                <td><div>3_1_9_8<input type="text" value="0" required  name="3_1_9_8" id="3_1_9_8" class="form-control" /> </td>
-                                <td><div>3_1_10_8<input type="text" value="0" required  name="3_1_10_8" id="3_1_10_8" class="form-control" /> </td>
-                                <td><div>3_1_11_8<input type="text" value="0" required  name="3_1_11_8" id="3_1_11_8" class="form-control" /> </td>
+                                <td> වෙනත්</td>
+                                <td><div>3_1_8_8<input type="number" onkeyup="fnmulty('3_1_8_8','3_1_10_8','3_1_11_8');"  value="0" required  name="3_1_8_8" id="3_1_8_8"  class="form-control" /> </td>
+                                <td><div>3_1_9_8<input type="number" value="0" required  name="3_1_9_8" id="3_1_9_8" class="form-control" /> </td>
+                                <td><div>3_1_10_8<input type="number" onkeyup="fnmulty('3_1_8_8','3_1_10_8','3_1_11_8');"  value="0" required  name="3_1_10_8" id="3_1_10_8" class="form-control" /> </td>
+                                <td><div>3_1_11_8<input type="number" value="0" readonly  name="3_1_11_8" id="3_1_11_8" class="form-control" /> </td>
                                 <td>
                                     <div class="form-group">
 
                                         <div class="checkbox"><label><input type="checkbox" name="3_1_12_8a" id="3_1_12_8a"
-                                                    value="1">Retail Shop/ wholesaler</label> </div>
+                                                    value="1">සිල්ලර කඩ/තොග</label> </div>
                                         <div class="checkbox"><label><input type="checkbox" name="3_1_12_8b" id="3_1_12_8b"
-                                                    value="2">Agrarian Devlopment Centre</label> </div>
+                                                    value="2">ගොවිජන සංවර්ධන මධ්‍යස්ථානය</label> </div>
                                         <div class="checkbox"><label><input type="checkbox" name="3_1_12_8c" id="3_1_12_8c"
-                                                    value="3">Fellow farmer</label> </div>
+                                                    value="3">සෙසු ගොවියා</label> </div>
                                         <div class="checkbox"><label><input type="checkbox" name="3_1_12_8d" id="3_1_12_8d"
-                                                    value="4">Farmer association or cooperative</label></div>
+                                                    value="4">ගොවි සංගමය හෝ සමුපකාරය</label></div>
                                         <div class="checkbox"> <label><input type="checkbox" name="3_1_12_8e" id="3_1_12_8e"
-                                                    value="5">Neighbour</label> </div>
+                                                    value="5">අසල්වැසියා</label> </div>
                                         <div class="checkbox"> <label><input type="checkbox" name="3_1_12_8f" id="3_1_12_8f" onclick="eDcheckOT('3_1_12_8f','3_1_12_8f_oth')"
-                                                    value="6">Other</label> </div>
+                                                    value="6">වෙනත්, සඳහන් කරන්න</label> </div>
                                         <div>1.1.12.1 <input type="text" name="3_1_12_8f_oth" id="3_1_12_8f_oth"
                                                 class="form-control" />
                                         </div>
