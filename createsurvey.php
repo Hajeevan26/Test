@@ -5,6 +5,7 @@ if (!isset($_SESSION)) {
 }
 $user_id = $_SESSION['user_id'];
 $role_id = $_SESSION['role_id'];
+$user_name=$_SESSION['user_name'];
 date_default_timezone_set("Asia/Colombo");
 $sql1 = "select household_id from tblsurvey_question where status=0 and interviewer_id='$user_id' order by household_id DESC";
               
@@ -135,9 +136,9 @@ else
                 //Generate Vehicle id automatically-start
             
 
-if (!isset($_SESSION)) {
-    session_start();
-}
+                if (!isset($_SESSION)) {
+                    session_start();
+                }
                 if(isset($_SESSION['household_id'])) {
                     //$sql1 = "select household_id from tblsurvey_question where status=0 order by household_id DESC";
                     $id=$_SESSION['household_id'];
@@ -154,7 +155,8 @@ if (!isset($_SESSION)) {
                 } 
                 else 
                 {
-                    $id = "H001";
+                    
+                    $id = $user_name+"0001";
                 }
             }
                 ?>
