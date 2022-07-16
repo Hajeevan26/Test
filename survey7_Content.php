@@ -7,7 +7,6 @@
         <div class="card-body">
             <div class="row">
                 <input type="hidden" id="household_id" name="household_id" value="<?php echo $household_id; ?>">
-
                 <div class="col-md-4">
                     <div class="input-group">
                         <label>7.1.රටක් හදිසියේම 100% කාබනික තත්ත්වයට පත් විය හැකි යැයි ඔබ සිතන්නේ කුමක්ද?</label>
@@ -23,9 +22,7 @@
                             <option value="5">වෙනත්
 
                             </option>
-
                         </select>
-
                     </div>
                     <div id="7_1_ot">
                         <div class="input-group">
@@ -86,16 +83,10 @@
 
 
                         </select>
-
-
                     </div>
-
                 </div>
             </div>
-
             <!-- 2nd row -->
-
-
             <!-- 3rd -->
 <hr>
             <div class="row">
