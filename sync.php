@@ -1352,10 +1352,10 @@ if(isset($_POST['btnsync']) )
  
  household_id 	=household_id";
  
- 
+  
                 
                
-                //echo $sql; 
+                //echo $sq l; 
                 $resultt= mysqli_query($conn,$sql) or die("SQL Error in event insert".mysqli_error($conn));
                 //echo $sql; 
             }
