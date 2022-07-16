@@ -57,7 +57,7 @@ if(isset($_POST['btnsubmit']) ) {
 ?>
 <div class="content">
     <div class="container-fluid">
-        <h2>2. ගොවිපල තොරතුරු </h2>
+        <h2>2. ගොවිපල තොරතුරු (දිගටම...)</h2>
         Household number is -<?php echo $household_id; ?>
         <form role="form" action="" method="post">
             <div class="card card-primary">
@@ -101,7 +101,7 @@ if(isset($_POST['btnsubmit']) ) {
                                     </label></div>
 
                             </div>
-                            <div class="input-group" id="2_16f_ot"><input type="text" placeholder="වෙනත්" required name="2_16f_oth" id="2_16f_oth" class="form-control" /></div>
+                            <div class="input-group" id="2_16f_ot"><input type="text" placeholder="වෙනත්"  name="2_16f_oth" id="2_16f_oth" class="form-control" /></div>
 
                         </div>
                         

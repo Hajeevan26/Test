@@ -17,7 +17,7 @@
                         <div class="checkbox"><label><input type="checkbox" name="1_2_1_d" id="1_2_1_d" value="4">පොල් අතු සෙවිලි</label></div>
                         <div class="checkbox"><label><input type="checkbox" name="1_2_1_e" id="1_2_1_e" value="5" onclick="eDcheckOT('1_2_1_e','1_2_1_e_oth')">වෙනත්</label> </div>
 
-                        <div class="input-group" id="1_2_1_e_ot"><input type="text"  name="1_2_1_e_oth" id="1_2_1_e_oth" class="form-control" /></div>
+                        <div class="input-group" id="1_2_1_e_ot"><input type="text"  name="1_2_1_e_oth" id="1_2_1_e_oth" class="form-control " /></div>
 
                     </div>
                 </div>

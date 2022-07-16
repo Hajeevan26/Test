@@ -29,7 +29,7 @@
                     </div>
                     <div id="7_1_ot">
                         <div class="input-group">
-                            <input type="text" required name="7_1_oth" id="7_1_oth" class="form-control" />
+                            <input type="text"  name="7_1_oth" id="7_1_oth" class="form-control" />
                         </div>
                     </div>
                 </div>
@@ -46,13 +46,13 @@
                             </option>
                             <option value="3">මම මීට පෙර කවදාවත් කාබනික පොහොර අත්හදා බැලුවේ නැත
 
-                            </option>
+                            <!-- </option>
                             <option value="4">It was not a good decision as the yield might drop drastically
 
                             </option>
                             <option value="5">No, but I will consider to convert into organic in future
 
-                            </option>
+                            </option> -->
                             <option value="6">වෙනත්
 
                             </option>
@@ -63,7 +63,7 @@
                     </div>
                     <div id="7_2_ot">
                         <div class="input-group">
-                            <input type="text" required name="7_2_oth" id="7_2_oth" class="form-control" />
+                            <input type="text"  name="7_2_oth" id="7_2_oth" class="form-control" />
                         </div>
                     </div>
                 </div>
@@ -111,7 +111,7 @@
                         <div class="checkbox"><label><input type="checkbox" name="7_4_d" id="7_4_d" value="4">
                         නැහැ, මම කාබනික ගොවිතැන කරන්න කැමති නැහැ</label></div>
                                 <div class="checkbox"><label><input type="checkbox" name="7_4_e" id="7_4_e" value="5" onclick="eDcheckOT('7_4_e','7_4_e_oth')">වෙනත්</label></div>
-                        <div> <label><input type="text" placeholder="if other" required name="7_4_e_oth" id="7_4_e_oth">
+                        <div> <label><input type="text" placeholder=" වෙනත්"  name="7_4_e_oth" id="7_4_e_oth">
                         </div>
                        
                     </div>

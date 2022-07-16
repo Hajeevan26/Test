@@ -12,7 +12,7 @@
                     <div class="form-group">
                         <label>2.1 වී වගාව  පිලිබඳ  අවුරුදු කොපමණ ගණනාවක පළපුරුද්ද පවතීද?</label>
                         <div class="row">
-                            <div class="col-md-15"><input type="number" name="2_1" id="2_1" placeholder="වර්ෂය"
+                            <div class="col-md-15"><input type="number" name="2_1" id="2_1" 
                                     class="form-control" />
                             </div>
                         </div>
@@ -39,7 +39,7 @@
                     <div class="form-group">
                         <label>2.3 මහකන්නය 2021/22 සඳහා ඔබ වගා කළ බීජ ප්‍රභේදය කුමක්ද</label>
                         <div class="row">
-                            <div class="col-md-15"><input type="number" name="2_3" id="2_3" placeholder="වර්ෂය"
+                            <div class="col-md-15"><input type="text" name="2_3" id="2_3"
                                     class="form-control" />
                             </div>
                         </div>
@@ -65,7 +65,7 @@
                     <div class="form-group">
                         <label>2.5 මහ කන්නයේ බීජ වැපිරීම ආරම්භ කළේ කවදාද</label>
                         <div class="row">
-                            <div class="col-md-15"><input type="number" name="2_5" id="2_5" placeholder="කවදා ද"
+                            <div class="col-md-15"><input type="text" name="2_5" id="2_5" placeholder="කවදා ද"
                                     class="form-control" />
                             </div>
                         </div>
@@ -91,14 +91,15 @@
                             </label></div>
 
                     </div>
-                    <div class="input-group" id="2_6_f_ot"><input type="text" required name="2_6_f_oth" id="2_6_f_oth" class="form-control" /></div>
+                    <div class="input-group" id="2_6_f_ot"><input type="text"  name="2_6_f_oth" id="2_6_f_oth" class="form-control" /></div>
                 </div>
                 <div class="col-md-4">
                     <div class="input-group">
                         <label>2.7 ඔබ කිසියම් ගොවි සංවිධානයක සාමාජිකත්වය ලබාගෙන තිබේද?</label>
-                        <select class="form-control" name="2_7" id="2_7">
-                            <option value="1">ඔව්</option>
-                            <option value="2"> නැත</option>                                                                                                                                             	                                                                         	                                                     
+                        <select class="form-control" name="2_7" id="2_7" onchange="funb2_7();">
+                           
+                            <option value="1"> නැත</option>        
+                            <option value="2">ඔව්</option>                                                                                                                                     	                                                                         	                                                     
 
                         </select>
                     </div>
@@ -108,16 +109,16 @@
             <!-- 3rd -->
             <hr>
             <div class="row">
-                <div class="col-md-6">
-                    <div class="form-group">
+                <div id="divid2_8">
+                  <!--   <div class="form-group">
                         <label>2.8 ඔබ සමාජිකත්වය ලබා ගෙන කොපමණ කාලයක්ද? (අවුරුදු )</label>
                         <div class="row">
                             <div class="col-md-15"><input type="number" name="2_8" id="2_8" placeholder="වර්ෂය"
                                     class="form-control" />
                             </div>
                         </div>
-                    </div>
-                </div>
+                    </div> -->
+                </div> 
             </div>
             <hr>
 

@@ -4,7 +4,7 @@ if(!$con)
 {
 	die("server connection error ". mysqli_error($con));
 }
-$db=mysqli_select_db($con,"survey_new");
+$db=mysqli_select_db($con,"survey_new2");
 if(!$db)
 {
 	die("database error ". mysqli_error($con));

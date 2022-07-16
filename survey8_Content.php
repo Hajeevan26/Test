@@ -21,7 +21,7 @@
                 </div>
                 <div class="col-md-4">
                     <div class="input-group">
-                        <label>8_2. 8.2. අවට ළිං අපවිත්‍ර වී ඇති බව සහ ජලය පානය කිරීමට ආරක්ෂිත නොවන බව ඔබ නිරීක්‍ෂණය කළේ/ පරීක්‍ෂා කළේද
+                        <label>8_2. අවට ළිං අපවිත්‍ර වී ඇති බව සහ ජලය පානය කිරීමට ආරක්ෂිත නොවන බව ඔබ නිරීක්‍ෂණය කළේ/ පරීක්‍ෂා කළේද
                         </label>
                         <select class="form-control" name="8_2" id="8_2">
                         <option value="1">ඔව්</option>
@@ -35,7 +35,7 @@
                         <label>8_3.එසේ නම්, ඉහත දූෂණයට හේතු වී ඇත්තේ අධික ලෙස රසායනික පොහොර/පළිබෝධනාශක භාවිතය නිසා යැයි ඔබ විශ්වාස කරනවාද
 
                         </label>
-                        <select class="form-control" name="8_3" id="8_3">
+                        <select class="form-control" name="8_3" id="8_3" onchange="funb8_3()">
                         <option value="1">ඔව්</option>
                             <option value="2">නැත</option>
                         </select>
@@ -47,18 +47,17 @@
             </div>
 
             <!-- 2nd row -->
-
+            <div class="row">
+            <div id="divid8_4">
+                
+                </div>
+            </div>
+            
 
             <!-- 3rd -->
             <hr>
             <div class="row">
-                <div class="col-md-4">
-                    <div class="input-group">
-                        <label>8_4. එසේ නොවේ නම්, හේතුව කුමක් විය හැකි යැයි ඔබ සිතන්නේද?</label>
-
-                        <input type="text" required name="8_4" id="8_4" class="form-control" />
-                    </div>
-                </div>
+              
                 <div class="col-md-4">
                     <div class="input-group">
                         <label>8_5.ඔබ හෝ ඔබගේ පවුලේ කිසිවකු වකුගඩු රෝගයෙන් පෙළෙනවාද</label>
@@ -68,17 +67,7 @@
                         </select>
                     </div>
                 </div>
-                <!-- <div class="col-md-4">
-                    <div class="input-group">
-                        <label>8_6.පළිබෝධනාශක සහ වකුගඩු හානි අතර සම්බන්ධයක් ඔබ දුටුවාද</label>
-                        <select class="form-control" name="8_6" id="8_6">
-                            <option value="1">Yes</option>
-                            <option value="2">No</option>
-                        </select>
-                    </div>
-                </div>
-
-            </div> -->
+            </div>
             <hr>
            
             <hr>
@@ -86,7 +75,7 @@
                 <div class="col-md-4">
                     <div class="input-group">
                         <label>8_6.පළිබෝධනාශක සහ වකුගඩු හානි අතර සම්බන්ධයක් ඔබ දුටුවාද</label>
-                        <select class="form-control" name="6_1" id="6_1">
+                        <select class="form-control" name="8_6" id="8_6" >
                         <option value="1">ඔව්</option>
                             <option value="2">නැත</option>
                         </select>
@@ -109,8 +98,9 @@
                 
             </div>
             <hr>
+            
             <div class="row">
-               
+         
               
                 <div class="col-md-6">
                     <div class="input-group">
@@ -123,6 +113,29 @@
                     </div>
                 </div>
 
+            </div>
+<hr>
+<div class="row">
+                <div class="col-md-6">
+                    <div class="input-group">
+                        <label>10 කාබනික ගොවියා
+                        </label>
+                        <select class="form-control" name="10" id="10">
+                            <option value="1">ඔව්</option>
+                            <option value="2">නැත</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="input-group">
+                        <label>11 සාම්ප්රදායික ගොවියා
+                        </label>
+                        <select class="form-control" name="11" id="11">
+                            <option value="1">ඔව්</option>
+                            <option value="2">නැත</option>
+                        </select>
+                    </div>
+                </div>
             </div>
 
             <div class="card-footer">

@@ -137,7 +137,8 @@ if(isset($_POST['btnsubmit']) ) {
         if (isset($_POST['3_1_7_1'])) {  $a3_1_7_1 = $_POST['3_1_7_1'];   } else {$a3_1_7_1 = 0; }
         if (isset($_POST['3_1_7_2'])) {  $a3_1_7_2 = $_POST['3_1_7_2'];   } else {$a3_1_7_2 = 0; }
         if (isset($_POST['3_1_7_3'])) {  $a3_1_7_3 = $_POST['3_1_7_3'];   } else {$a3_1_7_3 = 0; }
-        
+        if (isset($_POST['3_1_7_3_oth'])) {  $a3_1_7_3_oth = $_POST['3_1_7_3_oth'];   } else {$a3_1_7_3_oth = NULL; }
+
         if (isset($_POST['3_1_8_1'])) {  $a3_1_8_1 = $_POST['3_1_8_1'];   } else {$a3_1_8_1 = 0; }
         if (isset($_POST['3_1_9_1'])) {  $a3_1_9_1 = $_POST['3_1_9_1'];   } else {$a3_1_9_1 = 0; }
         if (isset($_POST['3_1_10_1'])) {  $a3_1_10_1 = $_POST['3_1_10_1'];   } else {$a3_1_10_1 = 0; }
@@ -250,7 +251,7 @@ if(isset($_POST['btnsubmit']) ) {
      3_1_6_5f='$a3_1_6_5f', 3_1_6_5f_oth='$a3_1_6_5f_oth',  3_1_2_6='$a3_1_2_6', 3_1_3_6='$a3_1_3_6', 3_1_4_6='$a3_1_4_6', 3_1_5_6='$a3_1_5_6', 3_1_6_6a='$a3_1_6_6a', 3_1_6_6b='$a3_1_6_6b', 3_1_6_6c='$a3_1_6_6c', 3_1_6_6d='$a3_1_6_6d', 3_1_6_6e='$a3_1_6_6e',
      3_1_6_6f='$a3_1_6_6f', 3_1_6_6f_oth='$a3_1_6_6f_oth',  3_1_2_7='$a3_1_2_7', 3_1_3_7='$a3_1_3_7', 3_1_4_7='$a3_1_4_7', 3_1_5_7='$a3_1_5_7', 3_1_6_7a='$a3_1_6_7a', 3_1_6_7b='$a3_1_6_7b', 3_1_6_7c='$a3_1_6_7c', 3_1_6_7d='$a3_1_6_7d', 3_1_6_7e='$a3_1_6_7e',
       3_1_6_7f='$a3_1_6_7f', 3_1_6_7f_oth='$a3_1_6_7f_oth',  3_1_2_8='$a3_1_2_8', 3_1_3_8='$a3_1_3_8', 3_1_4_8='$a3_1_4_8', 3_1_5_8='$a3_1_5_8', 3_1_6_8a='$a3_1_6_8a', 3_1_6_8b='$a3_1_6_8b', 3_1_6_8c='$a3_1_6_8c', 3_1_6_8d='$a3_1_6_8d', 3_1_6_8e='$a3_1_6_8e', 
-      3_1_6_8f='$a3_1_6_8f', 3_1_6_8f_oth='$a3_1_6_7f_oth',  3_1_7_1='$a3_1_7_1', 3_1_7_2='$a3_1_7_2', 3_1_7_3='$a3_1_7_3',  3_1_8_1='$a3_1_8_1', 3_1_9_1='$a3_1_9_1', 3_1_10_1='$a3_1_10_1', 3_1_11_1='$a3_1_11_1', 3_1_12_1a='$a3_1_12_1a', 3_1_12_1b='$a3_1_12_1b', 
+      3_1_6_8f='$a3_1_6_8f', 3_1_6_8f_oth='$a3_1_6_7f_oth',  3_1_7_1='$a3_1_7_1', 3_1_7_2='$a3_1_7_2', 3_1_7_3='$a3_1_7_3',3_1_7_3_oth='$a3_1_7_3_oth',  3_1_8_1='$a3_1_8_1', 3_1_9_1='$a3_1_9_1', 3_1_10_1='$a3_1_10_1', 3_1_11_1='$a3_1_11_1', 3_1_12_1a='$a3_1_12_1a', 3_1_12_1b='$a3_1_12_1b', 
       3_1_12_1c='$a3_1_12_1c', 3_1_12_1d='$a3_1_12_1d', 3_1_12_1e='$a3_1_12_1e', 3_1_12_1f='$a3_1_12_1f', 3_1_12_1f_oth='$a3_1_12_1f_oth', 3_1_8_2='$a3_1_8_2', 3_1_9_2='$a3_1_9_2', 3_1_10_2='$a3_1_10_2', 3_1_11_2='$a3_1_11_2', 3_1_12_2a='$a3_1_12_2a', 
       3_1_12_2b='$a3_1_12_2b', 3_1_12_2c='$a3_1_12_2c', 3_1_12_2d='$a3_1_12_2d', 3_1_12_2e='$a3_1_12_2e', 3_1_12_2f='$a3_1_12_2f', 3_1_12_2f_oth='$a3_1_12_2f_oth',  3_1_8_3='$a3_1_8_3', 3_1_9_3='$a3_1_9_3', 3_1_10_3='$a3_1_10_3', 3_1_11_3='$a3_1_11_3', 
       3_1_12_3a='$a3_1_12_3a', 3_1_12_3b='$a3_1_12_3b', 3_1_12_3c='$a3_1_12_3c', 3_1_12_3d='$a3_1_12_3d', 3_1_12_3e='$a3_1_12_3e', 3_1_12_3f='$a3_1_12_3f', 3_1_12_3f_oth='$a3_1_12_3f_oth',  3_1_8_4='$a3_1_8_4', 3_1_9_4='$a3_1_9_4', 3_1_10_4='$a3_1_10_4',
@@ -337,7 +338,7 @@ if(isset($_POST['btnsubmit']) ) {
                                     <div class="form-group">
 
                                         <div class="checkbox"><label><input type="checkbox" name="3_1_6_1a" id="1_2_1_a"
-                                                    value="1">සිල්ලර කඩ/තොග-3_1_6_1a</label> </div>
+                                                    value="1">සිල්ලර කඩ/තොග-</label> </div>
                                         <div class="checkbox"><label><input type="checkbox" name="3_1_6_1b" id="3_1_6_1b"
                                                     value="2">ගොවිජන සංවර්ධන මධ්‍යස්ථානය-3_1_6_1b</label> </div>
                                         <div class="checkbox"><label><input type="checkbox" name="3_1_6_1c" id="3_1_6_1c"
@@ -376,7 +377,7 @@ if(isset($_POST['btnsubmit']) ) {
                                     <div class="form-group">
 
                                     <div class="checkbox"><label><input type="checkbox" name="3_1_6_2a" id="3_1_6_2a"
-                                    value="1">  සිල්ලර කඩ/තොග-3_1_6_2a</label> </div>
+                                    value="1">  සිල්ලර කඩ/තොග</label> </div>
                                     <div class="checkbox"><label><input type="checkbox" name="3_1_6_2b" id="3_1_6_2b"
                                     value="2">  ගොවිජන සංවර්ධන මධ්‍යස්ථානය-3_1_6_2b</label> </div>
                                     <div class="checkbox"><label><input type="checkbox" name="3_1_6_2c" id="3_1_6_2c"
@@ -416,9 +417,9 @@ if(isset($_POST['btnsubmit']) ) {
                                     <div class="form-group">
 
                                     <div class="checkbox"><label><input type="checkbox" name="3_1_6_3a" id="3_1_6_3a"
-                                    value="1">සිල්ලර කඩ/තොග-3_1_6_3a</label> </div>
+                                    value="1">සිල්ලර කඩ/තොග</label> </div>
                                     <div class="checkbox"><label><input type="checkbox" name="3_1_6_3b" id="3_1_6_3b"
-                                    value="2">ගොවිජන සංවර්ධන මධ්‍යස්ථානය-3_1_6_3b</label> </div>
+                                    value="2">ගොවිජන සංවර්ධන මධ්‍යස්ථානය</label> </div>
                                     <div class="checkbox"><label><input type="checkbox" name="3_1_6_3c" id="3_1_6_3c"
                                     value="3">  සෙසු ගොවියා</label> </div>
                                     <div class="checkbox"><label><input type="checkbox" name="3_1_6_3d" id="3_1_6_3d"
@@ -654,7 +655,8 @@ if(isset($_POST['btnsubmit']) ) {
                                     </td>
                                 </tr>
                                 <tr>
-                                    <td>වෙනත් පිරිවැය</td>
+                                    <td><div>3_1_7_3_oth<input type="text"  placeholder="වෙනත් පිරිවැය" name="3_1_7_3_oth" id="3_1_7_3_oth"
+                                                class="form-control" /></td>
                                     <td>
                                     <div>3_1_7_3<input type="number" value="0" required name="3_1_7_3" id="3_1_7_3"
                                                 class="form-control" />
@@ -838,7 +840,7 @@ if(isset($_POST['btnsubmit']) ) {
                                                     value="5">අසල්වැසියා</label> </div>
                                         <div class="checkbox"> <label><input type="checkbox" name="3_1_12_8f" id="3_1_12_8f" onclick="eDcheckOT('3_1_12_8f','3_1_12_8f_oth')"
                                                     value="6">වෙනත්, සඳහන් කරන්න</label> </div>
-                                        <div>1.1.12.1 <input type="text" name="3_1_12_8f_oth" id="3_1_12_8f_oth"
+                                        <div>3_1_12_8e <input type="text" name="3_1_12_8f_oth" id="3_1_12_8f_oth"
                                                 class="form-control" />
                                         </div>
                                 </td>

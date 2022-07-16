@@ -124,7 +124,7 @@ if(isset($_POST['btnsubmit']) ) {
 ?>
 <div class="content">
     <div class="container-fluid">
-        <h2>2. ගොවිපල තොරතුරු </h2>
+        <h2>2. ගොවිපල තොරතුරු ((දිගටම...))</h2>
         Household number is -<?php echo $household_id; ?>
         <form role="form" action="" method="post">
             <div class="card card-primary">
@@ -137,6 +137,9 @@ if(isset($_POST['btnsubmit']) ) {
                     <div class="row">
                         <div class="col-md-12">
                             <div class="form-group">
+                                <?php $ht =  $row['household_total'];
+
+                                ?>
                                 <table class="table table-bordered table-hover">
                                     <tr>
                                         <th rowspan="2">නිවසේ අනුක්‍රමික අංකය</th>
@@ -156,105 +159,128 @@ if(isset($_POST['btnsubmit']) ) {
                                         <th>පසු අස්වනු හසුරුව</th>
                                     </tr>
                                     <tr>
-                                        <td>1</td>
-                                        <td><div class="input-group"><select class="form-control" name="2_1_7_1" id="2_1_7_1"><option value="1">ඔව්</option><option value="2">නැත</option></select></div></td>
-                                        <td><div class="input-group"><input type="text" required name="2_1_8_1" id="2_1_8_1" class="form-control" /></div></td>
-                                        <td><div class="input-group"><input type="text" required name="2_1_9_1" id="2_1_9_1" class="form-control" /></div></td>
-                                        <td><div class="input-group"><input type="text" required name="2_1_10_1" id="2_1_10_1" class="form-control" /></div></td>
-                                        <td><div class="input-group"><input type="text" required name="2_1_11_1" id="2_1_11_1" class="form-control" /></div></td>
-                                        <td><div class="input-group"><input type="text" required name="2_1_12_1" id="2_1_12_1" class="form-control" /></div></td>
-                                        <td><div class="input-group"><input type="text" required name="2_1_13_1" id="2_1_13_1" class="form-control" /></div></td>
+                                        <td>1 <?php 
+                                         $blnd = $ht < 1 ? "disabled" : "";
+                                         $bln = $ht < 1 ? "readOnly" : "";?>
+                                         </td>
+                                        <td><div class="input-group"><select <?php echo $blnd; ?> class="form-control" name="2_1_7_1" id="2_1_7_1"><option value="1">ඔව්</option><option value="2">නැත</option></select></div></td>
+                                        <td><div class="input-group"><input <?php echo $bln; ?> type="number" value="0" min="0"   name="2_1_8_1" id="2_1_8_1" class="form-control" /></div></td>
+                                        <td><div class="input-group"><input <?php echo $bln; ?> type="number" value="0" min="0"   name="2_1_9_1" id="2_1_9_1" class="form-control" /></div></td>
+                                        <td><div class="input-group"><input <?php echo $bln; ?> type="number" value="0" min="0"   name="2_1_10_1" id="2_1_10_1" class="form-control" /></div></td>
+                                        <td><div class="input-group"><input <?php echo $bln; ?> type="number" value="0" min="0"   name="2_1_11_1" id="2_1_11_1" class="form-control" /></div></td>
+                                        <td><div class="input-group"><input <?php echo $bln; ?> type="number" value="0" min="0"   name="2_1_12_1" id="2_1_12_1" class="form-control" /></div></td>
+                                        <td><div class="input-group"><input <?php echo $bln; ?> type="number" value="0" min="0"   name="2_1_13_1" id="2_1_13_1" class="form-control" /></div></td>
                                     </tr>
                                     <tr>
-                                        <td>2</td>
-                                        
-                                        <td><div class="input-group"><select class="form-control" name="2_1_7_2" id="2_1_7_2"><option value="1">ඔව්</option><option value="2">නැත</option></select></div></td>
-                                        <td><div class="input-group"><input type="text" required name="2_1_8_2" id="2_1_8_2" class="form-control" /></div></td>
-                                        <td><div class="input-group"><input type="text" required name="2_1_9_2" id="2_1_9_2" class="form-control" /></div></td>
-                                        <td><div class="input-group"><input type="text" required name="2_1_10_2" id="2_1_10_2" class="form-control" /></div></td>
-                                        <td><div class="input-group"><input type="text" required name="2_1_11_2" id="2_1_11_2" class="form-control" /></div></td>
-                                        <td><div class="input-group"><input type="text" required name="2_1_12_2" id="2_1_12_2" class="form-control" /></div></td>
-                                        <td><div class="input-group"><input type="text" required name="2_1_13_2" id="2_1_13_2" class="form-control" /></div></td>
+                                    <td>2 <?php  
+                                       $blnd = $ht < 2 ? "disabled" : "";
+                                       $bln = $ht < 2 ? "readOnly" : "";?>
+                                      </td>
+                                        <td><div class="input-group"><select  <?php echo $blnd;  ?> class="form-control" name="2_1_7_2" id="2_1_7_2"><option value="1">ඔව්</option><option value="2">නැත</option></select></div></td>
+                                        <td><div class="input-group"><input  <?php echo $bln;  ?>   type="number" value="0" min="0"   name="2_1_8_2" id="2_1_8_2" class="form-control" /></div></td>
+                                        <td><div class="input-group"><input  <?php echo $bln;  ?>   type="number" value="0" min="0"   name="2_1_9_2" id="2_1_9_2" class="form-control" /></div></td>
+                                        <td><div class="input-group"><input  <?php echo $bln;  ?>   type="number" value="0" min="0"   name="2_1_10_2" id="2_1_10_2" class="form-control" /></div></td>
+                                        <td><div class="input-group"><input  <?php echo $bln;  ?>   type="number" value="0" min="0"   name="2_1_11_2" id="2_1_11_2" class="form-control" /></div></td>
+                                        <td><div class="input-group"><input  <?php echo $bln;  ?>   type="number" value="0" min="0"   name="2_1_12_2" id="2_1_12_2" class="form-control" /></div></td>
+                                        <td><div class="input-group"><input  <?php echo $bln;  ?>   type="number" value="0" min="0"   name="2_1_13_2" id="2_1_13_2" class="form-control" /></div></td>
                                     </tr>
                                     <tr>
-                                        <td>3</td>
-                                        <td><div class="input-group"><select class="form-control" name="2_1_7_3" id="2_1_7_3"><option value="1">ඔව්</option><option value="2">නැත</option></select></div></td>
-                                        <td><div class="input-group"><input type="text" required name="2_1_8_3" id="2_1_8_3" class="form-control" /></div></td>
-                                        <td><div class="input-group"><input type="text" required name="2_1_9_3" id="2_1_9_3" class="form-control" /></div></td>
-                                        <td><div class="input-group"><input type="text" required name="2_1_10_3" id="2_1_10_3" class="form-control" /></div></td>
-                                        <td><div class="input-group"><input type="text" required name="2_1_11_3" id="2_1_11_3" class="form-control" /></div></td>
-                                        <td><div class="input-group"><input type="text" required name="2_1_12_3" id="2_1_12_3" class="form-control" /></div></td>
-                                        <td><div class="input-group"><input type="text" required name="2_1_13_3" id="2_1_13_3" class="form-control" /></div></td>
+                                    <td>3 <?php  
+                                       $blnd = $ht < 3 ? "disabled" : "";
+                                       $bln = $ht < 3 ? "readOnly" : "";?>
+                                       </td>
+                                        <td><div class="input-group"><select  <?php echo $blnd;  ?>  class="form-control" name="2_1_7_3" id="2_1_7_3"><option value="1">ඔව්</option><option value="2">නැත</option></select></div></td>
+                                        <td><div class="input-group"><input  <?php echo $bln;  ?>   type="number" value="0" min="0"   name="2_1_8_3" id="2_1_8_3" class="form-control" /></div></td>
+                                        <td><div class="input-group"><input  <?php echo $bln;  ?>   type="number" value="0" min="0"   name="2_1_9_3" id="2_1_9_3" class="form-control" /></div></td>
+                                        <td><div class="input-group"><input  <?php echo $bln;  ?>   type="number" value="0" min="0"   name="2_1_10_3" id="2_1_10_3" class="form-control" /></div></td>
+                                        <td><div class="input-group"><input  <?php echo $bln;  ?>   type="number" value="0" min="0"   name="2_1_11_3" id="2_1_11_3" class="form-control" /></div></td>
+                                        <td><div class="input-group"><input  <?php echo $bln;  ?>   type="number" value="0" min="0"   name="2_1_12_3" id="2_1_12_3" class="form-control" /></div></td>
+                                        <td><div class="input-group"><input  <?php echo $bln;  ?>   type="number" value="0" min="0"   name="2_1_13_3" id="2_1_13_3" class="form-control" /></div></td>
                                     </tr>
                                     <tr>
-                                        <td>4</td>
-                                        <td><div class="input-group"><select class="form-control" name="2_1_7_4" id="2_1_7_4"><option value="1">ඔව්</option><option value="2">නැත</option></select></div></td>
-                                        <td><div class="input-group"><input type="text" required name="2_1_8_4" id="2_1_8_4" class="form-control" /></div></td>
-                                        <td><div class="input-group"><input type="text" required name="2_1_9_4" id="2_1_9_4" class="form-control" /></div></td>
-                                        <td><div class="input-group"><input type="text" required name="2_1_10_4" id="2_1_10_4" class="form-control" /></div></td>
-                                        <td><div class="input-group"><input type="text" required name="2_1_11_4" id="2_1_11_4" class="form-control" /></div></td>
-                                        <td><div class="input-group"><input type="text" required name="2_1_12_4" id="2_1_12_4" class="form-control" /></div></td>
-                                        <td><div class="input-group"><input type="text" required name="2_1_13_4" id="2_1_13_4" class="form-control" /></div></td>
+                                    <td>4 <?php  
+                                        $blnd = $ht < 4 ? "disabled" : "";
+                                        $bln = $ht < 4 ? "readOnly" : "";?>
+                                        </td>
+                                        <td><div class="input-group"><select  <?php echo $blnd;  ?>  class="form-control" name="2_1_7_4" id="2_1_7_4"><option value="1">ඔව්</option><option value="2">නැත</option></select></div></td>
+                                        <td><div class="input-group"><input  <?php echo $bln;  ?>   type="number" value="0" min="0"   name="2_1_8_4" id="2_1_8_4" class="form-control" /></div></td>
+                                        <td><div class="input-group"><input  <?php echo $bln;  ?>   type="number" value="0" min="0"   name="2_1_9_4" id="2_1_9_4" class="form-control" /></div></td>
+                                        <td><div class="input-group"><input   <?php echo $bln;  ?>  type="number" value="0" min="0"   name="2_1_10_4" id="2_1_10_4" class="form-control" /></div></td>
+                                        <td><div class="input-group"><input   <?php echo $bln;  ?>  type="number" value="0" min="0"   name="2_1_11_4" id="2_1_11_4" class="form-control" /></div></td>
+                                        <td><div class="input-group"><input  <?php echo $bln;  ?>   type="number" value="0" min="0"   name="2_1_12_4" id="2_1_12_4" class="form-control" /></div></td>
+                                        <td><div class="input-group"><input  <?php echo $bln;  ?>   type="number" value="0" min="0"   name="2_1_13_4" id="2_1_13_4" class="form-control" /></div></td>
                                     </tr>
                                     <tr>
-                                        <td>5</td>
-                                        <td><div class="input-group"><select class="form-control" name="2_1_7_5" id="2_1_7_5"><option value="1">ඔව්</option><option value="2">නැත</option></select></div></td>
-                                        <td><div class="input-group"><input type="text" required name="2_1_8_5" id="2_1_8_5" class="form-control" /></div></td>
-                                        <td><div class="input-group"><input type="text" required name="2_1_9_5" id="2_1_9_5" class="form-control" /></div></td>
-                                        <td><div class="input-group"><input type="text" required name="2_1_10_5" id="2_1_10_5" class="form-control" /></div></td>
-                                        <td><div class="input-group"><input type="text" required name="2_1_11_5" id="2_1_11_5" class="form-control" /></div></td>
-                                        <td><div class="input-group"><input type="text" required name="2_1_12_5" id="2_1_12_5" class="form-control" /></div></td>
-                                        <td><div class="input-group"><input type="text" required name="2_1_13_5" id="2_1_13_5" class="form-control" /></div></td>
+                                    <td>5 <?php  
+                                        $blnd = $ht < 5 ? "disabled" : "";
+                                        $bln = $ht < 5 ? "readOnly" : "";?></td>
+                                        <td><div class="input-group"><select  <?php echo $blnd;  ?>  class="form-control" name="2_1_7_5" id="2_1_7_5"><option value="1">ඔව්</option><option value="2">නැත</option></select></div></td>
+                                        <td><div class="input-group"><input  <?php echo $bln;  ?>   type="number" value="0" min="0"   name="2_1_8_5" id="2_1_8_5" class="form-control" /></div></td>
+                                        <td><div class="input-group"><input  <?php echo $bln;  ?>   type="number" value="0" min="0"   name="2_1_9_5" id="2_1_9_5" class="form-control" /></div></td>
+                                        <td><div class="input-group"><input  <?php echo $bln;  ?>   type="number" value="0" min="0"   name="2_1_10_5" id="2_1_10_5" class="form-control" /></div></td>
+                                        <td><div class="input-group"><input  <?php echo $bln;  ?>   type="number" value="0" min="0"   name="2_1_11_5" id="2_1_11_5" class="form-control" /></div></td>
+                                        <td><div class="input-group"><input  <?php echo $bln;  ?>   type="number" value="0" min="0"   name="2_1_12_5" id="2_1_12_5" class="form-control" /></div></td>
+                                        <td><div class="input-group"><input  <?php echo $bln;  ?>   type="number" value="0" min="0"   name="2_1_13_5" id="2_1_13_5" class="form-control" /></div></td>
                                     </tr>
                                     <tr>
-                                        <td>6</td>
-                                        <td><div class="input-group"><select class="form-control" name="2_1_7_6" id="2_1_7_6"><option value="1">ඔව්</option><option value="2">නැත</option></select></div></td>
-                                        <td><div class="input-group"><input type="text" required name="2_1_8_6" id="2_1_8_6" class="form-control" /></div></td>
-                                        <td><div class="input-group"><input type="text" required name="2_1_9_6" id="2_1_9_6" class="form-control" /></div></td>
-                                        <td><div class="input-group"><input type="text" required name="2_1_10_6" id="2_1_10_6" class="form-control" /></div></td>
-                                        <td><div class="input-group"><input type="text" required name="2_1_11_6" id="2_1_11_6" class="form-control" /></div></td>
-                                        <td><div class="input-group"><input type="text" required name="2_1_12_6" id="2_1_12_6" class="form-control" /></div></td>
-                                        <td><div class="input-group"><input type="text" required name="2_1_13_6" id="2_1_13_6" class="form-control" /></div></td>
+                                    <td>6 <?php  
+                                        $blnd = $ht < 6 ? "disabled" : "";
+                                        $bln = $ht < 6 ? "readOnly" : "";?></td>
+                                        <td><div class="input-group"><select  <?php echo $blnd;  ?>  class="form-control" name="2_1_7_6" id="2_1_7_6"><option value="1">ඔව්</option><option value="2">නැත</option></select></div></td>
+                                        <td><div class="input-group"><input  <?php echo $bln;  ?>   type="number" value="0" min="0"   name="2_1_8_6" id="2_1_8_6" class="form-control" /></div></td>
+                                        <td><div class="input-group"><input  <?php echo $bln;  ?>   type="number" value="0" min="0"   name="2_1_9_6" id="2_1_9_6" class="form-control" /></div></td>
+                                        <td><div class="input-group"><input  <?php echo $bln;  ?>   type="number" value="0" min="0"   name="2_1_10_6" id="2_1_10_6" class="form-control" /></div></td>
+                                        <td><div class="input-group"><input  <?php echo $bln;  ?>   type="number" value="0" min="0"   name="2_1_11_6" id="2_1_11_6" class="form-control" /></div></td>
+                                        <td><div class="input-group"><input  <?php echo $bln;  ?>   type="number" value="0" min="0"   name="2_1_12_6" id="2_1_12_6" class="form-control" /></div></td>
+                                        <td><div class="input-group"><input  <?php echo $bln;  ?>   type="number" value="0" min="0"   name="2_1_13_6" id="2_1_13_6" class="form-control" /></div></td>
                                     </tr>
                                     <tr>
-                                        <td>7</td>
-                                        <td><div class="input-group"><select class="form-control" name="2_1_7_7" id="2_1_7_7"><option value="1">ඔව්</option><option value="2">නැත</option></select></div></td>
-                                        <td><div class="input-group"><input type="text" required name="2_1_8_7" id="2_1_8_7" class="form-control" /></div></td>
-                                        <td><div class="input-group"><input type="text" required name="2_1_9_7" id="2_1_9_7" class="form-control" /></div></td>
-                                        <td><div class="input-group"><input type="text" required name="2_1_10_7" id="2_1_10_7" class="form-control" /></div></td>
-                                        <td><div class="input-group"><input type="text" required name="2_1_11_7" id="2_1_11_7" class="form-control" /></div></td>
-                                        <td><div class="input-group"><input type="text" required name="2_1_12_7" id="2_1_12_7" class="form-control" /></div></td>
-                                        <td><div class="input-group"><input type="text" required name="2_1_13_7" id="2_1_13_7" class="form-control" /></div></td>
+                                    <td>7 <?php  
+                                        $blnd = $ht < 7 ? "disabled" : "";
+                                        $bln = $ht < 7 ? "readOnly" : "";?></td>
+                                        <td><div class="input-group"><select  <?php echo $blnd;  ?>  class="form-control" name="2_1_7_7" id="2_1_7_7"><option value="1">ඔව්</option><option value="2">නැත</option></select></div></td>
+                                        <td><div class="input-group"><input   <?php echo $bln;  ?>  type="number" value="0" min="0"   name="2_1_8_7" id="2_1_8_7" class="form-control" /></div></td>
+                                        <td><div class="input-group"><input   <?php echo $bln;  ?>  type="number" value="0" min="0"   name="2_1_9_7" id="2_1_9_7" class="form-control" /></div></td>
+                                        <td><div class="input-group"><input   <?php echo $bln;  ?>  type="number" value="0" min="0"   name="2_1_10_7" id="2_1_10_7" class="form-control" /></div></td>
+                                        <td><div class="input-group"><input   <?php echo $bln;  ?>  type="number" value="0" min="0"   name="2_1_11_7" id="2_1_11_7" class="form-control" /></div></td>
+                                        <td><div class="input-group"><input   <?php echo $bln;  ?>  type="number" value="0" min="0"   name="2_1_12_7" id="2_1_12_7" class="form-control" /></div></td>
+                                        <td><div class="input-group"><input   <?php echo $bln;  ?>  type="number" value="0" min="0"   name="2_1_13_7" id="2_1_13_7" class="form-control" /></div></td>
                                     </tr>
                                     <tr>
-                                        <td>8</td>
-                                        <td><div class="input-group"><select class="form-control" name="2_1_7_8" id="2_1_7_8"><option value="1">ඔව්</option><option value="2">නැත</option></select></div></td>
-                                        <td><div class="input-group"><input type="text" required name="2_1_8_8" id="2_1_8_8" class="form-control" /></div></td>
-                                        <td><div class="input-group"><input type="text" required name="2_1_9_8" id="2_1_9_8" class="form-control" /></div></td>
-                                        <td><div class="input-group"><input type="text" required name="2_1_10_8" id="2_1_10_8" class="form-control" /></div></td>
-                                        <td><div class="input-group"><input type="text" required name="2_1_11_8" id="2_1_11_8" class="form-control" /></div></td>
-                                        <td><div class="input-group"><input type="text" required name="2_1_12_8" id="2_1_12_8" class="form-control" /></div></td>
-                                        <td><div class="input-group"><input type="text" required name="2_1_13_8" id="2_1_13_8" class="form-control" /></div></td>
+                                    <td>8<?php  
+                                        $blnd = $ht < 8 ? "disabled" : "";
+                                        $bln = $ht < 8 ? "readOnly" : "";?></td>
+                                        <td><div class="input-group"><select  <?php echo $blnd;  ?>  class="form-control" name="2_1_7_8" id="2_1_7_8"><option value="1">ඔව්</option><option value="2">නැත</option></select></div></td>
+                                        <td><div class="input-group"><input   <?php echo $bln;  ?>  type="number" value="0" min="0"   name="2_1_8_8" id="2_1_8_8" class="form-control" /></div></td>
+                                        <td><div class="input-group"><input   <?php echo $bln;  ?>  type="number" value="0" min="0"   name="2_1_9_8" id="2_1_9_8" class="form-control" /></div></td>
+                                        <td><div class="input-group"><input   <?php echo $bln;  ?>  type="number" value="0" min="0"   name="2_1_10_8" id="2_1_10_8" class="form-control" /></div></td>
+                                        <td><div class="input-group"><input   <?php echo $bln;  ?>  type="number" value="0" min="0"   name="2_1_11_8" id="2_1_11_8" class="form-control" /></div></td>
+                                        <td><div class="input-group"><input   <?php echo $bln;  ?>  type="number" value="0" min="0"   name="2_1_12_8" id="2_1_12_8" class="form-control" /></div></td>
+                                        <td><div class="input-group"><input   <?php echo $bln;  ?>  type="number" value="0" min="0"   name="2_1_13_8" id="2_1_13_8" class="form-control" /></div></td>
                                     </tr>
                                     <tr>
-                                        <td>9</td>
-                                        <td><div class="input-group"><select class="form-control" name="2_1_7_9" id="2_1_7_9"><option value="1">ඔව්</option><option value="2">නැත</option></select></div></td>
-                                        <td><div class="input-group"><input type="text" required name="2_1_8_9" id="2_1_8_9" class="form-control" /></div></td>
-                                        <td><div class="input-group"><input type="text" required name="2_1_9_9" id="2_1_9_9" class="form-control" /></div></td>
-                                        <td><div class="input-group"><input type="text" required name="2_1_10_9" id="2_1_10_9" class="form-control" /></div></td>
-                                        <td><div class="input-group"><input type="text" required name="2_1_11_9" id="2_1_11_9" class="form-control" /></div></td>
-                                        <td><div class="input-group"><input type="text" required name="2_1_12_9" id="2_1_12_9" class="form-control" /></div></td>
-                                        <td><div class="input-group"><input type="text" required name="2_1_13_9" id="2_1_13_9" class="form-control" /></div></td>
+                                    <td>9 <?php  
+                                         $blnd = $ht < 9 ? "disabled" : "";
+                                         $bln = $ht < 9 ? "readOnly" : "";?></td>
+                                        <td><div class="input-group"><select  <?php echo $blnd;  ?>  class="form-control" name="2_1_7_9" id="2_1_7_9"><option value="1">ඔව්</option><option value="2">නැත</option></select></div></td>
+                                        <td><div class="input-group"><input   <?php echo $bln;  ?>  type="number" value="0" min="0"   name="2_1_8_9" id="2_1_8_9" class="form-control" /></div></td>
+                                        <td><div class="input-group"><input   <?php echo $bln;  ?>  type="number" value="0" min="0"   name="2_1_9_9" id="2_1_9_9" class="form-control" /></div></td>
+                                        <td><div class="input-group"><input   <?php echo $bln;  ?>  type="number" value="0" min="0"   name="2_1_10_9" id="2_1_10_9" class="form-control" /></div></td>
+                                        <td><div class="input-group"><input   <?php echo $bln;  ?>  type="number" value="0" min="0"   name="2_1_11_9" id="2_1_11_9" class="form-control" /></div></td>
+                                        <td><div class="input-group"><input   <?php echo $bln;  ?>  type="number" value="0" min="0"   name="2_1_12_9" id="2_1_12_9" class="form-control" /></div></td>
+                                        <td><div class="input-group"><input   <?php echo $bln;  ?>  type="number" value="0" min="0"   name="2_1_13_9" id="2_1_13_9" class="form-control" /></div></td>
                                     </tr>
                                     <tr>
-                                        <td>10</td>
-                                        <td><div class="input-group"><select class="form-control" name="2_1_7_10" id="2_1_7_10"><option value="1">ඔව්</option><option value="2">නැත</option></select></div></td>
-                                        <td><div class="input-group"><input type="text" required name="2_1_8_10" id="2_1_8_10" class="form-control" /></div></td>
-                                        <td><div class="input-group"><input type="text" required name="2_1_9_10" id="2_1_9_10" class="form-control" /></div></td>
-                                        <td><div class="input-group"><input type="text" required name="2_1_10_10" id="2_1_10_10" class="form-control" /></div></td>
-                                        <td><div class="input-group"><input type="text" required name="2_1_11_10" id="2_1_11_10" class="form-control" /></div></td>
-                                        <td><div class="input-group"><input type="text" required name="2_1_12_10" id="2_1_12_10" class="form-control" /></div></td>
-                                        <td><div class="input-group"><input type="text" required name="2_1_13_10" id="2_1_13_10" class="form-control" /></div></td>
+                                    <td>10 <?php  
+                                         $blnd = $ht < 10 ? "disabled" : "";
+                                         $bln = $ht < 10 ? "readOnly" : "";?></td>
+                                        <td><div class="input-group"><select  <?php echo $blnd;  ?>  class="form-control" name="2_1_7_10" id="2_1_7_10"><option value="1">ඔව්</option><option value="2">නැත</option></select></div></td>
+                                        <td><div class="input-group"><input   <?php echo $bln;  ?>  type="number" value="0" min="0"   name="2_1_8_10" id="2_1_8_10" class="form-control" /></div></td>
+                                        <td><div class="input-group"><input   <?php echo $bln;  ?>  type="number" value="0" min="0"   name="2_1_9_10" id="2_1_9_10" class="form-control" /></div></td>
+                                        <td><div class="input-group"><input   <?php echo $bln;  ?>  type="number" value="0" min="0"   name="2_1_10_10" id="2_1_10_10" class="form-control" /></div></td>
+                                        <td><div class="input-group"><input   <?php echo $bln;  ?>  type="number" value="0" min="0"   name="2_1_11_10" id="2_1_11_10" class="form-control" /></div></td>
+                                        <td><div class="input-group"><input   <?php echo $bln;  ?>  type="number" value="0" min="0"   name="2_1_12_10" id="2_1_12_10" class="form-control" /></div></td>
+                                        <td><div class="input-group"><input   <?php echo $bln;  ?>  type="number" value="0" min="0"   name="2_1_13_10" id="2_1_13_10" class="form-control" /></div></td>
                                     </tr>
                                 </table>
 

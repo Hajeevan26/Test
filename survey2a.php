@@ -79,7 +79,7 @@ if(isset($_POST['btnsubmit']) ) {
 ?>
 <div class="content">
     <div class="container-fluid">
-        <h2>2. ගොවිපල තොරතුරු </h2>
+        <h2>2. ගොවිපල තොරතුරු (දිගටම...)</h2>
         Household number is -<?php echo $household_id; ?>
         <form role="form" action="" method="post">
             <div class="card card-primary">

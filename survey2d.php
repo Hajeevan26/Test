@@ -30,34 +30,37 @@ if(isset($_POST['btnsubmit']) ) {
         
    
 
-    if (isset($_POST['2_20_1'])) {  $a2_20_1 = $_POST['2_20_1'];   } else {$a2_20_1 = NULL; }
-    if (isset($_POST['2_20_2'])) {  $a2_20_2 = $_POST['2_20_2'];   } else {$a2_20_2 = NULL; }
-    if (isset($_POST['2_20_3'])) {  $a2_20_3 = $_POST['2_20_3'];   } else {$a2_20_3 = NULL; }
-    if (isset($_POST['2_20_4'])) {  $a2_20_4 = $_POST['2_20_4'];   } else {$a2_20_4 = NULL; }
-    if (isset($_POST['2_20_5'])) {  $a2_20_5 = $_POST['2_20_5'];   } else {$a2_20_5 = NULL; }
-    if (isset($_POST['2_20_6'])) {  $a2_20_6 = $_POST['2_20_6'];   } else {$a2_20_6 = NULL; }
-    if (isset($_POST['2_20_7'])) {  $a2_20_7 = $_POST['2_20_7'];   } else {$a2_20_7 = NULL; }
-    if (isset($_POST['2_20_8'])) {  $a2_20_8 = $_POST['2_20_8'];   } else {$a2_20_8 = NULL; }
-    if (isset($_POST['2_20_9'])) {  $a2_20_9 = $_POST['2_20_9'];   } else {$a2_20_9 = NULL; }
-    if (isset($_POST['2_20_10'])) {  $a2_20_10 = $_POST['2_20_10'];   } else {$a2_20_10 = NULL; }
-    if (isset($_POST['2_20_11'])) {  $a2_20_11 = $_POST['2_20_11'];   } else {$a2_20_11 = NULL; }
-    if (isset($_POST['2_20_12'])) {  $a2_20_12 = $_POST['2_20_12'];   } else {$a2_20_12 = NULL; }
+    if (isset($_POST['2_20_1'])) {  $a2_20_1 = $_POST['2_20_1'];   } else {$a2_20_1 = 0; }
+    if (isset($_POST['2_20_2'])) {  $a2_20_2 = $_POST['2_20_2'];   } else {$a2_20_2 = 0; }
+    if (isset($_POST['2_20_3'])) {  $a2_20_3 = $_POST['2_20_3'];   } else {$a2_20_3 = 0; }
+    if (isset($_POST['2_20_4'])) {  $a2_20_4 = $_POST['2_20_4'];   } else {$a2_20_4 = 0; }
+    if (isset($_POST['2_20_5'])) {  $a2_20_5 = $_POST['2_20_5'];   } else {$a2_20_5 = 0; }
+    if (isset($_POST['2_20_6'])) {  $a2_20_6 = $_POST['2_20_6'];   } else {$a2_20_6 = 0; }
+    if (isset($_POST['2_20_7'])) {  $a2_20_7 = $_POST['2_20_7'];   } else {$a2_20_7 = 0; }
+    if (isset($_POST['2_20_8'])) {  $a2_20_8 = $_POST['2_20_8'];   } else {$a2_20_8 = 0; }
+    if (isset($_POST['2_20_9'])) {  $a2_20_9 = $_POST['2_20_9'];   } else {$a2_20_9 = 0; }
+    if (isset($_POST['2_20_10'])) {  $a2_20_10 = $_POST['2_20_10'];   } else {$a2_20_10 = 0; }
+    if (isset($_POST['2_20_11'])) {  $a2_20_11 = $_POST['2_20_11'];   } else {$a2_20_11 = 0; }
+    if (isset($_POST['2_20_12'])) {  $a2_20_12 = $_POST['2_20_12'];   } else {$a2_20_12 = 0; }
 
-    if (isset($_POST['2_21_1'])) {  $a2_21_1 = $_POST['2_21_1'];   }else {$a2_21_1 = NULL; }
-    if (isset($_POST['2_21_2'])) {  $a2_21_2 = $_POST['2_21_2'];   } else {$a2_21_2 = NULL; }
-    if (isset($_POST['2_21_3'])) {  $a2_21_3 = $_POST['2_21_3'];   } else {$a2_21_3 = NULL; }
-    if (isset($_POST['2_21_4'])) {  $a2_21_4 = $_POST['2_21_4'];   } else {$a2_21_4 = NULL; }
-    if (isset($_POST['2_21_5'])) {  $a2_21_5 = $_POST['2_21_5'];   } else {$a2_21_5 = NULL; }
-    if (isset($_POST['2_21_6'])) {  $a2_21_6 = $_POST['2_21_6'];   } else {$a2_21_6 = NULL; }
-    if (isset($_POST['2_21_7'])) {  $a2_21_7 = $_POST['2_21_7'];   } else {$a2_21_7 = NULL; }
-    if (isset($_POST['2_21_8'])) {  $a2_21_8 = $_POST['2_21_8'];   } else {$a2_21_8 = NULL; }
-    if (isset($_POST['2_21_9'])) {  $a2_21_9 = $_POST['2_21_9'];   } else {$a2_21_9 = NULL; }
-    if (isset($_POST['2_21_10'])) {  $a2_21_10 = $_POST['2_21_10'];   } else {$a2_21_10 = NULL; }
-    if (isset($_POST['2_21_11'])) {  $a2_21_11 = $_POST['2_21_11'];   } else {$a2_21_11 = NULL; }
-    if (isset($_POST['2_21_12'])) {  $a2_21_12 = $_POST['2_21_12'];   } else {$a2_21_12 = NULL; }
+    if (isset($_POST['2_21_1'])) {  $a2_21_1 = $_POST['2_21_1'];   }else {$a2_21_1 = 0; }
+    if (isset($_POST['2_21_2'])) {  $a2_21_2 = $_POST['2_21_2'];   } else {$a2_21_2 = 0; }
+    if (isset($_POST['2_21_3'])) {  $a2_21_3 = $_POST['2_21_3'];   } else {$a2_21_3 = 0; }
+    if (isset($_POST['2_21_4'])) {  $a2_21_4 = $_POST['2_21_4'];   } else {$a2_21_4 = 0; }
+    if (isset($_POST['2_21_5'])) {  $a2_21_5 = $_POST['2_21_5'];   } else {$a2_21_5 = 0; }
+    if (isset($_POST['2_21_6'])) {  $a2_21_6 = $_POST['2_21_6'];   } else {$a2_21_6 = 0; }
+    if (isset($_POST['2_21_7'])) {  $a2_21_7 = $_POST['2_21_7'];   } else {$a2_21_7 = 0; }
+    if (isset($_POST['2_21_8'])) {  $a2_21_8 = $_POST['2_21_8'];   } else {$a2_21_8 = 0; }
+    if (isset($_POST['2_21_9'])) {  $a2_21_9 = $_POST['2_21_9'];   } else {$a2_21_9 = 0; }
+    if (isset($_POST['2_21_10'])) {  $a2_21_10 = $_POST['2_21_10'];   } else {$a2_21_10 = 0; }
+    if (isset($_POST['2_21_11'])) {  $a2_21_11 = $_POST['2_21_11'];   } else {$a2_21_11 = 0; }
+    if (isset($_POST['2_21_12'])) {  $a2_21_12 = $_POST['2_21_12'];   } else {$a2_21_12 = 0; }
+
+    if (isset($_POST['2_22_1'])) {  $a2_22_1 = $_POST['2_22_1'];   } else {$a2_22_1 = 0; }
+    if (isset($_POST['2_22_2'])) {  $a2_22_2 = $_POST['2_22_2'];   } else {$a2_22_2 = 0; }
         
     
-    $sqlupdatesq = "UPDATE tblsurvey_question SET  2_20_1='$a2_20_1',2_20_2='$a2_20_2',2_20_3='$a2_20_3',2_20_4='$a2_20_4',2_20_5='$a2_20_5',2_20_6='$a2_20_6',2_20_7='$a2_20_7',2_20_8='$a2_20_8',2_20_9='$a2_20_9',2_20_10='$a2_20_10',2_20_11='$a2_20_11',2_20_12='$a2_20_12',2_21_1='$a2_21_1',2_21_2='$a2_21_2',2_21_3='$a2_21_3',2_21_4='$a2_21_4',2_21_5='$a2_21_5',2_21_6='$a2_21_6',2_21_7='$a2_21_7',2_21_8='$a2_21_8',2_21_9='$a2_21_9',2_21_10='$a2_21_10',2_21_11='$a2_21_11',2_21_12='$a2_21_12'  where household_id= '$household_id' "; 	   
+    $sqlupdatesq = "UPDATE tblsurvey_question SET  2_20_1='$a2_20_1',2_20_2='$a2_20_2',2_20_3='$a2_20_3',2_20_4='$a2_20_4',2_20_5='$a2_20_5',2_20_6='$a2_20_6',2_20_7='$a2_20_7',2_20_8='$a2_20_8',2_20_9='$a2_20_9',2_20_10='$a2_20_10',2_20_11='$a2_20_11',2_20_12='$a2_20_12',2_21_1='$a2_21_1',2_21_2='$a2_21_2',2_21_3='$a2_21_3',2_21_4='$a2_21_4',2_21_5='$a2_21_5',2_21_6='$a2_21_6',2_21_7='$a2_21_7',2_21_8='$a2_21_8',2_21_9='$a2_21_9',2_21_10='$a2_21_10',2_21_11='$a2_21_11',2_21_12='$a2_21_12',2_22_1='$a2_22_1',2_22_2='$a2_22_2'  where household_id= '$household_id' "; 	   
     $resultupdatecustomer = mysqli_query($con, $sqlupdatesq) or die("error in update customer part:" . mysqli_error($con));
 
         if ($resultupdatecustomer == 1) 
@@ -73,7 +76,7 @@ if(isset($_POST['btnsubmit']) ) {
 ?>
 <div class="content">
     <div class="container-fluid">
-        <h2>2. ගොවිපල තොරතුරු </h2>
+        <h2>2. ගොවිපල තොරතුරු (දිගටම...)</h2>
         Household number is -<?php echo $household_id; ?>
         <form role="form" action="" method="post">
             <div class="card card-primary">
@@ -90,8 +93,8 @@ if(isset($_POST['btnsubmit']) ) {
 
                                 <select class="form-control" name="2_19" id="2_19" onchange="updatef2d()">
                                     
-                                    <option value="1">ඔව්</option>
-                                    <option value="2">නැත </option>
+                                    <option value="1">නැත</option>
+                                    <option value="2">ඔව් </option>
 
                                 </select>
                             </div>

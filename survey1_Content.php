@@ -20,7 +20,7 @@
                     <div class="row">
                         <div class="col-md-12">
                             <div class="input-group">
-                                <input type="checkbox" checked />
+                                <input type="checkbox" checked name="check_list[]"/>
                             </div>
                         </div>
                     </div>
@@ -57,7 +57,7 @@
                     </div>
                 </td>
                 <td>
-                    <div>1.1.5.1 <input type="text" name="1_1_5_1" id="1_1_5_1" placeholder="වයස"  required
+                    <div>1.1.5.1 <input type="number" name="1_1_5_1" id="1_1_5_1" placeholder="වයස"  required
                             class="form-control col-md-8" />
                 </td>
                 <td> 1.1.6.1 <div class="input-group">
@@ -99,7 +99,7 @@
                         </select>
                     </div>
                 </td>
-                <td> 1.1.8.1 <div class="input-group">
+                <td> 1.1.9.1 <div class="input-group">
                         <select class="form-control" name="1_1_9_1" id="1_1_9_1">
                             <option value="1">පළමු ශ්‍රේණියේ අධ්‍යාපනය ලබයි</option>
                             <option value="2">පළමු ශ්‍රේණිය සමත් </option>
@@ -155,10 +155,10 @@
                     </div>
                 </td>
                 <td>
-                    <div>1.1.12.1 <input type="text" name="1_1_12_1" id="1_1_12_1" required class="form-control" />
+                    <div>1.1.12.1 <input  type="number" min="0"  name="1_1_12_1" id="1_1_12_1" required class="form-control" />
                 </td>
                 <td>
-                    <div>1.1.13.1 <input type="text" name="1_1_13_1" id="1_1_13_1" required class="form-control" />
+                    <div>1.1.13.1 <input  type="number" min="0"  name="1_1_13_1" id="1_1_13_1" required class="form-control" />
                 </td>
             </tr>
             <!-- 2nd row -->
@@ -168,7 +168,7 @@
                     <div class="row">
                         <div class="col-md-12">
                             <div class="input-group">
-                                <input type="checkbox" checked />
+                                <input type="checkbox" checked name="check_list[]"/>
                             </div>
 
                         </div>
@@ -207,7 +207,7 @@
                     </div>
                 </td>
                 <td>
-                    <div>1.1.5.2 <input type="text" name="1_1_5_2" id="1_1_5_2" placeholder="වයස" required required
+                    <div>1.1.5.2 <input type="number" name="1_1_5_2" id="1_1_5_2" placeholder="වයස" required required
                             class="form-control" />
                 </td>
                 <td> 1.1.6.2 <div class="input-group">
@@ -249,7 +249,7 @@
                         </select>
                     </div>
                 </td>
-                <td> 1.1.8.2 <div class="input-group">
+                <td> 1.1.9.2 <div class="input-group">
                         <select class="form-control" name="1_1_9_2" id="1_1_9_2">
                              <option value="1">පළමු ශ්‍රේණියේ අධ්‍යාපනය ලබයි</option>
                             <option value="2">පළමු ශ්‍රේණිය සමත් </option>
@@ -305,10 +305,10 @@
                     </div>
                 </td>
                 <td>
-                    <div>1.1.12.2 <input type="text" name="1_1_12_2" id="1_1_12_2"  required class="form-control" />
+                    <div>1.1.12.2 <input  type="number" min="0"  name="1_1_12_2" id="1_1_12_2"  required class="form-control" />
                 </td>
                 <td>
-                    <div>1.1.13.2 <input type="text" name="1_1_13_2" id="1_1_13_2"  required class="form-control" />
+                    <div>1.1.13.2 <input  type="number" min="0"  name="1_1_13_2" id="1_1_13_2"  required class="form-control" />
                 </td>
             </tr>
             <!--  3rd row -->
@@ -318,7 +318,7 @@
                     <div class="row">
                         <div class="col-md-12">
                             <div class="input-group">
-                                <input type="checkbox" checked />
+                                <input type="checkbox" checked name="check_list[]"/>
                             </div>
 
                         </div>
@@ -356,7 +356,7 @@
                     </div>
                 </td>
                 <td>
-                    <div>1.1.5.3 <input type="text" name="1_1_5_3" id="1_1_5_3" placeholder="වයස" required required
+                    <div>1.1.5.3 <input type="number" name="1_1_5_3" id="1_1_5_3" placeholder="වයස" required required
                             class="form-control" />
                 </td>
                 <td> 1.1.6.3 <div class="input-group">
@@ -398,7 +398,7 @@
                         </select>
                     </div>
                 </td>
-                <td> 1.1.8.3 <div class="input-group">
+                <td> 1.1.9.3 <div class="input-group">
                         <select class="form-control" name="1_1_9_3" id="1_1_9_3">
                           <option value="1">පළමු ශ්‍රේණියේ අධ්‍යාපනය ලබයි</option>
                             <option value="2">පළමු ශ්‍රේණිය සමත් </option>
@@ -454,10 +454,10 @@
                     </div>
                 </td>
                 <td>
-                    <div>1.1.12.3 <input type="text" name="1_1_12_3" id="1_1_12_3"  required class="form-control" />
+                    <div>1.1.12.3 <input  type="number" min="0"  name="1_1_12_3" id="1_1_12_3"  required class="form-control" />
                 </td>
                 <td>
-                    <div>1.1.13.3 <input type="text" name="1_1_13_3" id="1_1_13_3"  required class="form-control" />
+                    <div>1.1.13.3 <input  type="number" min="0"  name="1_1_13_3" id="1_1_13_3"  required class="form-control" />
                 </td>
             </tr>
 
@@ -468,7 +468,7 @@
                     <div class="row">
                         <div class="col-md-12">
                             <div class="input-group">
-                                <input type="checkbox" checked />
+                                <input type="checkbox" checked name="check_list[]"/>
                             </div>
 
                         </div>
@@ -507,7 +507,7 @@
                     </div>
                 </td>
                 <td>
-                    <div>1.1.5.4 <input type="text" name="1_1_5_4" id="1_1_5_4" placeholder="වයස" required required
+                    <div>1.1.5.4 <input type="number" name="1_1_5_4" id="1_1_5_4" placeholder="වයස" required required
                             class="form-control" />
                 </td>
                 <td> 1.1.6.4 <div class="input-group">
@@ -549,7 +549,7 @@
                         </select>
                     </div>
                 </td>
-                <td> 1.1.8.4 <div class="input-group">
+                <td> 1.1.9.4 <div class="input-group">
                         <select class="form-control" name="1_1_9_4" id="1_1_9_4">
                         <option value="1">පළමු ශ්‍රේණියේ අධ්‍යාපනය ලබයි</option>
                             <option value="2">පළමු ශ්‍රේණිය සමත් </option>
@@ -605,10 +605,10 @@
                     </div>
                 </td>
                 <td>
-                    <div>1.1.12.4 <input type="text" name="1_1_12_4" id="1_1_12_4"  required class="form-control" />
+                    <div>1.1.12.4 <input  type="number" min="0"  name="1_1_12_4" id="1_1_12_4"  required class="form-control" />
                 </td>
                 <td>
-                    <div>1.1.13.4 <input type="text" name="1_1_13_4" id="1_1_13_4"  required class="form-control" />
+                    <div>1.1.13.4 <input  type="number" min="0"  name="1_1_13_4" id="1_1_13_4"  required class="form-control" />
                 </td>
             </tr>
             <!-- 5th -->
@@ -618,7 +618,7 @@
                     <div class="row">
                         <div class="col-md-12">
                             <div class="input-group">
-                                <input type="checkbox" checked />
+                                <input type="checkbox" checked name="check_list[]"/>
                             </div>
 
                         </div>
@@ -648,7 +648,7 @@
 
                 </td>
 
-                <td>1.1.4.3
+                <td>1.1.4.5
                     <div class="input-group">
                         <select class="form-control" name="1_1_4_5" id="1_1_4_5">
                         <option value="1">පුරුෂ </option>
@@ -659,7 +659,7 @@
                     </div>
                 </td>
                 <td>
-                    <div>1.1.5.5 <input type="text" name="1_1_5_5" id="1_1_5_5" placeholder="වයස" required required
+                    <div>1.1.5.5 <input type="number" name="1_1_5_5" id="1_1_5_5" placeholder="වයස" required required
                             class="form-control" />
                 </td>
                 <td> 1.1.6.5 <div class="input-group">
@@ -701,7 +701,7 @@
                         </select>
                     </div>
                 </td>
-                <td> 1.1.8.5 <div class="input-group">
+                <td> 1.1.9.5 <div class="input-group">
                         <select class="form-control" name="1_1_9_5" id="1_1_9_5">
                         <option value="1">පළමු ශ්‍රේණියේ අධ්‍යාපනය ලබයි</option>
                             <option value="2">පළමු ශ්‍රේණිය සමත් </option>
@@ -757,10 +757,10 @@
                     </div>
                 </td>
                 <td>
-                    <div>1.1.12.5 <input type="text" name="1_1_12_5" id="1_1_12_5"  required class="form-control" />
+                    <div>1.1.12.5 <input  type="number" min="0"  name="1_1_12_5" id="1_1_12_5"  required class="form-control" />
                 </td>
                 <td>
-                    <div>1.1.13.5 <input type="text" name="1_1_13_5" id="1_1_13_5"  required class="form-control" />
+                    <div>1.1.13.5 <input  type="number" min="0"  name="1_1_13_5" id="1_1_13_5"  required class="form-control" />
                 </td>
             </tr>
             <!-- 6th -->
@@ -770,7 +770,7 @@
                     <div class="row">
                         <div class="col-md-12">
                             <div class="input-group">
-                                <input type="checkbox" checked />
+                                <input type="checkbox" checked name="check_list[]"/>
                             </div>
 
                         </div>
@@ -810,7 +810,7 @@
                     </div>
                 </td>
                 <td>
-                    <div>1.1.5.3 <input type="text" name="1_1_5_6" id="1_1_5_6" placeholder="වයස" required required
+                    <div>1.1.5.6 <input type="number" name="1_1_5_6" id="1_1_5_6" placeholder="වයස" required required
                             class="form-control" />
                 </td>
                 <td> 1.1.6.6 <div class="input-group">
@@ -842,7 +842,7 @@
                         <input type="text" required name="1_1_7_6_oth" id="1_1_7_6_oth" class="form-control" />
                     </div>
                 </td>
-                <td> 1.1.8.3 <div class="input-group">
+                <td> 1.1.8.6 <div class="input-group">
                         <select class="form-control" name="1_1_8_6" id="1_1_8_6">
                         <option value="1">මින් පෙර විවාහ වී නොමැත</option>
                             <option value="2"> විවාහකය</option>
@@ -852,7 +852,7 @@
                         </select>
                     </div>
                 </td>
-                <td> 1.1.8.6 <div class="input-group">
+                <td> 1.1.9.6 <div class="input-group">
                         <select class="form-control" name="1_1_9_6" id="1_1_9_6">
                         <option value="1">පළමු ශ්‍රේණියේ අධ්‍යාපනය ලබයි</option>
                             <option value="2">පළමු ශ්‍රේණිය සමත් </option>
@@ -908,10 +908,10 @@
                  </div>
                 </td>
                 <td>
-                    <div>1.1.12.6 <input type="text" name="1_1_12_6" id="1_1_12_6"  required class="form-control" />
+                    <div>1.1.12.6 <input  type="number" min="0"  name="1_1_12_6" id="1_1_12_6"  required class="form-control" />
                 </td>
                 <td>
-                    <div>1.1.13.6 <input type="text" name="1_1_13_6" id="1_1_13_6"  required class="form-control" />
+                    <div>1.1.13.6 <input  type="number" min="0"  name="1_1_13_6" id="1_1_13_6"  required class="form-control" />
                 </td>
             </tr>
             <!--7th -->
@@ -921,7 +921,7 @@
                     <div class="row">
                         <div class="col-md-12">
                             <div class="input-group">
-                                <input type="checkbox" checked />
+                                <input type="checkbox" checked name="check_list[]"/>
                             </div>
 
                         </div>
@@ -960,7 +960,7 @@
                     </div>
                 </td>
                 <td>
-                    <div>1.1.5.7 <input type="text" name="1_1_5_7" id="1_1_5_7" placeholder="වයස" required required
+                    <div>1.1.5.7 <input type="number" name="1_1_5_7" id="1_1_5_7" placeholder="වයස" required required
                             class="form-control" />
                 </td>
                 <td> 1.1.6.7 <div class="input-group">
@@ -992,7 +992,7 @@
                         <input type="text" required name="1_1_7_7_oth" id="1_1_7_7_oth" class="form-control" />
                 </div>
                 </td>
-                <td> 1.1.8.3 <div class="input-group">
+                <td> 1.1.8.7 <div class="input-group">
                         <select class="form-control" name="1_1_8_7" id="1_1_8_7">
                         <option value="1">මින් පෙර විවාහ වී නොමැත</option>
                             <option value="2"> විවාහකය</option>
@@ -1002,7 +1002,7 @@
                         </select>
                     </div>
                 </td>
-                <td> 1.1.8.7 <div class="input-group">
+                <td> 1.1.9.7 <div class="input-group">
                         <select class="form-control" name="1_1_9_7" id="1_1_9_7">
                         <option value="1">පළමු ශ්‍රේණියේ අධ්‍යාපනය ලබයි</option>
                             <option value="2">පළමු ශ්‍රේණිය සමත් </option>
@@ -1058,7 +1058,7 @@
                 </div>
                 </td>
                 <td>
-                    <div>1.1.12.7 <input type="text" name="1_1_12_7" id="1_1_12_7"  required class="form-control" />
+                    <div>1.1.12.7 <input type="number" min="0" name="1_1_12_7" id="1_1_12_7"  required class="form-control" />
                 </td>
                 <td>
                     <div>1.1.13.7 <input type="text" name="1_1_13_7" id="1_1_13_7"  required class="form-control" />
@@ -1071,7 +1071,7 @@
                     <div class="row">
                         <div class="col-md-12">
                             <div class="input-group">
-                                <input type="checkbox" checked />
+                                <input type="checkbox" checked name="check_list[]"/>
                             </div>
 
                         </div>
@@ -1111,7 +1111,7 @@
                     </div>
                 </td>
                 <td>
-                    <div>1.1.5.8 <input type="text" name="1_1_5_8" id="1_1_5_8" placeholder="වයස"  required
+                    <div>1.1.5.8 <input type="number" name="1_1_5_8" id="1_1_5_8" placeholder="වයස"  required
                             class="form-control" />
                 </td>
                 <td> 1.1.6.8 <div class="input-group">
@@ -1211,10 +1211,10 @@
                 </div>
                 </td>
                 <td>
-                    <div>1.1.12.8 <input type="text" name="1_1_12_8" id="1_1_12_8"  required class="form-control" />
+                    <div>1.1.12.8 <input  type="number" min="0"  name="1_1_12_8" id="1_1_12_8"  required class="form-control" />
                 </td>
                 <td>
-                    <div>1.1.13.8 <input type="text" name="1_1_13_8" id="1_1_13_8"  required class="form-control" />
+                    <div>1.1.13.8 <input  type="number" min="0"  name="1_1_13_8" id="1_1_13_8"  required class="form-control" />
                 </td>
             </tr>
             <!-- 9th -->
@@ -1224,7 +1224,7 @@
                     <div class="row">
                         <div class="col-md-12">
                             <div class="input-group">
-                                <input type="checkbox" checked />
+                                <input type="checkbox" checked name="check_list[]"/>
                             </div>
 
                         </div>
@@ -1264,7 +1264,7 @@
                     </div>
                 </td>
                 <td>
-                    <div>1.1.5.9 <input type="text" name="1_1_5_9" id="1_1_5_9" placeholder="වයස"  required
+                    <div>1.1.5.9 <input type="number" name="1_1_5_9" id="1_1_5_9" placeholder="වයස"  required
                             class="form-control" />
                 </td>
                 <td> 1.1.6.9 <div class="input-group">
@@ -1362,10 +1362,10 @@
                 </div>
                 </td>
                 <td>
-                    <div>1.1.12.9 <input type="text" name="1_1_12_9" id="1_1_12_9"  required class="form-control" />
+                    <div>1.1.12.9 <input  type="number" min="0"  name="1_1_12_9" id="1_1_12_9"  required class="form-control" />
                 </td>
                 <td>
-                    <div>1.1.13.9 <input type="text" name="1_1_13_9" id="1_1_13_9"  required class="form-control" />
+                    <div>1.1.13.9 <input  type="number" min="0"  name="1_1_13_9" id="1_1_13_9"  required class="form-control" />
                 </td>
             </tr>
             <!-- 10th  -->
@@ -1375,7 +1375,7 @@
                     <div class="row">
                         <div class="col-md-12">
                             <div class="input-group">
-                                <input type="checkbox" checked />
+                                <input type="checkbox" checked name="check_list[]"/>
                             </div>
 
                         </div>
@@ -1415,7 +1415,7 @@
                     </div>
                 </td>
                 <td>
-                    <div>1.1.5.10x <input type="text" name="1_1_5_10x" id="1_1_5_10x" placeholder="වයස"  required
+                    <div>1.1.5.10x <input type="number" name="1_1_5_10x" id="1_1_5_10x" placeholder="වයස"  required
                             class="form-control" />
                 </td>
                 <td> 1.1.6.10x <div class="input-group">
@@ -1457,7 +1457,7 @@
                         </select>
                     </div>
                 </td>
-                <td> 1.1.8.10x <div class="input-group">
+                <td> 1.1.9.10x <div class="input-group">
                         <select class="form-control" name="1_1_9_10x" id="1_1_9_10x">
                         <option value="1">පළමු ශ්‍රේණියේ අධ්‍යාපනය ලබයි</option>
                             <option value="2">පළමු ශ්‍රේණිය සමත් </option>
@@ -1513,10 +1513,10 @@
                 </div>
                 </td>
                 <td>
-                    <div>1.1.12.10x <input type="text" name="1_1_12_10x" id="1_1_12_10x"  required class="form-control" />
+                    <div>1.1.12.10x <input type="number" min="0" name="1_1_12_10x" id="1_1_12_10x"  required class="form-control" />
                 </td>
                 <td>
-                    <div>1.1.13.10x <input type="text" name="1_1_13_10x" id="1_1_13_10x"  required class="form-control" />
+                    <div>1.1.13.10x <input  type="number" min="0"  name="1_1_13_10x" id="1_1_13_10x"  required class="form-control" />
                 </td>
             </tr>
             

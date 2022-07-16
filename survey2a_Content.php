@@ -43,7 +43,7 @@
                 <td><div><input type="number" name="2_16b" id="2_16b" value="0" required class="form-control" /></td>
             </tr>
             <tr>
-                <td>මහ කන්නයේ වී 2020/2</td>
+                <td>මහ කන්නයේ වී 2020/21</td>
                 <td><div><input type="number" name="2_9c"  id="2_9c"  value="0" required  class="form-control" /></td>
                 <td><div><input type="number" name="2_10c" id="2_10c" value="0" required  class="form-control" /></td>
                 <td><div><input type="number" name="2_11c" id="2_11c" value="0" required  class="form-control" /></td>

@@ -21,8 +21,20 @@ $row = mysqli_fetch_assoc($resultitem);
 $household_id = $row['household_id'];
 //$type_of_migrant = $row['type_of_migrant'];
 //echo $a1;
-
+$cklst=0;
 if(isset($_POST['btnsubmit']) ) {
+
+	if(!empty($_POST['check_list']))
+	{
+		
+		foreach($_POST['check_list'] as $selected)
+		{
+			
+			$cklst=$cklst+1;
+			
+		}
+		echo $cklst."</br>";
+	}
     $sqlitem = "select * from tblsurvey_question where household_id='$household_id' and interviewer_id='$user_id' and status =0 ORDER BY household_id DESC limit 1";
     $resultitem = mysqli_query($con, $sqlitem) or die("error in select survey:" . mysqli_error($con));
     $row = mysqli_fetch_assoc($resultitem);
@@ -228,7 +240,7 @@ if(isset($_POST['btnsubmit']) ) {
 		$sqlupdatesq7 = "UPDATE tblsurvey_question SET 1_1_2_7='$a1_1_2_7',1_1_3_7='$a1_1_3_7',1_1_3_7_oth='$a1_1_3_7_oth',1_1_3_7='$a1_1_3_7',1_1_4_7='$a1_1_4_7' ,1_1_5_7='$a1_1_5_7',1_1_6_7='$a1_1_6_7',1_1_6_7_oth='$a1_1_6_7_oth' ,1_1_7_7='$a1_1_7_7',1_1_7_7_oth='$a1_1_7_7_oth',1_1_8_7='$a1_1_8_7',1_1_9_7='$a1_1_9_7', 1_1_10_7='$a1_1_10_7',1_1_10_7_oth='$a1_1_10_7_oth', 1_1_11_7='$a1_1_11_7', 1_1_11_7_oth='$a1_1_11_7_oth' ,1_1_12_7='$a1_1_12_7'  ,1_1_13_7='$a1_1_13_7'  where household_id= '$household_id' ";
 		$sqlupdatesq8 = "UPDATE tblsurvey_question SET 1_1_2_8='$a1_1_2_5',1_1_3_8='$a1_1_3_8',1_1_3_8_oth='$a1_1_3_8_oth',1_1_3_8='$a1_1_3_8',1_1_4_8='$a1_1_4_8' ,1_1_5_8='$a1_1_5_8',1_1_6_8='$a1_1_6_8',1_1_6_8_oth='$a1_1_6_8_oth' ,1_1_7_8='$a1_1_7_8',1_1_7_8_oth='$a1_1_7_8_oth',1_1_8_8='$a1_1_8_8',1_1_9_8='$a1_1_9_8', 1_1_10_8='$a1_1_10_8',1_1_10_8_oth='$a1_1_10_8_oth', 1_1_11_8='$a1_1_11_8', 1_1_11_8_oth='$a1_1_11_8_oth' ,1_1_12_8='$a1_1_12_8'  ,1_1_13_8='$a1_1_13_8'  where household_id= '$household_id' ";
 		$sqlupdatesq9 = "UPDATE tblsurvey_question SET 1_1_2_9='$a1_1_2_9',1_1_3_9='$a1_1_3_9',1_1_3_9_oth='$a1_1_3_9_oth',1_1_3_9='$a1_1_3_9',1_1_4_9='$a1_1_4_9' ,1_1_5_9='$a1_1_5_9',1_1_6_9='$a1_1_6_9',1_1_6_9_oth='$a1_1_6_9_oth' ,1_1_7_9='$a1_1_7_9',1_1_7_9_oth='$a1_1_7_9_oth',1_1_8_9='$a1_1_8_9',1_1_9_9='$a1_1_9_9', 1_1_10_9='$a1_1_10_9',1_1_10_9_oth='$a1_1_10_9_oth', 1_1_11_9='$a1_1_11_9', 1_1_11_7_oth='$a1_1_11_9_oth' ,1_1_12_9='$a1_1_12_9'  ,1_1_13_9='$a1_1_13_9'  where household_id= '$household_id' ";
-		$sqlupdatesq10 ="UPDATE tblsurvey_question SET 1_1_2_10x='$a1_1_2_10',1_1_3_10x='$a1_1_3_10',1_1_3_10_oth='$a1_1_3_10_oth',1_1_3_10x='$a1_1_3_10',1_1_4_10x='$a1_1_4_10' ,1_1_5_10x='$a1_1_5_10',1_1_6_10x='$a1_1_6_10',1_1_6_10_oth='$a1_1_6_10_oth' ,1_1_7_10x='$a1_1_7_10',1_1_7_10_oth='$a1_1_7_10_oth',1_1_8_10x='$a1_1_8_10',1_1_9_10x='$a1_1_9_10', 1_1_10_10x='$a1_1_10_10',1_1_10_10_oth='$a1_1_10_10_oth', 1_1_11_10x='$a1_1_11_10', 1_1_11_7_oth='$a1_1_11_10_oth' ,1_1_12_10x='$a1_1_12_10'  ,1_1_13_10x='$a1_1_13_10'  where household_id= '$household_id' ";
+		$sqlupdatesq10 ="UPDATE tblsurvey_question SET 1_1_2_10x='$a1_1_2_10',1_1_3_10x='$a1_1_3_10',1_1_3_10_oth='$a1_1_3_10_oth',1_1_3_10x='$a1_1_3_10',1_1_4_10x='$a1_1_4_10' ,1_1_5_10x='$a1_1_5_10',1_1_6_10x='$a1_1_6_10',1_1_6_10_oth='$a1_1_6_10_oth' ,1_1_7_10x='$a1_1_7_10',1_1_7_10_oth='$a1_1_7_10_oth',1_1_8_10x='$a1_1_8_10',1_1_9_10x='$a1_1_9_10', 1_1_10_10x='$a1_1_10_10',1_1_10_10_oth='$a1_1_10_10_oth', 1_1_11_10x='$a1_1_11_10', 1_1_11_7_oth='$a1_1_11_10_oth' ,1_1_12_10x='$a1_1_12_10'  ,1_1_13_10x='$a1_1_13_10' ,household_total=' $cklst'  where household_id= '$household_id' ";
 		
 		$rslt1 = mysqli_query($con, $sqlupdatesq1) or die("error in update customer part:" . mysqli_error($con));
 		$rslt2 = mysqli_query($con, $sqlupdatesq2) or die("error in update customer part:" . mysqli_error($con));
@@ -255,7 +267,7 @@ if(isset($_POST['btnsubmit']) ) {
 ?>
 <div class="content">
     <div class="container-fluid">
-        <h2>කොටස 1 - ගෘහයේ තොරුතුරු - <span><?php echo $household_id; ?></span></h2>
+        <!-- <h2>කොටස 1 - ගෘහයේ තොරුතුරු - <span><?php echo $household_id; ?></span></h2> -->
    
         <form role="form" action="" method="post" onload="updateb6()">
             <div class="widget-header">

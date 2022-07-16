@@ -38,7 +38,7 @@
                     </div>
                     <div id="6_2_ot">
                         <div class="input-group">
-                            <input type="text" required name="6_2_oth" id="6_2_oth" class="form-control" />
+                            <input type="text"  name="6_2_oth" id="6_2_oth" class="form-control" />
                         </div>
                     </div>
                 </div>
@@ -69,10 +69,10 @@
                             </option>
                             <option value="5">නැහැ, මම කවදාවත් පරිවර්තනය කරන්නේ නැහැ
 
-                            </option>
+                            <!-- </option>
                             <option value="6">No, I will never convert
 
-                            </option>
+                            </option> -->
                             <option value="7" >වෙනත්
                             </option>
                         </select>
@@ -81,7 +81,7 @@
                     </div>
                     <div id="6_3_ot">
                         <div class="input-group">
-                            <input type="text" required name="6_3_oth" id="6_3_oth" class="form-control" />
+                            <input type="text"  name="6_3_oth" id="6_3_oth" class="form-control" />
                         </div>
                     </div>
                 </div>
@@ -106,7 +106,7 @@
                     </div>
                     <div id="6_4_ot">
                         <div class="input-group">
-                            <input type="text" required name="6_4_oth" id="6_4_oth" class="form-control" />
+                            <input type="text"  name="6_4_oth" id="6_4_oth" class="form-control" />
                         </div>
                     </div>
                 </div>

@@ -1,7 +1,7 @@
 <form role="form" action="" method="post">
     <div class="card card-primary">
         <div class="card-header">
-            Paddy Sales of the last season
+        3.6 වෙළඳපල විස්තර"
         </div>
 
         <div class="card-body">
@@ -35,7 +35,7 @@
                             <td>3_6_5_b<input type="text" name="3_6_5_b" id="3_6_5_b" class="form-control" /></td>
                             <td>3_6_6_b<input type="number" name="3_6_6_b" id="3_6_6_b" value="0"  onkeyup="fnmulty('3_6_6_b','3_6_7_b','3_6_8_b')" class="form-control" /></td>
                             <td>3_6_7_b<input type="number" name="3_6_7_b" id="3_6_7_b" value="0"  onkeyup="fnmulty('3_6_6_b','3_6_7_b','3_6_8_b')" class="form-control" /></td>
-                            <td>3_6_8_b<input type="text" name="3_6_8_b" id="3_6_8_b" readonly  class="form-control" /></td>
+                            <td>3_6_8_b<input type="text" name="3_6_8_b" id="3_6_8_b" value="0"  readonly  class="form-control" /></td>
                         </tr>
                         <tr>
                             <td>3_6_5_c<input type="text" name="3_6_5_c" id="3_6_5_c" class="form-control" /></td>
@@ -119,9 +119,9 @@
                         </tr>
                         <tr>
                             <td>3_6_9_f<input type="text" name="3_6_9_f" id="3_6_ 9__f" class="form-control" /></td>
-                            <td>3_6_10_f<input type="number" name="3_6_10_f" id="3_6_10_f" onkeyup="fnmulty('3_6_10_f','3_6_11_f','3_6_12_f')" class="form-control" /></td>
-                            <td>3_6_11_f<input type="number" name="3_6_11_f" id="3_6_11_f" onkeyup="fnmulty('3_6_10_f','3_6_11_f','3_6_12_f')" class="form-control" /></td>
-                            <td>3_6_12_f<input type="text" name="3_6_12_f" id="3_6_12_f" readonly  class="form-control" /></td>
+                            <td>3_6_10_f<input type="number" name="3_6_10_f" id="3_6_10_f" value="0" onkeyup="fnmulty('3_6_10_f','3_6_11_f','3_6_12_f')" class="form-control" /></td>
+                            <td>3_6_11_f<input type="number" name="3_6_11_f" id="3_6_11_f" value="0"onkeyup="fnmulty('3_6_10_f','3_6_11_f','3_6_12_f')" class="form-control" /></td>
+                            <td>3_6_12_f<input type="text" name="3_6_12_f" id="3_6_12_f" value="0" readonly  class="form-control" /></td>
                         </tr>
                         <tr>
                             <td>3_6_9_g<input type="text" name="3_6_9_g" id="3_6_9_g" class="form-control" /></td>

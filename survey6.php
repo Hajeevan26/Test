@@ -46,13 +46,13 @@ if(isset($_POST['btnsubmit']) ) {
         if (isset($_POST['6_4i'] )) { $a6_4i = $_POST['6_4i'];} else {$a6_4i = 0; }
         if (isset($_POST['6_4_oth'] )) { $a6_4_oth = $_POST['6_4_oth'];} else {$a6_4_oth = NULL; }
     
-        $sqlupdatesq = "UPDATE tblsurvey_question SET 6_1='$a6_1',6_2='$a6_2' ,6_3='$a6_3' ,6_4='$a6_4',6_4a='$a6_4a' ,6_4b='$a6_4b',6_4c=' $a6_4c',6_4d=' $a6_4d', 6_4e=' $a6_4e', 6_4f=' $a6_4f' ,6_4g='$a6_4g'  ,6_4h='$a6_4h',a6_4i='$a6_4i' ,6_4_oth='$a6_4_oth' where household_id= '$household_id' ";
+        $sqlupdatesq = "UPDATE tblsurvey_question SET 6_1='$a6_1',6_2='$a6_2' ,6_3='$a6_3' ,6_4a='$a6_4a' ,6_4b='$a6_4b',6_4c=' $a6_4c',6_4d=' $a6_4d', 6_4e=' $a6_4e', 6_4f=' $a6_4f' ,6_4g='$a6_4g'  ,6_4h='$a6_4h',6_4i='$a6_4i' ,6_4_oth='$a6_4_oth' where household_id= '$household_id' ";
         $resultupdatecustomer = mysqli_query($con, $sqlupdatesq) or die("error in update customer part:" . mysqli_error($con));
 
         if ($resultupdatecustomer == 1) 
         {
            
-            echo '<script> alert("your data added successfully");//window.location.href="index1.php?pg=surveyG.php";</script>';
+            echo '<script> alert("your data added successfully");window.location.href="index1.php?pg=survey7.php";</script>';
            
             // $_SESSION['id'] = $id;
            

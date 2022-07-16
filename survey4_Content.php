@@ -12,8 +12,8 @@
                         <label>4.1 පසුගිය මහ කන්නයේ වී වගාව සඳහා ඔබ ණය ලබාගෙන තිබේද?</label>
                         <select class="form-control  col-4" name="4_1" id="4_1" onchange="funb4_2()">
                             
-                            <option value="1">No</option>
-                            <option value="2">Yes</option>
+                            <option value="1"> නැත</option>
+                            <option value="2"> ඔව්</option>
                         </select>
                     </div>
                 </div>

@@ -70,13 +70,13 @@
                                 </div>
                             </td>
                             <td>5_4_a<div class="input-group">
-                                    <select class="form-control" name="5_4_a" id="5_4_a">
+                                    <select class="form-control" name="5_4_a" id="5_4_a" onchange="eDoth(this, '1', '5_5_a')">
                                         <option value="1">ඔව්</option>
                                         <option value="2">නැත</option>
                                     </select>
                                 </div>
                             </td>
-                            <td>5_5_a<input type="text" name="5_5_a" id="5_5_a" class="form-control" /></td>
+                            <td>5_5_a<input type="number" value="0" name="5_5_a" id="5_5_a" class="form-control" /></td>
                            
                         
                         </tr>
@@ -126,14 +126,14 @@
                                 </div>
                             </td>
                             <td>5_4_b<div class="input-group">
-                                    <select class="form-control" name="5_4_b" id="5_4_b">
+                                    <select class="form-control" name="5_4_b" id="5_4_b" onchange="eDoth(this, '1', '5_5_b')">
                                         <option value="1">  ඔව්</option>
                                         <option value="2">නැත</option>
                                     </select>
                                 </div>
                             </td>
 
-                            <td>5_5_b<input type="text" name="5_5_b" id="5_5_b" class="form-control" /></td>
+                            <td>5_5_b<input type="number" value="0" name="5_5_b" id="5_5_b" class="form-control" /></td>
                         </tr>
                         <!-- 3nd row -->
                         <tr>
@@ -181,14 +181,14 @@
                                 </div>
                             </td>
                             <td>5_4_c<div class="input-group">
-                                    <select class="form-control" name="5_4_c" id="5_4_c">
+                                    <select class="form-control" name="5_4_c" id="5_4_c" onchange="eDoth(this, '1', '5_5_c')">
                                         <option value="1">ඔව්</option>
                                         <option value="2">නැත</option>
                                     </select>
                                 </div>
                             </td>
 
-                            <td>5_5_c<input type="text" name="5_5_c" id="5_5_c" class="form-control" /></td>
+                            <td>5_5_c<input type="number" value="0" name="5_5_c" id="5_5_c" class="form-control" /></td>
                         </tr>
                         <!-- 4nd row -->
                         <tr>
@@ -236,14 +236,14 @@
                                 </div>
                             </td>
                             <td>5_4_d<div class="input-group">
-                                    <select class="form-control" name="5_4_d" id="5_4_d">
+                                    <select class="form-control" name="5_4_d" id="5_4_d" onchange="eDoth(this, '1', '5_5_d')">
                                         <option value="1">ඔව්</opඔව්tion>
                                         <option value="2">නැත</option>
                                     </select>
                                 </div>
                             </td>
 
-                            <td>5_5_d<input type="text" name="5_5_d" id="5_5_d" class="form-control" /></td>
+                            <td>5_5_d<input type="number" value="0" name="5_5_d" id="5_5_d" class="form-control" /></td>
                         </tr>
                         <!-- 5nd row -->
                         <tr>
@@ -292,14 +292,14 @@
                                 </div>
                             </td>
                             <td>5_4_e<div class="input-group">
-                                    <select class="form-control" name="5_4_e" id="5_4_e">
+                                    <select class="form-control" name="5_4_e" id="5_4_e" onchange="eDoth(this, '1', '5_5_e')">
                                         <option value="1">ඔව්</option>
                                         <option value="2">නැත</option>
                                     </select>
                                 </div>
                             </td>
 
-                            <td>5_5_e<input type="text" name="5_5_e" id="5_5_e" class="form-control" /></td>
+                            <td>5_5_e<input type="number" value="0" name="5_5_e" id="5_5_e" class="form-control" /></td>
                         </tr>
                         <!-- 6nd row -->
                         <tr>
@@ -348,14 +348,14 @@
                                 </div>
                             </td>
                             <td>5_4_f<div class="input-group">
-                                    <select class="form-control" name="5_4_f" id="5_4_f">
+                                    <select class="form-control" name="5_4_f" id="5_4_f" onchange="eDoth(this, '1', '5_5_f')">
                                         <option value="1">ඔව්</option>
                                         <option value="2">නැත</option>
                                     </select>
                                 </div>
                             </td>
 
-                            <td>5_5_f<input type="text" name="5_5_f" id="5_5_f" class="form-control" /></td>
+                            <td>5_5_f<input type="number" value="0" name="5_5_f" id="5_5_f" class="form-control" /></td>
                         </tr>
                         <!-- 7nd row -->
                         <tr>
@@ -404,14 +404,14 @@
                                 </div>
                             </td>
                             <td>5_4_g<div class="input-group">
-                                    <select class="form-control" name="5_4_g" id="5_4_g">
+                                    <select class="form-control" name="5_4_g" id="5_4_g" onchange="eDoth(this, '1', '5_5_g')">
                                         <option value="1">ඔව්</option>
                                         <option value="2">නැත</option>
                                     </select>
                                 </div>
                             </td>
 
-                            <td>5_5_g<input type="text" name="5_5_g" id="5_5_g" class="form-control" /></td>
+                            <td>5_5_g<input type="number" value="0" name="5_5_g" id="5_5_g" class="form-control" /></td>
                         </tr>
                         <!-- 8nd row -->
                         <tr>
@@ -459,14 +459,14 @@
                                 </div>
                             </td>
                             <td>5_4_h<div class="input-group">
-                                    <select class="form-control" name="5_4_h" id="5_4_h">
+                                    <select class="form-control" name="5_4_h" id="5_4_h" onchange="eDoth(this, '1', '5_5_g')">
                                         <option value="1">ඔව්</option>
                                         <option value="2">නැත</option>
                                     </select>
                                 </div>
                             </td>
 
-                            <td>5_5_h<input type="text" name="5_5_h" id="5_5_h" class="form-control" /></td>
+                            <td>5_5_h<input type="number" value="0" value="0" name="5_5_h" id="5_5_h" class="form-control" /></td>
                         </tr>
                         <!-- 9nd row -->
                         <tr>
@@ -514,14 +514,14 @@
                                 </div>
                             </td>
                             <td>5_4_i<div class="input-group">
-                                    <select class="form-control" name="5_4_i" id="5_4_i">
+                                    <select class="form-control" name="5_4_i" id="5_4_i" onchange="eDoth(this, '1', '5_5_i')">
                                         <option value="1">ඔව්</option>
                                         <option value="2">නැත</option>
                                     </select>
                                 </div>
                             </td>
 
-                            <td>5_5_i<input type="text" name="5_5_i" id="5_5_i" class="form-control" /></td>
+                            <td>5_5_i<input type="number" value="0" value="0" name="5_5_i" id="5_5_i" class="form-control" /></td>
                         </tr>
                         <!-- 10nd row -->
                         <tr>
@@ -570,14 +570,14 @@
                                 </div>
                             </td>
                             <td>5_4_j<div class="input-group">
-                                    <select class="form-control" name="5_4_j" id="5_4_j">
+                                    <select class="form-control" name="5_4_j" id="5_4_j" onchange="eDoth(this, '1', '5_5_j')">
                                         <option value="1">ඔව්</option>
                                         <option value="2">නැත</option>
                                     </select>
                                 </div>
                             </td>
 
-                            <td>5_5_j<input type="text" name="5_5_j" id="5_5_j" class="form-control" /></td>
+                            <td>5_5_j<input type="number" value="0" value="0" name="5_5_j" id="5_5_j" class="form-control" /></td>
                         </tr>
                         <!-- 11nd row -->
                         <tr>
@@ -625,14 +625,14 @@
                                 </div>
                             </td>
                             <td>5_4_k<div class="input-group">
-                                    <select class="form-control" name="5_4_k" id="5_4_k">
+                                    <select class="form-control" name="5_4_k" id="5_4_k"onchange="eDoth(this, '1', '5_5_k')">
                                         <option value="1">ඔව්</option>
                                         <option value="2">නැත</option>
                                     </select>
                                 </div>
                             </td>
 
-                            <td>5_5_k<input type="text" name="5_5_k" id="5_5_k" class="form-control" /></td>
+                            <td>5_5_k<input type="number" value="0" name="5_5_k" id="5_5_k" class="form-control" /></td>
                         </tr>
                         <!-- 12 row -->
                         <tr>
@@ -679,20 +679,20 @@
 
                                 </div>
                             </td>
-                            <td>5_4_g<div class="input-group">
-                                    <select class="form-control" name="5_4_l" id="5_4_l">
+                            <td>5_4_l<div class="input-group">
+                                    <select class="form-control" name="5_4_l" id="5_4_l" onchange="eDoth(this, '1', '5_5_l')">
                                         <option value="1">  ඔව්</option>
                                         <option value="2">  නැත</option>
                                     </select>
                                 </div>
                             </td>
 
-                            <td>5_5_l<input type="text" name="5_5_l" id="5_5_l" class="form-control" /></td>
+                            <td>5_5_l<input type="number" value="0" name="5_5_l" id="5_5_l" class="form-control" /></td>
                         </tr>
                         <!-- 13 row -->
                         <tr>
                             <td>
-                                <div>වෙනත්<input type="text" name="5_1_h" id="5_1_h" class="form-control" />
+                            <div> වෙනත්<input type="text" name="5_1_m" id="5_1_m" class="form-control" />
                             </td>
                             <td>5_2_m<div class="input-group">
                                     <select class="form-control" name="5_2_m" id="5_2_m">
@@ -737,14 +737,14 @@
                                 </div>
                             </td>
                             <td>5_4_m<div class="input-group">
-                                    <select class="form-control" name="5_4_m" id="5_4_m">
+                                    <select class="form-control" name="5_4_m" id="5_4_m" onchange="eDoth(this, '1', '5_5_m')">
                                         <option value="1">  ඔව්</option>
                                         <option value="2">      නැත</option>
                                     </select>
                                 </div>
                             </td>
 
-                            <td>5_5_m<input type="text" name="5_5_m" id="5_5_m" class="form-control" /></td>
+                            <td>5_5_m<input type="number" value="0" name="5_5_m" id="5_5_m" class="form-control" /></td>
                         </tr>
                         <!-- 2nd row -->
 

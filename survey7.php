@@ -51,13 +51,13 @@ if(isset($_POST['btnsubmit']) ) {
 
         
     
-        $sqlupdatesq = "UPDATE tblsurvey_question SET 7_1='$a7_1',7_2='$a7_2' ,7_3='$a7_3' ,7_4='$a7_4',7_4_a='$a7_4_a',7_4_b='$a7_4_b',7_4_c='$a7_4_c',7_4_d='$a7_4_d',7_4_e='$a7_4_e',  a7_4_e_oth='$a7_4_e_oth', 7_5='$a7_5' , 7_6='$a7_6', 7_7='$a7_7', 7_8='$a7_8', 7_9='$a7_9', 7_10='$a7_10', 7_11='$a7_11' where household_id= '$household_id' ";
+        $sqlupdatesq = "UPDATE tblsurvey_question SET 7_1='$a7_1',7_2='$a7_2' ,7_3='$a7_3' ,7_4_a='$a7_4_a',7_4_b='$a7_4_b',7_4_c='$a7_4_c',7_4_d='$a7_4_d',7_4_e='$a7_4_e',  7_4_e_oth='$a7_4_e_oth', 7_5='$a7_5' , 7_6='$a7_6', 7_7='$a7_7', 7_8='$a7_8', 7_9='$a7_9', 7_10='$a7_10', 7_11='$a7_11' where household_id= '$household_id' ";
         $resultupdatecustomer = mysqli_query($con, $sqlupdatesq) or die("error in update customer part:" . mysqli_error($con));
 
         if ($resultupdatecustomer == 1) 
         {
            
-            echo '<script> alert("your data added successfully");window.location.href="index1.php?pg=surveyG.php";</script>';
+            echo '<script> alert("your data added successfully");window.location.href="index1.php?pg=survey8.php";</script>';
            
             // $_SESSION['id'] = $id;
            

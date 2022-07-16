@@ -14,7 +14,7 @@
                 <img src="dist/img/user2-160x160.jpg" class="img-circle elevation-2" alt="User Image">
             </div>
             <div class="info">
-                <a href="#" class="d-block"><?php ////echo $_SESSION['user_name']; ?></a>
+                <a href="#" class="d-block"><?php echo $_SESSION['user_name']; ?></a>
             </div>
         </div>
 
@@ -46,12 +46,11 @@
                     </a>
                 </li>
                 <?php 
-
 if (isset($_SESSION['household_id'])) {
     $id1 = $_SESSION['household_id'];
-    $sqlitem = "select * from tblsurvey_question where household_id='$id1' and interviewer_id='$user_id' and status =0 ORDER BY household_id DESC limit 1";
+    $sqlitem = "select * from tblsurvey_question where household_id='$id1' and interviewer_id='$user_id' and status =0 ORDER BY id DESC limit 1";
 } else {
-    $sqlitem = "select * from tblsurvey_question where interviewer_id='$user_id' and status =0 ORDER BY household_id DESC limit 1";
+    $sqlitem = "select * from tblsurvey_question where interviewer_id='$user_id' and status =0 ORDER BY id DESC limit 1";
 }
 include('connection/config.php');
      
@@ -130,7 +129,7 @@ include('connection/config.php');
                 <li class="nav-item">
                     <a href="index1.php?pg=survey5.php" class="nav-link">
                         <i class="nav-icon fas fa-th"></i>
-                        <p>5 Access to extension</p>
+                        <p>5 Debts and credits</p>
                     </a>
                 </li>
                 <li class="nav-item">
@@ -142,7 +141,7 @@ include('connection/config.php');
                 <li class="nav-item">
                     <a href="index1.php?pg=survey7.php" class="nav-link">
                         <i class="nav-icon fas fa-th"></i>
-                        <p>7 Perception on organic farming</p>
+                        <p>7 Decision on conversion</p>
                     </a>
                 </li>
                 <li class="nav-item">
@@ -160,7 +159,7 @@ include('connection/config.php');
                         <p>sync </p>
                     </a>
                 </li>
-                <li class="nav-item">
+                 <li class="nav-item">
                     <a href="logout.php" class="nav-link">
                         <i class="nav-icon far fa-circle text-danger"></i>
                         <p>Logout </p>
@@ -168,7 +167,7 @@ include('connection/config.php');
                 </li>
                 <li class="nav-item">
                     <a href="#" class="nav-link">
-
+                        
                         <p> </p>
                     </a>
                 </li>

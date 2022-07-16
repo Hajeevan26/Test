@@ -7,11 +7,16 @@ $user_id = $_SESSION['user_id'];
 $role_id = $_SESSION['role_id'];
 $user_name=$_SESSION['user_name'];
 date_default_timezone_set("Asia/Colombo");
+
 $sql1 = "select household_id from tblsurvey_question where status=0 and interviewer_id='$user_id' order by household_id DESC";
               
 $result1 = mysqli_query($con, $sql1) or die("error in insert Vehicle Id:" . mysqli_error($con));
 $row = mysqli_fetch_assoc($result1);
-$idd = $row['household_id'];
+$nor=mysqli_num_rows($result1);
+if ($nor>0) {
+    $idd = $row['household_id'];# code...
+}
+
 if (isset($_POST['btnsave'])) 
 {
 
@@ -24,16 +29,16 @@ if (isset($_POST['btnsave']))
         if (isset($_POST['ds_division'] )) { $ds_division = $_POST['ds_division'];} else {$ds_division = NULL; }
         if (isset($_POST['gn_division'] )) { $gn_division = $_POST['gn_division'];} else {$gn_division = NULL; }
         if (isset($_POST['village'] )) { $village = $_POST['village'];} else {$village = NULL; }
-        if (isset($_POST['control_sample'] )) { $control_sample = $_POST['control_sample'];} else {$control_sample = NULL; }
-        if (isset($_POST['treated_sample'] )) { $treated_sample = $_POST['treated_sample'];} else {$treated_sample = NULL; }
-        if (isset($_POST['organic_farmers'] )) { $organic_farmers = $_POST['organic_farmers'];} else {$organic_farmers = NULL; }
-        if (isset($_POST['conventional_farmers'] )) { $conventional_farmers = $_POST['conventional_farmers'];} else {$conventional_farmers = NULL; }
+       // if (isset($_POST['control_sample'] )) { $control_sample = $_POST['control_sample'];} else {$control_sample = NULL; }
+        //if (isset($_POST['treated_sample'] )) { $treated_sample = $_POST['treated_sample'];} else {$treated_sample = NULL; }
+       // if (isset($_POST['organic_farmers'] )) { $organic_farmers = $_POST['organic_farmers'];} else {$organic_farmers = NULL; }
+        //if (isset($_POST['conventional_farmers'] )) { $conventional_farmers = $_POST['conventional_farmers'];} else {$conventional_farmers = NULL; }
       
       
     if (!isset($idd)) 
     {
     $household_id = $_POST['household_id'];
-    $sqlinsersurveyInfo = "INSERT INTO tblsurvey(household_id, interviewer_id, date_created,district,ds_division,gn_division,village,control_sample,treated_sample,organic_farmers,conventional_farmers,hbl,hblnot)
+    $sqlinsersurveyInfo = "INSERT INTO tblsurvey(household_id, interviewer_id, date_created,district,ds_division,gn_division,village,hbl,hblnot)
 			VALUES('" . mysqli_real_escape_string($con, $_POST['household_id']) . "',
 			'" . mysqli_real_escape_string($con, $_POST['interviewer_id']) . "',
             '" . mysqli_real_escape_string($con, $_POST['date_created']) . "',
@@ -41,24 +46,18 @@ if (isset($_POST['btnsave']))
             '" . mysqli_real_escape_string($con, $_POST['ds_division']) . "',
             '" . mysqli_real_escape_string($con, $_POST['gn_division']) . "',
             '" . mysqli_real_escape_string($con, $_POST['village']) . "',
-            '" . mysqli_real_escape_string($con, $_POST['control_sample']) . "',
-            '" . mysqli_real_escape_string($con, $_POST['treated_sample']) . "',
-            '" . mysqli_real_escape_string($con, $_POST['organic_farmers']) . "',
-            '" . mysqli_real_escape_string($con, $_POST['conventional_farmers']) . "',  
+          
             '" . mysqli_real_escape_string($con, $_POST['hbl']) . "', 
             '" . mysqli_real_escape_string($con, $hblnot). "')";
 
-    $sqlinsertsurvey = "INSERT INTO tblsurvey_question(household_id,interviewer_id,district,ds_division,gn_division,village,control_sample,treated_sample,organic_farmers,conventional_farmers,hbl,hblnot,date_created)
+    $sqlinsertsurvey = "INSERT INTO tblsurvey_question(household_id,interviewer_id,district,ds_division,gn_division,village,hbl,hblnot,date_created)
 			VALUES('" . mysqli_real_escape_string($con,  $_POST['household_id']) . "',
               '" . mysqli_real_escape_string($con, $_POST['interviewer_id']) . "',
               '" . mysqli_real_escape_string($con, $_POST['district']) . "',
               '" . mysqli_real_escape_string($con, $_POST['ds_division']) . "',
               '" . mysqli_real_escape_string($con, $_POST['gn_division']) . "',
               '" . mysqli_real_escape_string($con, $_POST['village']) . "',
-              '" . mysqli_real_escape_string($con, $_POST['control_sample']) . "',
-              '" . mysqli_real_escape_string($con, $_POST['treated_sample']) . "',
-              '" . mysqli_real_escape_string($con, $_POST['organic_farmers']) . "',
-              '" . mysqli_real_escape_string($con, $_POST['conventional_farmers']) . "',
+           
               '" . mysqli_real_escape_string($con, $_POST['hbl']) . "',
               '" . mysqli_real_escape_string($con, $hblnot) . "',
               '" . mysqli_real_escape_string($con, $_POST['date_created']) . "')"; 
@@ -77,11 +76,11 @@ else
 {
     $household_id = $idd;
     $sqlupdatesqq = "UPDATE tblsurvey_question SET district='$district',ds_division='$ds_division' ,gn_division='$gn_division' ,village='$village',
-    control_sample='$control_sample' ,treated_sample='$treated_sample',organic_farmers=' $organic_farmers',organic_farmers=' $organic_farmers', conventional_farmers=' $conventional_farmers', hbl=' $hbl' ,hblnot='$hblnot'  where household_id= '$household_id' ";
+   hbl=' $hbl' ,hblnot='$hblnot'  where household_id= '$household_id' ";
     $resultupdatecustomerr = mysqli_query($con, $sqlupdatesqq) or die("error in update customer part:" . mysqli_error($con));
 
     $sqlupdatesq = "UPDATE tblsurvey SET district='$district',ds_division='$ds_division' ,gn_division='$gn_division' ,village='$village',
-    control_sample='$control_sample' ,treated_sample='$treated_sample',organic_farmers=' $organic_farmers',organic_farmers=' $organic_farmers', conventional_farmers=' $conventional_farmers', hbl=' $hbl' ,hblnot='$hblnot'  where household_id= '$household_id' ";
+     hbl=' $hbl' ,hblnot='$hblnot'  where household_id= '$household_id' ";
     $resultupdatecustomer = mysqli_query($con, $sqlupdatesq) or die("error in update customer part:" . mysqli_error($con));
 
 
@@ -182,7 +181,7 @@ else
                             <div class="input-group">
                                 <label>ප්‍රාදේශීය ලේකම් කොට්ඨාශය</label>
                                 <input type="text" required name="ds_division" required id="ds_division"
-                                    class="form-control" />
+                                    class="form-control col-md-5"  />
                             </div>
                         </div>
                         <div class="col-md-4">
@@ -207,8 +206,8 @@ else
 
                     </div>
                     <hr>
-                    <div class="row">
-                        <div class="col-md-3">
+                    <!--div class="row">
+                        <div class="col-md-6">
                             <div class="input-group">
                                 <label> පාලිත නියැදිය </label>
                                 <select class="form-control  col-4" name="control_sample" id="control_sample">
@@ -217,7 +216,7 @@ else
                                 </select>
                             </div>
                         </div>
-                        <div class="col-md-3">
+                        <div class="col-md-6">
                             <div class="input-group">
                                 <label> ප්‍රතිකාර කළ නියැදිය </label>
                                 <select class="form-control col-4" name="treated_sample" id="treated_sample">
@@ -225,9 +224,9 @@ else
                                     <option value="2">නැත</option>
                                 </select>
                             </div>
-                        </div>
+                        </div> -->
 
-                        <div class="col-md-3">
+                        <!--div class="col-md-3">
                             <div class="input-group">
                                 <label> කාබනික ගොවියා</label>
                                 <select class="form-control col-4" name="organic_farmers" id="organic_farmers">
@@ -246,8 +245,8 @@ else
                                 </select>
                             </div>
                         </div>
-                    </div>
-                    <hr>
+                    </div-->
+                   
                     <div class="row">
                         <div class="col-md-4"></div>
                         <div class="col-md-4">
